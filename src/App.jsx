@@ -26,6 +26,16 @@ function normalizeData(raw) {
   };
 }
 
+function DetailLine({ label, value }) {
+  if (!value) return null;
+
+  return (
+    <p>
+      <strong>{label}:</strong> {value}
+    </p>
+  );
+}
+
 function ShellCard({ children, theme, className = "" }) {
   return (
     <div
