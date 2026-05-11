@@ -454,7 +454,7 @@ export default function PremiumBetAnalysisApp() {
     : "min-h-screen bg-[radial-gradient(circle_at_top_left,#dbeafe_0%,#f8fafc_38%,#e2e8f0_100%)] text-slate-950";
 
   return (
-    <div className={shellClass}>
+    <div className={cx(shellClass, "overflow-x-hidden")}>
       <div className="mx-auto max-w-7xl px-3 py-4 sm:px-4 sm:py-6 md:px-8 md:py-8">
         <header className={cx("relative overflow-hidden rounded-[1.5rem] border p-4 sm:rounded-[2rem] sm:p-6 md:p-8", theme === "dark" ? "border-white/10 bg-black/30 shadow-2xl shadow-black/40" : "border-white/80 bg-white/65 shadow-2xl shadow-slate-300/60")}>
           <div className="absolute right-0 top-0 h-64 w-64 rounded-full bg-emerald-400/20 blur-3xl" />
@@ -470,7 +470,7 @@ export default function PremiumBetAnalysisApp() {
                 </span>
               </div>
             </div>
-            <div className={cx("w-full max-w-sm rounded-3xl border p-4 sm:p-5", theme === "dark" ? "border-white/10 bg-white/[0.06]" : "border-slate-200 bg-white/75")}>
+            <div className={cx("w-full max-w-full sm:max-w-sm rounded-3xl border p-4 sm:p-5", theme === "dark" ? "border-white/10 bg-white/[0.06]" : "border-slate-200 bg-white/75")}>
               <div className="flex flex-wrap items-center justify-between gap-3 sm:gap-4">
                 <div><p className="text-xs font-bold uppercase tracking-[0.28em] text-slate-400">Atualizado</p><p className="mt-1 text-lg font-black">{data.updatedAt}</p></div>
                 <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")} className={cx("rounded-2xl px-3 py-2 text-xs font-black transition sm:px-4 sm:text-sm", theme === "dark" ? "bg-white text-slate-950 hover:bg-slate-200" : "bg-slate-950 text-white hover:bg-slate-800")}>{theme === "dark" ? "☀️ Tema claro" : "🌙 Tema escuro"}</button>
@@ -559,9 +559,9 @@ export default function PremiumBetAnalysisApp() {
             ) : null}
           </div>
 
-          <main>
-            <nav className={cx("sticky top-2 z-20 mb-5 overflow-x-auto rounded-[1.5rem] border p-2 backdrop-blur-2xl sm:top-4 sm:mb-6 sm:rounded-[2rem]", theme === "dark" ? "border-white/10 bg-black/55 shadow-2xl shadow-black/20" : "border-white/80 bg-white/85 shadow-xl shadow-slate-200/70")}>
-              <div className="flex min-w-max gap-2 md:grid md:min-w-0 md:grid-cols-5">
+          <main className="min-w-0">
+            <nav className={cx("sticky top-2 z-20 mb-5 overflow-hidden rounded-[1.5rem] border backdrop-blur-2xl sm:top-4 sm:mb-6 sm:rounded-[2rem]", theme === "dark" ? "border-white/10 bg-black/55 shadow-2xl shadow-black/20" : "border-white/80 bg-white/85 shadow-xl shadow-slate-200/70")}>
+              <div className="flex overflow-x-auto no-scrollbar min-w-full gap-2 p-2 md:grid md:min-w-0 md:grid-cols-5">
                 {tabs.map((tab) => {
                   const active = activeTab === tab.id;
                   return <button key={tab.id} onClick={() => setActiveTab(tab.id)} className={cx("flex shrink-0 items-center justify-center gap-2 rounded-3xl px-4 py-3 text-xs font-black transition active:scale-[0.98] sm:text-sm md:px-3", active ? "bg-gradient-to-r from-emerald-500 to-cyan-500 text-white shadow-lg shadow-emerald-900/20" : theme === "dark" ? "text-slate-300 hover:bg-white/10" : "text-slate-600 hover:bg-slate-100")}><span>{tab.icon}</span>{tab.label}</button>;
