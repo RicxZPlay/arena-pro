@@ -1,0 +1,548 @@
+{
+  "updatedAt": "2026-05-10 16:42",
+  "summary": {
+    "totalBookmakers": 15,
+    "totalGames": 21,
+    "surebetsFound": 0,
+    "bestOdd": 7.1,
+    "riskProfile": "Moderado"
+  },
+  "bookmakers": [
+    {
+      "name": "Superbet",
+      "games": [
+        {
+          "championship": "Brasil - Brasileiro - Série A",
+          "match": "Remo x Palmeiras",
+          "home": "Remo",
+          "away": "Palmeiras",
+          "date": "2026-05-10",
+          "time": "17:00",
+          "odds": {
+            "home": 4.2,
+            "draw": 3.5,
+            "away": 1.95
+          },
+          "markets": [
+            {
+              "market": "Múltipla popular",
+              "selection": "Palmeiras - Mais de 0.5 gols"
+            },
+            {
+              "market": "Múltipla popular",
+              "selection": "Palmeiras - Mais de 5.5 escanteios"
+            },
+            {
+              "market": "Múltipla popular",
+              "selection": "Lopez, Flaco - Mais de 1.5 chutes no gol"
+            }
+          ],
+          "notes": "Jogo aparece em eventos populares e dicas populares da Superbet."
+        },
+        {
+          "championship": "Brasil - Brasileiro - Série A",
+          "match": "Mirassol x Chapecoense",
+          "home": "Mirassol",
+          "away": "Chapecoense",
+          "date": "2026-05-10",
+          "time": "18:30",
+          "odds": {
+            "home": 1.49,
+            "draw": 4.35,
+            "away": 7.1
+          },
+          "markets": [],
+          "notes": "Maior odd identificada nas imagens: Chapecoense @ 7.10."
+        },
+        {
+          "championship": "Brasil - Brasileiro - Série A",
+          "match": "Santos x RB Bragantino",
+          "home": "Santos",
+          "away": "RB Bragantino",
+          "date": "2026-05-10",
+          "time": "18:30",
+          "odds": {
+            "home": 2.1,
+            "draw": 3.4,
+            "away": 3.7
+          },
+          "markets": [],
+          "notes": "Tooltip na imagem indica RB Bragantino vence a partida."
+        },
+        {
+          "championship": "Brasil - Brasileiro - Série A",
+          "match": "Corinthians x São Paulo",
+          "home": "Corinthians",
+          "away": "São Paulo",
+          "date": "2026-05-10",
+          "time": "18:30",
+          "odds": {
+            "home": 2.02,
+            "draw": 3.2,
+            "away": 4.3
+          },
+          "markets": [
+            {
+              "market": "Múltipla popular",
+              "selection": "Mais de 2.5 gols na partida"
+            },
+            {
+              "market": "Múltipla popular",
+              "selection": "Calleri, Jonathan - Mais de 1.5 chutes no gol"
+            },
+            {
+              "market": "Múltipla popular",
+              "selection": "Mais de 5.5 cartões na partida"
+            },
+            {
+              "market": "Múltipla popular",
+              "selection": "Mais de 10.5 escanteios na partida"
+            }
+          ],
+          "notes": "Dica popular exibida com odds totais @ 25.00."
+        },
+        {
+          "championship": "Brasil - Brasileiro - Série A",
+          "match": "Grêmio RS x Flamengo",
+          "home": "Grêmio RS",
+          "away": "Flamengo",
+          "date": "2026-05-10",
+          "time": "19:30",
+          "odds": {
+            "home": 4.1,
+            "draw": 3.45,
+            "away": 1.97
+          },
+          "markets": [
+            {
+              "market": "Múltipla popular",
+              "selection": "Grêmio RS vence"
+            }
+          ],
+          "notes": "Jogo aparece em eventos populares e múltiplas populares."
+        },
+        {
+          "championship": "Brasil - Brasileiro - Série A",
+          "match": "Vasco da Gama x Athletico PR",
+          "home": "Vasco da Gama",
+          "away": "Athletico PR",
+          "date": "2026-05-10",
+          "time": "20:30",
+          "odds": {
+            "home": 1.9,
+            "draw": 3.35,
+            "away": 4.65
+          },
+          "markets": [
+            {
+              "market": "Múltipla popular",
+              "selection": "Athletico PR vence"
+            }
+          ],
+          "notes": "Athletico PR aparece em múltipla popular @ 4.65."
+        },
+        {
+          "championship": "Argentina - Primera Division - Apertura - Mata-mata",
+          "match": "Estudiantes La Plata x Racing Club",
+          "home": "Estudiantes La Plata",
+          "away": "Racing Club",
+          "date": "2026-05-10",
+          "time": "17:00",
+          "odds": {
+            "home": 2.4,
+            "draw": 2.87,
+            "away": 3.5
+          },
+          "markets": [],
+          "notes": "Mercado principal exibido: Resultado Final."
+        },
+        {
+          "championship": "Argentina - Primera Division - Apertura - Mata-mata",
+          "match": "River Plate (ARG) x San Lorenzo Almagro",
+          "home": "River Plate (ARG)",
+          "away": "San Lorenzo Almagro",
+          "date": "2026-05-10",
+          "time": "19:00",
+          "odds": {
+            "home": 1.65,
+            "draw": 3.5,
+            "away": 6.1
+          },
+          "markets": [
+            {
+              "market": "Múltipla popular",
+              "selection": "River Plate (ARG) vence"
+            }
+          ],
+          "notes": "River Plate aparece em múltipla popular @ 1.65."
+        },
+        {
+          "championship": "Argentina - Primera Division - Apertura - Mata-mata",
+          "match": "Vélez Sarsfield x Gimnasia y Esgrima La Plata",
+          "home": "Vélez Sarsfield",
+          "away": "Gimnasia y Esgrima La Plata",
+          "date": "2026-05-10",
+          "time": "21:30",
+          "odds": {
+            "home": 2.07,
+            "draw": 3.05,
+            "away": 4.1
+          },
+          "markets": [],
+          "notes": "Mercado principal exibido: Resultado Final."
+        },
+        {
+          "championship": "México - Liga MX - Clausura - Mata-mata",
+          "match": "Pachuca x Deportivo Toluca",
+          "home": "Pachuca",
+          "away": "Deportivo Toluca",
+          "date": "2026-05-10",
+          "time": "20:00",
+          "odds": {
+            "home": 2.95,
+            "draw": 3.4,
+            "away": 2.32
+          },
+          "markets": [],
+          "notes": "Mercado principal exibido: Resultado Final."
+        },
+        {
+          "championship": "México - Liga MX - Clausura - Mata-mata",
+          "match": "UNAM Pumas x América (MÉX)",
+          "home": "UNAM Pumas",
+          "away": "América (MÉX)",
+          "date": "2026-05-10",
+          "time": "22:15",
+          "odds": {
+            "home": 2.55,
+            "draw": 3.4,
+            "away": 2.7
+          },
+          "markets": [],
+          "notes": "Mercado principal exibido: Resultado Final."
+        },
+        {
+          "championship": "EUA - MLS",
+          "match": "New York City x Columbus Crew",
+          "home": "New York City",
+          "away": "Columbus Crew",
+          "date": "2026-05-10",
+          "time": "17:30",
+          "odds": {
+            "home": 2.5,
+            "draw": 3.55,
+            "away": 2.72
+          },
+          "markets": [],
+          "notes": "Mercado principal exibido: Resultado Final."
+        },
+        {
+          "championship": "EUA - MLS",
+          "match": "Minnesota United x Austin",
+          "home": "Minnesota United",
+          "away": "Austin",
+          "date": "2026-05-10",
+          "time": "20:00",
+          "odds": {
+            "home": 1.64,
+            "draw": 4.1,
+            "away": 5.0
+          },
+          "markets": [],
+          "notes": "Minnesota United aparece como favorito pelo mercado 1X2."
+        },
+        {
+          "championship": "EUA - MLS",
+          "match": "Los Angeles FC x Houston Dynamo",
+          "home": "Los Angeles FC",
+          "away": "Houston Dynamo",
+          "date": "2026-05-10",
+          "time": "22:00",
+          "odds": {
+            "home": 1.71,
+            "draw": 3.9,
+            "away": 4.8
+          },
+          "markets": [],
+          "notes": "Los Angeles FC aparece como favorito pelo mercado 1X2."
+        },
+        {
+          "championship": "Colômbia - Primera A - Apertura - Mata-mata",
+          "match": "Once Caldas x Junior Barranquilla",
+          "home": "Once Caldas",
+          "away": "Junior Barranquilla",
+          "date": "2026-05-10",
+          "time": "20:10",
+          "odds": {
+            "home": 2.07,
+            "draw": 3.25,
+            "away": 3.55
+          },
+          "markets": [],
+          "notes": "Quartas de final. Jogo de ida."
+        },
+        {
+          "championship": "EUA - MLS - Next Pro",
+          "match": "Portland Timbers II x Ventura County",
+          "home": "Portland Timbers II",
+          "away": "Ventura County",
+          "date": "2026-05-10",
+          "time": "17:00",
+          "odds": {
+            "home": 1.92,
+            "draw": 4.0,
+            "away": 3.0
+          },
+          "markets": [],
+          "notes": "Mercado principal exibido: Resultado Final."
+        },
+        {
+          "championship": "EUA - MLS - Next Pro",
+          "match": "Los Angeles FC II x Real Monarchs",
+          "home": "Los Angeles FC II",
+          "away": "Real Monarchs",
+          "date": "2026-05-10",
+          "time": "17:00",
+          "odds": {
+            "home": 2.25,
+            "draw": 3.85,
+            "away": 2.47
+          },
+          "markets": [],
+          "notes": "Mercado principal exibido: Resultado Final."
+        },
+        {
+          "championship": "EUA - MLS - Next Pro",
+          "match": "Cincinnati II x Columbus Crew II",
+          "home": "Cincinnati II",
+          "away": "Columbus Crew II",
+          "date": "2026-05-10",
+          "time": "19:00",
+          "odds": {
+            "home": 1.92,
+            "draw": 3.6,
+            "away": 3.25
+          },
+          "markets": [],
+          "notes": "Mercado principal exibido: Resultado Final."
+        },
+        {
+          "championship": "EUA - MLS - Next Pro",
+          "match": "Atlanta United II x Orlando City II",
+          "home": "Atlanta United II",
+          "away": "Orlando City II",
+          "date": "2026-05-10",
+          "time": "20:00",
+          "odds": {
+            "home": 1.54,
+            "draw": 4.2,
+            "away": 4.45
+          },
+          "markets": [],
+          "notes": "Atlanta United II aparece como favorito pelo mercado 1X2."
+        },
+        {
+          "championship": "EUA - MLS - Next Pro",
+          "match": "Colorado Rapids II x Sporting Kansas City II",
+          "home": "Colorado Rapids II",
+          "away": "Sporting Kansas City II",
+          "date": "2026-05-10",
+          "time": "21:00",
+          "odds": {
+            "home": 2.02,
+            "draw": 3.65,
+            "away": 2.92
+          },
+          "markets": [],
+          "notes": "Mercado principal exibido: Resultado Final."
+        },
+        {
+          "championship": "EUA - MLS - Next Pro",
+          "match": "Austin FC II x Tacoma Defiance",
+          "home": "Austin FC II",
+          "away": "Tacoma Defiance",
+          "date": "2026-05-10",
+          "time": "21:30",
+          "odds": {
+            "home": 1.97,
+            "draw": 3.45,
+            "away": 3.2
+          },
+          "markets": [],
+          "notes": "Mercado principal exibido: Resultado Final."
+        }
+      ]
+    },
+    {
+      "name": "Estrela Bet",
+      "games": []
+    },
+    {
+      "name": "Pixbet",
+      "games": []
+    },
+    {
+      "name": "BR4bet",
+      "games": []
+    },
+    {
+      "name": "Novibet",
+      "games": []
+    },
+    {
+      "name": "BetMGM",
+      "games": []
+    },
+    {
+      "name": "BetBoom",
+      "games": []
+    },
+    {
+      "name": "Betano",
+      "games": []
+    },
+    {
+      "name": "bet365",
+      "games": []
+    },
+    {
+      "name": "Bet Dá Sorte",
+      "games": []
+    },
+    {
+      "name": "Sportingbet",
+      "games": []
+    },
+    {
+      "name": "KTO",
+      "games": []
+    },
+    {
+      "name": "Esportiva Bet",
+      "games": []
+    },
+    {
+      "name": "Betnacional",
+      "games": []
+    },
+    {
+      "name": "multibet",
+      "games": []
+    }
+  ],
+  "surebets": [],
+  "tips": [
+    {
+      "match": "Corinthians x São Paulo",
+      "championship": "Brasil - Brasileiro - Série A",
+      "market": "Múltipla popular: Mais de 2.5 gols + Calleri mais de 1.5 chutes no gol + Mais de 5.5 cartões + Mais de 10.5 escanteios",
+      "bookmaker": "Superbet",
+      "odd": 25,
+      "reason": "A seleção foi extraída da área de dicas populares da Superbet. Não há dados estatísticos externos confirmados nas imagens, então a leitura deve ser tratada como aposta agressiva baseada apenas no conteúdo apresentado pela casa.",
+      "risk": "Alto",
+      "probability": "Não confirmado",
+      "entry": "Entrada pequena, preferencialmente valor recreativo, pois é uma múltipla com mercados acumulados.",
+      "protection": "Não há proteção clara para essa múltipla. Uma alternativa mais conservadora seria usar apenas um mercado isolado, como cartões ou escanteios, se a odd estiver disponível.",
+      "stats": {
+        "recentForm": "Não confirmado",
+        "homeAwayPerformance": "Não confirmado",
+        "goalsTrend": "A imagem sugere mercado de mais de 2.5 gols, mas sem estatística confirmada.",
+        "bothTeamsScoreTrend": "Não confirmado",
+        "absences": "Não confirmado",
+        "motivation": "Clássico estadual, tendência de jogo com alta pressão, mas sem confirmação estatística nas imagens."
+      }
+    },
+    {
+      "match": "Remo x Palmeiras",
+      "championship": "Brasil - Brasileiro - Série A",
+      "market": "Múltipla popular: Palmeiras mais de 0.5 gols + Palmeiras mais de 5.5 escanteios + Lopez, Flaco mais de 1.5 chutes no gol",
+      "bookmaker": "Superbet",
+      "odd": 4,
+      "reason": "A seleção foi extraída da área de dicas populares da Superbet. A odd total exibida é 4.00, mas não há estatísticas externas confirmadas nas imagens para validar probabilidade real.",
+      "risk": "Alto",
+      "probability": "Não confirmado",
+      "entry": "Entrada pequena e controlada. Melhor usar como múltipla recreativa, não como aposta principal.",
+      "protection": "Para reduzir risco, considerar apenas Palmeiras mais de 0.5 gols ou Palmeiras/Empate em chance dupla, se disponível.",
+      "stats": {
+        "recentForm": "Não confirmado",
+        "homeAwayPerformance": "Não confirmado",
+        "goalsTrend": "A seleção depende de pelo menos 1 gol do Palmeiras, mas sem estatística confirmada.",
+        "bothTeamsScoreTrend": "Não confirmado",
+        "absences": "Não confirmado",
+        "motivation": "Não confirmado"
+      }
+    }
+  ],
+  "bestGames": [
+    {
+      "match": "Minnesota United x Austin",
+      "championship": "EUA - MLS",
+      "dateTime": "2026-05-10 20:00",
+      "analysis": "Pelas odds capturadas na Superbet, Minnesota United aparece como favorito com odd 1.64, enquanto o empate está em 4.10 e Austin em 5.00. A diferença entre as odds indica favoritismo claro do mandante no mercado 1X2, mas não há estatísticas externas confirmadas nas imagens.",
+      "scenario": "Cenário projetado apenas pelo mercado: Minnesota United com maior probabilidade implícita de vitória.",
+      "probableScore": "2 x 1",
+      "bestMarket": "Resultado Final - Minnesota United",
+      "bestBookmaker": "Superbet",
+      "bestOdd": 1.64,
+      "confidence": "Média"
+    },
+    {
+      "match": "Los Angeles FC x Houston Dynamo",
+      "championship": "EUA - MLS",
+      "dateTime": "2026-05-10 22:00",
+      "analysis": "Pelas odds capturadas, Los Angeles FC é favorito @ 1.71 contra Houston Dynamo @ 4.80, com empate @ 3.90. A leitura de mercado aponta vantagem do mandante, mas sem dados confirmados de forma recente, escalações ou desfalques.",
+      "scenario": "Los Angeles FC deve assumir maior iniciativa segundo a precificação do mercado.",
+      "probableScore": "2 x 1",
+      "bestMarket": "Resultado Final - Los Angeles FC",
+      "bestBookmaker": "Superbet",
+      "bestOdd": 1.71,
+      "confidence": "Média"
+    }
+  ],
+  "lucky": [
+    {
+      "title": "Sortezinha do Dia",
+      "matches": [
+        "Remo x Palmeiras"
+      ],
+      "stake": "R$ 5,00",
+      "possibleReturn": "R$ 20,00",
+      "totalOdd": 4,
+      "combinations": [
+        "Palmeiras - Mais de 0.5 gols",
+        "Palmeiras - Mais de 5.5 escanteios",
+        "Lopez, Flaco - Mais de 1.5 chutes no gol"
+      ],
+      "reason": "A combinação foi exibida como dica popular na Superbet e alcança retorno aproximado de 400% com R$ 5,00. Ainda assim, depende de três eventos dentro da partida e deve ser tratada como aposta ousada.",
+      "risk": "Alto",
+      "statisticalNote": "Não há estatísticas externas confirmadas nas imagens. A justificativa vem apenas da seleção popular exibida pela casa.",
+      "bookmaker": "Superbet"
+    },
+    {
+      "title": "Sortezinha do Dia",
+      "matches": [
+        "Corinthians x São Paulo"
+      ],
+      "stake": "R$ 5,00",
+      "possibleReturn": "R$ 125,00",
+      "totalOdd": 25,
+      "combinations": [
+        "Mais de 2.5 gols na partida",
+        "Calleri, Jonathan - Mais de 1.5 chutes no gol",
+        "Mais de 5.5 cartões na partida",
+        "Mais de 10.5 escanteios na partida"
+      ],
+      "reason": "A combinação foi exibida como dica popular na Superbet e tem retorno potencial elevado com uma entrada pequena. Por combinar gols, chutes, cartões e escanteios, o risco é alto.",
+      "risk": "Alto",
+      "statisticalNote": "Não há estatísticas externas confirmadas nas imagens. Por ser clássico, cartões e intensidade podem fazer sentido, mas a entrada não deve ser tratada como previsão segura.",
+      "bookmaker": "Superbet"
+    }
+  ],
+  "warnings": [
+    "Dados extraídos apenas das imagens enviadas pelo usuário. Não houve confirmação externa das odds, escalações, estatísticas, desfalques ou disponibilidade real dos mercados.",
+    "Odds podem mudar rapidamente. Confirme sempre antes de apostar.",
+    "Não há lucro garantido. Use gestão de banca e aposte com responsabilidade.",
+    "Não foi encontrada surebet segura porque as imagens mostram apenas dados da Superbet, sem comparação com outras casas.",
+    "Se algum dado não foi confirmado, ele aparece como null, [] ou Não confirmado."
+  ]
+}

@@ -1,40 +1,5 @@
 import React, { useMemo, useState } from "react";
-
-const emptyData = {
-  updatedAt: "Aguardando atualização",
-  summary: {
-    totalBookmakers: 15,
-    totalGames: 0,
-    surebetsFound: 0,
-    bestOdd: null,
-    riskProfile: "—",
-  },
-  bookmakers: [
-    { name: "Superbet", games: [] },
-    { name: "Estrela Bet", games: [] },
-    { name: "Pixbet", games: [] },
-    { name: "BR4bet", games: [] },
-    { name: "Novibet", games: [] },
-    { name: "BetMGM", games: [] },
-    { name: "BetBoom", games: [] },
-    { name: "Betano", games: [] },
-    { name: "bet365", games: [] },
-    { name: "Bet Dá Sorte", games: [] },
-    { name: "Sportingbet", games: [] },
-    { name: "KTO", games: [] },
-    { name: "Esportiva Bet", games: [] },
-    { name: "Betnacional", games: [] },
-    { name: "multibet", games: [] },
-  ],
-  surebets: [],
-  tips: [],
-  bestGames: [],
-  lucky: [],
-  warnings: [
-    "Odds podem mudar rapidamente. Confirme sempre antes de apostar.",
-    "Não há lucro garantido. Use gestão de banca e aposte com responsabilidade.",
-  ],
-};
+import initialData from "./data.json";
 
 const tabs = [
   { id: "bookmakers", label: "Casas & Jogos", icon: "🏆" },
@@ -423,8 +388,8 @@ function LuckyTab({ data, theme }) {
 export default function PremiumBetAnalysisApp() {
   const [theme, setTheme] = useState("dark");
   const [activeTab, setActiveTab] = useState("bookmakers");
-  const [jsonInput, setJsonInput] = useState(JSON.stringify(emptyData, null, 2));
-  const [rawData, setRawData] = useState(emptyData);
+  const [jsonInput, setJsonInput] = useState(JSON.stringify(initialData, null, 2));
+  const [rawData, setRawData] = useState(initialData);
   const [parseStatus, setParseStatus] = useState({ type: "success", message: "Estrutura inicial carregada. Publique um JSON para atualizar o painel." });
   const [adminOpen, setAdminOpen] = useState(false);
 
@@ -515,8 +480,8 @@ export default function PremiumBetAnalysisApp() {
                       <button onClick={applyJson} className="rounded-2xl bg-emerald-500 px-4 py-2 font-black text-white transition hover:bg-emerald-600">✅ Publicar atualização</button>
                       <button
                         onClick={() => {
-                          setJsonInput(JSON.stringify(emptyData, null, 2));
-                          setRawData(emptyData);
+                          setJsonInput(JSON.stringify(initialData, null, 2));
+                          setRawData(initialData);
                           setParseStatus({ type: "success", message: "Estrutura vazia restaurada." });
                         }}
                         className={cx("rounded-2xl px-4 py-2 font-black transition", theme === "dark" ? "bg-white/10 text-white hover:bg-white/15" : "bg-slate-900 text-white hover:bg-slate-800")}
