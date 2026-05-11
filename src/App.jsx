@@ -854,7 +854,7 @@ export default function PremiumBetAnalysisApp() {
             <div className="max-w-3xl flex flex-col items-center text-center lg:items-start lg:text-left">
               <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-emerald-300/30 bg-emerald-400/10 px-3 py-1.5 text-xs font-bold text-emerald-300 shadow-lg shadow-emerald-950/10 sm:mb-5 sm:px-4 sm:py-2 sm:text-sm">⚽ Arena Pro Intelligence</div>
               <h1 className="text-3xl font-black tracking-tight sm:text-4xl md:text-6xl">Arena Pro: inteligência esportiva para leitura de mercado</h1>
-              <p className={cx("mt-4 max-w-2xl text-sm leading-6 sm:text-base sm:leading-7 md:text-lg", theme === "dark" ? "text-slate-300" : "text-slate-600")}>Painel premium para acompanhar jogos, comparar mercados, identificar possíveis oportunidades e organizar entradas com foco em estatística, risco e valor esperado.</p>
+              <p className={cx("mt-4 max-w-2xl text-sm leading-6 sm:text-base sm:leading-7 md:text-lg", theme === "dark" ? "text-slate-300" : "text-slate-600")}>Painel para acompanhar jogos, comparar mercados, identificar possíveis oportunidades e organizar entradas com foco em estatística, risco e valor esperado.</p>
               <div className="mt-5 flex flex-wrap justify-center lg:justify-start gap-3 sm:mt-6">
                 <span className="rounded-full bg-emerald-500 px-3 py-2 text-xs font-black text-white sm:px-4 sm:text-sm text-center">
                   No momento, as atualizações não são automáticas
