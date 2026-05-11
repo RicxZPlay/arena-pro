@@ -251,41 +251,142 @@ function SurebetsTab({ data, theme }) {
 
 function TipsTab({ data, theme }) {
   const tips = data.tips || [];
+
   return (
     <div>
-      <SectionHeader theme={theme} eyebrow="Parte 3" title="Dicas por estudo e probabilidade" description="Entradas organizadas por mercado recomendado, odd, motivo, risco, probabilidade estimada e estratégia de entrada." />
+      <SectionHeader
+        theme={theme}
+        eyebrow="Parte 3"
+        title="Dicas por estudo e probabilidade"
+        description="Entradas organizadas por mercado recomendado, odd, motivo, risco, probabilidade estimada e estratégia de entrada."
+      />
+
       {tips.length === 0 ? <EmptyState theme={theme} /> : null}
+
       <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
         {tips.map((tip, index) => {
           const risk = tip.risk || tip.risco || "Risco";
           const prob = parseFloat(tip.probability || tip.probabilidade || 0) || 48;
+          const stats = tip.stats || {};
+
           return (
-            <ShellCard key={`${tip.match}-${index}`} theme={theme} className="transition duration-300 hover:-translate-y-1">
+            <ShellCard
+              key={`${tip.match}-${index}`}
+              theme={theme}
+              className="transition duration-300 hover:-translate-y-1"
+            >
               <div className="p-4 sm:p-5">
                 <div className="flex items-center justify-between gap-3">
-                  <div className={cx("flex h-12 w-12 items-center justify-center rounded-2xl text-xl", theme === "dark" ? "bg-cyan-400/10" : "bg-cyan-100")}>🎯</div>
-                  <span className={cx("rounded-full px-3 py-1 text-xs font-black", risk === "Baixo" ? "bg-emerald-500 text-white" : risk === "Alto" ? "bg-rose-500 text-white" : "bg-amber-500 text-white")}>{risk}</span>
+                  <div
+                    className={cx(
+                      "flex h-12 w-12 items-center justify-center rounded-2xl text-xl",
+                      theme === "dark" ? "bg-cyan-400/10" : "bg-cyan-100"
+                    )}
+                  >
+                    🎯
+                  </div>
+
+                  <span
+                    className={cx(
+                      "rounded-full px-3 py-1 text-xs font-black",
+                      risk === "Baixo"
+                        ? "bg-emerald-500 text-white"
+                        : risk === "Alto"
+                        ? "bg-rose-500 text-white"
+                        : "bg-amber-500 text-white"
+                    )}
+                  >
+                    {risk}
+                  </span>
                 </div>
-                <h3 className="mt-4 text-lg font-black sm:text-xl">{tip.match || tip.jogo}</h3>
-                <p className={cx("mt-1 text-sm", theme === "dark" ? "text-slate-400" : "text-slate-600")}>{tip.market || tip.mercado} • {tip.bookmaker || tip.casa} {tip.odd ? `@ ${tip.odd}` : ""}</p>
-                <p className={cx("mt-4 text-sm leading-6", theme === "dark" ? "text-slate-300" : "text-slate-700")}>{tip.reason || tip.motivo}</p>
-                <div className={cx("mt-5 rounded-2xl border p-4", theme === "dark" ? "border-white/10 bg-black/20" : "border-slate-200 bg-slate-50")}>
-                  <div className="flex items-center justify-between text-sm"><span className={theme === "dark" ? "text-slate-400" : "text-slate-500"}>Probabilidade</span><strong>{tip.probability || tip.probabilidade || "—"}</strong></div>
-                  <div className="mt-3 h-2 overflow-hidden rounded-full bg-slate-700/20"><div className="h-full rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400" style={{ width: `${prob}%` }} /></div>
+
+                <h3 className="mt-4 text-lg font-black sm:text-xl">
+                  {tip.match || tip.jogo}
+                </h3>
+
+                <p
+                  className={cx(
+                    "mt-1 text-sm",
+                    theme === "dark" ? "text-slate-400" : "text-slate-600"
+                  )}
+                >
+                  {tip.market || tip.mercado} • {tip.bookmaker || tip.casa}{" "}
+                  {tip.odd ? `@ ${tip.odd}` : ""}
+                </p>
+
+                <p
+                  className={cx(
+                    "mt-4 text-sm leading-6",
+                    theme === "dark" ? "text-slate-300" : "text-slate-700"
+                  )}
+                >
+                  {tip.reason || tip.motivo}
+                </p>
+
+                <div
+                  className={cx(
+                    "mt-5 rounded-2xl border p-4",
+                    theme === "dark"
+                      ? "border-white/10 bg-black/20"
+                      : "border-slate-200 bg-slate-50"
+                  )}
+                >
+                  <div className="flex items-center justify-between text-sm">
+                    <span className={theme === "dark" ? "text-slate-400" : "text-slate-500"}>
+                      Probabilidade
+                    </span>
+                    <strong>{tip.probability || tip.probabilidade || "—"}</strong>
+                  </div>
+
+                  <div className="mt-3 h-2 overflow-hidden rounded-full bg-slate-700/20">
+                    <div
+                      className="h-full rounded-full bg-gradient-to-r from-emerald-400 to-cyan-400"
+                      style={{ width: `${prob}%` }}
+                    />
+                  </div>
                 </div>
-                <p className={cx("mt-4 text-sm", theme === "dark" ? "text-slate-400" : "text-slate-600")}><strong>Entrada:</strong> {tip.entry || tip.entrada || "Não informada"}</p>
+
+                <p
+                  className={cx(
+                    "mt-4 text-sm",
+                    theme === "dark" ? "text-slate-400" : "text-slate-600"
+                  )}
+                >
+                  <strong>Entrada:</strong> {tip.entry || tip.entrada || "Não informada"}
+                </p>
+
                 {(tip.protection || tip.protecao) ? (
-                  <p className={cx("mt-2 text-sm", theme === "dark" ? "text-slate-400" : "text-slate-600")}><strong>Proteção:</strong> {tip.protection || tip.protecao}</p>
+                  <p
+                    className={cx(
+                      "mt-2 text-sm",
+                      theme === "dark" ? "text-slate-400" : "text-slate-600"
+                    )}
+                  >
+                    <strong>Proteção:</strong> {tip.protection || tip.protecao}
+                  </p>
                 ) : null}
+
                 {tip.stats ? (
-                  <div className={cx("mt-4 rounded-2xl border p-4 text-xs leading-5", theme === "dark" ? "border-white/10 bg-black/20 text-slate-400" : "border-slate-200 bg-slate-50 text-slate-600")}>
+                  <div
+                    className={cx(
+                      "mt-4 rounded-2xl border p-4 text-xs leading-5",
+                      theme === "dark"
+                        ? "border-white/10 bg-black/20 text-slate-400"
+                        : "border-slate-200 bg-slate-50 text-slate-600"
+                    )}
+                  >
                     <p className="mb-2 font-black text-current">Resumo estatístico</p>
-                    {tip.stats.recentForm ? <p><strong>Forma recente:</strong> {tip.stats.recentForm}</p> : null}
-                    {tip.stats.homeAwayPerformance ? <p><strong>Mandante/visitante:</strong> {tip.stats.homeAwayPerformance}</p> : null}
-                    {tip.stats.goalsTrend ? <p><strong>Gols:</strong> {tip.stats.goalsTrend}</p> : null}
-                    {tip.stats.bothTeamsScoreTrend ? <p><strong>Ambas marcam:</strong> {tip.stats.bothTeamsScoreTrend}</p> : null}
-                    {tip.stats.absences ? <p><strong>Desfalques:</strong> {tip.stats.absences}</p> : null}
-                    {tip.stats.motivation ? <p><strong>Motivação:</strong> {tip.stats.motivation}</p> : null}
+
+                    <DetailLine label="Forma recente" value={stats.recentForm} />
+                    <DetailLine label="Mandante/visitante" value={stats.homeAwayPerformance} />
+                    <DetailLine label="Tendência de gols" value={stats.goalsTrend} />
+                    <DetailLine label="Ambas marcam" value={stats.bothTeamsScoreTrend} />
+                    <DetailLine label="Ofensivo/defensivo" value={stats.offensiveDefensiveStats} />
+                    <DetailLine label="Confrontos diretos" value={stats.headToHead} />
+                    <DetailLine label="Desfalques" value={stats.absences} />
+                    <DetailLine label="Momento das equipes" value={stats.teamMoment} />
+                    <DetailLine label="Motivação" value={stats.motivation} />
+                    <DetailLine label="Valor da odd" value={stats.oddsValue} />
                   </div>
                 ) : null}
               </div>
@@ -299,46 +400,181 @@ function TipsTab({ data, theme }) {
 
 function BestGamesTab({ data, theme }) {
   const games = data.bestGames || [];
+
   return (
     <div>
-      <SectionHeader theme={theme} eyebrow="Parte 4" title="Melhores jogos do dia e previsão de resultados" description="Jogos com leitura estatística mais clara, cenário provável, placar estimado e mercado de maior aderência." />
+      <SectionHeader
+        theme={theme}
+        eyebrow="Parte 4"
+        title="Melhores jogos do dia e previsão de resultados"
+        description="Jogos com leitura estatística mais clara, cenário provável, placar estimado e mercado de maior aderência."
+      />
+
       {games.length === 0 ? <EmptyState theme={theme} /> : null}
+
       <div className="grid gap-5">
-        {games.map((game, index) => (
-          <ShellCard key={`${game.match}-${index}`} theme={theme}>
-            <div className={cx("p-4 sm:p-6", theme === "dark" ? "bg-gradient-to-br from-slate-900 via-slate-900 to-emerald-950" : "bg-gradient-to-br from-slate-50 via-white to-emerald-50")}>
-              <div className="flex flex-wrap items-start justify-between gap-4">
-                <div>
-                  <p className={cx("text-xs font-bold uppercase tracking-[0.32em]", theme === "dark" ? "text-emerald-300" : "text-emerald-700")}>{game.championship || game.campeonato}</p>
-                  <h3 className="mt-2 text-2xl font-black tracking-tight sm:text-3xl">{game.match || game.jogo}</h3>
-                  <p className={cx("mt-2 text-sm", theme === "dark" ? "text-slate-400" : "text-slate-600")}>{game.dateTime || game.dataHorario}</p>
+        {games.map((game, index) => {
+          const predictionBasis = game.predictionBasis || {};
+
+          return (
+            <ShellCard key={`${game.match}-${index}`} theme={theme}>
+              <div
+                className={cx(
+                  "p-4 sm:p-6",
+                  theme === "dark"
+                    ? "bg-gradient-to-br from-slate-900 via-slate-900 to-emerald-950"
+                    : "bg-gradient-to-br from-slate-50 via-white to-emerald-50"
+                )}
+              >
+                <div className="flex flex-wrap items-start justify-between gap-4">
+                  <div>
+                    <p
+                      className={cx(
+                        "text-xs font-bold uppercase tracking-[0.32em]",
+                        theme === "dark" ? "text-emerald-300" : "text-emerald-700"
+                      )}
+                    >
+                      {game.championship || game.campeonato}
+                    </p>
+
+                    <h3 className="mt-2 text-2xl font-black tracking-tight sm:text-3xl">
+                      {game.match || game.jogo}
+                    </h3>
+
+                    <p
+                      className={cx(
+                        "mt-2 text-sm",
+                        theme === "dark" ? "text-slate-400" : "text-slate-600"
+                      )}
+                    >
+                      {game.dateTime || game.dataHorario}
+                    </p>
+                  </div>
+
+                  <div className="w-full rounded-3xl bg-black px-5 py-4 text-center text-white shadow-xl sm:w-auto sm:px-6">
+                    <p className="text-xs font-bold uppercase tracking-widest text-emerald-300">
+                      Placar provável
+                    </p>
+                    <p className="mt-1 text-3xl font-black">
+                      {game.probableScore || game.placarProvavel || "—"}
+                    </p>
+                  </div>
                 </div>
-                <div className="w-full rounded-3xl bg-black px-5 py-4 text-center text-white shadow-xl sm:w-auto sm:px-6">
-                  <p className="text-xs font-bold uppercase tracking-widest text-emerald-300">Placar provável</p>
-                  <p className="mt-1 text-3xl font-black">{game.probableScore || game.placarProvavel || "—"}</p>
+              </div>
+
+              <div className="grid gap-4 p-4 sm:p-6 lg:grid-cols-3">
+                <div className="lg:col-span-2">
+                  <h4 className="font-black">Análise completa</h4>
+                  <p
+                    className={cx(
+                      "mt-2 text-sm leading-6",
+                      theme === "dark" ? "text-slate-300" : "text-slate-700"
+                    )}
+                  >
+                    {game.analysis || game.analise}
+                  </p>
+
+                  <h4 className="mt-5 font-black">Cenário provável</h4>
+                  <p
+                    className={cx(
+                      "mt-2 text-sm leading-6",
+                      theme === "dark" ? "text-slate-300" : "text-slate-700"
+                    )}
+                  >
+                    {game.scenario || game.cenario}
+                  </p>
+
+                  {(game.selectionReason || game.valueAnalysis) ? (
+                    <div
+                      className={cx(
+                        "mt-5 rounded-3xl border p-4 text-sm leading-6",
+                        theme === "dark"
+                          ? "border-white/10 bg-black/20 text-slate-300"
+                          : "border-slate-200 bg-slate-50 text-slate-700"
+                      )}
+                    >
+                      <p className="mb-2 font-black">Por que este jogo foi escolhido</p>
+                      <DetailLine label="Critério" value={game.selectionReason} />
+                      <DetailLine label="Valor da odd" value={game.valueAnalysis} />
+                    </div>
+                  ) : null}
+
+                  {game.predictionBasis ? (
+                    <div
+                      className={cx(
+                        "mt-5 rounded-3xl border p-4 text-xs leading-5",
+                        theme === "dark"
+                          ? "border-white/10 bg-black/20 text-slate-400"
+                          : "border-slate-200 bg-slate-50 text-slate-600"
+                      )}
+                    >
+                      <p className="mb-2 font-black text-current">Base da previsão</p>
+
+                      <DetailLine label="Forma recente" value={predictionBasis.recentForm} />
+                      <DetailLine label="Mandante/visitante" value={predictionBasis.homeAwayPerformance} />
+                      <DetailLine label="Tendência de gols" value={predictionBasis.goalsTrend} />
+                      <DetailLine label="Equilíbrio ofensivo/defensivo" value={predictionBasis.defensiveOffensiveBalance} />
+                      <DetailLine label="Confrontos diretos" value={predictionBasis.headToHead} />
+                      <DetailLine label="Desfalques" value={predictionBasis.absences} />
+                      <DetailLine label="Motivação" value={predictionBasis.motivation} />
+                    </div>
+                  ) : null}
+                </div>
+
+                <div
+                  className={cx(
+                    "rounded-3xl border p-5",
+                    theme === "dark"
+                      ? "border-white/10 bg-black/20"
+                      : "border-slate-200 bg-slate-50"
+                  )}
+                >
+                  <p className={cx("text-sm", theme === "dark" ? "text-slate-400" : "text-slate-600")}>
+                    Melhor mercado
+                  </p>
+                  <p className="mt-1 text-xl font-black">
+                    {game.bestMarket || game.melhorMercado}
+                  </p>
+
+                  <p className={cx("mt-4 text-sm", theme === "dark" ? "text-slate-400" : "text-slate-600")}>
+                    Casa com melhor odd
+                  </p>
+                  <p className="mt-1 font-black">
+                    {game.bestBookmaker || game.melhorCasa}
+                  </p>
+
+                  <p className={cx("mt-4 text-sm", theme === "dark" ? "text-slate-400" : "text-slate-600")}>
+                    Odd destacada
+                  </p>
+                  <p className="mt-1 font-black">
+                    {game.bestOdd || game.melhorOdd || "—"}
+                  </p>
+
+                  <p className={cx("mt-4 text-sm", theme === "dark" ? "text-slate-400" : "text-slate-600")}>
+                    Confiança
+                  </p>
+                  <p className="mt-1 font-black">
+                    {game.confidence || game.confianca || "—"}
+                  </p>
+
+                  <p className={cx("mt-4 text-sm", theme === "dark" ? "text-slate-400" : "text-slate-600")}>
+                    Clareza estatística
+                  </p>
+                  <p className="mt-1 font-black">
+                    {game.statisticalClarity || "—"}
+                  </p>
+
+                  <p className={cx("mt-4 text-sm", theme === "dark" ? "text-slate-400" : "text-slate-600")}>
+                    Imprevisibilidade
+                  </p>
+                  <p className="mt-1 font-black">
+                    {game.imprevisibilityLevel || game.unpredictabilityLevel || "—"}
+                  </p>
                 </div>
               </div>
-            </div>
-            <div className="grid gap-4 p-4 sm:p-6 lg:grid-cols-3">
-              <div className="lg:col-span-2">
-                <h4 className="font-black">Análise completa</h4>
-                <p className={cx("mt-2 text-sm leading-6", theme === "dark" ? "text-slate-300" : "text-slate-700")}>{game.analysis || game.analise}</p>
-                <h4 className="mt-5 font-black">Cenário provável</h4>
-                <p className={cx("mt-2 text-sm leading-6", theme === "dark" ? "text-slate-300" : "text-slate-700")}>{game.scenario || game.cenario}</p>
-              </div>
-              <div className={cx("rounded-3xl border p-5", theme === "dark" ? "border-white/10 bg-black/20" : "border-slate-200 bg-slate-50")}>
-                <p className={cx("text-sm", theme === "dark" ? "text-slate-400" : "text-slate-600")}>Melhor mercado</p>
-                <p className="mt-1 text-xl font-black">{game.bestMarket || game.melhorMercado}</p>
-                <p className={cx("mt-4 text-sm", theme === "dark" ? "text-slate-400" : "text-slate-600")}>Casa com melhor odd</p>
-                <p className="mt-1 font-black">{game.bestBookmaker || game.melhorCasa}</p>
-                <p className={cx("mt-4 text-sm", theme === "dark" ? "text-slate-400" : "text-slate-600")}>Odd destacada</p>
-                <p className="mt-1 font-black">{game.bestOdd || game.melhorOdd || "—"}</p>
-                <p className={cx("mt-4 text-sm", theme === "dark" ? "text-slate-400" : "text-slate-600")}>Confiança</p>
-                <p className="mt-1 font-black">{game.confidence || game.confianca}</p>
-              </div>
-            </div>
-          </ShellCard>
-        ))}
+            </ShellCard>
+          );
+        })}
       </div>
     </div>
   );
@@ -346,40 +582,220 @@ function BestGamesTab({ data, theme }) {
 
 function LuckyTab({ data, theme }) {
   const lucky = data.lucky || [];
+
   return (
     <div>
-      <SectionHeader theme={theme} eyebrow="Parte 5" title="Sortezinha do Dia" description="Entradas pequenas e agressivas, buscando retorno alto sem abandonar coerência estatística e mercados realistas." />
+      <SectionHeader
+        theme={theme}
+        eyebrow="Parte 5"
+        title="Sortezinha do Dia"
+        description="Entradas pequenas e agressivas, buscando retorno alto sem abandonar coerência estatística e mercados realistas."
+      />
+
       {lucky.length === 0 ? <EmptyState theme={theme} /> : null}
+
       <div className="grid gap-5 lg:grid-cols-2">
-        {lucky.map((item, index) => (
-          <ShellCard key={`${item.title}-${index}`} theme={theme} className={theme === "dark" ? "bg-fuchsia-400/[0.06]" : "bg-fuchsia-50/80"}>
-            <div className="relative p-4 sm:p-6">
-              <div className="absolute -right-12 -top-12 h-40 w-40 rounded-full bg-fuchsia-400/20 blur-2xl" />
-              <div className="relative">
-                <div className="flex items-start justify-between gap-4">
-                  <div>
-                    <p className={cx("text-xs font-bold uppercase tracking-[0.32em]", theme === "dark" ? "text-fuchsia-300" : "text-fuchsia-700")}>Entrada ousada</p>
-                    <h3 className="mt-2 text-xl font-black sm:text-2xl">{item.title || "Sortezinha"}</h3>
+        {lucky.map((item, index) => {
+          const marketsUsed = item.marketsUsed || item.mercadosUsados || [];
+          const returnTarget = item.returnTarget || item.metaRetorno;
+
+          return (
+            <ShellCard
+              key={`${item.title}-${index}`}
+              theme={theme}
+              className={theme === "dark" ? "bg-fuchsia-400/[0.06]" : "bg-fuchsia-50/80"}
+            >
+              <div className="relative p-4 sm:p-6">
+                <div className="absolute -right-12 -top-12 h-40 w-40 rounded-full bg-fuchsia-400/20 blur-2xl" />
+
+                <div className="relative">
+                  <div className="flex items-start justify-between gap-4">
+                    <div>
+                      <p
+                        className={cx(
+                          "text-xs font-bold uppercase tracking-[0.32em]",
+                          theme === "dark" ? "text-fuchsia-300" : "text-fuchsia-700"
+                        )}
+                      >
+                        Entrada ousada
+                      </p>
+
+                      <h3 className="mt-2 text-xl font-black sm:text-2xl">
+                        {item.title || "Sortezinha"}
+                      </h3>
+                    </div>
+
+                    <div className="text-3xl">⚡</div>
                   </div>
-                  <div className="text-3xl">⚡</div>
-                </div>
-                <div className="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-2">
-                  <div className={cx("rounded-2xl p-4", theme === "dark" ? "bg-black/20" : "bg-white/75")}><p className="text-xs font-bold uppercase tracking-widest text-slate-500">Entrada</p><p className="mt-1 text-2xl font-black">{item.stake || item.valorEntrada || "R$ 5,00"}</p></div>
-                  <div className={cx("rounded-2xl p-4", theme === "dark" ? "bg-black/20" : "bg-white/75")}><p className="text-xs font-bold uppercase tracking-widest text-slate-500">Retorno possível</p><p className="mt-1 text-2xl font-black">{item.possibleReturn || item.retornoPossivel}</p></div>
-                </div>
-                <div className="mt-5"><p className="font-black">Jogos</p><div className="mt-2 flex flex-wrap gap-2">{(item.matches || item.jogos || []).map((match, i) => <span key={i} className={cx("rounded-full px-3 py-1 text-sm font-bold", theme === "dark" ? "bg-white/10" : "bg-white")}>{match}</span>)}</div></div>
-                <div className="mt-5"><p className="font-black">Combinações realistas</p><div className="mt-2 flex flex-wrap gap-2">{(item.combinations || item.combinacoes || []).map((combo, i) => <span key={i} className="rounded-full bg-gradient-to-r from-fuchsia-500 to-rose-500 px-3 py-1 text-sm font-black text-white">{combo}</span>)}</div></div>
-                <p className={cx("mt-5 text-sm leading-6", theme === "dark" ? "text-slate-300" : "text-slate-700")}>{item.reason || item.motivo}</p>
-                <div className={cx("mt-4 rounded-2xl border p-4 text-sm", theme === "dark" ? "border-white/10 bg-black/20 text-slate-300" : "border-fuchsia-200 bg-white/75 text-slate-700")}>
-                  <strong>Risco:</strong> {item.risk || item.risco || "Alto"}<br />
-                  <strong>Odd total:</strong> {item.totalOdd || item.oddTotal || "—"}<br />
-                  <strong>Casa:</strong> {item.bookmaker || item.casa || "—"}<br />
-                  <strong>Justificativa:</strong> {item.statisticalNote || item.justificativaEstatistica}
+
+                  <div className="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-2">
+                    <div
+                      className={cx(
+                        "rounded-2xl p-4",
+                        theme === "dark" ? "bg-black/20" : "bg-white/75"
+                      )}
+                    >
+                      <p className="text-xs font-bold uppercase tracking-widest text-slate-500">
+                        Entrada
+                      </p>
+                      <p className="mt-1 text-2xl font-black">
+                        {item.stake || item.valorEntrada || "R$ 5,00"}
+                      </p>
+                    </div>
+
+                    <div
+                      className={cx(
+                        "rounded-2xl p-4",
+                        theme === "dark" ? "bg-black/20" : "bg-white/75"
+                      )}
+                    >
+                      <p className="text-xs font-bold uppercase tracking-widest text-slate-500">
+                        Retorno possível
+                      </p>
+                      <p className="mt-1 text-2xl font-black">
+                        {item.possibleReturn || item.retornoPossivel}
+                      </p>
+                    </div>
+                  </div>
+
+                  {returnTarget ? (
+                    <div
+                      className={cx(
+                        "mt-4 rounded-2xl border p-4 text-sm",
+                        theme === "dark"
+                          ? "border-white/10 bg-black/20 text-slate-300"
+                          : "border-fuchsia-200 bg-white/75 text-slate-700"
+                      )}
+                    >
+                      <p className="font-black">Meta de retorno</p>
+                      <p className="mt-1">
+                        Entrada: <strong>{returnTarget.stake || item.stake || "R$ 5,00"}</strong>
+                      </p>
+                      <p>
+                        Retorno mínimo:{" "}
+                        <strong>{returnTarget.minimumReturnValue || "R$ 20,00"}</strong>
+                      </p>
+                      <p>
+                        Percentual mínimo:{" "}
+                        <strong>{returnTarget.minimumReturnPercent || "400%"}</strong>
+                      </p>
+                    </div>
+                  ) : null}
+
+                  <div className="mt-5">
+                    <p className="font-black">Jogos</p>
+                    <div className="mt-2 flex flex-wrap gap-2">
+                      {(item.matches || item.jogos || []).map((match, i) => (
+                        <span
+                          key={i}
+                          className={cx(
+                            "rounded-full px-3 py-1 text-sm font-bold",
+                            theme === "dark" ? "bg-white/10" : "bg-white"
+                          )}
+                        >
+                          {match}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="mt-5">
+                    <p className="font-black">Combinações realistas</p>
+                    <div className="mt-2 flex flex-wrap gap-2">
+                      {(item.combinations || item.combinacoes || []).map((combo, i) => (
+                        <span
+                          key={i}
+                          className="rounded-full bg-gradient-to-r from-fuchsia-500 to-rose-500 px-3 py-1 text-sm font-black text-white"
+                        >
+                          {combo}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                  {marketsUsed.length ? (
+                    <div
+                      className={cx(
+                        "mt-5 rounded-3xl border p-4",
+                        theme === "dark"
+                          ? "border-white/10 bg-black/20"
+                          : "border-fuchsia-200 bg-white/75"
+                      )}
+                    >
+                      <p className="font-black">Mercados usados</p>
+
+                      <div className="mt-3 grid gap-3">
+                        {marketsUsed.map((market, marketIndex) => (
+                          <div
+                            key={marketIndex}
+                            className={cx(
+                              "rounded-2xl p-3 text-sm",
+                              theme === "dark"
+                                ? "bg-white/[0.05] text-slate-300"
+                                : "bg-slate-50 text-slate-700"
+                            )}
+                          >
+                            <p className="font-black">
+                              {market.match || "Jogo não informado"}
+                            </p>
+
+                            <p className="mt-1">
+                              {market.market || "Mercado não informado"} —{" "}
+                              <strong>{market.selection || "Seleção não informada"}</strong>{" "}
+                              {market.odd ? `@ ${market.odd}` : ""}
+                            </p>
+
+                            <p
+                              className={cx(
+                                "mt-1 text-xs",
+                                theme === "dark" ? "text-slate-400" : "text-slate-500"
+                              )}
+                            >
+                              {market.bookmaker || "Casa não informada"}
+                            </p>
+
+                            {market.reason ? (
+                              <p className="mt-2 text-xs leading-5">
+                                {market.reason}
+                              </p>
+                            ) : null}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ) : null}
+
+                  <p
+                    className={cx(
+                      "mt-5 text-sm leading-6",
+                      theme === "dark" ? "text-slate-300" : "text-slate-700"
+                    )}
+                  >
+                    {item.reason || item.motivo}
+                  </p>
+
+                  <div
+                    className={cx(
+                      "mt-4 rounded-2xl border p-4 text-sm",
+                      theme === "dark"
+                        ? "border-white/10 bg-black/20 text-slate-300"
+                        : "border-fuchsia-200 bg-white/75 text-slate-700"
+                    )}
+                  >
+                    <strong>Risco:</strong> {item.risk || item.risco || "Alto"}
+                    <br />
+                    <strong>Odd total:</strong> {item.totalOdd || item.oddTotal || "—"}
+                    <br />
+                    <strong>Casa:</strong> {item.bookmaker || item.casa || "—"}
+                    <br />
+                    <strong>Justificativa:</strong>{" "}
+                    {item.statisticalNote || item.justificativaEstatistica}
+                  </div>
                 </div>
               </div>
-            </div>
-          </ShellCard>
-        ))}
+            </ShellCard>
+          );
+        })}
       </div>
     </div>
   );
