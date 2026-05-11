@@ -26,7 +26,17 @@ rl.on('line', (line) => {
 
 function updateApp(data) {
   try {
-    console.log('\n[1/3] Validando JSON...');
+    console.log('\n[1/3] Validando e ajustando dados...');
+    
+    // Atualiza automaticamente a data para o momento atual
+    const agora = new Date();
+    const dataFormatada = agora.getFullYear() + '-' + 
+      String(agora.getMonth() + 1).padStart(2, '0') + '-' + 
+      String(agora.getDate()).padStart(2, '0') + ' ' + 
+      String(agora.getHours()).padStart(2, '0') + ':' + 
+      String(agora.getMinutes()).padStart(2, '0');
+    
+    data.updatedAt = dataFormatada;
     
     // Caminho do arquivo de dados
     const dataPath = './src/data.json';
