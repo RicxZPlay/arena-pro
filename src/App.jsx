@@ -866,7 +866,23 @@ export default function PremiumBetAnalysisApp() {
                 <div><p className="text-xs font-bold uppercase tracking-[0.28em] text-slate-400">Atualizado</p><p className="mt-1 text-lg font-black">{data.updatedAt}</p></div>
                 <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")} className={cx("rounded-2xl px-3 py-2 text-xs font-black transition sm:px-4 sm:text-sm", theme === "dark" ? "bg-white text-slate-950 hover:bg-slate-200" : "bg-slate-950 text-white hover:bg-slate-800")}>{theme === "dark" ? "☀️ Tema claro" : "🌙 Tema escuro"}</button>
               </div>
-              <div className="mt-5 grid grid-cols-2 gap-3"><div className={cx("rounded-2xl p-4 text-center", theme === "dark" ? "bg-black/25" : "bg-slate-50")}><p className="text-xs text-slate-500">Perfil</p><p className="font-black">{data.summary.riskProfile || data.summary.perfilRisco || "—"}</p></div><div className={cx("rounded-2xl p-4 text-center", theme === "dark" ? "bg-black/25" : "bg-slate-50")}><p className="text-xs text-slate-500">Melhor odd</p><p className="font-black">{data.summary.bestOdd || data.summary.melhorOdd || "—"}</p></div></div>
+              <div className="mt-5 grid grid-cols-2 gap-3">
+                <div className={cx("rounded-2xl p-4 text-center", theme === "dark" ? "bg-black/25" : "bg-slate-50")}>
+                  <p className="text-xs text-slate-500">Perfil</p>
+                  <p className={cx(
+                    "font-black",
+                    (data.summary.riskProfile || "").toLowerCase().includes("agressivo") ? "text-rose-500" :
+                    (data.summary.riskProfile || "").toLowerCase().includes("moderado") ? "text-amber-500" :
+                    "text-emerald-500"
+                  )}>
+                    {data.summary.riskProfile || data.summary.perfilRisco || "—"}
+                  </p>
+                </div>
+                <div className={cx("rounded-2xl p-4 text-center", theme === "dark" ? "bg-black/25" : "bg-slate-50")}>
+                  <p className="text-xs text-slate-500">Melhor odd</p>
+                  <p className="font-black">{data.summary.bestOdd || data.summary.melhorOdd || "—"}</p>
+                </div>
+              </div>
             </div>
           </div>
         </header>
@@ -971,13 +987,15 @@ export default function PremiumBetAnalysisApp() {
             </p>
           </div>
 
-          <div className="grid gap-3 md:grid-cols-2">
-            <div className={cx("rounded-2xl px-4 py-3 text-sm", theme === "dark" ? "bg-white/[0.04]" : "bg-slate-50")}>
-              Odds podem mudar rapidamente. Confirme sempre antes de apostar.
-            </div>
-            <div className={cx("rounded-2xl px-4 py-3 text-sm", theme === "dark" ? "bg-white/[0.04]" : "bg-slate-50")}>
-              Não há lucro garantido. Use gestão de banca e aposte com responsabilidade.
-            </div>
+          <div className="grid gap-3 md:grid-cols-2 w-full">
+            {(data.warnings && data.warnings.length > 0 ? data.warnings : [
+              "Odds podem mudar rapidamente. Confirme sempre antes de apostar.",
+              "Não há lucro garantido. Use gestão de banca e aposte com responsabilidade."
+            ]).map((warning, idx) => (
+              <div key={idx} className={cx("rounded-2xl px-4 py-3 text-sm", theme === "dark" ? "bg-white/[0.04]" : "bg-slate-50")}>
+                {warning}
+              </div>
+            ))}
           </div>
         </footer>
       </div>
