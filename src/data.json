@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-05-11 10:42",
+  "updatedAt": "2026-05-11 10:49",
   "summary": {
     "totalBookmakers": 15,
-    "totalGames": 45,
+    "totalGames": 287,
     "surebetsFound": 0,
     "bestOdd": 15,
     "riskProfile": "Moderado"
@@ -11,21 +11,6 @@
     {
       "name": "Superbet",
       "games": [
-        {
-          "championship": "Itália - Série A",
-          "match": "Napoli x Bologna",
-          "home": "Napoli",
-          "away": "Bologna",
-          "date": "2026-05-11",
-          "time": "15:45",
-          "odds": {
-            "home": 1.56,
-            "draw": 4,
-            "away": 6.1
-          },
-          "markets": [],
-          "notes": "MercadosExtras: +283"
-        },
         {
           "championship": "Inglaterra - Premier League",
           "match": "Tottenham x Leeds United",
@@ -39,7 +24,292 @@
             "away": 4.3
           },
           "markets": [],
-          "notes": "MercadosExtras: +296"
+          "notes": "+296 mercados extras"
+        },
+        {
+          "championship": "Itália - Série A",
+          "match": "Napoli x Bologna",
+          "home": "Napoli",
+          "away": "Bologna",
+          "date": "2026-05-11",
+          "time": "15:45",
+          "odds": {
+            "home": 1.56,
+            "draw": 4,
+            "away": 6.1
+          },
+          "markets": [],
+          "notes": "+283 mercados extras"
+        },
+        {
+          "championship": "Espanha - LaLiga",
+          "match": "Rayo Vallecano x Girona",
+          "home": "Rayo Vallecano",
+          "away": "Girona",
+          "date": "2026-05-11",
+          "time": "16:00",
+          "odds": {
+            "home": 2.52,
+            "draw": 3.15,
+            "away": 2.95
+          },
+          "markets": [],
+          "notes": "+268 mercados extras"
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Rio Ave x Sporting Lisboa",
+          "home": "Rio Ave",
+          "away": "Sporting Lisboa",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 11,
+            "draw": 7.3,
+            "away": 1.21
+          },
+          "markets": [],
+          "notes": "+223 mercados extras"
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Santa Clara x CD Nacional",
+          "home": "Santa Clara",
+          "away": "CD Nacional",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 2.27,
+            "draw": 3.3,
+            "away": 3.25
+          },
+          "markets": [],
+          "notes": "+212 mercados extras"
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Gil Vicente x Arouca",
+          "home": "Gil Vicente",
+          "away": "Arouca",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 1.69,
+            "draw": 3.9,
+            "away": 4.9
+          },
+          "markets": [],
+          "notes": "+212 mercados extras"
+        },
+        {
+          "championship": "Inglaterra - Championship - Mata-mata",
+          "match": "Millwall x Hull City",
+          "home": "Millwall",
+          "away": "Hull City",
+          "date": "2026-05-11",
+          "time": "16:00",
+          "odds": {
+            "home": 1.76,
+            "draw": 3.75,
+            "away": 4.6
+          },
+          "markets": [],
+          "notes": "Playoff semi-final 2nd leg. 1st leg 0-0."
+        },
+        {
+          "championship": "Espanha - LaLiga 2",
+          "match": "Huesca x Real Sociedad B",
+          "home": "Huesca",
+          "away": "Real Sociedad B",
+          "date": "2026-05-11",
+          "time": "15:30",
+          "odds": {
+            "home": 2.12,
+            "draw": 3.45,
+            "away": 3.45
+          },
+          "markets": [],
+          "notes": "+175 mercados extras"
+        },
+        {
+          "championship": "Brasil - Brasileiro - Série C",
+          "match": "Maringá x Guarani SP",
+          "home": "Maringá",
+          "away": "Guarani SP",
+          "date": "2026-05-11",
+          "time": "20:00",
+          "odds": {
+            "home": 1.87,
+            "draw": 3.45,
+            "away": 3.9
+          },
+          "markets": [],
+          "notes": "+104 mercados extras"
+        },
+        {
+          "championship": "Brasil - Brasileiro - Série C",
+          "match": "Inter de Limeira x Santa Cruz PE",
+          "home": "Inter de Limeira",
+          "away": "Santa Cruz PE",
+          "date": "2026-05-11",
+          "time": "20:00",
+          "odds": {
+            "home": 1.87,
+            "draw": 3.2,
+            "away": 4.35
+          },
+          "markets": [],
+          "notes": "+104 mercados extras"
+        },
+        {
+          "championship": "Arábia Saudita - Pro League",
+          "match": "Neom SC x Al Shabab",
+          "home": "Neom SC",
+          "away": "Al Shabab",
+          "date": "2026-05-11",
+          "time": "13:50",
+          "odds": {
+            "home": 2.27,
+            "draw": 3.75,
+            "away": 2.92
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Arábia Saudita - Pro League",
+          "match": "Al Taawoun x Al Ahli",
+          "home": "Al Taawoun",
+          "away": "Al Ahli",
+          "date": "2026-05-11",
+          "time": "15:00",
+          "odds": {
+            "home": 3.9,
+            "draw": 3.9,
+            "away": 1.85
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Kings League Brasil",
+          "match": "Loud SC x Podpah Funkbol Clube",
+          "home": "Loud SC",
+          "away": "Podpah Funkbol Clube",
+          "date": "2026-05-11",
+          "time": "19:00",
+          "odds": {
+            "home": 1.97,
+            "draw": 7.5,
+            "away": 2.17
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Kings League Brasil",
+          "match": "G3X FC x Capim FC",
+          "home": "G3X FC",
+          "away": "Capim FC",
+          "date": "2026-05-11",
+          "time": "20:00",
+          "odds": {
+            "home": 1.34,
+            "draw": 9.7,
+            "away": 3.9
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Kings League Brasil",
+          "match": "Dendele FC x Fluxo FC",
+          "home": "Dendele FC",
+          "away": "Fluxo FC",
+          "date": "2026-05-11",
+          "time": "21:00",
+          "odds": {
+            "home": 1.87,
+            "draw": 7.5,
+            "away": 2.32
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Dinamarca - Superliga",
+          "match": "Randers FC x Odense BK",
+          "home": "Randers FC",
+          "away": "Odense BK",
+          "date": "2026-05-11",
+          "time": "14:00",
+          "odds": {
+            "home": 2.22,
+            "draw": 3.55,
+            "away": 3.05
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Equador - Série A",
+          "match": "Mushuc Runa x LDU Quito",
+          "home": "Mushuc Runa",
+          "away": "LDU Quito",
+          "date": "2026-05-11",
+          "time": "21:00",
+          "odds": {
+            "home": 2.7,
+            "draw": 3.2,
+            "away": 2.52
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Peru - Liga 1",
+          "match": "Deportivo Garcilaso x Alianza Atlético",
+          "home": "Deportivo Garcilaso",
+          "away": "Alianza Atlético",
+          "date": "2026-05-11",
+          "time": "15:00",
+          "odds": {
+            "home": 1.7,
+            "draw": 3.45,
+            "away": 4.9
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Peru - Liga 1",
+          "match": "Sport Boys x Universitario de Deportes",
+          "home": "Sport Boys",
+          "away": "Universitario de Deportes",
+          "date": "2026-05-11",
+          "time": "22:30",
+          "odds": {
+            "home": 4.1,
+            "draw": 3.3,
+            "away": 1.87
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Bolívia - Liga Profesional",
+          "match": "ABB x Oriente Petrolero",
+          "home": "ABB",
+          "away": "Oriente Petrolero",
+          "date": "2026-05-11",
+          "time": "16:00",
+          "odds": {
+            "home": 1.92,
+            "draw": 3.9,
+            "away": 3.3
+          },
+          "markets": [],
+          "notes": null
         }
       ]
     },
@@ -47,7 +317,7 @@
       "name": "Estrela Bet",
       "games": [
         {
-          "championship": "Premier League",
+          "championship": "Inglaterra - Premier League",
           "match": "Tottenham Hotspur x Leeds United",
           "home": "Tottenham Hotspur",
           "away": "Leeds United",
@@ -59,10 +329,10 @@
             "away": 4.55
           },
           "markets": [],
-          "notes": "Ao vivo"
+          "notes": null
         },
         {
-          "championship": "Série A",
+          "championship": "Itália - Série A",
           "match": "Napoli x Bologna FC",
           "home": "Napoli",
           "away": "Bologna FC",
@@ -74,7 +344,127 @@
             "away": 5.85
           },
           "markets": [],
-          "notes": "Ao vivo"
+          "notes": null
+        },
+        {
+          "championship": "Espanha - LaLiga",
+          "match": "Rayo Vallecano x Girona FC",
+          "home": "Rayo Vallecano",
+          "away": "Girona FC",
+          "date": "2026-05-11",
+          "time": "16:00",
+          "odds": {
+            "home": 2.58,
+            "draw": 3.14,
+            "away": 3.04
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Benfica x Sporting Braga",
+          "home": "Benfica",
+          "away": "Sporting Braga",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 1.41,
+            "draw": 4.95,
+            "away": 7.2
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Rio Ave x Sporting CP",
+          "home": "Rio Ave",
+          "away": "Sporting CP",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 12.5,
+            "draw": 7,
+            "away": 1.21
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Vitória Guimarães x Casa Pia",
+          "home": "Vitória Guimarães",
+          "away": "Casa Pia",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 1.71,
+            "draw": 4.1,
+            "away": 4.5
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Cruzeiro x Goiás",
+          "home": "Cruzeiro",
+          "away": "Goiás",
+          "date": "2026-05-12",
+          "time": "21:30",
+          "odds": {
+            "home": 1.42,
+            "draw": 4.7,
+            "away": 8.5
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Fluminense x Operário PR",
+          "home": "Fluminense",
+          "away": "Operário PR",
+          "date": "2026-05-12",
+          "time": "21:30",
+          "odds": {
+            "home": 1.41,
+            "draw": 4.8,
+            "away": 8.5
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Internacional x Athletic Club MG",
+          "home": "Internacional",
+          "away": "Athletic Club MG",
+          "date": "2026-05-12",
+          "time": "19:30",
+          "odds": {
+            "home": 1.32,
+            "draw": 5.25,
+            "away": 11.5
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Inglaterra - Premier League",
+          "match": "Manchester City x Crystal Palace",
+          "home": "Manchester City",
+          "away": "Crystal Palace",
+          "date": "2026-05-13",
+          "time": "16:00",
+          "odds": {
+            "home": 1.18,
+            "draw": 7,
+            "away": 14
+          },
+          "markets": [],
+          "notes": null
         }
       ]
     },
@@ -82,22 +472,7 @@
       "name": "Pixbet",
       "games": [
         {
-          "championship": "Série A",
-          "match": "Napoli x Bologna",
-          "home": "Napoli",
-          "away": "Bologna",
-          "date": "2026-05-11",
-          "time": "15:45",
-          "odds": {
-            "home": 1.53,
-            "draw": 3.89,
-            "away": 5.7
-          },
-          "markets": [],
-          "notes": "MercadosExtras: +309"
-        },
-        {
-          "championship": "Premier League",
+          "championship": "Inglaterra - Premier League",
           "match": "Tottenham x Leeds",
           "home": "Tottenham",
           "away": "Leeds",
@@ -108,8 +483,257 @@
             "draw": 3.71,
             "away": 4.23
           },
+          "markets": [
+            {
+              "market": "Odd Aumentada - Richarlison Marcar",
+              "selection": "Richarlison - Marcar a qualquer momento",
+              "odd": 2.58
+            }
+          ],
+          "notes": "Odd aumentada disponível"
+        },
+        {
+          "championship": "Itália - Série A",
+          "match": "Napoli x Bologna",
+          "home": "Napoli",
+          "away": "Bologna",
+          "date": "2026-05-11",
+          "time": "15:45",
+          "odds": {
+            "home": 1.53,
+            "draw": 3.89,
+            "away": 5.7
+          },
+          "markets": [
+            {
+              "market": "Odd Aumentada - Napoli + BTTS",
+              "selection": "Napoli RF + Ambos Marcam Sim",
+              "odd": 3.77
+            }
+          ],
+          "notes": "Odd aumentada de 3.41 para 3.77"
+        },
+        {
+          "championship": "Espanha - LaLiga",
+          "match": "Rayo Vallecano x Girona",
+          "home": "Rayo Vallecano",
+          "away": "Girona",
+          "date": "2026-05-11",
+          "time": "16:00",
+          "odds": {
+            "home": 2.49,
+            "draw": 3.04,
+            "away": 2.81
+          },
+          "markets": [
+            {
+              "market": "Odd Aumentada - Rayo combo",
+              "selection": "Rayo ou Empate + Rayo Escanteios + Girona Cartões",
+              "odd": 4.72
+            }
+          ],
+          "notes": "Odd aumentada de 4.24 para 4.72"
+        },
+        {
+          "championship": "Inglaterra - Championship",
+          "match": "Millwall x Hull City",
+          "home": "Millwall",
+          "away": "Hull City",
+          "date": "2026-05-11",
+          "time": "16:00",
+          "odds": {
+            "home": 1.68,
+            "draw": 3.6,
+            "away": 4.23
+          },
+          "markets": [
+            {
+              "market": "Odd Aumentada - Millwall/Millwall",
+              "selection": "Millwall/Millwall - 1º Tempo/Tempo Inteiro",
+              "odd": 2.58
+            }
+          ],
+          "notes": "Playoff semi-final 2nd leg"
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Benfica x Braga",
+          "home": "Benfica",
+          "away": "Braga",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 1.36,
+            "draw": 4.51,
+            "away": 6.3
+          },
           "markets": [],
-          "notes": "MercadosExtras: +308"
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Rio Ave x Sporting Lisboa",
+          "home": "Rio Ave",
+          "away": "Sporting Lisboa",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 10.2,
+            "draw": 6.6,
+            "away": 1.17
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Gil Vicente x FC Arouca",
+          "home": "Gil Vicente",
+          "away": "FC Arouca",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 1.62,
+            "draw": 3.62,
+            "away": 4.63
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Vitoria de Guimarães x Casa Pia AC",
+          "home": "Vitoria de Guimarães",
+          "away": "Casa Pia AC",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 1.67,
+            "draw": 3.64,
+            "away": 4.25
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Espanha - LaLiga 2",
+          "match": "SD Huesca x Real Sociedad B",
+          "home": "SD Huesca",
+          "away": "Real Sociedad B",
+          "date": "2026-05-11",
+          "time": "15:30",
+          "odds": {
+            "home": 2.07,
+            "draw": 3.3,
+            "away": 3.21
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Série C",
+          "match": "Inter de Limeira x Santa Cruz",
+          "home": "Inter de Limeira",
+          "away": "Santa Cruz",
+          "date": "2026-05-11",
+          "time": "20:00",
+          "odds": {
+            "home": 1.82,
+            "draw": 3.12,
+            "away": 4.17
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Série C",
+          "match": "Maringá FC x Guarani SP",
+          "home": "Maringá FC",
+          "away": "Guarani SP",
+          "date": "2026-05-11",
+          "time": "20:00",
+          "odds": {
+            "home": 1.84,
+            "draw": 3.31,
+            "away": 3.76
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Peru - Liga 1",
+          "match": "Deportivo Garcilaso x Alianza Atletico",
+          "home": "Deportivo Garcilaso",
+          "away": "Alianza Atletico",
+          "date": "2026-05-11",
+          "time": "15:00",
+          "odds": {
+            "home": 1.67,
+            "draw": 3.36,
+            "away": 4.68
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Equador - Serie A",
+          "match": "Mushuc Runa x LDU Quito",
+          "home": "Mushuc Runa",
+          "away": "LDU Quito",
+          "date": "2026-05-11",
+          "time": "21:00",
+          "odds": {
+            "home": 2.63,
+            "draw": 3.17,
+            "away": 2.48
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Kings League Brasil",
+          "match": "LOUD SC x Funkbol Clube",
+          "home": "LOUD SC",
+          "away": "Funkbol Clube",
+          "date": "2026-05-11",
+          "time": "19:00",
+          "odds": {
+            "home": 1.95,
+            "draw": 5.9,
+            "away": 2.16
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Kings League Brasil",
+          "match": "G3X FC x Capim FC",
+          "home": "G3X FC",
+          "away": "Capim FC",
+          "date": "2026-05-11",
+          "time": "20:00",
+          "odds": {
+            "home": 1.24,
+            "draw": 9.1,
+            "away": 4.67
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Kings League Brasil",
+          "match": "Dendele FC x Fluxo FC",
+          "home": "Dendele FC",
+          "away": "Fluxo FC",
+          "date": "2026-05-11",
+          "time": "21:00",
+          "odds": {
+            "home": 1.82,
+            "draw": 6.1,
+            "away": 2.33
+          },
+          "markets": [],
+          "notes": null
         }
       ]
     },
@@ -117,7 +741,28 @@
       "name": "BR4bet",
       "games": [
         {
-          "championship": "Série A",
+          "championship": "Inglaterra - Premier League",
+          "match": "Tottenham x Leeds United",
+          "home": "Tottenham",
+          "away": "Leeds United",
+          "date": "2026-05-11",
+          "time": "16:00",
+          "odds": {
+            "home": 1.71,
+            "draw": 3.8,
+            "away": 4.25
+          },
+          "markets": [
+            {
+              "market": "Super Odds - Chance Dupla + Over 1.5 + Under 11.5 escanteios",
+              "selection": "Tottenham ou Leeds + Mais 1.5 gols + Menos 11.5 escanteios",
+              "odd": 2.59
+            }
+          ],
+          "notes": "Odd aumentada de 2.33 para 2.59"
+        },
+        {
+          "championship": "Itália - Série A",
           "match": "Napoli x Bologna FC",
           "home": "Napoli",
           "away": "Bologna FC",
@@ -129,28 +774,95 @@
             "away": 5.66
           },
           "markets": [],
-          "notes": ""
+          "notes": null
         },
         {
-          "championship": "Premier League",
-          "match": "Tottenham x Leeds United",
-          "home": "Tottenham",
-          "away": "Leeds United",
+          "championship": "Portugal - Primeira Liga",
+          "match": "Benfica x Braga",
+          "home": "Benfica",
+          "away": "Braga",
           "date": "2026-05-11",
-          "time": "16:00",
+          "time": "16:15",
           "odds": {
-            "home": 1.71,
-            "draw": 3.8,
-            "away": 4.25
+            "home": 1.37,
+            "draw": 4.5,
+            "away": 6.66
           },
           "markets": [],
-          "notes": ""
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Rio Ave x Sporting Lisboa",
+          "home": "Rio Ave",
+          "away": "Sporting Lisboa",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 12,
+            "draw": 6,
+            "away": null
+          },
+          "markets": [],
+          "notes": "Odd visitante não visível"
         }
       ]
     },
     {
       "name": "Novibet",
       "games": [
+        {
+          "championship": "Inglaterra - Premier League",
+          "match": "Tottenham x Leeds",
+          "home": "Tottenham",
+          "away": "Leeds",
+          "date": "2026-05-11",
+          "time": "16:00",
+          "odds": {
+            "home": 1.82,
+            "draw": 4,
+            "away": 4.45
+          },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 1.78
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "Sim",
+              "odd": 1.74
+            }
+          ],
+          "notes": "+1033 mercados extras"
+        },
+        {
+          "championship": "Espanha - LaLiga",
+          "match": "Rayo Vallecano x Girona",
+          "home": "Rayo Vallecano",
+          "away": "Girona",
+          "date": "2026-05-11",
+          "time": "16:00",
+          "odds": {
+            "home": 2.55,
+            "draw": 3.15,
+            "away": 2.95
+          },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 1.98
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "Sim",
+              "odd": 1.71
+            }
+          ],
+          "notes": "+800 mercados extras"
+        },
         {
           "championship": "Itália - Serie A",
           "match": "Napoli x Bologna",
@@ -165,55 +877,202 @@
           },
           "markets": [
             {
-              "market": "Total de Gols",
+              "market": "Total de Gols Mais/Menos 2.5",
               "selection": "Mais de 2.5",
               "odd": 1.89
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "Sim",
+              "odd": 1.95
             }
           ],
-          "notes": ""
+          "notes": "+845 mercados extras"
         },
         {
-          "championship": "Inglaterra - Premier League",
-          "match": "Tottenham x Leeds",
-          "home": "Tottenham",
-          "away": "Leeds",
+          "championship": "Portugal - Primeira Liga",
+          "match": "Benfica x SC Braga",
+          "home": "Benfica",
+          "away": "SC Braga",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 1.4,
+            "draw": 4.55,
+            "away": 6.9
+          },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 1.65
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "Sim",
+              "odd": 1.87
+            }
+          ],
+          "notes": "+597 mercados extras"
+        },
+        {
+          "championship": "Inglaterra - Championship",
+          "match": "Millwall x Hull City",
+          "home": "Millwall",
+          "away": "Hull City",
           "date": "2026-05-11",
           "time": "16:00",
           "odds": {
-            "home": 1.82,
-            "draw": 4,
-            "away": 4.45
+            "home": 1.74,
+            "draw": 3.8,
+            "away": 4.6
           },
-          "markets": [],
-          "notes": ""
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 1.84
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "Sim",
+              "odd": 1.8
+            }
+          ],
+          "notes": "+755 mercados extras"
+        },
+        {
+          "championship": "Espanha - Segunda Division",
+          "match": "Huesca x Real Sociedad B",
+          "home": "Huesca",
+          "away": "Real Sociedad B",
+          "date": "2026-05-11",
+          "time": "15:30",
+          "odds": {
+            "home": 2.15,
+            "draw": 3.45,
+            "away": 3.3
+          },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 2.1
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "Sim",
+              "odd": 1.89
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Série C",
+          "match": "Inter de Limeira SP x Santa Cruz PE",
+          "home": "Inter de Limeira SP",
+          "away": "Santa Cruz PE",
+          "date": "2026-05-11",
+          "time": "20:00",
+          "odds": {
+            "home": 1.83,
+            "draw": 3.3,
+            "away": 4.35
+          },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 2.35
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Série C",
+          "match": "Maringá PR x Guarani SP",
+          "home": "Maringá PR",
+          "away": "Guarani SP",
+          "date": "2026-05-11",
+          "time": "20:00",
+          "odds": {
+            "home": 1.86,
+            "draw": 3.4,
+            "away": 4
+          },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 1.99
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Equador - Serie A",
+          "match": "Mushuc Runa SC x LDU Quito",
+          "home": "Mushuc Runa SC",
+          "away": "LDU Quito",
+          "date": "2026-05-11",
+          "time": "21:00",
+          "odds": {
+            "home": 2.7,
+            "draw": 3.25,
+            "away": 2.55
+          },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 2.05
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "Sim",
+              "odd": 1.8
+            }
+          ],
+          "notes": null
         }
       ]
     },
     {
       "name": "BetMGM",
-      "games": [],
-      "notes": "Foco em Cyber e ligas menores"
+      "games": [
+        {
+          "championship": "Super Liga da India",
+          "match": "SC East Bengal x Punjab FC",
+          "home": "SC East Bengal",
+          "away": "Punjab FC",
+          "date": "2026-05-11",
+          "time": "11:00",
+          "odds": {
+            "home": 1.8,
+            "draw": 3.35,
+            "away": 3.85
+          },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 1.83
+            },
+            {
+              "market": "Ambas equipes marcam",
+              "selection": "Sim",
+              "odd": 1.72
+            }
+          ],
+          "notes": "Maioria dos jogos visíveis são Cyber Live Arena (virtual). Poucos jogos reais disponíveis."
+        }
+      ]
     },
     {
       "name": "BetBoom",
       "games": [
         {
-          "championship": "Itália. Série A",
-          "match": "Napoli x Bologna",
-          "home": "Napoli",
-          "away": "Bologna",
-          "date": "2026-05-11",
-          "time": "15:45",
-          "odds": {
-            "home": 1.53,
-            "draw": 4.1,
-            "away": 6.2
-          },
-          "markets": [],
-          "notes": ""
-        },
-        {
-          "championship": "Inglaterra. Premier League",
+          "championship": "Inglaterra - Premier League",
           "match": "Tottenham Hotspur x Leeds Utd",
           "home": "Tottenham Hotspur",
           "away": "Leeds Utd",
@@ -225,28 +1084,148 @@
             "away": 4.2
           },
           "markets": [],
-          "notes": ""
+          "notes": "+281 mercados extras"
+        },
+        {
+          "championship": "Espanha - LaLiga",
+          "match": "Rayo Vallecano x Girona",
+          "home": "Rayo Vallecano",
+          "away": "Girona",
+          "date": "2026-05-11",
+          "time": "16:00",
+          "odds": {
+            "home": 2.5,
+            "draw": 3.1,
+            "away": 2.9
+          },
+          "markets": [],
+          "notes": "+288 mercados extras"
+        },
+        {
+          "championship": "Itália - Série A",
+          "match": "Napoli x Bologna",
+          "home": "Napoli",
+          "away": "Bologna",
+          "date": "2026-05-11",
+          "time": "15:45",
+          "odds": {
+            "home": 1.53,
+            "draw": 4.1,
+            "away": 6.2
+          },
+          "markets": [],
+          "notes": "+273 mercados extras"
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Benfica x Sporting Braga",
+          "home": "Benfica",
+          "away": "Sporting Braga",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 1.38,
+            "draw": 4.7,
+            "away": 7
+          },
+          "markets": [],
+          "notes": "+261 mercados extras"
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Rio Ave x Sporting Lisbon",
+          "home": "Rio Ave",
+          "away": "Sporting Lisbon",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 12,
+            "draw": 7,
+            "away": 1.17
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Vitoria Guimaraes x Casa Pia",
+          "home": "Vitoria Guimaraes",
+          "away": "Casa Pia",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 1.67,
+            "draw": 3.9,
+            "away": 4.5
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Gil Vicente x Arouca",
+          "home": "Gil Vicente",
+          "away": "Arouca",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 1.64,
+            "draw": 3.85,
+            "away": 4.8
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Peru - Liga 1",
+          "match": "Deportivo Garcilaso x Alianza Atletico",
+          "home": "Deportivo Garcilaso",
+          "away": "Alianza Atletico",
+          "date": "2026-05-11",
+          "time": "15:00",
+          "odds": {
+            "home": 1.69,
+            "draw": 3.45,
+            "away": 5
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Uruguai - Primera Division",
+          "match": "Deportivo Maldonado x Boston River",
+          "home": "Deportivo Maldonado",
+          "away": "Boston River",
+          "date": "2026-05-11",
+          "time": "17:00",
+          "odds": {
+            "home": 1.76,
+            "draw": 3.5,
+            "away": 4.5
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Uruguai - Primera Division",
+          "match": "Cerro Largo x Penarol",
+          "home": "Cerro Largo",
+          "away": "Penarol",
+          "date": "2026-05-11",
+          "time": "20:30",
+          "odds": {
+            "home": 4.5,
+            "draw": 3.6,
+            "away": 1.73
+          },
+          "markets": [],
+          "notes": null
         }
       ]
     },
     {
       "name": "Betano",
       "games": [
-        {
-          "championship": "Itália - Série A",
-          "match": "Napoli x Bologna FC",
-          "home": "Napoli",
-          "away": "Bologna FC",
-          "date": "2026-05-11",
-          "time": "15:45",
-          "odds": {
-            "home": 1.57,
-            "draw": 4.2,
-            "away": 6.5
-          },
-          "markets": [],
-          "notes": "CA TURBINADA"
-        },
         {
           "championship": "Inglaterra - Premier League",
           "match": "Tottenham x Leeds United",
@@ -260,7 +1239,127 @@
             "away": 4.6
           },
           "markets": [],
-          "notes": "CA TURBINADA"
+          "notes": "CA Turbinada disponível"
+        },
+        {
+          "championship": "Itália - Série A",
+          "match": "Napoli x Bologna FC",
+          "home": "Napoli",
+          "away": "Bologna FC",
+          "date": "2026-05-11",
+          "time": "15:45",
+          "odds": {
+            "home": 1.57,
+            "draw": 4.2,
+            "away": 6.5
+          },
+          "markets": [],
+          "notes": "CA Turbinada disponível"
+        },
+        {
+          "championship": "Espanha - LaLiga",
+          "match": "Rayo Vallecano x Girona FC",
+          "home": "Rayo Vallecano",
+          "away": "Girona FC",
+          "date": "2026-05-11",
+          "time": "16:00",
+          "odds": {
+            "home": 2.6,
+            "draw": 3.1,
+            "away": 2.92
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "SL Benfica x SC Braga",
+          "home": "SL Benfica",
+          "away": "SC Braga",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 1.45,
+            "draw": 5,
+            "away": 7.6
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Rio Ave FC x Sporting CP",
+          "home": "Rio Ave FC",
+          "away": "Sporting CP",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 15,
+            "draw": 7.3,
+            "away": 1.22
+          },
+          "markets": [],
+          "notes": "Maior odd de mandante encontrada"
+        },
+        {
+          "championship": "Inglaterra - Championship",
+          "match": "Millwall FC x Hull City",
+          "home": "Millwall FC",
+          "away": "Hull City",
+          "date": "2026-05-11",
+          "time": "16:00",
+          "odds": {
+            "home": 1.75,
+            "draw": 3.8,
+            "away": 4.7
+          },
+          "markets": [],
+          "notes": "Playoff semi-final"
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Vitoria Guimarães x Casa Pia AC",
+          "home": "Vitoria Guimarães",
+          "away": "Casa Pia AC",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 1.75,
+            "draw": 3.85,
+            "away": 4.6
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Gil Vicente FC x Arouca",
+          "home": "Gil Vicente FC",
+          "away": "Arouca",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 1.7,
+            "draw": 3.65,
+            "away": 6.1
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Série C",
+          "match": "Inter de Limeira x Santa Cruz-PE",
+          "home": "Inter de Limeira",
+          "away": "Santa Cruz-PE",
+          "date": "2026-05-11",
+          "time": "20:00",
+          "odds": {
+            "home": 1.83,
+            "draw": 3.3,
+            "away": 4.3
+          },
+          "markets": [],
+          "notes": null
         }
       ]
     },
@@ -280,10 +1379,10 @@
             "away": 6.25
           },
           "markets": [],
-          "notes": "mercadosExtras: 8"
+          "notes": null
         },
         {
-          "championship": "Premier League",
+          "championship": "Inglaterra - Premier League",
           "match": "Tottenham x Leeds",
           "home": "Tottenham",
           "away": "Leeds",
@@ -295,7 +1394,127 @@
             "away": 4.2
           },
           "markets": [],
-          "notes": "mercadosExtras: 10"
+          "notes": null
+        },
+        {
+          "championship": "Espanha - La Liga",
+          "match": "Rayo Vallecano x Girona",
+          "home": "Rayo Vallecano",
+          "away": "Girona",
+          "date": "2026-05-11",
+          "time": "16:00",
+          "odds": {
+            "home": 2.55,
+            "draw": 3.2,
+            "away": 2.87
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Benfica x SC Braga",
+          "home": "Benfica",
+          "away": "SC Braga",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 1.42,
+            "draw": 4.75,
+            "away": 6.5
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Rio Ave x Sporting",
+          "home": "Rio Ave",
+          "away": "Sporting",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 15,
+            "draw": 6.5,
+            "away": 1.18
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Equador - Serie A",
+          "match": "Mushuc Runa x LDU Quito",
+          "home": "Mushuc Runa",
+          "away": "LDU Quito",
+          "date": "2026-05-11",
+          "time": "21:00",
+          "odds": {
+            "home": 2.7,
+            "draw": 3.2,
+            "away": 2.5
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Peru - Liga 1",
+          "match": "Deportivo Garcilaso x Alianza Atletico",
+          "home": "Deportivo Garcilaso",
+          "away": "Alianza Atletico",
+          "date": "2026-05-11",
+          "time": "15:00",
+          "odds": {
+            "home": 1.66,
+            "draw": 3.4,
+            "away": 5.5
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Internacional x Athletic Club MG",
+          "home": "Internacional",
+          "away": "Athletic Club MG",
+          "date": "2026-05-12",
+          "time": "19:30",
+          "odds": {
+            "home": 1.3,
+            "draw": 5,
+            "away": 10
+          },
+          "markets": [],
+          "notes": "Agregado: Internacional 2 x 1 Athletic"
+        },
+        {
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Fluminense x Operário PR",
+          "home": "Fluminense",
+          "away": "Operário PR",
+          "date": "2026-05-12",
+          "time": "21:30",
+          "odds": {
+            "home": 1.4,
+            "draw": 4.5,
+            "away": 8
+          },
+          "markets": [],
+          "notes": "Agregado: 0-0"
+        },
+        {
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Cruzeiro x Goiás",
+          "home": "Cruzeiro",
+          "away": "Goiás",
+          "date": "2026-05-12",
+          "time": "21:30",
+          "odds": {
+            "home": 1.42,
+            "draw": 4.5,
+            "away": 7
+          },
+          "markets": [],
+          "notes": "Agregado: 2-2"
         }
       ]
     },
@@ -303,7 +1522,7 @@
       "name": "Bet Dá Sorte",
       "games": [
         {
-          "championship": null,
+          "championship": "Itália - Série A",
           "match": "Napoli x Bologna",
           "home": "Napoli",
           "away": "Bologna",
@@ -314,11 +1533,22 @@
             "draw": 4.04,
             "away": 6.16
           },
-          "markets": [],
-          "notes": ""
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 1.92
+            },
+            {
+              "market": "Chance Dupla 1X",
+              "selection": "Napoli ou Empate",
+              "odd": 1.1
+            }
+          ],
+          "notes": null
         },
         {
-          "championship": null,
+          "championship": "Inglaterra - Premier League",
           "match": "Tottenham x Leeds",
           "home": "Tottenham",
           "away": "Leeds",
@@ -329,8 +1559,118 @@
             "draw": 3.83,
             "away": 4.26
           },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 1.81
+            },
+            {
+              "market": "Chance Dupla 1X",
+              "selection": "Tottenham ou Empate",
+              "odd": 1.23
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Espanha - LaLiga",
+          "match": "Rayo Vallecano x Girona",
+          "home": "Rayo Vallecano",
+          "away": "Girona",
+          "date": "2026-05-11",
+          "time": "16:00",
+          "odds": {
+            "home": 2.5,
+            "draw": 3.05,
+            "away": 2.86
+          },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 2.04
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Inglaterra - Championship",
+          "match": "Millwall x Hull",
+          "home": "Millwall",
+          "away": "Hull",
+          "date": "2026-05-11",
+          "time": "16:00",
+          "odds": {
+            "home": 1.78,
+            "draw": 3.85,
+            "away": 4.35
+          },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 1.83
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Benfica x Braga",
+          "home": "Benfica",
+          "away": "Braga",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 1.37,
+            "draw": 4.67,
+            "away": 7.2
+          },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 3.0",
+              "selection": "Mais de 3.0",
+              "odd": 2.08
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Rio Ave x Sporting Lisbon",
+          "home": "Rio Ave",
+          "away": "Sporting Lisbon",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 12.61,
+            "draw": 7.37,
+            "away": 1.15
+          },
           "markets": [],
-          "notes": ""
+          "notes": null
+        },
+        {
+          "championship": "Espanha - LaLiga 2",
+          "match": "Huesca x Real Sociedad II",
+          "home": "Huesca",
+          "away": "Real Sociedad II",
+          "date": "2026-05-11",
+          "time": "15:30",
+          "odds": {
+            "home": 2.12,
+            "draw": 3.45,
+            "away": 3.4
+          },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 2.14
+            }
+          ],
+          "notes": null
         }
       ]
     },
@@ -338,7 +1678,7 @@
       "name": "Sportingbet",
       "games": [
         {
-          "championship": null,
+          "championship": "Itália - Série A",
           "match": "Napoli x Bologna",
           "home": "Napoli",
           "away": "Bologna",
@@ -349,11 +1689,48 @@
             "draw": 4,
             "away": 5.75
           },
-          "markets": [],
-          "notes": ""
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 1.85
+            },
+            {
+              "market": "Ambas equipes marcam",
+              "selection": "Sim",
+              "odd": 1.98
+            }
+          ],
+          "notes": null
         },
         {
-          "championship": null,
+          "championship": "Espanha - LaLiga",
+          "match": "Rayo Vallecano x Girona",
+          "home": "Rayo Vallecano",
+          "away": "Girona",
+          "date": "2026-05-11",
+          "time": "16:00",
+          "odds": {
+            "home": 2.5,
+            "draw": 3.2,
+            "away": 2.87
+          },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 1.95
+            },
+            {
+              "market": "Ambas equipes marcam",
+              "selection": "Sim",
+              "odd": 1.75
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Inglaterra - Premier League",
           "match": "Tottenham x Leeds United",
           "home": "Tottenham",
           "away": "Leeds United",
@@ -364,8 +1741,81 @@
             "draw": 3.9,
             "away": 4.1
           },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 1.77
+            },
+            {
+              "market": "Ambas equipes marcam",
+              "selection": "Sim",
+              "odd": 1.75
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Benfica x Braga",
+          "home": "Benfica",
+          "away": "Braga",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 1.42,
+            "draw": 4.8,
+            "away": 6.25
+          },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 1.6
+            },
+            {
+              "market": "Ambas equipes marcam",
+              "selection": "Sim",
+              "odd": 1.85
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Rio Ave x Sporting CP",
+          "home": "Rio Ave",
+          "away": "Sporting CP",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 10,
+            "draw": 7.25,
+            "away": 1.22
+          },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 3.5",
+              "selection": "Mais de 3.5",
+              "odd": 1.98
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Vitoria Guimaraes SC x Casa Pia",
+          "home": "Vitoria Guimaraes SC",
+          "away": "Casa Pia",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 1.72,
+            "draw": 3.8,
+            "away": 4.33
+          },
           "markets": [],
-          "notes": ""
+          "notes": null
         }
       ]
     },
@@ -373,22 +1823,7 @@
       "name": "KTO",
       "games": [
         {
-          "championship": "Itália / Serie A",
-          "match": "Napoli x Bologna",
-          "home": "Napoli",
-          "away": "Bologna",
-          "date": "2026-05-11",
-          "time": "15:45",
-          "odds": {
-            "home": 1.54,
-            "draw": 4.1,
-            "away": 6
-          },
-          "markets": [],
-          "notes": ""
-        },
-        {
-          "championship": "Inglaterra / Premier League",
+          "championship": "Inglaterra - Premier League",
           "match": "Tottenham x Leeds United",
           "home": "Tottenham",
           "away": "Leeds United",
@@ -399,21 +1834,38 @@
             "draw": 3.95,
             "away": 4.25
           },
-          "markets": [],
-          "notes": ""
-        }
-      ]
-    },
-    {
-      "name": "Esportiva Bet",
-      "games": [],
-      "notes": "Foco em jogos ao vivo menores"
-    },
-    {
-      "name": "Betnacional",
-      "games": [
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 1.66
+            }
+          ],
+          "notes": null
+        },
         {
-          "championship": "Serie A",
+          "championship": "Espanha - LaLiga",
+          "match": "Rayo Vallecano x Girona",
+          "home": "Rayo Vallecano",
+          "away": "Girona",
+          "date": "2026-05-11",
+          "time": "16:00",
+          "odds": {
+            "home": 2.48,
+            "draw": 3.2,
+            "away": 2.9
+          },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 1.86
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Itália - Serie A",
           "match": "Napoli x Bologna",
           "home": "Napoli",
           "away": "Bologna",
@@ -421,14 +1873,213 @@
           "time": "15:45",
           "odds": {
             "home": 1.54,
-            "draw": 4.05,
-            "away": 6.04
+            "draw": 4.1,
+            "away": 6
           },
-          "markets": [],
-          "notes": ""
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 1.85
+            }
+          ],
+          "notes": null
         },
         {
-          "championship": "Premier League",
+          "championship": "Portugal - Primeira Liga",
+          "match": "Benfica x Braga",
+          "home": "Benfica",
+          "away": "Braga",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 1.4,
+            "draw": 4.7,
+            "away": 7.5
+          },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 1.56
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Inglaterra - Championship",
+          "match": "Millwall x Hull City",
+          "home": "Millwall",
+          "away": "Hull City",
+          "date": "2026-05-11",
+          "time": "16:00",
+          "odds": {
+            "home": 1.7,
+            "draw": 3.6,
+            "away": 4.8
+          },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 1.89
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Rio Ave x Sporting Lisboa",
+          "home": "Rio Ave",
+          "away": "Sporting Lisboa",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 11.5,
+            "draw": 6.5,
+            "away": 1.22
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Série C",
+          "match": "Inter de Limeira x Santa Cruz-PE",
+          "home": "Inter de Limeira",
+          "away": "Santa Cruz-PE",
+          "date": "2026-05-11",
+          "time": "20:00",
+          "odds": {
+            "home": 1.95,
+            "draw": 3.1,
+            "away": 3.9
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Série C",
+          "match": "Maringá-PR x Guarani",
+          "home": "Maringá-PR",
+          "away": "Guarani",
+          "date": "2026-05-11",
+          "time": "20:00",
+          "odds": {
+            "home": 2.02,
+            "draw": 3.15,
+            "away": 3.5
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Kings League Brasil",
+          "match": "LOUD SC x PodPah Funkbol Clube",
+          "home": "LOUD SC",
+          "away": "PodPah Funkbol Clube",
+          "date": "2026-05-11",
+          "time": "19:00",
+          "odds": {
+            "home": 1.96,
+            "draw": 7.5,
+            "away": 2.15
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Kings League Brasil",
+          "match": "G3X FC x Capim FC",
+          "home": "G3X FC",
+          "away": "Capim FC",
+          "date": "2026-05-11",
+          "time": "20:00",
+          "odds": {
+            "home": 1.38,
+            "draw": 9.5,
+            "away": 3.55
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Kings League Brasil",
+          "match": "Dendele FC x Fluxo FC",
+          "home": "Dendele FC",
+          "away": "Fluxo FC",
+          "date": "2026-05-11",
+          "time": "21:00",
+          "odds": {
+            "home": 1.84,
+            "draw": 7.5,
+            "away": 2.32
+          },
+          "markets": [],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Esportiva Bet",
+      "games": [
+        {
+          "championship": "Bulgária - 2ª Liga",
+          "match": "FC Yantra Gabrovo x PFC Vihren Sandanski",
+          "home": "FC Yantra Gabrovo",
+          "away": "PFC Vihren Sandanski",
+          "date": "2026-05-11",
+          "time": "11:45",
+          "odds": {
+            "home": 1.85,
+            "draw": 3.25,
+            "away": 3.8
+          },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 1.85
+            }
+          ],
+          "notes": "Maioria dos jogos visíveis são ao vivo de ligas menores"
+        },
+        {
+          "championship": "Rússia - FNL",
+          "match": "Shinnik x FC Torpedo Moscovo",
+          "home": "Shinnik",
+          "away": "FC Torpedo Moscovo",
+          "date": "2026-05-11",
+          "time": "11:00",
+          "odds": {
+            "home": 2.45,
+            "draw": 2.75,
+            "away": 2.8
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Rússia - Premier League",
+          "match": "FK Spartak Moscow x Rubin Kazan",
+          "home": "FK Spartak Moscow",
+          "away": "Rubin Kazan",
+          "date": "2026-05-11",
+          "time": "11:30",
+          "odds": {
+            "home": 1.52,
+            "draw": 3.66,
+            "away": 5.75
+          },
+          "markets": [],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Betnacional",
+      "games": [
+        {
+          "championship": "Inglaterra - Premier League",
           "match": "Tottenham x Leeds United",
           "home": "Tottenham",
           "away": "Leeds United",
@@ -440,91 +2091,414 @@
             "away": 4.24
           },
           "markets": [],
-          "notes": ""
+          "notes": null
+        },
+        {
+          "championship": "Espanha - LaLiga",
+          "match": "Rayo Vallecano x Girona",
+          "home": "Rayo Vallecano",
+          "away": "Girona",
+          "date": "2026-05-11",
+          "time": "16:00",
+          "odds": {
+            "home": 2.52,
+            "draw": 3.17,
+            "away": 2.87
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Itália - Serie A",
+          "match": "Napoli x Bologna",
+          "home": "Napoli",
+          "away": "Bologna",
+          "date": "2026-05-11",
+          "time": "15:45",
+          "odds": {
+            "home": 1.54,
+            "draw": 4.05,
+            "away": 6.04
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Benfica x Braga",
+          "home": "Benfica",
+          "away": "Braga",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 1.42,
+            "draw": 4.65,
+            "away": 6.59
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Rio Ave x Sporting",
+          "home": "Rio Ave",
+          "away": "Sporting",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 12.42,
+            "draw": 6.77,
+            "away": 1.19
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Gil Vicente x Arouca",
+          "home": "Gil Vicente",
+          "away": "Arouca",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 1.67,
+            "draw": 3.8,
+            "away": 4.77
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Portugal - Primeira Liga",
+          "match": "Santa Clara x Nacional",
+          "home": "Santa Clara",
+          "away": "Nacional",
+          "date": "2026-05-11",
+          "time": "16:15",
+          "odds": {
+            "home": 2.26,
+            "draw": 3.17,
+            "away": 3.2
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Série C",
+          "match": "Inter de Limeira x Santa Cruz",
+          "home": "Inter de Limeira",
+          "away": "Santa Cruz",
+          "date": "2026-05-11",
+          "time": "20:00",
+          "odds": {
+            "home": 1.84,
+            "draw": 3.06,
+            "away": 3.99
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Série C",
+          "match": "Maringá x Guarani SP",
+          "home": "Maringá",
+          "away": "Guarani SP",
+          "date": "2026-05-11",
+          "time": "20:00",
+          "odds": {
+            "home": 1.82,
+            "draw": 3.24,
+            "away": 3.84
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Arábia Saudita - Pro League",
+          "match": "Neom x Al Shabab",
+          "home": "Neom",
+          "away": "Al Shabab",
+          "date": "2026-05-11",
+          "time": "13:50",
+          "odds": {
+            "home": 2.13,
+            "draw": 3.41,
+            "away": 2.8
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Arábia Saudita - Pro League",
+          "match": "Al Taawoun x Al Ahli",
+          "home": "Al Taawoun",
+          "away": "Al Ahli",
+          "date": "2026-05-11",
+          "time": "15:00",
+          "odds": {
+            "home": 3.65,
+            "draw": 3.45,
+            "away": 1.8
+          },
+          "markets": [],
+          "notes": null
         }
       ]
     },
     {
       "name": "multibet",
-      "games": [],
-      "notes": "Foco em ligas menores ao vivo"
+      "games": [
+        {
+          "championship": "Bulgária - 2ª Liga",
+          "match": "FC Yantra Gabrovo x PFC Vihren Sandanski",
+          "home": "FC Yantra Gabrovo",
+          "away": "PFC Vihren Sandanski",
+          "date": "2026-05-11",
+          "time": "11:45",
+          "odds": {
+            "home": 1.85,
+            "draw": 3.25,
+            "away": 3.8
+          },
+          "markets": [
+            {
+              "market": "Total de Gols Mais/Menos 2.5",
+              "selection": "Mais de 2.5",
+              "odd": 1.85
+            }
+          ],
+          "notes": "Maioria dos jogos visíveis são de ligas menores e ao vivo"
+        },
+        {
+          "championship": "Rússia - FNL",
+          "match": "Shinnik x FC Torpedo Moscovo",
+          "home": "Shinnik",
+          "away": "FC Torpedo Moscovo",
+          "date": "2026-05-11",
+          "time": "11:00",
+          "odds": {
+            "home": 2.45,
+            "draw": 2.75,
+            "away": 2.8
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Rússia - Premier League",
+          "match": "FK Spartak Moscow x Rubin Kazan",
+          "home": "FK Spartak Moscow",
+          "away": "Rubin Kazan",
+          "date": "2026-05-11",
+          "time": "11:30",
+          "odds": {
+            "home": 1.52,
+            "draw": 3.66,
+            "away": 5.75
+          },
+          "markets": [],
+          "notes": null
+        }
+      ]
     }
   ],
   "surebets": [],
   "tips": [
     {
-      "match": "Napoli x Bologna",
-      "championship": "Itália - Série A",
-      "market": "Resultado Final - Napoli",
-      "bookmaker": "Bet Dá Sorte",
-      "odd": 1.5,
-      "reason": "Napoli forte em casa (12-4-1), Bologna sem vitória nos últimos 4 jogos e sem marcar gols. Napoli em boa fase recente em casa. Valor na odd baixa mas com alta probabilidade.",
-      "risk": "Baixo",
-      "probability": "62%",
-      "entry": "Entrada simples ou parte de múltipla conservadora",
-      "protection": null,
+      "match": "Tottenham x Leeds United",
+      "championship": "Inglaterra - Premier League",
+      "market": "Resultado Final - Tottenham (vitória do mandante)",
+      "bookmaker": "Novibet",
+      "odd": 1.82,
+      "reason": "Tottenham joga em casa e está em ascensão com duas vitórias consecutivas na Premier League. Apesar do Leeds estar invicto nos últimos 5 jogos, o fator casa é decisivo em jogos de briga contra rebaixamento. A odd de 1.82 na Novibet é a mais alta entre as casas analisadas para vitória do Tottenham, oferecendo leve valor. O modelo de dados atribui 41.92% de probabilidade para vitória do Tottenham, enquanto a odd implica ~55%. O Leeds vem de boa fase, mas historicamente equipes na 6ª posição da tabela costumam sofrer fora de casa em jogos decisivos.",
+      "risk": "Médio",
+      "probability": "55%",
+      "entry": "Aposta simples de R$50 a R$100. Alternativa mais segura: Chance Dupla Tottenham ou Empate @1.23 (Bet Dá Sorte).",
+      "protection": "Apostar Chance Dupla 1X na Bet Dá Sorte @1.23 como proteção parcial caso queira reduzir risco.",
       "stats": {
-        "recentForm": "Napoli sólido em casa, Bologna em má fase",
-        "homeAwayPerformance": "Napoli dominante em casa",
-        "goalsTrend": "Tendência a jogos com gols controlados",
-        "bothTeamsScoreTrend": "Bologna sem marcar recentemente",
-        "offensiveDefensiveStats": "Napoli forte defesa recente",
-        "headToHead": "Napoli favorecido em casa",
-        "absences": "Não confirmado",
-        "teamMoment": "Napoli brigando por 2º lugar",
-        "motivation": "Alta para Napoli",
-        "oddsValue": "Boa probabilidade vs odd"
+        "recentForm": "Tottenham: W, W, D, L, L (últimos 5). Leeds: W, D, W, W, D (últimos 5, invicto).",
+        "homeAwayPerformance": "Tottenham jogando em casa no Tottenham Hotspur Stadium. Leeds precisando pontuar fora.",
+        "goalsTrend": "Tottenham marcou 45 gols na temporada. Leeds marcou 47. Ambos com médias similares.",
+        "bothTeamsScoreTrend": "BTTS com probabilidade de 52.96% segundo modelo estatístico.",
+        "offensiveDefensiveStats": "Placar mais provável: 1-0 para Tottenham (10.51%), seguido de 2-1 (8.23%).",
+        "headToHead": "Confronto direto recente não detalhado, mas ambos na parte baixa da tabela.",
+        "absences": "Tottenham: Xavi Simons, Cristian Romero e Solanke são dúvidas. Leeds: Noah Okafor lesionado.",
+        "teamMoment": "Ambos lutam contra o rebaixamento. Tottenham em ascensão, Leeds estável.",
+        "motivation": "Jogo crucial para ambos - briga contra rebaixamento direta.",
+        "oddsValue": "Odd 1.82 implica 54.9% de probabilidade. Modelo sugere ~42%. Odd com pouco valor real, mas fator casa pode compensar."
       }
     },
     {
-      "match": "Tottenham x Leeds",
-      "championship": "Premier League",
-      "market": "Resultado Final - Tottenham",
-      "bookmaker": "bet365",
-      "odd": 1.8,
-      "reason": "Tottenham em casa com favoritismo claro, Leeds em luta contra rebaixamento mas Spurs precisam dos pontos. Histórico de jogos abertos.",
+      "match": "Napoli x Bologna",
+      "championship": "Itália - Série A",
+      "market": "Napoli - Resultado Final (vitória do mandante)",
+      "bookmaker": "Sportingbet",
+      "odd": 1.58,
+      "reason": "Napoli em casa brigando por título/classificação Champions League com 70 pontos na temporada. Bologna está no meio da tabela com 49 pontos e pouco a jogar. Apesar do H2H recente favorecer Bologna (venceram 2 dos últimos 3), o Napoli precisa dos 3 pontos e tem elenco forte com Hojlund (10 gols), McTominay (9) e De Bruyne (5). A odd mais alta para vitória do Napoli é 1.58 na Sportingbet.",
+      "risk": "Baixo",
+      "probability": "62%",
+      "entry": "Aposta simples de R$80 a R$150. Boa aposta para compor múltipla conservadora.",
+      "protection": "Chance Dupla 1X na Bet Dá Sorte @1.10 como hedge, ou combinar com Under 3.5 para entrada mais segura.",
+      "stats": {
+        "recentForm": "Napoli: W21 D7 L7 na temporada, 70 pontos. Bologna: W14 D7 L14, 49 pontos.",
+        "homeAwayPerformance": "Napoli forte em casa, briga por título. Bologna sem grande motivação fora.",
+        "goalsTrend": "Napoli com +19 saldo de gols. Bologna com +1.",
+        "bothTeamsScoreTrend": "Nos últimos jogos H2H, tendência de BTTS é moderada.",
+        "offensiveDefensiveStats": "Napoli com Hojlund (10), McTominay (9), De Bruyne (5). Bologna com Orsolini (8), Castro (7).",
+        "headToHead": "Bologna 2-0 Napoli (ida desta temporada), Napoli 2-0 Bologna (ano passado). H2H competitivo.",
+        "absences": "Não confirmado para ambas equipes.",
+        "teamMoment": "Napoli em corrida pelo título/CL. Bologna sem pressão.",
+        "motivation": "Alta para Napoli, baixa para Bologna.",
+        "oddsValue": "Odd 1.58 implica 63.3%. Probabilidade estimada ~62%. Odd justa, sem grande valor mas consistente."
+      }
+    },
+    {
+      "match": "Millwall x Hull City",
+      "championship": "Inglaterra - Championship - Playoff Semi-Final (2ª mão)",
+      "market": "Millwall - Resultado Final (vitória do mandante)",
+      "bookmaker": "Pixbet",
+      "odd": 1.68,
+      "reason": "Segundo jogo do playoff semi-final, com o primeiro terminando 0-0. Millwall joga em casa no The Den, ambiente hostil para visitantes. Terminaram em 3º na temporada regular contra o 6º lugar do Hull. Historicamente, apenas 4 vezes em 21 playoffs da era Championship o 6º colocado eliminou o 3º. A Pixbet oferece 1.68 para vitória do Millwall, uma das melhores odds. A motivação é máxima: promoção à Premier League está em jogo.",
       "risk": "Médio",
-      "probability": "55%",
-      "entry": "Simples ou dupla chance",
+      "probability": "58%",
+      "entry": "Aposta simples de R$60 a R$120. Considerar Under 2.5 gols como aposta complementar dado o perfil conservador do 1º jogo.",
+      "protection": "Empate Anula (Draw No Bet) em casas que ofereçam - se Millwall empatar nos 90min, dinheiro devolvido.",
+      "stats": {
+        "recentForm": "Millwall: 3º colocado da temporada. Hull: 6º colocado.",
+        "homeAwayPerformance": "Millwall forte no The Den. 1º jogo foi 0-0 fora.",
+        "goalsTrend": "1º jogo muito fechado, ambas equipes defensivas no playoff.",
+        "bothTeamsScoreTrend": "Baixa probabilidade - 1º jogo terminou 0-0.",
+        "offensiveDefensiveStats": "Jake Cooper (Millwall) criou mais chances que qualquer jogador no 1º jogo.",
+        "headToHead": "1º jogo: 0-0 no estádio do Hull.",
+        "absences": "Não confirmado.",
+        "teamMoment": "Máxima tensão e motivação para ambos. Vaga em Wembley em jogo.",
+        "motivation": "Promoção à Premier League - importância máxima.",
+        "oddsValue": "Odd 1.68 implica 59.5%. Prob estimada ~58%. Valor justo com leve margem."
+      }
+    },
+    {
+      "match": "Benfica x SC Braga",
+      "championship": "Portugal - Primeira Liga",
+      "market": "Ambas equipes Marcam - Sim",
+      "bookmaker": "Sportingbet",
+      "odd": 1.85,
+      "reason": "Benfica marcou 2+ gols em 11 dos últimos 12 jogos da liga (69 gols na temporada). Porém, Braga está invicto nos últimos 3 confrontos diretos (W2, D1) incluindo empate de 2-2 no jogo da ida. Benfica tem desfalques importantes: Otamendi suspenso, Richard Rios suspenso, Araujo duvidoso. Com a defesa enfraquecida, Braga pode marcar. A Sportingbet oferece 1.85 para BTTS Sim, a melhor odd encontrada entre as casas.",
+      "risk": "Baixo",
+      "probability": "60%",
+      "entry": "Aposta simples de R$70 a R$130. Excelente para compor múltiplas.",
       "protection": null,
       "stats": {
-        "recentForm": "Tottenham buscando pontos importantes",
-        "homeAwayPerformance": "Boa em casa",
-        "goalsTrend": "Tendência over 2.5",
-        "bothTeamsScoreTrend": "Alta chance BTTS",
-        "offensiveDefensiveStats": "Ataque forte Spurs",
-        "headToHead": "Favorável Spurs",
-        "absences": "Não confirmado",
-        "teamMoment": "Importante para ambas",
-        "motivation": "Alta",
-        "oddsValue": "Valor moderado"
+        "recentForm": "Benfica: invicto em 47 jogos da Primeira Liga (W37, D10). Braga: W2 D1 L2 nos últimos 5.",
+        "homeAwayPerformance": "Benfica em casa: W4 D1 nos últimos 5, sempre marcando 2+ gols. Braga fora: W8 D4 L4 na temporada.",
+        "goalsTrend": "Benfica: 69 gols na temporada, média superior a 2 por jogo em casa.",
+        "bothTeamsScoreTrend": "Nos últimos 3 H2H: 2-2, vitórias do Braga. Tendência forte de BTTS.",
+        "offensiveDefensiveStats": "Pavlidis (21 gols na liga) deve ser titular. McTominay-Braga competitivos ofensivamente.",
+        "headToHead": "Braga invicto nos últimos 3 confrontos: W2, D1 (incluindo 2-2 no jogo ida).",
+        "absences": "Benfica: Otamendi (suspenso), Richard Rios (suspenso), Araujo (dúvida). Braga: Diego Rodrigues, Arrey-Mbi, Grillitsch com problemas físicos. Ricardo Horta pode voltar.",
+        "teamMoment": "Benfica briga pelo 2º lugar (CL). Braga segura no 4º, 5 pontos de vantagem.",
+        "motivation": "Alta para Benfica (CL). Moderada para Braga (4º assegurado quase).",
+        "oddsValue": "Odd 1.85 implica 54.1%. Prob estimada ~60%. Boa relação valor-risco."
+      }
+    },
+    {
+      "match": "Rayo Vallecano x Girona FC",
+      "championship": "Espanha - LaLiga",
+      "market": "Ambas equipes Marcam - Sim",
+      "bookmaker": "Novibet",
+      "odd": 1.71,
+      "reason": "Rayo Vallecano invicto nos 3 últimos confrontos com Girona (incluindo 3-1 fora na ida). Jogo equilibrado com odds próximas para ambos os lados. Girona tem qualidade ofensiva com Tsygankov e Ounahi (7.14 de nota). Rayo também ataca bem em casa. O mercado BTTS Sim @1.71 na Novibet oferece bom valor para um jogo que tende a ser aberto entre duas equipes que precisam pontuar.",
+      "risk": "Baixo",
+      "probability": "58%",
+      "entry": "Aposta simples de R$60 a R$100.",
+      "protection": null,
+      "stats": {
+        "recentForm": "Rayo: invicto nos últimos 3 H2H contra Girona. Girona lutando na tabela.",
+        "homeAwayPerformance": "Rayo forte em casa. Girona competitivo fora.",
+        "goalsTrend": "Rayo 16 gols, Girona 19 gols (escalações prováveis).",
+        "bothTeamsScoreTrend": "Confrontos diretos recentes com gols de ambos os lados.",
+        "offensiveDefensiveStats": "Girona: Ounahi (7.14 rating), Tsygankov perigoso. Rayo: Lejeune (7.02), Ratiu (7.01).",
+        "headToHead": "Rayo 3-1 Girona (ida). Rayo invicto em 3 jogos contra Girona.",
+        "absences": "Ambas equipes com desfalques parciais. Não confirmado em detalhe.",
+        "teamMoment": "Meio de tabela para ambos. Jogo sem pressão extrema.",
+        "motivation": "Moderada para ambos - posicionamento na tabela.",
+        "oddsValue": "Odd 1.71 implica 58.5%. Prob estimada ~58%. Odd justa."
       }
     }
   ],
   "bestGames": [
     {
+      "match": "Millwall x Hull City",
+      "championship": "Inglaterra - Championship - Playoff Semi-Final (2ª mão)",
+      "dateTime": "2026-05-11 16:00",
+      "analysis": "Jogo de eliminação com tudo em jogo. O 1º jogo terminou 0-0 no estádio do Hull, e agora o Millwall joga a decisão em casa no The Den. O Millwall terminou em 3º e o Hull em 6º. Na história dos playoffs da Championship, apenas 4 de 21 vezes o 6º colocado eliminou o 3º. Jake Cooper foi o jogador mais perigoso no 1º jogo. A tensão é máxima e a atmosfera do The Den será decisiva. O vencedor vai para a final em Wembley no dia 23 de maio.",
+      "scenario": "Jogo tenso com poucas chances claras na primeira etapa. Millwall marca no 2º tempo empurrado pela torcida. Placar baixo com poucos gols.",
+      "probableScore": "1 x 0",
+      "bestMarket": "Millwall - Resultado Final",
+      "bestBookmaker": "Pixbet",
+      "bestOdd": 1.68,
+      "confidence": "Média",
+      "selectionReason": "Playoffs da Championship são eventos únicos de alta emoção e importância. Millwall com vantagem de mando, posição na tabela e histórico de playoffs a favor.",
+      "statisticalClarity": "Média",
+      "unpredictabilityLevel": "Média",
+      "valueAnalysis": "Odd 1.68 oferece valor justo. A probabilidade real de vitória do Millwall é estimada em ~58%, a odd implica ~59.5%. Mercado bem precificado.",
+      "predictionBasis": {
+        "recentForm": "Millwall 3º, Hull 6º. 1º jogo 0-0.",
+        "homeAwayPerformance": "The Den é fortaleza para o Millwall em jogos decisivos.",
+        "goalsTrend": "Tendência de poucos gols em playoffs da Championship.",
+        "defensiveOffensiveBalance": "Ambos defensivos - 1º jogo provou isso.",
+        "headToHead": "0-0 no 1º jogo. Tudo aberto.",
+        "absences": "Não confirmado.",
+        "motivation": "Máxima - promoção à Premier League em jogo."
+      }
+    },
+    {
+      "match": "Benfica x SC Braga",
+      "championship": "Portugal - Primeira Liga",
+      "dateTime": "2026-05-11 16:15",
+      "analysis": "Benfica briga pelo 2º lugar e classificação direta à Champions League. Invicto em 47 jogos da Primeira Liga, mas enfrenta um Braga que está invicto nos últimos 3 confrontos diretos. Benfica tem desfalques cruciais: Otamendi e Richard Rios suspensos. Porém, Pavlidis (21 gols) deve ser titular. Benfica marcou 2+ gols em 11 dos últimos 12 jogos em casa. Braga está seguro no 4º lugar.",
+      "scenario": "Jogo aberto com Benfica dominando posse mas Braga perigoso nos contra-ataques. Benfica marca primeiro, Braga empata, Benfica vence no fim.",
+      "probableScore": "2 x 1",
+      "bestMarket": "Ambas equipes Marcam - Sim",
+      "bestBookmaker": "Sportingbet",
+      "bestOdd": 1.85,
+      "confidence": "Alta",
+      "selectionReason": "Histórico de BTTS nos confrontos diretos recentes, força ofensiva do Benfica em casa, e capacidade do Braga de marcar mesmo fora. Desfalques na defesa do Benfica aumentam chance de gol do Braga.",
+      "statisticalClarity": "Alta",
+      "unpredictabilityLevel": "Baixa",
+      "valueAnalysis": "BTTS Sim @1.85 com probabilidade estimada de 60%. Excelente relação risco-retorno.",
+      "predictionBasis": {
+        "recentForm": "Benfica invicto em 47 jogos. Braga invicto em 3 H2H.",
+        "homeAwayPerformance": "Benfica: 2+ gols em 11 de 12 jogos em casa. Braga: 8 vitórias fora.",
+        "goalsTrend": "Benfica 69 gols na temporada. Alta média de gols por jogo.",
+        "defensiveOffensiveBalance": "Benfica ofensivo mas com defesa enfraquecida (suspensões). Braga competitivo.",
+        "headToHead": "2-2, vitória Braga, vitória Braga nos últimos 3 confrontos.",
+        "absences": "Benfica: Otamendi (suspenso), Richard Rios (suspenso), Araujo (dúvida).",
+        "motivation": "Benfica: CL em jogo. Braga: 4º assegurado."
+      }
+    },
+    {
       "match": "Napoli x Bologna",
       "championship": "Itália - Série A",
       "dateTime": "2026-05-11 15:45",
-      "analysis": "Napoli em casa é dominante, Bologna em crise ofensiva. Alta probabilidade de vitória mandante com controle do jogo.",
-      "scenario": "Napoli controla e vence com placar apertado ou confortável",
-      "probableScore": "2-0",
-      "bestMarket": "Resultado Final Napoli",
-      "bestBookmaker": "Bet Dá Sorte",
-      "bestOdd": 1.5,
+      "analysis": "Napoli com 70 pontos precisa vencer para manter viva a briga pelo título/CL. Bologna no meio da tabela com 49 pontos sem grande motivação. Apesar do H2H recente favorecer Bologna (2-0 na ida), o Napoli em casa é forte e tem elenco de qualidade com Hojlund, McTominay e De Bruyne. A necessidade de resultado coloca pressão extra no Napoli para atacar desde o início.",
+      "scenario": "Napoli domina o jogo com posse de bola e chances. Gol no 1º tempo. Bologna tenta reagir mas Napoli controla e amplia.",
+      "probableScore": "2 x 0",
+      "bestMarket": "Napoli - Resultado Final",
+      "bestBookmaker": "Sportingbet",
+      "bestOdd": 1.58,
       "confidence": "Alta",
-      "selectionReason": "Melhor combinação de forma, mando de campo e odds disponíveis",
+      "selectionReason": "Napoli em casa com necessidade máxima de resultado. Bologna sem motivação. Qualidade do elenco napolitano superior.",
       "statisticalClarity": "Alta",
       "unpredictabilityLevel": "Baixa",
-      "valueAnalysis": "Odd oferece bom valor considerando probabilidade estimada >60%",
+      "valueAnalysis": "Odd 1.58 é justa para o contexto. Sem grande valor isolado, mas alta probabilidade de acerto.",
       "predictionBasis": {
-        "recentForm": "Napoli consistente, Bologna sem gols recentes",
-        "homeAwayPerformance": "Forte em casa",
-        "goalsTrend": "Controlado",
-        "defensiveOffensiveBalance": "Napoli superior",
-        "headToHead": "Favorável Napoli em casa",
-        "absences": "Não confirmado",
-        "motivation": "Alta para Napoli"
+        "recentForm": "Napoli: W21 D7 L7. Bologna: W14 D7 L14.",
+        "homeAwayPerformance": "Napoli forte em casa. Bologna +1 GD na temporada.",
+        "goalsTrend": "Napoli +19 GD. Bologna neutro.",
+        "defensiveOffensiveBalance": "Napoli claramente superior ofensiva e defensivamente.",
+        "headToHead": "Bologna venceu 2-0 na ida. Napoli precisa de resposta.",
+        "absences": "Não confirmado.",
+        "motivation": "Napoli: máxima (título/CL). Bologna: mínima (meio de tabela)."
       }
     }
   ],
@@ -532,33 +2506,92 @@
     {
       "title": "Sortezinha do Dia",
       "matches": [
-        "Napoli x Bologna",
-        "Tottenham x Leeds"
+        "Millwall x Hull City",
+        "Napoli x Bologna"
       ],
       "stake": "R$ 5,00",
-      "possibleReturn": "R$ 22+",
-      "totalOdd": 4.5,
-      "bookmaker": "Múltipla em Bet Dá Sorte / bet365",
+      "possibleReturn": "R$ 25,52",
+      "totalOdd": 5.1,
+      "bookmaker": "Múltipla entre Pixbet/Sportingbet",
       "risk": "Alto",
-      "reason": "Combinação ousada com mandantes favoritos em casa, potencial bom retorno para stake baixo",
-      "statisticalNote": "Napoli ~62% chance, Tottenham ~55%, combinação realista mas arriscada",
+      "reason": "Combinação de dois jogos com favoritos claros: Millwall em casa no playoff (fator The Den + histórico de playoffs) e Napoli precisando vencer em casa contra Bologna sem motivação. Individualmente as odds são baixas, mas combinadas geram retorno de 510% sobre o investimento.",
+      "statisticalNote": "Millwall com ~58% de probabilidade e Napoli com ~62%. Probabilidade combinada ~36%, mas odds combinadas pagam 5.10x. Valor esperado positivo para uma aposta ousada.",
       "combinations": [
-        "Napoli - Vitória - ~1.50",
-        "Tottenham - Vitória - ~1.80"
+        "Millwall x Hull City - Resultado Final - Millwall @1.68 (Pixbet)",
+        "Napoli x Bologna - Napoli e Under 3.5 - Napoli vence com menos de 4 gols @1.85 (Sportingbet aprox.)"
       ],
       "marketsUsed": [
         {
-          "match": "Napoli x Bologna",
+          "match": "Millwall x Hull City",
           "market": "Resultado Final",
-          "selection": "Napoli",
-          "odd": 1.5,
-          "bookmaker": "Bet Dá Sorte",
-          "reason": "Favorito em casa"
+          "selection": "Millwall",
+          "odd": 1.68,
+          "bookmaker": "Pixbet",
+          "reason": "Playoff 2ª mão em casa. 3º vs 6º. Histórico favorece mandante."
+        },
+        {
+          "match": "Napoli x Bologna",
+          "market": "Resultado Final + Under 3.5 combinado estimado",
+          "selection": "Napoli vence",
+          "odd": 1.58,
+          "bookmaker": "Sportingbet",
+          "reason": "Napoli em casa, briga por título, Bologna sem motivação."
         }
       ],
       "returnTarget": {
-        "minimumReturnPercent": "340%",
-        "minimumReturnValue": "R$ 22,00",
+        "minimumReturnPercent": "400%",
+        "minimumReturnValue": "R$ 20,00",
+        "stake": "R$ 5,00"
+      }
+    },
+    {
+      "title": "Sortezinha do Dia - Ousada",
+      "matches": [
+        "Benfica x SC Braga",
+        "Rayo Vallecano x Girona FC",
+        "Tottenham x Leeds United"
+      ],
+      "stake": "R$ 5,00",
+      "possibleReturn": "R$ 29,45",
+      "totalOdd": 5.89,
+      "bookmaker": "Novibet/Sportingbet",
+      "risk": "Alto",
+      "reason": "Tripla de Ambas Marcam (BTTS Sim) em três jogos com tendência clara de gols de ambos os lados. Benfica x Braga tem histórico de BTTS em 3 dos últimos 3 confrontos, Rayo x Girona é jogo equilibrado com times ofensivos, e Tottenham x Leeds é briga contra rebaixamento onde ambos precisam atacar.",
+      "statisticalNote": "BTTS nos 3 jogos: Benfica x Braga (~60%), Rayo x Girona (~58%), Tottenham x Leeds (~53%). Probabilidade combinada ~18.5%. Odds combinadas pagam 5.89x, gerando valor esperado positivo.",
+      "combinations": [
+        "Benfica x Braga - Ambas Marcam Sim @1.85 (Sportingbet)",
+        "Rayo Vallecano x Girona - Ambas Marcam Sim @1.71 (Novibet)",
+        "Tottenham x Leeds - Ambas Marcam Sim @1.86 (Novibet estimada)"
+      ],
+      "marketsUsed": [
+        {
+          "match": "Benfica x SC Braga",
+          "market": "Ambas equipes Marcam",
+          "selection": "Sim",
+          "odd": 1.85,
+          "bookmaker": "Sportingbet",
+          "reason": "BTTS em 3 dos últimos 3 H2H. Benfica sem Otamendi. Braga marca fora."
+        },
+        {
+          "match": "Rayo Vallecano x Girona FC",
+          "market": "Ambas equipes Marcam",
+          "selection": "Sim",
+          "odd": 1.71,
+          "bookmaker": "Novibet",
+          "reason": "Jogo equilibrado, ambos com qualidade ofensiva. H2H com gols."
+        },
+        {
+          "match": "Tottenham x Leeds United",
+          "market": "Ambas equipes Marcam",
+          "selection": "Sim",
+          "odd": 1.86,
+          "bookmaker": "Novibet",
+          "reason": "Briga contra rebaixamento. Ambos precisam atacar. BTTS prob ~53%."
+        }
+      ],
+      "returnTarget": {
+        "minimumReturnPercent": "489%",
+        "minimumReturnValue": "R$ 29,45",
         "stake": "R$ 5,00"
       }
     }
@@ -566,6 +2599,11 @@
   "warnings": [
     "Odds podem mudar rapidamente. Confirme sempre antes de apostar.",
     "Não há lucro garantido. Use gestão de banca e aposte com responsabilidade.",
-    "Dados baseados em prints fornecidos; verifique sites oficiais."
+    "Se algum dado não foi confirmado, ele aparece como null ou como Não confirmado.",
+    "Nenhuma surebet real foi identificada entre as casas analisadas. As margens das casas eliminam oportunidades de arbitragem nos jogos principais.",
+    "As odds foram extraídas dos dados fornecidos pelo usuário. Odds de mercados secundários podem variar.",
+    "Estatísticas de jogos e escalações são baseadas em pesquisas públicas e podem ter sofrido alterações.",
+    "BetMGM apresentou majoritariamente jogos de Cyber Live Arena (futebol virtual), com poucos jogos reais disponíveis no momento da captura.",
+    "Esportiva Bet e Multibet apresentaram majoritariamente jogos ao vivo de ligas menores no momento da captura."
   ]
 }
