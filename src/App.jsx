@@ -81,7 +81,7 @@ function MetricCard({ icon, label, value, hint, theme }) {
   return (
     <ShellCard theme={theme}>
       <div className="p-4 sm:p-5">
-        <div className="flex items-start justify-between gap-3 sm:gap-4">
+        <div className="flex flex-col items-center text-center sm:flex-row sm:items-start sm:justify-between sm:text-left gap-3 sm:gap-4">
           <div>
             <p className={cx("text-xs uppercase tracking-[0.28em]", theme === "dark" ? "text-slate-400" : "text-slate-500")}>{label}</p>
             <p className="mt-2 text-2xl font-black tracking-tight sm:text-3xl">{value ?? "—"}</p>
@@ -96,7 +96,7 @@ function MetricCard({ icon, label, value, hint, theme }) {
 
 function SectionHeader({ eyebrow, title, description, theme }) {
   return (
-    <div className="mb-4 sm:mb-5">
+    <div className="mb-4 sm:mb-5 flex flex-col items-center text-center sm:items-start sm:text-left">
       <p className={cx("text-[10px] font-bold uppercase tracking-[0.28em] sm:text-xs sm:tracking-[0.35em]", theme === "dark" ? "text-emerald-300" : "text-emerald-700")}>{eyebrow}</p>
       <h2 className="mt-2 text-xl font-black tracking-tight sm:text-2xl md:text-3xl">{title}</h2>
       {description ? <p className={cx("mt-2 max-w-3xl text-sm leading-6", theme === "dark" ? "text-slate-400" : "text-slate-600")}>{description}</p> : null}
@@ -460,22 +460,22 @@ export default function PremiumBetAnalysisApp() {
           <div className="absolute right-0 top-0 h-64 w-64 rounded-full bg-emerald-400/20 blur-3xl" />
           <div className="absolute bottom-0 left-1/2 h-48 w-48 rounded-full bg-cyan-400/10 blur-3xl" />
           <div className="relative flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
-            <div className="max-w-3xl">
+            <div className="max-w-3xl flex flex-col items-center text-center lg:items-start lg:text-left">
               <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-emerald-300/30 bg-emerald-400/10 px-3 py-1.5 text-xs font-bold text-emerald-300 shadow-lg shadow-emerald-950/10 sm:mb-5 sm:px-4 sm:py-2 sm:text-sm">⚽ Arena Pro Intelligence</div>
               <h1 className="text-3xl font-black tracking-tight sm:text-4xl md:text-6xl">Arena Pro: inteligência esportiva para leitura de mercado</h1>
               <p className={cx("mt-4 max-w-2xl text-sm leading-6 sm:text-base sm:leading-7 md:text-lg", theme === "dark" ? "text-slate-300" : "text-slate-600")}>Painel premium para acompanhar jogos, comparar mercados, identificar possíveis oportunidades e organizar entradas com foco em estatística, risco e valor esperado.</p>
-              <div className="mt-5 flex flex-wrap gap-3 sm:mt-6">
-                <span className="rounded-full bg-emerald-500 px-3 py-2 text-xs font-black text-white sm:px-4 sm:text-sm">
+              <div className="mt-5 flex flex-wrap justify-center lg:justify-start gap-3 sm:mt-6">
+                <span className="rounded-full bg-emerald-500 px-3 py-2 text-xs font-black text-white sm:px-4 sm:text-sm text-center">
                   No momento, as atualizações não são automáticas
                 </span>
               </div>
             </div>
             <div className={cx("w-full max-w-full sm:max-w-sm rounded-3xl border p-4 sm:p-5", theme === "dark" ? "border-white/10 bg-white/[0.06]" : "border-slate-200 bg-white/75")}>
-              <div className="flex flex-wrap items-center justify-between gap-3 sm:gap-4">
+              <div className="flex flex-col items-center text-center sm:flex-row sm:items-center sm:justify-between sm:text-left gap-3 sm:gap-4">
                 <div><p className="text-xs font-bold uppercase tracking-[0.28em] text-slate-400">Atualizado</p><p className="mt-1 text-lg font-black">{data.updatedAt}</p></div>
                 <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")} className={cx("rounded-2xl px-3 py-2 text-xs font-black transition sm:px-4 sm:text-sm", theme === "dark" ? "bg-white text-slate-950 hover:bg-slate-200" : "bg-slate-950 text-white hover:bg-slate-800")}>{theme === "dark" ? "☀️ Tema claro" : "🌙 Tema escuro"}</button>
               </div>
-              <div className="mt-5 grid grid-cols-2 gap-3"><div className={cx("rounded-2xl p-4", theme === "dark" ? "bg-black/25" : "bg-slate-50")}><p className="text-xs text-slate-500">Perfil</p><p className="font-black">{data.summary.riskProfile || data.summary.perfilRisco || "—"}</p></div><div className={cx("rounded-2xl p-4", theme === "dark" ? "bg-black/25" : "bg-slate-50")}><p className="text-xs text-slate-500">Melhor odd</p><p className="font-black">{data.summary.bestOdd || data.summary.melhorOdd || "—"}</p></div></div>
+              <div className="mt-5 grid grid-cols-2 gap-3"><div className={cx("rounded-2xl p-4 text-center", theme === "dark" ? "bg-black/25" : "bg-slate-50")}><p className="text-xs text-slate-500">Perfil</p><p className="font-black">{data.summary.riskProfile || data.summary.perfilRisco || "—"}</p></div><div className={cx("rounded-2xl p-4 text-center", theme === "dark" ? "bg-black/25" : "bg-slate-50")}><p className="text-xs text-slate-500">Melhor odd</p><p className="font-black">{data.summary.bestOdd || data.summary.melhorOdd || "—"}</p></div></div>
             </div>
           </div>
         </header>
@@ -572,7 +572,7 @@ export default function PremiumBetAnalysisApp() {
           </main>
         </section>
 
-        <footer className={cx("mt-6 rounded-[1.5rem] border p-4 sm:mt-8 sm:rounded-[2rem] sm:p-5", theme === "dark" ? "border-white/10 bg-black/25 text-slate-400" : "border-white/80 bg-white/65 text-slate-600")}>
+        <footer className={cx("mt-6 rounded-[1.5rem] border p-4 sm:mt-8 sm:rounded-[2rem] sm:p-5 flex flex-col items-center text-center sm:items-start sm:text-left", theme === "dark" ? "border-white/10 bg-black/25 text-slate-400" : "border-white/80 bg-white/65 text-slate-600")}>
           <div className="mb-4">
             <h3 className={cx("text-base font-black", theme === "dark" ? "text-white" : "text-slate-950")}>Jogo responsável</h3>
             <p className={cx("mt-1 text-sm", theme === "dark" ? "text-slate-400" : "text-slate-600")}>
