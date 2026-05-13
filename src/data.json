@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-13 15:37",
+  "updatedAt": "2026-05-13 16:49",
   "summary": {
     "totalBookmakers": 15,
     "totalGames": 74,
@@ -2060,142 +2060,136 @@
   ],
   "twoReais": [
     {
-      "title": "Plano $2 - Mandantes da Copa Decidem",
+      "title": "Plano $2 - Mandantes vs Visitantes na Copa",
       "matches": [
-        "Remo x Bahia",
         "Juventude x São Paulo",
+        "Ceará x Atlético Mineiro",
         "Coritiba x Santos",
-        "Mirassol x Bragantino",
-        "São Paulo x Juventude (visitante)",
-        "Ceará x Atlético Mineiro (visitante)",
-        "Crystal Palace x Man City (visitante)",
-        "Alavés x Barcelona",
-        "Vasco da Gama x Paysandu",
+        "Remo x Bahia",
+        "Man City x Crystal Palace",
         "Lens x PSG",
-        "Getafe x Maiorca"
+        "Alavés x Barcelona"
       ],
       "totalStake": "R$ 2,00",
       "risk": "Muito alto",
       "targetReturn": {
-        "minimum": "R$ 850,00",
-        "maximum": "R$ 987,00"
+        "minimum": "R$ 673,00",
+        "maximum": "R$ 986,00"
       },
-      "coverageStrategy": "A Aposta 1 foca nos mandantes da Copa do Brasil vencendo em casa (Remo, Juventude, Coritiba e Mirassol, todos com vantagem de jogar em casa na volta) combinados com empates nos jogos europeus mais equilibrados. A Aposta 2 vai no caminho oposto: aposta que os visitantes mais fortes da Copa (São Paulo e Atlético-MG) vencem fora de casa, combinando com zebras europeias (Crystal Palace e Alavés). As duas apostas cobrem cenários opostos nos jogos da Copa, aumentando as chances de ao menos uma bater.",
-      "reason": "Copa do Brasil na volta gera jogos decisivos com alta tensão. Mandantes têm fator casa mas visitantes de Série A têm elenco superior. A divisão entre esses dois cenários maximiza a cobertura. Na Europa, jogos com odds equilibradas oferecem boas chances de empate ou surpresa.",
-      "statisticalNote": "Remo venceu a ida por 3x1 fora e está em ótima fase (3V em 5 jogos). Bahia tem 5 jogos sem vencer. Juventude precisa reverter 0-1 jogando em casa (Alfredo Jaconi). Coritiba e Santos empataram 0-0 na ida. Mirassol e Bragantino 1-1. São Paulo levou 1-0 da ida. Atlético-MG venceu a ida por 2-1. Lens é 2º da Ligue 1 com 67pts contra PSG 1º com 73pts, confronto equilibrado. Crystal Palace odds de 7.50 refletem dificuldade mas não impossibilidade contra Man City.",
+      "coverageStrategy": "As duas apostas cobrem cenários OPOSTOS nos mesmos jogos da Copa do Brasil. A Aposta 1 aposta que TODOS os mandantes da Copa vencem em casa (Juventude, Ceará, Coritiba, Remo) — o fator casa e a torcida decidem na volta. A Aposta 2 aposta que TODOS os visitantes de Série A vencem fora (São Paulo, Atlético-MG, Santos) — a qualidade técnica superior prevalece. Na Europa, a Aposta 1 aposta em empate no Man City (Crystal Palace se fecha), enquanto a Aposta 2 aposta que Crystal Palace vence + zebras europeias (Alavés, Lens). Assim, se a noite for dos mandantes brasileiros, a Aposta 1 caminha. Se for dos visitantes de elite, a Aposta 2 caminha.",
+      "reason": "Copa do Brasil na volta é o cenário perfeito para cercar: mandantes têm torcida e pressão, mas visitantes de Série A têm elenco superior contra times de Série B/C. Historicamente, ambos os cenários acontecem com frequência. Na Europa, Man City não vencer é o elo comum entre as duas apostas — empate ou derrota.",
+      "statisticalNote": "Juventude precisa reverter 0-1 jogando em casa no Alfredo Jaconi (Série B). São Paulo venceu a ida por 1-0 e é Série A. Ceará precisa reverter 1-2 no Castelão. Atlético-MG venceu 2-1 a ida e tem elenco superior. Coritiba e Santos empataram 0-0 na ida — jogo aberto na volta. Remo venceu 3-1 fora, em grande fase (3V/5J), Bahia com 5 jogos sem vencer. Man City é favorito pesado (1.33) mas Crystal Palace pode travar ou surpreender. Lens é 2º da Ligue 1 (67pts) e joga em casa contra o PSG (73pts).",
       "bets": [
         {
-          "match": "Múltipla - 6 jogos: Remo x Bahia / Juventude x São Paulo / Coritiba x Santos / Mirassol x Bragantino / Lens x PSG / Getafe x Maiorca",
+          "match": "Múltipla - 5 jogos: Juventude x São Paulo / Ceará x Atlético Mineiro / Coritiba x Santos / Remo x Bahia / Man City x Crystal Palace",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
           "market": "Acumulador - Resultado Final (1X2)",
-          "selection": "Remo vence @3.40 + Juventude vence @3.75 + Coritiba vence @2.70 + Mirassol vence @2.45 + Empate Lens x PSG @3.90 + Empate Getafe x Maiorca @3.00",
-          "odd": 986.79,
-          "possibleReturn": "R$ 986,79",
-          "goal": "Cobrir o cenário em que os mandantes da Copa do Brasil prevalecem em casa na volta, enquanto os jogos europeus mais equilibrados terminam empatados.",
-          "reason": "Remo joga com vantagem de 3x1 da ida e excelente fase (3V/5J). Juventude precisa atacar em casa e tem apoio da torcida no Alfredo Jaconi. Coritiba e Santos empataram 0-0 na ida, dando vantagem ao mandante de decidir em casa. Mirassol empatou 1-1 fora e tem qualidade de Série A. Lens x PSG é 2º x 1º da Ligue 1, confronto historicamente equilibrado. Getafe x Maiorca são dois times de meio de tabela na La Liga."
+          "selection": "Juventude vence @3.75 + Ceará vence @3.40 + Coritiba vence @2.70 + Remo vence @3.40 + Empate Man City x Crystal Palace @5.75",
+          "odd": 673.01,
+          "possibleReturn": "R$ 673,01",
+          "goal": "Cenário: noite dos mandantes da Copa. Todos os times de casa vencem na volta, empurrados pela torcida. Na Europa, Crystal Palace se fecha e segura o empate contra o Man City.",
+          "reason": "Juventude joga no Alfredo Jaconi precisando reverter 0-1, a torcida gaúcha empurra. Ceará joga no Castelão precisando reverter 1-2, pressão máxima. Coritiba decide em casa após 0-0 na ida. Remo com 3-1 de vantagem e em grande fase, a torcida do Mangueirão vai lotar. Crystal Palace historicamente trava jogos contra o City — empate @5.75 é plausível. Tudo conecta: noite de casa cheia decidindo."
         },
         {
-          "match": "Múltipla - 5 jogos: Juventude x São Paulo / Ceará x Atlético Mineiro / Man City x Crystal Palace / Alavés x Barcelona / Vasco da Gama x Paysandu",
+          "match": "Múltipla - 6 jogos: Juventude x São Paulo / Ceará x Atlético Mineiro / Coritiba x Santos / Man City x Crystal Palace / Lens x PSG / Alavés x Barcelona",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
           "market": "Acumulador - Resultado Final (1X2)",
-          "selection": "São Paulo vence @2.10 + Atlético Mineiro vence @2.25 + Crystal Palace vence @7.50 + Alavés vence @3.20 + Paysandu vence @7.50",
-          "odd": 850.5,
-          "possibleReturn": "R$ 850,50",
-          "goal": "Cobrir o cenário oposto: visitantes fortes da Copa avançam (São Paulo e Atlético-MG já com vantagem da ida) enquanto zebras europeias acontecem.",
-          "reason": "São Paulo venceu a ida por 1-0 e é time de Série A contra Juventude da Série B, favorito claro. Atlético-MG venceu 2-1 a ida e tem elenco muito superior ao Ceará. Crystal Palace pode surpreender o City em dia especial (odds de 7.50). Alavés em casa tem chances contra o Barcelona em final de temporada com possível rodízio. Paysandu precisa reverter 0-2 e é obrigado a atacar, mas já venceu o Vasco por 2x0 na última visita a São Januário há 10 anos."
+          "selection": "São Paulo vence @2.10 + Atlético Mineiro vence @2.25 + Santos vence @2.90 + Crystal Palace vence @7.50 + Lens vence @3.00 + Alavés vence @3.20",
+          "odd": 986.58,
+          "possibleReturn": "R$ 986,58",
+          "goal": "Cenário: noite dos visitantes de elite e das zebras. Times de Série A impõem qualidade fora de casa na Copa, enquanto underdogs europeus surpreendem os gigantes.",
+          "reason": "São Paulo é Série A contra Juventude da Série B, venceu 1-0 a ida e controla o jogo fora. Atlético-MG é Série A contra Ceará da Série B, venceu 2-1 a ida e tem elenco muito superior. Santos da Série A joga contra Coritiba após 0-0, pode decidir fora. Crystal Palace no contra-ataque pode surpreender o City. Lens é o 2º da Ligue 1 e forte em casa. Alavés pode complicar o Barcelona no Mendizorroza. Tudo conecta: qualidade e intensidade dos visitantes prevalece."
         }
       ]
     },
     {
-      "title": "Plano $2 - Man City Surpreendido",
+      "title": "Plano $2 - Noite Travada vs Noite de Gols",
       "matches": [
         "Man City x Crystal Palace",
-        "Ceará x Atlético Mineiro",
-        "Remo x Bahia",
-        "Mirassol x Bragantino",
         "Coritiba x Santos",
+        "Remo x Bahia",
+        "Ceará x Atlético Mineiro",
         "Juventude x São Paulo",
         "Lens x PSG"
       ],
       "totalStake": "R$ 2,00",
       "risk": "Muito alto",
       "targetReturn": {
-        "minimum": "R$ 821,00",
-        "maximum": "R$ 1.185,00"
+        "minimum": "R$ 676,00",
+        "maximum": "R$ 917,00"
       },
-      "coverageStrategy": "A Aposta 1 trabalha com o cenário de Man City tropeçando em empate sem gols (0x0) - um jogo travado onde Crystal Palace se fecha - combinado com mandantes da Copa vencendo. A Aposta 2 trabalha com Crystal Palace indo além e vencendo o City com gols dos dois lados, combinado com mandantes de outros jogos da Copa e Lens surpreendendo o PSG em casa. As duas apostas concordam que o Man City não vence, mas divergem sobre como: empate seco (Bet 1) vs derrota com gols (Bet 2). Nos jogos da Copa, as apostas cobrem conjuntos diferentes de mandantes.",
-      "reason": "Man City em casa é grande favorito, mas Crystal Palace historicamente incomoda os Citizens. A odd de 29.00 para empate sem BTTS e 13.00 para Crystal Palace vencer com BTTS oferecem multiplicadores altos dentro de um único jogo, reduzindo a necessidade de muitas pernas na múltipla.",
-      "statisticalNote": "Man City tem odds de 1.33 (forte favoritismo), mas Crystal Palace é time que se fecha bem e pode surpreender. O mercado Resultado/Ambos Marcam oferece odds altíssimas para cenários improváveis mas não impossíveis. Remo tem 3-1 da ida e 3V em 5 jogos. Ceará precisa reverter 1-2 jogando em casa (Castelão cheio). Mirassol empatou 1-1 fora. Lens é 2º da Ligue 1 com 67pts, apenas 6 pontos atrás do PSG, forte em casa.",
+      "coverageStrategy": "As duas apostas cobrem cenários opostos de ESTILO DE JOGO na mesma noite. A Aposta 1 aposta em uma noite TRAVADA: Man City 0-0 (Crystal Palace fechado), empate na Copa (Coritiba x Santos) e mandantes controlando. A Aposta 2 aposta em uma noite de GOLS e reviravoltas: Crystal Palace vence o City com ambos marcando, mandantes atacam para reverter, visitante surpreende. Nos jogos que aparecem nas duas apostas, os resultados são opostos: Remo vence vs Bahia vence, Empate Ceará vs Ceará vence, Man City 0-0 vs Palace vence com BTTS.",
+      "reason": "A lógica é que uma noite de futebol costuma ter um padrão: ou os jogos travam e há poucos gols, ou os jogos abrem e há muitos gols e surpresas. Ao apostar nos dois padrões opostos, cercamos a tendência da noite. O mercado Resultado/Ambos Marcam do Man City oferece multiplicadores enormes (29.00 e 13.00) que ancoram as apostas.",
+      "statisticalNote": "Man City Empate + BTTS Não = cenário 0-0, paga 29.00. Crystal Palace vence + BTTS Sim = cenário tipo 2-1 Palace, paga 13.00. Remo em ótima fase (3V/5J) com 3-1 de vantagem. Bahia é Série A e pode vencer o jogo isolado mesmo eliminada no agregado. Coritiba x Santos empatou 0-0 na ida, empate na volta é plausível (noite travada) ou Coritiba decide (noite de gols). Ceará precisa reverter 1-2 — pode empatar (travado) ou vencer (gols). Juventude precisa reverter 0-1.",
       "bets": [
         {
-          "match": "Múltipla - 4 jogos: Man City x Crystal Palace / Ceará x Atlético Mineiro / Remo x Bahia / Mirassol x Bragantino",
+          "match": "Múltipla - 4 jogos: Man City x Crystal Palace / Coritiba x Santos / Remo x Bahia / Ceará x Atlético Mineiro",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
           "market": "Acumulador - Resultado/Ambos Marcam (Man City) + Resultado Final (Copa)",
-          "selection": "Man City: Empate + Ambos Não Marcam @29.00 + Ceará vence @3.40 + Remo vence @3.40 + Mirassol vence @2.45",
-          "odd": 821.34,
-          "possibleReturn": "R$ 821,34",
-          "goal": "Cenário em que Man City empata sem gols (Crystal Palace se fecha totalmente) e os mandantes da Copa decidem a classificação em casa com vitórias.",
-          "reason": "O empate 0-0 em Man City paga 29.00, um multiplicador enorme que permite usar apenas 3 pernas extras. Crystal Palace pode travar o jogo. Ceará joga no Castelão precisando reverter 1-2, pressão gera chances. Remo com vantagem confortável de 3-1 e em boa fase. Mirassol em casa após 1-1 fora tem boas chances."
+          "selection": "Man City: Empate + Ambos Não Marcam @29.00 + Empate Coritiba x Santos @2.80 + Remo vence @3.40 + Empate Ceará x Atlético MG @3.00",
+          "odd": 676.4,
+          "possibleReturn": "R$ 676,40",
+          "goal": "Cenário: NOITE TRAVADA. Jogos fechados, poucos gols, empates e controle. Crystal Palace fecha o Man City no 0-0. Coritiba e Santos se anulam novamente. Remo controla com vantagem de 3-1 da ida. Ceará e Atlético se neutralizam.",
+          "reason": "Quando Crystal Palace se fecha contra o City, o 0-0 é real — Palace é time reativo. Se o padrão da noite é de jogos travados, Coritiba x Santos repete o 0-0 da ida. Remo com 3-1 joga tranquilo, não precisa forçar, vence sem abrir o jogo. Ceará x Atlético se anulam porque Atlético já tem vantagem e administra, Ceará não consegue furar. Tudo conecta pelo mesmo fio: noite defensiva."
         },
         {
-          "match": "Múltipla - 5 jogos: Man City x Crystal Palace / Coritiba x Santos / Juventude x São Paulo / Ceará x Atlético Mineiro / Lens x PSG",
+          "match": "Múltipla - 5 jogos: Man City x Crystal Palace / Coritiba x Santos / Remo x Bahia / Ceará x Atlético Mineiro / Juventude x São Paulo",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
-          "market": "Acumulador - Resultado/Ambos Marcam (Man City) + Resultado Final (Copa e Europa)",
-          "selection": "Man City: Crystal Palace vence + Ambos Marcam @13.00 + Coritiba vence @2.70 + Juventude vence @3.75 + Empate Ceará x Atlético MG @3.00 + Lens vence @3.00",
-          "odd": 1184.63,
-          "possibleReturn": "R$ 1.184,63",
-          "goal": "Cenário em que Crystal Palace surpreende o City com gols dos dois lados, enquanto mandantes da Copa vencem em outros confrontos e Lens derrota o PSG no Bollaert-Delelis.",
-          "reason": "Crystal Palace vencendo com BTTS Sim paga 13.00 - cenário plausível se o Palace jogar no contra-ataque e converter. Coritiba em casa após 0-0 na ida tem ligeira vantagem. Juventude precisa vencer por 2+ para classificar, vai atacar. Empate no Ceará cobre cenário diferente do Bet 1 (lá Ceará vence). Lens como 2º da Ligue 1 pode vencer o PSG em casa."
+          "market": "Acumulador - Resultado/Ambos Marcam (Man City) + Resultado Final (Copa)",
+          "selection": "Man City: Crystal Palace vence + Ambos Marcam @13.00 + Coritiba vence @2.70 + Bahia vence @2.05 + Ceará vence @3.40 + Juventude vence @3.75",
+          "odd": 917.43,
+          "possibleReturn": "R$ 917,43",
+          "goal": "Cenário: NOITE DE GOLS E REVIRAVOLTAS. Jogos abertos, times atacando, gols dos dois lados. Crystal Palace surpreende o City com gols. Na Copa, times que precisam atacar (Bahia, Ceará, Juventude) criam jogos abertos e vencem. Coritiba decide em casa.",
+          "reason": "Se a noite é de gols, Crystal Palace joga no contra-ataque e vence o City com BTTS (tipo 2-1). Bahia da Série A ataca desesperadamente para reverter 1-3 e pode vencer este jogo (2.05 reflete a qualidade do elenco). Ceará ataca no Castelão para reverter 1-2, o jogo abre. Juventude ataca no Alfredo Jaconi para reverter 0-1. Coritiba decide 0-0 em casa atacando. Tudo conecta: noite de ataque, gols e emoção."
         }
       ]
     },
     {
-      "title": "Plano $2 - Zebras Europeias Cruzadas",
+      "title": "Plano $2 - Europa Espelho: Zebras vs Empates",
       "matches": [
         "Man City x Crystal Palace",
         "Lens x PSG",
         "Alavés x Barcelona",
-        "Getafe x Maiorca",
         "Remo x Bahia",
-        "Juventude x São Paulo",
-        "Coritiba x Santos",
+        "Mirassol x Bragantino",
+        "São Paulo x Juventude",
         "Ceará x Atlético Mineiro"
       ],
       "totalStake": "R$ 2,00",
       "risk": "Muito alto",
       "targetReturn": {
-        "minimum": "R$ 575,00",
-        "maximum": "R$ 800,00"
+        "minimum": "R$ 599,00",
+        "maximum": "R$ 667,00"
       },
-      "coverageStrategy": "A Aposta 1 aposta em vitórias surpresa na Europa (Crystal Palace, Lens, Alavés e Getafe todos vencendo) combinadas com Remo confirmando a boa fase. A Aposta 2 vai em empates nos jogos europeus de Man City e Lens (ninguém ganha) combinados com mandantes da Copa do Brasil vencendo. As duas apostas cobrem caminhos diferentes na Europa: vitórias surpresa vs empates generalizados.",
-      "reason": "A Europa no meio de semana frequentemente gera surpresas com rodízio de titulares. Crystal Palace, Lens e Alavés em casa têm motivação (classificação, briga por vaga europeia). Na Copa do Brasil, jogos de volta em casa geram intensidade e os mandantes têm a torcida como fator.",
-      "statisticalNote": "Crystal Palace fora contra Man City é difícil (7.50), mas Palace em temporadas recentes já surpreendeu no Etihad. Lens tem 21V em 32 jogos na Ligue 1 (67pts), é o 2º melhor time e joga em casa. Alavés em casa contra Barcelona pode surpreender se o Barça poupar jogadores. Getafe joga em casa e é ligeiramente favorito contra Maiorca. Empate no Man City (5.75) e Lens x PSG (3.90) são resultados plausíveis entre times fortes. Remo vem embalado e tem 3-1 de vantagem.",
+      "coverageStrategy": "As duas apostas espelham os jogos europeus e da Copa em direções opostas. Na Europa: Aposta 1 aposta que os mandantes/underdogs VENCEM (Crystal Palace, Lens, Alavés). Aposta 2 aposta que os jogos europeus EMPATAM (City empata, Lens empata) e os favoritos da La Liga prevalecem (Barcelona vence). Na Copa: Aposta 1 aposta nos mandantes (Remo, Mirassol). Aposta 2 aposta nos visitantes (São Paulo, Atlético-MG, Bragantino). O espelhamento é simétrico: onde uma aposta vê vitória, a outra vê empate ou resultado oposto.",
+      "reason": "Meio de semana europeu é terra fértil para zebras (rodízio, cansaço) ou para empates (times calculando). Na Copa, mandantes e visitantes têm argumentos reais. Ao espelhar todas as direções, maximizamos a chance de pelo menos um cenário se concretizar.",
+      "statisticalNote": "Crystal Palace @7.50 contra Man City é a maior zebra da noite, mas não impossível. Lens 2º na Ligue 1 (67pts, 21V/32J) é forte em casa. Alavés em casa contra Barcelona pode surpreender se o Barça poupar. Remo grande fase + 3-1 vantagem. Mirassol em casa após 1-1. São Paulo Série A com 1-0 vantagem. Atlético-MG elenco superior, 2-1 vantagem. Bragantino Série A contra Mirassol.",
       "bets": [
         {
-          "match": "Múltipla - 5 jogos: Man City x Crystal Palace / Lens x PSG / Alavés x Barcelona / Getafe x Maiorca / Remo x Bahia",
+          "match": "Múltipla - 5 jogos: Man City x Crystal Palace / Lens x PSG / Alavés x Barcelona / Remo x Bahia / Mirassol x Bragantino",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
           "market": "Acumulador - Resultado Final (1X2)",
-          "selection": "Crystal Palace vence @7.50 + Lens vence @3.00 + Alavés vence @3.20 + Getafe vence @2.35 + Remo vence @3.40",
-          "odd": 575.28,
-          "possibleReturn": "R$ 575,28",
-          "goal": "Cenário de zebras europeias: todos os mandantes/underdogs europeus vencem, enquanto Remo confirma a vantagem no Brasil.",
-          "reason": "Crystal Palace pode surpreender Man City em final de temporada. Lens é forte em casa e segundo na Ligue 1. Alavés jogando no Mendizorroza pode complicar o Barcelona. Getafe em casa é difícil de bater, estilo truncado. Remo lidera a vantagem de 3-1 e joga em casa no Mangueirão com grande apoio da torcida."
+          "selection": "Crystal Palace vence @7.50 + Lens vence @3.00 + Alavés vence @3.20 + Remo vence @3.40 + Mirassol vence @2.45",
+          "odd": 599.76,
+          "possibleReturn": "R$ 599,76",
+          "goal": "Cenário: NOITE DAS ZEBRAS EUROPEIAS + mandantes Copa confirmam. Crystal Palace, Lens e Alavés vencem em casa na Europa. Remo e Mirassol vencem em casa na Copa.",
+          "reason": "Crystal Palace pode surpreender em jogo de final de temporada. Lens é o 2º da Ligue 1, muito forte em casa (62 gols marcados na temporada). Alavés no Mendizorroza pode complicar o Barça. Remo com 3-1 e boa fase confirma no Mangueirão. Mirassol após 1-1 decide em casa. Todos mandantes: a torcida é o elo que une as seleções."
         },
         {
-          "match": "Múltipla - 5 jogos: Man City x Crystal Palace / Lens x PSG / Coritiba x Santos / Juventude x São Paulo / Ceará x Atlético Mineiro",
+          "match": "Múltipla - 6 jogos: Man City x Crystal Palace / Lens x PSG / Alavés x Barcelona / Juventude x São Paulo / Ceará x Atlético Mineiro / Mirassol x Bragantino",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
           "market": "Acumulador - Resultado Final (1X2)",
-          "selection": "Empate Man City x Crystal Palace @5.75 + Empate Lens x PSG @3.90 + Empate Coritiba x Santos @2.80 + Juventude vence @3.75 + Ceará vence @3.40",
-          "odd": 800.57,
-          "possibleReturn": "R$ 800,57",
-          "goal": "Cenário de empates europeus generalizados combinado com mandantes da Copa do Brasil vencendo para tentar reverter a desvantagem.",
-          "reason": "Empate no Man City (5.75) é plausível se Crystal Palace se fechar e City não converter. Empate em Lens x PSG (3.90) reflete o equilíbrio entre o 2º e 1º da Ligue 1. Empate em Coritiba x Santos (2.80) é o resultado mais equilibrado após 0-0 na ida. Juventude precisa atacar no Alfredo Jaconi para reverter 0-1. Ceará jogando no Castelão pode vencer para tentar reverter o 1-2 da ida."
+          "selection": "Empate Man City x Crystal Palace @5.75 + Empate Lens x PSG @3.90 + Barcelona vence @2.10 + São Paulo vence @2.10 + Atlético Mineiro vence @2.25 + Bragantino vence @3.00",
+          "odd": 667.54,
+          "possibleReturn": "R$ 667,54",
+          "goal": "Cenário: NOITE DOS EMPATES EUROPEUS + visitantes de qualidade na Copa. Na Europa, os grandes jogos empatam (City e Lens/PSG). Na Copa, visitantes de Série A impõem elenco superior.",
+          "reason": "Man City empata se Crystal Palace se fecha e City não converte (5.75 é plausível). Lens x PSG empata refletindo o equilíbrio do 2º x 1º da Ligue 1. Barcelona vence Alavés fora como esperado pela qualidade. São Paulo da Série A controla Juventude da Série B com 1-0 de vantagem. Atlético-MG com elenco superior vence Ceará com 2-1 de vantagem. Bragantino da Série A vence fora após 1-1 na ida. O elo: favoritos técnicos prevalece, jogos grandes empatam."
         }
       ]
     }
