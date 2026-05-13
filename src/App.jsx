@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import initialData from "./data.json";
 
 const tabs = [
@@ -178,12 +178,29 @@ function getAwayTeam(game) {
 function BookmakersTab({ data, theme }) {
   const bookmakers = data.bookmakers || [];
   const [openBookmakers, setOpenBookmakers] = useState({});
+  const bookmakerHeaderRefs = useRef({});
 
   const toggleBookmaker = (key) => {
     setOpenBookmakers((current) => ({
       ...current,
       [key]: !current[key],
     }));
+  };
+
+  const closeBookmakerAndScroll = (key) => {
+    setOpenBookmakers((current) => ({
+      ...current,
+      [key]: false,
+    }));
+
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        bookmakerHeaderRefs.current[key]?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      });
+    });
   };
 
   return (
@@ -206,11 +223,14 @@ function BookmakersTab({ data, theme }) {
             <ShellCard key={bookmakerKey} theme={theme}>
               <div>
                 <button
+                  ref={(node) => {
+                    if (node) bookmakerHeaderRefs.current[bookmakerKey] = node;
+                  }}
                   type="button"
                   aria-expanded={isOpen}
                   onClick={() => toggleBookmaker(bookmakerKey)}
                   className={cx(
-                    "flex w-full flex-col gap-3 p-3 text-left transition active:scale-[0.995] sm:flex-row sm:items-center sm:justify-between sm:p-4",
+                    "scroll-mt-24 flex w-full flex-col gap-3 p-3 text-left transition active:scale-[0.995] sm:flex-row sm:items-center sm:justify-between sm:p-4",
                     theme === "dark" ? "hover:bg-white/[0.04]" : "hover:bg-slate-50"
                   )}
                 >
@@ -303,7 +323,7 @@ function BookmakersTab({ data, theme }) {
 
                     <button
                       type="button"
-                      onClick={() => toggleBookmaker(bookmakerKey)}
+                      onClick={() => closeBookmakerAndScroll(bookmakerKey)}
                       className={cx(
                         "mt-2 flex w-full items-center justify-center rounded-xl border px-4 py-3 text-xs font-black uppercase tracking-[0.18em] transition active:scale-[0.99]",
                         theme === "dark"
