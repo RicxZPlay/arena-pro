@@ -7,6 +7,7 @@ const tabs = [
   { id: "tips", label: "Dicas", icon: "🎯" },
   { id: "best", label: "Melhores Jogos", icon: "📊" },
   { id: "lucky", label: "Sortezinha", icon: "⚡" },
+  { id: "two", label: "$2", icon: "$" },
 ];
 
 function cx(...classes) {
@@ -22,6 +23,7 @@ function normalizeData(raw) {
     tips: raw?.tips || raw?.dicas || [],
     bestGames: raw?.bestGames || raw?.melhoresJogos || [],
     lucky: raw?.lucky || raw?.sortezinha || [],
+    twoReais: raw?.twoReais || raw?.doisReais || raw?.["$2"] || [],
     warnings: raw?.warnings || raw?.avisos || [],
   };
 }
@@ -59,6 +61,7 @@ function mergeDashboardData(currentData, incomingData) {
   const tips = getIncomingValue(incomingData, "tips", "dicas");
   const bestGames = getIncomingValue(incomingData, "bestGames", "melhoresJogos");
   const lucky = getIncomingValue(incomingData, "lucky", "sortezinha");
+  const twoReais = getIncomingValue(incomingData, "twoReais", "doisReais") ?? getIncomingValue(incomingData, "$2");
   const warnings = getIncomingValue(incomingData, "warnings", "avisos");
 
   if (updatedAt !== undefined) nextData.updatedAt = updatedAt;
@@ -73,6 +76,7 @@ function mergeDashboardData(currentData, incomingData) {
   if (tips !== undefined) nextData.tips = tips;
   if (bestGames !== undefined) nextData.bestGames = bestGames;
   if (lucky !== undefined) nextData.lucky = lucky;
+  if (twoReais !== undefined) nextData.twoReais = twoReais;
   if (warnings !== undefined) nextData.warnings = warnings;
 
   return nextData;
@@ -942,6 +946,122 @@ function LuckyTab({ data, theme }) {
   );
 }
 
+function TwoReaisTab({ data, theme }) {
+  const entries = data.twoReais || [];
+
+  return (
+    <div>
+      <SectionHeader
+        theme={theme}
+        eyebrow="Entrada especial"
+        title="$2"
+        description="Planos agressivos com duas apostas de R$ 1,00, buscando retornos altos com mercados diferentes e cobertura parcial de cenário."
+      />
+
+      {entries.length === 0 ? (
+        <EmptyState
+          theme={theme}
+          title="Nenhum plano de $2 carregado"
+          description="Quando o JSON desta aba for atualizado, os planos aparecem aqui com duas entradas de R$ 1,00 e retorno alvo."
+        />
+      ) : null}
+
+      <div className="grid gap-5 lg:grid-cols-2">
+        {entries.map((item, index) => {
+          const bets = item.bets || item.apostas || [];
+          const target = item.targetReturn || item.metaRetorno || {};
+
+          return (
+            <ShellCard
+              key={`${item.title || item.titulo || "two"}-${index}`}
+              theme={theme}
+              className={theme === "dark" ? "bg-amber-400/[0.06]" : "bg-amber-50/80"}
+            >
+              <div className="p-4 sm:p-6">
+                <div className="flex flex-wrap items-start justify-between gap-4">
+                  <div>
+                    <p className={cx("text-xs font-bold uppercase tracking-[0.32em]", theme === "dark" ? "text-amber-300" : "text-amber-700")}>
+                      R$ 2 divididos
+                    </p>
+                    <h3 className="mt-2 text-xl font-black sm:text-2xl">
+                      {item.title || item.titulo || "Plano $2"}
+                    </h3>
+                    <p className={cx("mt-2 text-sm", theme === "dark" ? "text-slate-400" : "text-slate-600")}>
+                      {(item.matches || item.jogos || []).join(" • ") || item.match || item.jogo || "Jogos não informados"}
+                    </p>
+                  </div>
+
+                  <div className="rounded-2xl bg-amber-500 px-4 py-3 text-center text-white shadow-lg shadow-amber-900/20">
+                    <p className="text-xs font-bold uppercase tracking-widest">Entrada</p>
+                    <p className="text-2xl font-black">{item.totalStake || item.valorTotal || "R$ 2,00"}</p>
+                  </div>
+                </div>
+
+                <div className="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-3">
+                  <div className={cx("rounded-2xl p-4", theme === "dark" ? "bg-black/20" : "bg-white/75")}>
+                    <p className="text-xs font-bold uppercase tracking-widest text-slate-500">Retorno min.</p>
+                    <p className="mt-1 text-lg font-black">{target.minimum || item.minimumReturn || "R$ 500,00"}</p>
+                  </div>
+                  <div className={cx("rounded-2xl p-4", theme === "dark" ? "bg-black/20" : "bg-white/75")}>
+                    <p className="text-xs font-bold uppercase tracking-widest text-slate-500">Retorno max.</p>
+                    <p className="mt-1 text-lg font-black">{target.maximum || item.maximumReturn || "R$ 5.000,00"}</p>
+                  </div>
+                  <div className={cx("rounded-2xl p-4", theme === "dark" ? "bg-black/20" : "bg-white/75")}>
+                    <p className="text-xs font-bold uppercase tracking-widest text-slate-500">Risco</p>
+                    <p className="mt-1 text-lg font-black">{item.risk || item.risco || "Muito alto"}</p>
+                  </div>
+                </div>
+
+                <div className="mt-5 grid gap-3">
+                  {bets.map((bet, betIndex) => (
+                    <div
+                      key={`${bet.market || bet.mercado || "bet"}-${betIndex}`}
+                      className={cx("rounded-2xl border p-4", theme === "dark" ? "border-white/10 bg-black/20" : "border-amber-200 bg-white/80")}
+                    >
+                      <div className="flex flex-wrap items-start justify-between gap-3">
+                        <div>
+                          <p className={cx("text-xs font-bold uppercase tracking-[0.24em]", theme === "dark" ? "text-amber-300" : "text-amber-700")}>
+                            Aposta {betIndex + 1} • {bet.stake || bet.valor || "R$ 1,00"}
+                          </p>
+                          <h4 className="mt-2 text-base font-black sm:text-lg">{bet.match || bet.jogo || "Jogo não informado"}</h4>
+                        </div>
+                        <div className="rounded-xl bg-black px-3 py-2 text-right text-white">
+                          <p className="text-[10px] font-bold uppercase tracking-widest text-amber-300">Odd</p>
+                          <p className="font-black">{bet.odd || bet.oddTotal || "—"}</p>
+                        </div>
+                      </div>
+
+                      <div className="mt-3 grid gap-2 text-sm">
+                        <p><strong>Mercado:</strong> {bet.market || bet.mercado || "—"}</p>
+                        <p><strong>Seleção:</strong> {bet.selection || bet.selecao || "—"}</p>
+                        <p><strong>Casa:</strong> {bet.bookmaker || bet.casa || "—"}</p>
+                        <p><strong>Retorno possível:</strong> {bet.possibleReturn || bet.retornoPossivel || "—"}</p>
+                        <p><strong>Função:</strong> {bet.goal || bet.funcao || "Cobrir um cenário diferente da outra aposta."}</p>
+                      </div>
+
+                      {(bet.reason || bet.motivo) ? (
+                        <p className={cx("mt-3 text-sm leading-6", theme === "dark" ? "text-slate-300" : "text-slate-700")}>
+                          {bet.reason || bet.motivo}
+                        </p>
+                      ) : null}
+                    </div>
+                  ))}
+                </div>
+
+                <div className={cx("mt-5 rounded-2xl border p-4 text-sm leading-6", theme === "dark" ? "border-white/10 bg-black/20 text-slate-300" : "border-amber-200 bg-white/80 text-slate-700")}>
+                  <p><strong>Estratégia:</strong> {item.coverageStrategy || item.estrategiaCobertura || "Duas entradas independentes de R$ 1,00, cada uma tentando um cenário de alto retorno."}</p>
+                  {(item.reason || item.motivo) ? <p className="mt-2"><strong>Motivo:</strong> {item.reason || item.motivo}</p> : null}
+                  {(item.statisticalNote || item.justificativaEstatistica) ? <p className="mt-2"><strong>Base estatística:</strong> {item.statisticalNote || item.justificativaEstatistica}</p> : null}
+                </div>
+              </div>
+            </ShellCard>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
 export default function PremiumBetAnalysisApp() {
   const [theme, setTheme] = useState("dark");
   const [activeTab, setActiveTab] = useState("bookmakers");
@@ -968,7 +1088,8 @@ export default function PremiumBetAnalysisApp() {
     if (activeTab === "surebets") return <SurebetsTab data={data} theme={theme} />;
     if (activeTab === "tips") return <TipsTab data={data} theme={theme} />;
     if (activeTab === "best") return <BestGamesTab data={data} theme={theme} />;
-    return <LuckyTab data={data} theme={theme} />;
+    if (activeTab === "lucky") return <LuckyTab data={data} theme={theme} />;
+    return <TwoReaisTab data={data} theme={theme} />;
   };
 
   const shellClass = theme === "dark"
@@ -1068,7 +1189,7 @@ export default function PremiumBetAnalysisApp() {
                     </div>
 
                     <div className={cx("mt-4 rounded-2xl border p-4 text-xs leading-5", theme === "dark" ? "border-white/10 bg-white/[0.035] text-slate-400" : "border-slate-200 bg-slate-50 text-slate-600")}>
-                      <strong>Estrutura aceita:</strong> JSON completo ou parcial com <code>bookmakers/casas</code>, <code>surebets/possiveisSurebets</code>, <code>tips/dicas</code>, <code>bestGames/melhoresJogos</code> e <code>lucky/sortezinha</code>.
+                      <strong>Estrutura aceita:</strong> JSON completo ou parcial com <code>bookmakers/casas</code>, <code>surebets/possiveisSurebets</code>, <code>tips/dicas</code>, <code>bestGames/melhoresJogos</code>, <code>lucky/sortezinha</code> e <code>twoReais/$2</code>.
                     </div>
                   </aside>
 
@@ -1099,7 +1220,7 @@ export default function PremiumBetAnalysisApp() {
 
           <main className="min-w-0">
             <nav className={cx("sticky top-2 z-20 mb-5 overflow-hidden rounded-[1.5rem] border backdrop-blur-2xl sm:top-4 sm:mb-6 sm:rounded-[2rem]", theme === "dark" ? "border-white/10 bg-black/55 shadow-2xl shadow-black/20" : "border-white/80 bg-white/85 shadow-xl shadow-slate-200/70")}>
-              <div className="flex overflow-x-auto no-scrollbar min-w-full gap-2 p-2 md:grid md:min-w-0 md:grid-cols-5">
+              <div className="flex overflow-x-auto no-scrollbar min-w-full gap-2 p-2 md:grid md:min-w-0 md:grid-cols-6">
                 {tabs.map((tab) => {
                   const active = activeTab === tab.id;
                   return <button key={tab.id} onClick={() => setActiveTab(tab.id)} className={cx("flex shrink-0 items-center justify-center gap-2 rounded-3xl px-4 py-3 text-xs font-black transition active:scale-[0.98] sm:text-sm md:px-3", active ? "bg-gradient-to-r from-emerald-500 to-cyan-500 text-white shadow-lg shadow-emerald-900/20" : theme === "dark" ? "text-slate-300 hover:bg-white/10" : "text-slate-600 hover:bg-slate-100")}><span>{tab.icon}</span>{tab.label}</button>;
