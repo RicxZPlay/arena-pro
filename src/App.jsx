@@ -26,6 +26,58 @@ function normalizeData(raw) {
   };
 }
 
+function hasOwn(object, key) {
+  return Object.prototype.hasOwnProperty.call(object || {}, key);
+}
+
+function getIncomingValue(incoming, primaryKey, fallbackKey) {
+  if (hasOwn(incoming, primaryKey)) return incoming[primaryKey];
+  if (fallbackKey && hasOwn(incoming, fallbackKey)) return incoming[fallbackKey];
+  return undefined;
+}
+
+function mergeDashboardData(currentData, incomingData) {
+  if (Array.isArray(incomingData)) {
+    return {
+      ...currentData,
+      bookmakers: incomingData,
+    };
+  }
+
+  if (!incomingData || typeof incomingData !== "object") {
+    return currentData;
+  }
+
+  const nextData = {
+    ...currentData,
+  };
+
+  const updatedAt = getIncomingValue(incomingData, "updatedAt", "atualizadoEm");
+  const summary = getIncomingValue(incomingData, "summary", "resumo");
+  const bookmakers = getIncomingValue(incomingData, "bookmakers", "casas");
+  const surebets = getIncomingValue(incomingData, "surebets", "possiveisSurebets");
+  const tips = getIncomingValue(incomingData, "tips", "dicas");
+  const bestGames = getIncomingValue(incomingData, "bestGames", "melhoresJogos");
+  const lucky = getIncomingValue(incomingData, "lucky", "sortezinha");
+  const warnings = getIncomingValue(incomingData, "warnings", "avisos");
+
+  if (updatedAt !== undefined) nextData.updatedAt = updatedAt;
+  if (summary && typeof summary === "object" && !Array.isArray(summary)) {
+    nextData.summary = {
+      ...(currentData.summary || {}),
+      ...summary,
+    };
+  }
+  if (bookmakers !== undefined) nextData.bookmakers = bookmakers;
+  if (surebets !== undefined) nextData.surebets = surebets;
+  if (tips !== undefined) nextData.tips = tips;
+  if (bestGames !== undefined) nextData.bestGames = bestGames;
+  if (lucky !== undefined) nextData.lucky = lucky;
+  if (warnings !== undefined) nextData.warnings = warnings;
+
+  return nextData;
+}
+
 function DetailLine({ label, value }) {
   if (!value) return null;
 
@@ -884,8 +936,8 @@ export default function PremiumBetAnalysisApp() {
   const applyJson = () => {
     try {
       const parsed = JSON.parse(jsonInput);
-      setRawData(parsed);
-      setParseStatus({ type: "success", message: "JSON aplicado com sucesso. As abas foram atualizadas." });
+      setRawData((currentData) => mergeDashboardData(currentData, parsed));
+      setParseStatus({ type: "success", message: "JSON aplicado com sucesso. Dados parciais foram mesclados com o painel atual." });
     } catch {
       setParseStatus({ type: "error", message: "JSON inválido. Verifique vírgulas, aspas e chaves antes de aplicar." });
     }
@@ -996,7 +1048,7 @@ export default function PremiumBetAnalysisApp() {
                     </div>
 
                     <div className={cx("mt-4 rounded-2xl border p-4 text-xs leading-5", theme === "dark" ? "border-white/10 bg-white/[0.035] text-slate-400" : "border-slate-200 bg-slate-50 text-slate-600")}>
-                      <strong>Estrutura aceita:</strong> <code>bookmakers/casas</code>, <code>surebets/possiveisSurebets</code>, <code>tips/dicas</code>, <code>bestGames/melhoresJogos</code> e <code>lucky/sortezinha</code>.
+                      <strong>Estrutura aceita:</strong> JSON completo ou parcial com <code>bookmakers/casas</code>, <code>surebets/possiveisSurebets</code>, <code>tips/dicas</code>, <code>bestGames/melhoresJogos</code> e <code>lucky/sortezinha</code>.
                     </div>
                   </aside>
 

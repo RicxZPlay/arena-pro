@@ -1,8 +1,8 @@
 @echo off
-title ATUALIZAR ARENA PRO
+title ATUALIZAR ANALISES - ARENA PRO
 echo.
 echo ============================================
-echo      ARENA PRO: ATUALIZADOR AUTOMATICO
+echo      ARENA PRO: ATUALIZAR ANALISES
 echo ============================================
 echo.
 node update.cjs
