@@ -11,21 +11,75 @@ const rl = readline.createInterface({
 
 console.log('\n--- ARENA PRO: ATUALIZAR SOMENTE CASAS E JOGOS ---');
 console.log('Cole o JSON da parte "bookmakers" abaixo e pressione ENTER:\n');
-console.log('Formatos aceitos: JSON completo, {"bookmakers":[...]}, {"casas":[...]} ou diretamente [...].\n');
+console.log('Formatos aceitos: JSON completo, {"bookmakers":[...]}, {"casas":[...]} ou diretamente [...].');
+console.log('Tambem pode colar com bloco ```json, que o script tenta extrair o JSON.\n');
 
 let jsonBuffer = '';
 
 rl.on('line', (line) => {
-  jsonBuffer += line;
+  jsonBuffer += `${line}\n`;
 
   try {
-    const parsed = JSON.parse(jsonBuffer);
+    const parsed = parsePastedJson(jsonBuffer);
+    if (!parsed) return;
+
     rl.close();
     updateBookmakers(parsed);
   } catch (e) {
     // Continua aguardando se o JSON colado ainda estiver incompleto.
   }
 });
+
+function parsePastedJson(input) {
+  try {
+    return JSON.parse(input);
+  } catch (e) {
+    const jsonText = extractFirstJsonValue(input);
+    if (!jsonText) return null;
+    return JSON.parse(jsonText);
+  }
+}
+
+function extractFirstJsonValue(input) {
+  const start = input.search(/[\[{]/);
+  if (start === -1) return null;
+
+  const opener = input[start];
+  const closer = opener === '{' ? '}' : ']';
+  let depth = 0;
+  let inString = false;
+  let escaped = false;
+
+  for (let index = start; index < input.length; index += 1) {
+    const char = input[index];
+
+    if (escaped) {
+      escaped = false;
+      continue;
+    }
+
+    if (char === '\\' && inString) {
+      escaped = true;
+      continue;
+    }
+
+    if (char === '"') {
+      inString = !inString;
+      continue;
+    }
+
+    if (inString) continue;
+
+    if (char === opener) depth += 1;
+    if (char === closer) depth -= 1;
+
+    if (depth === 0) {
+      return input.slice(start, index + 1);
+    }
+  }
+
+  return null;
+}
 
 function getFormattedDate() {
   const now = new Date();
