@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-05-12 14:01",
+  "updatedAt": "2026-05-13 14:45",
   "summary": {
     "totalBookmakers": 15,
-    "totalGames": 199,
+    "totalGames": 74,
     "surebetsFound": 0,
-    "bestOdd": 10.6,
+    "bestOdd": 21,
     "riskProfile": "Moderado"
   },
   "bookmakers": [
@@ -12,466 +12,151 @@
       "name": "Superbet",
       "games": [
         {
-          "championship": "Brasil - Brasileiro - Série B",
-          "match": "Londrina x São Bernardo",
-          "home": "Londrina",
-          "away": "São Bernardo",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 2.32,
-            "draw": 2.82,
-            "away": 3.65
-          },
-          "markets": [],
-          "notes": "217 mercados extras disponíveis"
-        },
-        {
           "championship": "Brasil - Copa do Brasil",
-          "match": "Internacional x Athletic Club MG",
-          "home": "Internacional",
-          "away": "Athletic Club MG",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 1.31,
-            "draw": 5.15,
-            "away": 9.3
-          },
-          "markets": [],
-          "notes": "Ida: 2-1 para Inter. 217 mercados extras."
-        },
-        {
-          "championship": "Brasil - Copa do Brasil",
-          "match": "Cruzeiro x Goiás",
-          "home": "Cruzeiro",
-          "away": "Goiás",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.38,
-            "draw": 4.55,
-            "away": 8.3
-          },
-          "markets": [],
-          "notes": "Ida: 2-2. 238 mercados extras."
-        },
-        {
-          "championship": "Brasil - Copa do Brasil",
-          "match": "Fluminense x Operário PR",
-          "home": "Fluminense",
-          "away": "Operário PR",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.39,
-            "draw": 4.6,
-            "away": 7.8
-          },
-          "markets": [],
-          "notes": "Ida: 0-0. 227 mercados extras."
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Celta Vigo x Levante",
-          "home": "Celta Vigo",
-          "away": "Levante",
-          "date": "2026-05-12",
-          "time": "14:00",
-          "odds": {
-            "home": 1.92,
-            "draw": 3.6,
-            "away": 4
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Betis x Elche",
-          "home": "Betis",
-          "away": "Elche",
-          "date": "2026-05-12",
-          "time": "15:00",
-          "odds": {
-            "home": 1.65,
-            "draw": 4.1,
-            "away": 5
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Osasuna x Atletico Madrid",
-          "home": "Osasuna",
-          "away": "Atletico Madrid",
-          "date": "2026-05-12",
-          "time": "16:30",
-          "odds": {
-            "home": 2.57,
-            "draw": 3.5,
-            "away": 2.65
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "França - Ligue 1 - Promoção/Rebaixamento",
-          "match": "Red Star x Rodez",
-          "home": "Red Star",
-          "away": "Rodez",
-          "date": "2026-05-12",
-          "time": "15:30",
-          "odds": {
-            "home": 2.35,
-            "draw": 3.3,
-            "away": 3.15
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Argentina - Primera Division",
-          "match": "Belgrano x Union de Santa Fe",
-          "home": "Belgrano",
-          "away": "Union de Santa Fe",
-          "date": "2026-05-12",
+          "match": "Vasco da Gama x Paysandu",
+          "home": "Vasco da Gama",
+          "away": "Paysandu",
+          "date": "2026-05-13",
           "time": "19:00",
           "odds": {
-            "home": 2.45,
-            "draw": 2.92,
-            "away": 3.35
+            "home": 1.38,
+            "draw": 4.6,
+            "away": 8.1
           },
           "markets": [],
-          "notes": null
+          "notes": "Resultado do jogo de ida: 2-0."
         },
         {
-          "championship": "Argentina - Primera Division",
-          "match": "Argentinos Juniors x Huracán",
-          "home": "Argentinos Juniors",
-          "away": "Huracán",
-          "date": "2026-05-12",
-          "time": "21:30",
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Juventude x São Paulo",
+          "home": "Juventude",
+          "away": "São Paulo",
+          "date": "2026-05-13",
+          "time": "19:00",
           "odds": {
-            "home": 1.9,
-            "draw": 3.1,
-            "away": 5
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Arábia Saudita - Pro League",
-          "match": "Al Kholood x Al Akhdoud",
-          "home": "Al Kholood",
-          "away": "Al Akhdoud",
-          "date": "2026-05-12",
-          "time": "13:20",
-          "odds": {
-            "home": 1.57,
-            "draw": 4.3,
-            "away": 5.45
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Arábia Saudita - Pro League",
-          "match": "Al Nassr x Al Hilal",
-          "home": "Al Nassr",
-          "away": "Al Hilal",
-          "date": "2026-05-12",
-          "time": "15:00",
-          "odds": {
-            "home": 2.42,
-            "draw": 3.55,
-            "away": 2.8
-          },
-          "markets": [],
-          "notes": "Grande clássico saudita"
-        },
-        {
-          "championship": "Inglaterra - Championship",
-          "match": "Southampton x Middlesbrough",
-          "home": "Southampton",
-          "away": "Middlesbrough",
-          "date": "2026-05-12",
-          "time": "16:00",
-          "odds": {
-            "home": 2.5,
-            "draw": 3.3,
-            "away": 2.9
-          },
-          "markets": [],
-          "notes": "Playoff - Ida: 0-0"
-        },
-        {
-          "championship": "Itália - Série B",
-          "match": "Modena x Juve Stabia",
-          "home": "Modena",
-          "away": "Juve Stabia",
-          "date": "2026-05-12",
-          "time": "13:45",
-          "odds": {
-            "home": 2.22,
-            "draw": 2.85,
-            "away": 3.7
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Itália - Série B",
-          "match": "Catanzaro x Avellino",
-          "home": "Catanzaro",
-          "away": "Avellino",
-          "date": "2026-05-12",
-          "time": "16:00",
-          "odds": {
-            "home": 1.97,
+            "home": 3.7,
             "draw": 3.15,
-            "away": 4.1
+            "away": 2.12
           },
           "markets": [],
-          "notes": null
+          "notes": "Resultado do jogo de ida: 0-1."
         },
         {
-          "championship": "Colômbia - Primera A",
-          "match": "Atlético Nacional x Internacional de Bogota",
-          "home": "Atlético Nacional",
-          "away": "Internacional de Bogota",
-          "date": "2026-05-12",
-          "time": "20:20",
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Coritiba x Santos",
+          "home": "Coritiba",
+          "away": "Santos",
+          "date": "2026-05-13",
+          "time": "19:30",
           "odds": {
-            "home": 1.45,
-            "draw": 4.3,
-            "away": 6.7
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Colômbia - Primera A",
-          "match": "Independiente Santa Fe x América de Cali",
-          "home": "Independiente Santa Fe",
-          "away": "América de Cali",
-          "date": "2026-05-12",
-          "time": "22:30",
-          "odds": {
-            "home": 2.15,
-            "draw": 3.15,
-            "away": 3.5
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Suíça - Super League",
-          "match": "Luzern x Zurich",
-          "home": "Luzern",
-          "away": "Zurich",
-          "date": "2026-05-12",
-          "time": "15:30",
-          "odds": {
-            "home": 1.45,
-            "draw": 4.85,
-            "away": 5.6
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Suíça - Super League",
-          "match": "Servette x Lausanne Sport",
-          "home": "Servette",
-          "away": "Lausanne Sport",
-          "date": "2026-05-12",
-          "time": "15:30",
-          "odds": {
-            "home": 1.92,
-            "draw": 3.75,
-            "away": 3.5
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Suíça - Super League",
-          "match": "Grasshopper x Winterthur",
-          "home": "Grasshopper",
-          "away": "Winterthur",
-          "date": "2026-05-12",
-          "time": "15:30",
-          "odds": {
-            "home": 2.15,
-            "draw": 3.55,
+            "home": 2.6,
+            "draw": 2.82,
             "away": 3.1
           },
           "markets": [],
-          "notes": null
+          "notes": "Resultado do jogo de ida: 0-0."
         },
         {
-          "championship": "Escócia - Premiership",
-          "match": "Dundee United x Livingston",
-          "home": "Dundee United",
-          "away": "Livingston",
-          "date": "2026-05-12",
-          "time": "15:45",
-          "odds": {
-            "home": 1.72,
-            "draw": 4.1,
-            "away": 4.25
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Escócia - Premiership",
-          "match": "Aberdeen x St. Mirren",
-          "home": "Aberdeen",
-          "away": "St. Mirren",
-          "date": "2026-05-12",
-          "time": "15:45",
-          "odds": {
-            "home": 2.25,
-            "draw": 3.35,
-            "away": 3.15
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Escócia - Premiership",
-          "match": "Dunfermline Athletic x Partick Thistle",
-          "home": "Dunfermline Athletic",
-          "away": "Partick Thistle",
-          "date": "2026-05-12",
-          "time": "15:45",
-          "odds": {
-            "home": 2.77,
-            "draw": 3.1,
-            "away": 2.65
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "África do Sul - Premiership",
-          "match": "TS Galaxy x Mamelodi Sundowns",
-          "home": "TS Galaxy",
-          "away": "Mamelodi Sundowns",
-          "date": "2026-05-12",
-          "time": "14:30",
-          "odds": {
-            "home": 8.2,
-            "draw": 4.45,
-            "away": 1.35
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Grécia - Super League",
-          "match": "Panetolikos x AE Larissa",
-          "home": "Panetolikos",
-          "away": "AE Larissa",
-          "date": "2026-05-12",
-          "time": "13:00",
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Mirassol x RB Bragantino",
+          "home": "Mirassol",
+          "away": "RB Bragantino",
+          "date": "2026-05-13",
+          "time": "20:30",
           "odds": {
             "home": 2.42,
-            "draw": 2.87,
-            "away": 3.3
+            "draw": 2.95,
+            "away": 3.25
           },
           "markets": [],
-          "notes": null
+          "notes": "Resultado do jogo de ida: 1-1."
         },
         {
-          "championship": "Grécia - Super League",
-          "match": "Asteras Tripolis x Panserraikos",
-          "home": "Asteras Tripolis",
-          "away": "Panserraikos",
-          "date": "2026-05-12",
-          "time": "13:00",
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Remo x Bahia",
+          "home": "Remo",
+          "away": "Bahia",
+          "date": "2026-05-13",
+          "time": "21:30",
           "odds": {
-            "home": 1.83,
-            "draw": 3.15,
-            "away": 4.9
+            "home": 3.5,
+            "draw": 3.45,
+            "away": 2.07
           },
           "markets": [],
-          "notes": null
+          "notes": "Resultado do jogo de ida: 3-1."
         },
         {
-          "championship": "Grécia - Super League",
-          "match": "Kifisia x Atromitos",
-          "home": "Kifisia",
-          "away": "Atromitos",
-          "date": "2026-05-12",
-          "time": "13:00",
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Ceará x Atlético MG",
+          "home": "Ceará",
+          "away": "Atlético MG",
+          "date": "2026-05-13",
+          "time": "21:30",
           "odds": {
-            "home": 2.85,
-            "draw": 3.1,
-            "away": 2.52
+            "home": 3.4,
+            "draw": 2.9,
+            "away": 2.37
           },
           "markets": [],
-          "notes": null
+          "notes": "Resultado do jogo de ida: 1-2."
         },
         {
-          "championship": "Colômbia - Copa",
-          "match": "Real Santander x Boca Juniors de Cali",
-          "home": "Real Santander",
-          "away": "Boca Juniors de Cali",
-          "date": "2026-05-12",
-          "time": "17:00",
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Jacuipense x Palmeiras",
+          "home": "Jacuipense",
+          "away": "Palmeiras",
+          "date": "2026-05-13",
+          "time": "21:30",
           "odds": {
-            "home": 2.6,
-            "draw": 3.25,
-            "away": 2.52
+            "home": 12,
+            "draw": 6.3,
+            "away": 1.22
           },
           "markets": [],
-          "notes": null
+          "notes": "Resultado do jogo de ida: 0-3."
         },
         {
-          "championship": "Colômbia - Copa",
-          "match": "Leones x Orsomarso",
-          "home": "Leones",
-          "away": "Orsomarso",
-          "date": "2026-05-12",
+          "championship": "Inglaterra - Premier League",
+          "match": "Manchester City x Crystal Palace",
+          "home": "Manchester City",
+          "away": "Crystal Palace",
+          "date": "2026-05-13",
           "time": "16:00",
           "odds": {
+            "home": 1.3,
+            "draw": 6,
+            "away": 8.6
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Espanha - LaLiga",
+          "match": "Alavés x Barcelona",
+          "home": "Alavés",
+          "away": "Barcelona",
+          "date": "2026-05-13",
+          "time": "16:30",
+          "odds": {
             "home": 3.2,
-            "draw": 2.75,
-            "away": 2.42
+            "draw": 3.7,
+            "away": 2.15
           },
           "markets": [],
           "notes": null
         },
         {
-          "championship": "Alemanha - Oberliga Hamburg",
-          "match": "Niendorfer TSV x Vorwarts-Wacker 04",
-          "home": "Niendorfer TSV",
-          "away": "Vorwarts-Wacker 04",
-          "date": "2026-05-12",
-          "time": "14:00",
+          "championship": "Espanha - LaLiga",
+          "match": "Getafe x Mallorca",
+          "home": "Getafe",
+          "away": "Mallorca",
+          "date": "2026-05-13",
+          "time": "16:30",
           "odds": {
-            "home": 1.8,
-            "draw": 3.35,
-            "away": 3.85
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Alemanha - Oberliga Rheinland-Pfalz/Saar",
-          "match": "TuS Koblenz x Kaiserslautern II",
-          "home": "TuS Koblenz",
-          "away": "Kaiserslautern II",
-          "date": "2026-05-12",
-          "time": "14:00",
-          "odds": {
-            "home": 3.05,
-            "draw": 3.25,
-            "away": 2.1
+            "home": 2.32,
+            "draw": 2.95,
+            "away": 3.5
           },
           "markets": [],
           "notes": null
@@ -480,586 +165,187 @@
     },
     {
       "name": "Estrela Bet",
-      "games": [
-        {
-          "championship": "Copa do Brasil",
-          "match": "Internacional x Athletic Club MG",
-          "home": "Internacional",
-          "away": "Athletic Club MG",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 1.32,
-            "draw": 5.45,
-            "away": 10.6
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.76
-            },
-            {
-              "market": "Menos de 2.5",
-              "selection": "Menos de 2.5",
-              "odd": 2.05
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "Cruzeiro x Goiás",
-          "home": "Cruzeiro",
-          "away": "Goiás",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.42,
-            "draw": 4.4,
-            "away": 9.2
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.96
-            },
-            {
-              "market": "Menos de 2.5",
-              "selection": "Menos de 2.5",
-              "odd": 1.81
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "Fluminense x Operário PR",
-          "home": "Fluminense",
-          "away": "Operário PR",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.4,
-            "draw": 4.6,
-            "away": 9.2
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.78
-            },
-            {
-              "market": "Menos de 2.5",
-              "selection": "Menos de 2.5",
-              "odd": 2
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Brasileirão Série B",
-          "match": "Londrina x São Bernardo",
-          "home": "Londrina",
-          "away": "São Bernardo",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 2.34,
-            "draw": 2.88,
-            "away": 3.7
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 2.36
-            },
-            {
-              "market": "Menos de 2.5",
-              "selection": "Menos de 2.5",
-              "odd": 1.6
-            }
-          ],
-          "notes": "Promoção: 0-0 Dinheiro de volta"
-        },
-        {
-          "championship": "Catarinense Série B",
-          "match": "Nação x Tubarão",
-          "home": "Nação",
-          "away": "Tubarão",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 3.2,
-            "draw": 2.9,
-            "away": 2.2
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 2.05
-            },
-            {
-              "market": "Menos de 2.5",
-              "selection": "Menos de 2.5",
-              "odd": 1.58
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Inglaterra - Championship",
-          "match": "Southampton x Middlesbrough",
-          "home": "Southampton",
-          "away": "Middlesbrough",
-          "date": "2026-05-12",
-          "time": "16:00",
-          "odds": {
-            "home": 2.45,
-            "draw": 3.4,
-            "away": 2.8
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.73
-            },
-            {
-              "market": "Menos de 2.5",
-              "selection": "Menos de 2.5",
-              "odd": 2.08
-            }
-          ],
-          "notes": "Ida: 0-0"
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Celta de Vigo x Levante",
-          "home": "Celta de Vigo",
-          "away": "Levante",
-          "date": "2026-05-12",
-          "time": "14:00",
-          "odds": {
-            "home": 1.92,
-            "draw": 3.68,
-            "away": 4.05
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.8
-            },
-            {
-              "market": "Menos de 2.5",
-              "selection": "Menos de 2.5",
-              "odd": 2
-            }
-          ],
-          "notes": "Promoção: 0-0 Dinheiro de volta"
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Betis x Elche",
-          "home": "Betis",
-          "away": "Elche",
-          "date": "2026-05-12",
-          "time": "15:00",
-          "odds": {
-            "home": 1.66,
-            "draw": 4.2,
-            "away": 5.15
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.66
-            },
-            {
-              "market": "Menos de 2.5",
-              "selection": "Menos de 2.5",
-              "odd": 2.2
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Osasuna x Atlético Madrid",
-          "home": "Osasuna",
-          "away": "Atlético Madrid",
-          "date": "2026-05-12",
-          "time": "16:30",
-          "odds": {
-            "home": 2.58,
-            "draw": 3.63,
-            "away": 2.69
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.73
-            },
-            {
-              "market": "Menos de 2.5",
-              "selection": "Menos de 2.5",
-              "odd": 2.08
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Itália - Série B",
-          "match": "Modena x Juve Stabia",
-          "home": "Modena",
-          "away": "Juve Stabia",
-          "date": "2026-05-12",
-          "time": "13:45",
-          "odds": {
-            "home": 2.25,
-            "draw": 2.85,
-            "away": 3.75
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 2.36
-            },
-            {
-              "market": "Menos de 2.5",
-              "selection": "Menos de 2.5",
-              "odd": 1.58
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Itália - Série B",
-          "match": "Catanzaro x Avellino",
-          "home": "Catanzaro",
-          "away": "Avellino",
-          "date": "2026-05-12",
-          "time": "16:00",
-          "odds": {
-            "home": 1.96,
-            "draw": 3.2,
-            "away": 4.2
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 2.2
-            },
-            {
-              "market": "Menos de 2.5",
-              "selection": "Menos de 2.5",
-              "odd": 1.66
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Alemanha - Oberliga Hamburg",
-          "match": "Niendorfer TSV x SC V/W Billstedt 04",
-          "home": "Niendorfer TSV",
-          "away": "SC V/W Billstedt 04",
-          "date": "2026-05-12",
-          "time": "14:00",
-          "odds": {
-            "home": 1.72,
-            "draw": 3.33,
-            "away": 4
-          },
-          "markets": [
-            {
-              "market": "Mais de 3.5",
-              "selection": "Mais de 3.5",
-              "odd": 1.75
-            },
-            {
-              "market": "Menos de 3.5",
-              "selection": "Menos de 3.5",
-              "odd": 1.78
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Alemanha - Oberliga Rheinland-Pfalz/Saar",
-          "match": "TuS Koblenz x Kaiserslautern II",
-          "home": "TuS Koblenz",
-          "away": "Kaiserslautern II",
-          "date": "2026-05-12",
-          "time": "14:00",
-          "odds": {
-            "home": 3.1,
-            "draw": 3.25,
-            "away": 2
-          },
-          "markets": [
-            {
-              "market": "Mais de 3.5",
-              "selection": "Mais de 3.5",
-              "odd": 2.05
-            },
-            {
-              "market": "Menos de 3.5",
-              "selection": "Menos de 3.5",
-              "odd": 1.55
-            }
-          ],
-          "notes": null
-        }
-      ]
+      "games": []
     },
     {
       "name": "Pixbet",
       "games": [
         {
-          "championship": "Espanha - LaLiga",
-          "match": "Celta Vigo x Levante",
-          "home": "Celta Vigo",
-          "away": "Levante",
-          "date": "2026-05-12",
-          "time": "14:00",
-          "odds": {
-            "home": 1.86,
-            "draw": 3.52,
-            "away": 3.79
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Real Betis x Elche",
-          "home": "Real Betis",
-          "away": "Elche",
-          "date": "2026-05-12",
-          "time": "15:00",
-          "odds": {
-            "home": 1.62,
-            "draw": 3.9,
-            "away": 4.66
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Osasuna x Atlético de Madrid",
-          "home": "Osasuna",
-          "away": "Atlético de Madrid",
-          "date": "2026-05-12",
-          "time": "16:30",
-          "odds": {
-            "home": 2.47,
-            "draw": 3.41,
-            "away": 2.57
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Brasileirão Série B",
-          "match": "Londrina x São Bernardo",
-          "home": "Londrina",
-          "away": "São Bernardo",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 2.22,
-            "draw": 2.73,
-            "away": 3.39
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Inglaterra - Championship",
-          "match": "Southampton x Middlesbrough",
-          "home": "Southampton",
-          "away": "Middlesbrough",
-          "date": "2026-05-12",
+          "championship": "Inglaterra - Premier League",
+          "match": "Manchester City x Crystal Palace",
+          "home": "Manchester City",
+          "away": "Crystal Palace",
+          "date": "2026-05-13",
           "time": "16:00",
           "odds": {
-            "home": 2.34,
-            "draw": 3.22,
-            "away": 2.68
+            "home": 1.25,
+            "draw": 5.8,
+            "away": 8.8
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Espanha - La Liga",
+          "match": "Alaves x Barcelona",
+          "home": "Alaves",
+          "away": "Barcelona",
+          "date": "2026-05-13",
+          "time": "16:30",
+          "odds": {
+            "home": 3,
+            "draw": 3.57,
+            "away": 2.11
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Espanha - La Liga",
+          "match": "Getafe x Mallorca",
+          "home": "Getafe",
+          "away": "Mallorca",
+          "date": "2026-05-13",
+          "time": "16:30",
+          "odds": {
+            "home": 2.25,
+            "draw": 2.87,
+            "away": 3.41
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Espanha - La Liga",
+          "match": "Valencia x Rayo Vallecano",
+          "home": "Valencia",
+          "away": "Rayo Vallecano",
+          "date": "2026-05-14",
+          "time": "14:00",
+          "odds": {
+            "home": 2.23,
+            "draw": 3.05,
+            "away": 3.23
           },
           "markets": [],
           "notes": null
         },
         {
           "championship": "França - Ligue 1",
-          "match": "Red Star FC 93 x Rodez",
-          "home": "Red Star FC 93",
-          "away": "Rodez",
-          "date": "2026-05-12",
-          "time": "15:30",
-          "odds": {
-            "home": 2.3,
-            "draw": 3.07,
-            "away": 2.86
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Argentina - Liga Profissional",
-          "match": "Belgrano x Unión de Santa Fé",
-          "home": "Belgrano",
-          "away": "Unión de Santa Fé",
-          "date": "2026-05-12",
-          "time": "19:00",
-          "odds": {
-            "home": 2.32,
-            "draw": 2.89,
-            "away": 3.11
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Argentina - Liga Profissional",
-          "match": "Argentinos Juniors x Huracán",
-          "home": "Argentinos Juniors",
-          "away": "Huracán",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.83,
-            "draw": 2.96,
-            "away": 4.65
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Colômbia - Primera A",
-          "match": "Atletico Nacional x Internacional de Bogota",
-          "home": "Atletico Nacional",
-          "away": "Internacional de Bogota",
-          "date": "2026-05-12",
-          "time": "20:20",
-          "odds": {
-            "home": 1.42,
-            "draw": 4.16,
-            "away": 6.2
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Colômbia - Primera A",
-          "match": "Independiente Santa Fe x América de Cali",
-          "home": "Independiente Santa Fe",
-          "away": "América de Cali",
-          "date": "2026-05-12",
-          "time": "22:30",
-          "odds": {
-            "home": 2.1,
-            "draw": 3.14,
-            "away": 3.3
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Itália - Série B",
-          "match": "Modena x Juve Stabia",
-          "home": "Modena",
-          "away": "Juve Stabia",
-          "date": "2026-05-12",
-          "time": "13:45",
-          "odds": {
-            "home": 2.18,
-            "draw": 2.84,
-            "away": 3.48
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Itália - Série B",
-          "match": "Catanzaro x Avellino",
-          "home": "Catanzaro",
-          "away": "Avellino",
-          "date": "2026-05-12",
+          "match": "Lens x Paris St-Germain",
+          "home": "Lens",
+          "away": "Paris St-Germain",
+          "date": "2026-05-13",
           "time": "16:00",
           "odds": {
-            "home": 1.9,
-            "draw": 3.13,
-            "away": 3.94
+            "home": 2.83,
+            "draw": 3.65,
+            "away": 2.07
           },
           "markets": [],
           "notes": null
         },
         {
           "championship": "Copa do Brasil",
-          "match": "Internacional x Athletic Club MG",
-          "home": "Internacional",
-          "away": "Athletic Club MG",
-          "date": "2026-05-12",
-          "time": "19:30",
+          "match": "EC Juventude x São Paulo SP",
+          "home": "EC Juventude",
+          "away": "São Paulo SP",
+          "date": "2026-05-13",
+          "time": "19:00",
           "odds": {
-            "home": 1.32,
-            "draw": 4.8,
-            "away": 8.5
+            "home": 3.52,
+            "draw": 3.06,
+            "away": 2.1
           },
           "markets": [],
           "notes": null
         },
         {
           "championship": "Copa do Brasil",
-          "match": "Cruzeiro x Goiás",
-          "home": "Cruzeiro",
-          "away": "Goiás",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.36,
-            "draw": 4.33,
-            "away": 7.9
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "Fluminense x Operário PR",
-          "home": "Fluminense",
-          "away": "Operário PR",
-          "date": "2026-05-12",
-          "time": "21:30",
+          "match": "Vasco da Gama x Paysandu",
+          "home": "Vasco da Gama",
+          "away": "Paysandu",
+          "date": "2026-05-13",
+          "time": "19:00",
           "odds": {
             "home": 1.35,
-            "draw": 4.51,
-            "away": 7.7
+            "draw": 4.47,
+            "away": 8
           },
           "markets": [],
           "notes": null
         },
         {
-          "championship": "Catarinense Série B",
-          "match": "Nação FC x CA Tubarão",
-          "home": "Nação FC",
-          "away": "CA Tubarão",
-          "date": "2026-05-12",
+          "championship": "Copa do Brasil",
+          "match": "Coritiba x Santos",
+          "home": "Coritiba",
+          "away": "Santos",
+          "date": "2026-05-13",
           "time": "19:30",
           "odds": {
-            "home": 3.37,
-            "draw": 2.98,
-            "away": 2.09
+            "home": 2.65,
+            "draw": 2.81,
+            "away": 2.83
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Copa do Brasil",
+          "match": "Mirassol x Bragantino",
+          "home": "Mirassol",
+          "away": "Bragantino",
+          "date": "2026-05-13",
+          "time": "20:30",
+          "odds": {
+            "home": 2.35,
+            "draw": 2.93,
+            "away": 3.13
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Copa do Brasil",
+          "match": "Ceará CE x Atlético MG",
+          "home": "Ceará CE",
+          "away": "Atlético MG",
+          "date": "2026-05-13",
+          "time": "21:30",
+          "odds": {
+            "home": 3.27,
+            "draw": 2.92,
+            "away": 2.28
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Copa do Brasil",
+          "match": "Clube Do Remo x EC Bahia",
+          "home": "Clube Do Remo",
+          "away": "EC Bahia",
+          "date": "2026-05-13",
+          "time": "21:30",
+          "odds": {
+            "home": 3.34,
+            "draw": 3.43,
+            "away": 2.02
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Copa do Brasil",
+          "match": "Jacuipense x Palmeiras",
+          "home": "Jacuipense",
+          "away": "Palmeiras",
+          "date": "2026-05-13",
+          "time": "21:30",
+          "odds": {
+            "home": 12,
+            "draw": 5.8,
+            "away": 1.21
           },
           "markets": [],
           "notes": null
@@ -1068,1383 +354,560 @@
     },
     {
       "name": "BR4bet",
-      "games": [
-        {
-          "championship": "Grécia - Super League",
-          "match": "Kifisia x Atromitos",
-          "home": "Kifisia",
-          "away": "Atromitos",
-          "date": "2026-05-12",
-          "time": "13:00",
-          "odds": {
-            "home": 2.66,
-            "draw": 3,
-            "away": 2.54
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.92
-            },
-            {
-              "market": "Menos de 2.5",
-              "selection": "Menos de 2.5",
-              "odd": 1.75
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Grécia - Super League",
-          "match": "Panetolikos x AE Larissa",
-          "home": "Panetolikos",
-          "away": "AE Larissa",
-          "date": "2026-05-12",
-          "time": "13:00",
-          "odds": {
-            "home": 2.37,
-            "draw": 2.8,
-            "away": 3.1
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 2.25
-            },
-            {
-              "market": "Menos de 2.5",
-              "selection": "Menos de 2.5",
-              "odd": 1.54
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Grécia - Super League",
-          "match": "Asteras Tripolis x Panserraikos",
-          "home": "Asteras Tripolis",
-          "away": "Panserraikos",
-          "date": "2026-05-12",
-          "time": "13:00",
-          "odds": {
-            "home": 1.8,
-            "draw": 3.1,
-            "away": 4.5
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 2.4
-            },
-            {
-              "market": "Menos de 2.5",
-              "selection": "Menos de 2.5",
-              "odd": 1.48
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Arábia Saudita - Pro League",
-          "match": "Al Kholood x Al Akhdoud",
-          "home": "Al Kholood",
-          "away": "Al Akhdoud",
-          "date": "2026-05-12",
-          "time": "13:20",
-          "odds": {
-            "home": 1.5,
-            "draw": 4,
-            "away": 5.5
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.63
-            },
-            {
-              "market": "Menos de 2.5",
-              "selection": "Menos de 2.5",
-              "odd": 2.08
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Itália - Série B",
-          "match": "Modena x Juve Stabia",
-          "home": "Modena",
-          "away": "Juve Stabia",
-          "date": "2026-05-12",
-          "time": "13:45",
-          "odds": {
-            "home": 2.14,
-            "draw": 2.8,
-            "away": 3.6
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 2.28
-            },
-            {
-              "market": "Menos de 2.5",
-              "selection": "Menos de 2.5",
-              "odd": 1.52
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Letônia - Virsliga",
-          "match": "Riga FC x FK Auda",
-          "home": "Riga FC",
-          "away": "FK Auda",
-          "date": "2026-05-12",
-          "time": "13:00",
-          "odds": {
-            "home": 1.62,
-            "draw": 4,
-            "away": 4.2
-          },
-          "markets": [
-            {
-              "market": "Mais de 3.5",
-              "selection": "Mais de 3.5",
-              "odd": 2.2
-            },
-            {
-              "market": "Menos de 3.5",
-              "selection": "Menos de 3.5",
-              "odd": 1.6
-            }
-          ],
-          "notes": null
-        }
-      ]
+      "games": []
     },
     {
       "name": "Novibet",
       "games": [
         {
-          "championship": "Brasil - Brasileirão Série B",
-          "match": "Londrina x São Bernardo",
-          "home": "Londrina",
-          "away": "São Bernardo",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": null,
-            "draw": null,
-            "away": null
-          },
-          "markets": [],
-          "notes": "Odds com cadeado (indisponíveis). +541 mercados."
-        },
-        {
           "championship": "Brasil - Copa do Brasil",
-          "match": "Internacional x Athletic Club MG",
-          "home": "Internacional",
-          "away": "Athletic Club MG",
-          "date": "2026-05-12",
-          "time": "19:30",
+          "match": "Juventude RS x São Paulo SP",
+          "home": "Juventude RS",
+          "away": "São Paulo SP",
+          "date": "2026-05-13",
+          "time": "19:00",
           "odds": {
-            "home": 1.35,
-            "draw": 4.75,
-            "away": 9.1
+            "home": 3.7,
+            "draw": 3.15,
+            "away": 2.15
           },
           "markets": [
             {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.78
+              "market": "Total de Gols",
+              "selection": "+ 2,5",
+              "odd": 2.4
             },
             {
-              "market": "Menos de 2.5",
-              "selection": "Menos de 2.5",
-              "odd": 2
+              "market": "Total de Gols",
+              "selection": "- 2,5",
+              "odd": 1.54
             },
             {
-              "market": "Ambas Marcam - Sim",
+              "market": "Ambas equipes Marcam",
               "selection": "GG",
-              "odd": 2.15
+              "odd": 2.06
             },
             {
-              "market": "Ambas Marcam - Não",
+              "market": "Ambas equipes Marcam",
               "selection": "NG",
-              "odd": 1.65
+              "odd": 1.7
             }
           ],
-          "notes": "+669 mercados"
+          "notes": null
         },
         {
           "championship": "Brasil - Copa do Brasil",
-          "match": "Cruzeiro x Goiás",
-          "home": "Cruzeiro",
-          "away": "Goiás",
-          "date": "2026-05-12",
-          "time": "21:30",
+          "match": "Vasco da Gama RJ x Paysandu PA",
+          "home": "Vasco da Gama RJ",
+          "away": "Paysandu PA",
+          "date": "2026-05-13",
+          "time": "19:00",
           "odds": {
-            "home": 1.42,
-            "draw": 4.3,
-            "away": 8.1
+            "home": 1.41,
+            "draw": 4.4,
+            "away": 7.5
           },
           "markets": [
             {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.96
-            },
-            {
-              "market": "Menos de 2.5",
-              "selection": "Menos de 2.5",
-              "odd": 1.81
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "GG",
-              "odd": 2.25
-            },
-            {
-              "market": "Ambas Marcam - Não",
-              "selection": "NG",
-              "odd": 1.6
-            }
-          ],
-          "notes": "+619 mercados"
-        },
-        {
-          "championship": "Brasil - Copa do Brasil",
-          "match": "Fluminense x Operário PR",
-          "home": "Fluminense",
-          "away": "Operário PR",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.4,
-            "draw": 4.45,
-            "away": 8.2
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.85
-            },
-            {
-              "market": "Menos de 2.5",
-              "selection": "Menos de 2.5",
+              "market": "Total de Gols",
+              "selection": "+ 2,5",
               "odd": 1.91
             },
             {
-              "market": "Ambas Marcam - Sim",
-              "selection": "GG",
-              "odd": 2.15
+              "market": "Total de Gols",
+              "selection": "- 2,5",
+              "odd": 1.86
             },
             {
-              "market": "Ambas Marcam - Não",
-              "selection": "NG",
-              "odd": 1.65
-            }
-          ],
-          "notes": "+688 mercados"
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Celta Vigo x Levante",
-          "home": "Celta Vigo",
-          "away": "Levante",
-          "date": "2026-05-12",
-          "time": "14:00",
-          "odds": {
-            "home": 1.93,
-            "draw": 3.65,
-            "away": 3.9
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.78
-            },
-            {
-              "market": "Ambas Marcam - Sim",
+              "market": "Ambas equipes Marcam",
               "selection": "GG",
-              "odd": 1.68
-            }
-          ],
-          "notes": "+754 mercados"
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Betis x Elche",
-          "home": "Betis",
-          "away": "Elche",
-          "date": "2026-05-12",
-          "time": "15:00",
-          "odds": {
-            "home": 1.66,
-            "draw": 4.05,
-            "away": 4.9
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.66
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "GG",
-              "odd": 1.68
-            }
-          ],
-          "notes": "+764 mercados"
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Osasuna x Atlético Madrid",
-          "home": "Osasuna",
-          "away": "Atlético Madrid",
-          "date": "2026-05-12",
-          "time": "16:30",
-          "odds": {
-            "home": 2.5,
-            "draw": 3.6,
-            "away": 2.7
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.75
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "GG",
-              "odd": 1.61
-            }
-          ],
-          "notes": "+725 mercados"
-        },
-        {
-          "championship": "França - Ligue 1",
-          "match": "Red Star x Rodez",
-          "home": "Red Star",
-          "away": "Rodez",
-          "date": "2026-05-12",
-          "time": "15:30",
-          "odds": {
-            "home": 2.45,
-            "draw": 3.2,
-            "away": 2.95
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.98
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "GG",
-              "odd": 1.73
-            }
-          ],
-          "notes": "+323 mercados"
-        },
-        {
-          "championship": "Argentina - Liga Profesional",
-          "match": "Belgrano x Union de Santa Fe",
-          "home": "Belgrano",
-          "away": "Union de Santa Fe",
-          "date": "2026-05-12",
-          "time": "19:00",
-          "odds": {
-            "home": 2.35,
-            "draw": 2.95,
-            "away": 3.35
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 2.5
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "GG",
-              "odd": 2.06
-            }
-          ],
-          "notes": "+325 mercados"
-        },
-        {
-          "championship": "Argentina - Liga Profesional",
-          "match": "Argentinos Juniors x Huracán",
-          "home": "Argentinos Juniors",
-          "away": "Huracán",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.88,
-            "draw": 3.05,
-            "away": 4.9
-          },
-          "markets": [
-            {
-              "market": "Mais de 1.5",
-              "selection": "Mais de 1.5",
-              "odd": 1.56
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "GG",
-              "odd": 2.35
-            }
-          ],
-          "notes": "+325 mercados"
-        },
-        {
-          "championship": "Colômbia - Primera A",
-          "match": "Atlético Nacional x Internacional de Bogotá",
-          "home": "Atlético Nacional",
-          "away": "Internacional de Bogotá",
-          "date": "2026-05-12",
-          "time": "20:20",
-          "odds": {
-            "home": 1.47,
-            "draw": 4.2,
-            "away": 6.6
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.77
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "GG",
-              "odd": 1.92
-            }
-          ],
-          "notes": "+277 mercados"
-        },
-        {
-          "championship": "Colômbia - Primera A",
-          "match": "Independiente Santa Fe x América de Cali",
-          "home": "Independiente Santa Fe",
-          "away": "América de Cali",
-          "date": "2026-05-12",
-          "time": "22:30",
-          "odds": {
-            "home": 2.15,
-            "draw": 3.15,
-            "away": 3.4
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 2.15
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "GG",
-              "odd": 1.87
-            }
-          ],
-          "notes": "+275 mercados"
-        },
-        {
-          "championship": "Inglaterra - Championship",
-          "match": "Southampton x Middlesbrough",
-          "home": "Southampton",
-          "away": "Middlesbrough",
-          "date": "2026-05-12",
-          "time": "16:00",
-          "odds": {
-            "home": 2.5,
-            "draw": 3.5,
-            "away": 3
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.75
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "GG",
-              "odd": 1.58
-            }
-          ],
-          "notes": "Super Odds. +776 mercados."
-        },
-        {
-          "championship": "Itália - Série B",
-          "match": "Modena x Juve Stabia",
-          "home": "Modena",
-          "away": "Juve Stabia",
-          "date": "2026-05-12",
-          "time": "13:45",
-          "odds": {
-            "home": 2.25,
-            "draw": 2.95,
-            "away": 3.6
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 2.35
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "GG",
-              "odd": 1.94
-            }
-          ],
-          "notes": "+320 mercados"
-        },
-        {
-          "championship": "Itália - Série B",
-          "match": "Catanzaro x Avellino",
-          "home": "Catanzaro",
-          "away": "Avellino",
-          "date": "2026-05-12",
-          "time": "16:00",
-          "odds": {
-            "home": 1.94,
-            "draw": 3.3,
-            "away": 4.15
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
               "odd": 2.2
             },
             {
-              "market": "Ambas Marcam - Sim",
-              "selection": "GG",
-              "odd": 1.96
+              "market": "Ambas equipes Marcam",
+              "selection": "NG",
+              "odd": 1.63
             }
           ],
-          "notes": "+321 mercados"
+          "notes": null
         },
         {
-          "championship": "Escócia - Premiership",
-          "match": "Aberdeen x St. Mirren",
-          "home": "Aberdeen",
-          "away": "St. Mirren",
-          "date": "2026-05-12",
-          "time": "15:45",
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Coritiba PR x Santos SP",
+          "home": "Coritiba PR",
+          "away": "Santos SP",
+          "date": "2026-05-13",
+          "time": "19:30",
           "odds": {
-            "home": 2.25,
-            "draw": 3.35,
+            "home": 2.8,
+            "draw": 3,
             "away": 3
           },
           "markets": [
             {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
+              "market": "Total de Gols",
+              "selection": "+ 2,5",
+              "odd": 2.3
+            },
+            {
+              "market": "Total de Gols",
+              "selection": "- 2,5",
+              "odd": 1.61
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "GG",
               "odd": 1.89
             },
             {
-              "market": "Ambas Marcam - Sim",
-              "selection": "GG",
-              "odd": 1.71
+              "market": "Ambas equipes Marcam",
+              "selection": "NG",
+              "odd": 1.87
             }
           ],
-          "notes": "+345 mercados"
+          "notes": null
         },
         {
-          "championship": "Escócia - Premiership",
-          "match": "Dundee United x Livingston",
-          "home": "Dundee United",
-          "away": "Livingston",
-          "date": "2026-05-12",
-          "time": "15:45",
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Mirassol SP x Bragantino SP",
+          "home": "Mirassol SP",
+          "away": "Bragantino SP",
+          "date": "2026-05-13",
+          "time": "20:30",
           "odds": {
-            "home": 1.71,
-            "draw": 4.05,
-            "away": 4.2
-          },
-          "markets": [
-            {
-              "market": "Mais de 3.5",
-              "selection": "Mais de 3.5",
-              "odd": 2.38
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "GG",
-              "odd": 1.56
-            }
-          ],
-          "notes": "+350 mercados"
-        },
-        {
-          "championship": "República Checa - 1. Liga",
-          "match": "Sparta Prague x Viktoria Plzen",
-          "home": "Sparta Prague",
-          "away": "Viktoria Plzen",
-          "date": "2026-05-12",
-          "time": "15:00",
-          "odds": {
-            "home": 2.15,
-            "draw": 3.5,
+            "home": 2.4,
+            "draw": 3,
             "away": 3.15
           },
           "markets": [
             {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.76
+              "market": "Total de Gols",
+              "selection": "+ 2,5",
+              "odd": 2.3
             },
             {
-              "market": "Ambas Marcam - Sim",
-              "selection": "GG",
+              "market": "Total de Gols",
+              "selection": "- 2,5",
               "odd": 1.63
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "GG",
+              "odd": 1.91
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "NG",
+              "odd": 1.86
             }
           ],
-          "notes": "+284 mercados"
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Ceará CE x Atlético MG",
+          "home": "Ceará CE",
+          "away": "Atlético MG",
+          "date": "2026-05-13",
+          "time": "21:30",
+          "odds": {
+            "home": 3.25,
+            "draw": 3.05,
+            "away": 2.35
+          },
+          "markets": [
+            {
+              "market": "Total de Gols",
+              "selection": "+ 2,5",
+              "odd": 2.3
+            },
+            {
+              "market": "Total de Gols",
+              "selection": "- 2,5",
+              "odd": 1.6
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "GG",
+              "odd": 1.92
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "NG",
+              "odd": 1.81
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Jacuipense BA x Palmeiras SP",
+          "home": "Jacuipense BA",
+          "away": "Palmeiras SP",
+          "date": "2026-05-13",
+          "time": "21:30",
+          "odds": {
+            "home": 10,
+            "draw": 5.35,
+            "away": 1.24
+          },
+          "markets": [
+            {
+              "market": "Total de Gols",
+              "selection": "+ 2,5",
+              "odd": 1.68
+            },
+            {
+              "market": "Total de Gols",
+              "selection": "- 2,5",
+              "odd": 2.15
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "GG",
+              "odd": 2.25
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "NG",
+              "odd": 1.58
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Remo PA x Bahia BA",
+          "home": "Remo PA",
+          "away": "Bahia BA",
+          "date": "2026-05-13",
+          "time": "21:30",
+          "odds": {
+            "home": 3.45,
+            "draw": 3.55,
+            "away": 2.09
+          },
+          "markets": [
+            {
+              "market": "Total de Gols",
+              "selection": "+ 2,5",
+              "odd": 1.81
+            },
+            {
+              "market": "Total de Gols",
+              "selection": "- 2,5",
+              "odd": 2
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "GG",
+              "odd": 1.67
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "NG",
+              "odd": 2.15
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Inglaterra - Premier League",
+          "match": "Manchester City x Crystal Palace",
+          "home": "Manchester City",
+          "away": "Crystal Palace",
+          "date": "2026-05-13",
+          "time": "16:00",
+          "odds": {
+            "home": 1.28,
+            "draw": 5.8,
+            "away": 9
+          },
+          "markets": [
+            {
+              "market": "Total de Gols",
+              "selection": "+ 3,5",
+              "odd": 2.1
+            },
+            {
+              "market": "Total de Gols",
+              "selection": "- 3,5",
+              "odd": 1.73
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "GG",
+              "odd": 1.81
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "NG",
+              "odd": 1.96
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Espanha - LaLiga",
+          "match": "Alaves x Barcelona",
+          "home": "Alaves",
+          "away": "Barcelona",
+          "date": "2026-05-13",
+          "time": "16:30",
+          "odds": {
+            "home": 3.15,
+            "draw": 3.7,
+            "away": 2.1
+          },
+          "markets": [
+            {
+              "market": "Total de Gols",
+              "selection": "+ 2,5",
+              "odd": 1.63
+            },
+            {
+              "market": "Total de Gols",
+              "selection": "- 2,5",
+              "odd": 2.3
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "GG",
+              "odd": 1.55
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "NG",
+              "odd": 2.4
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Espanha - LaLiga",
+          "match": "Getafe x Mallorca",
+          "home": "Getafe",
+          "away": "Mallorca",
+          "date": "2026-05-13",
+          "time": "16:30",
+          "odds": {
+            "home": 2.3,
+            "draw": 3,
+            "away": 3.55
+          },
+          "markets": [
+            {
+              "market": "Total de Gols",
+              "selection": "+ 1,5",
+              "odd": 1.55
+            },
+            {
+              "market": "Total de Gols",
+              "selection": "- 1,5",
+              "odd": 2.45
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "GG",
+              "odd": 2.15
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "NG",
+              "odd": 1.66
+            }
+          ],
+          "notes": null
         }
       ]
     },
     {
       "name": "BetMGM",
-      "games": [
-        {
-          "championship": "Copa do Brasil",
-          "match": "Internacional x Athletic Club MG",
-          "home": "Internacional",
-          "away": "Athletic Club MG",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 1.3,
-            "draw": 4.9,
-            "away": 9
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.72
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
-              "odd": 2.15
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Brasileirão Série B",
-          "match": "Londrina x São Bernardo",
-          "home": "Londrina",
-          "away": "São Bernardo",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 2.35,
-            "draw": 2.95,
-            "away": 3.55
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 2.35
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
-              "odd": 1.91
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "Cruzeiro x Goiás",
-          "home": "Cruzeiro",
-          "away": "Goiás",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.36,
-            "draw": 4.5,
-            "away": 8
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.93
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
-              "odd": 2.3
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "Fluminense x Operário PR",
-          "home": "Fluminense",
-          "away": "Operário PR",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.36,
-            "draw": 4.65,
-            "away": 7.8
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.8
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
-              "odd": 2.12
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "LaLiga",
-          "match": "Osasuna x Atlético Madrid",
-          "home": "Osasuna",
-          "away": "Atlético Madrid",
-          "date": "2026-05-12",
-          "time": "16:30",
-          "odds": {
-            "home": 2.55,
-            "draw": 3.6,
-            "away": 2.65
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.7
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
-              "odd": 1.57
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Championship",
-          "match": "Southampton x Middlesbrough",
-          "home": "Southampton",
-          "away": "Middlesbrough",
-          "date": "2026-05-12",
-          "time": "16:00",
-          "odds": {
-            "home": 2.45,
-            "draw": 3.45,
-            "away": 2.85
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.72
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
-              "odd": 1.57
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Itália - Série B",
-          "match": "Modena x Juve Stabia",
-          "home": "Modena",
-          "away": "Juve Stabia",
-          "date": "2026-05-12",
-          "time": "13:45",
-          "odds": {
-            "home": 2.2,
-            "draw": 2.9,
-            "away": 3.5
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 2.3
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
-              "odd": 1.98
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Arábia Saudita - Pro League",
-          "match": "Al Kholood x Al Akhdoud",
-          "home": "Al Kholood",
-          "away": "Al Akhdoud",
-          "date": "2026-05-12",
-          "time": "13:20",
-          "odds": {
-            "home": 1.5,
-            "draw": 4.3,
-            "away": 5.7
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.62
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
-              "odd": 1.75
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Suíça - Super Liga",
-          "match": "Luzern x Zurich",
-          "home": "Luzern",
-          "away": "Zurich",
-          "date": "2026-05-12",
-          "time": "15:30",
-          "odds": {
-            "home": 1.44,
-            "draw": 4.8,
-            "away": 5.6
-          },
-          "markets": [
-            {
-              "market": "Mais de 3.5",
-              "selection": "Mais de 3.5",
-              "odd": 1.88
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
-              "odd": 1.5
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Suíça - Super Liga",
-          "match": "Servette x Lausanne-Sport",
-          "home": "Servette",
-          "away": "Lausanne-Sport",
-          "date": "2026-05-12",
-          "time": "15:30",
-          "odds": {
-            "home": 1.9,
-            "draw": 3.75,
-            "away": 3.55
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.53
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
-              "odd": 1.5
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Suíça - Super Liga",
-          "match": "Grasshoppers x Winterthur",
-          "home": "Grasshoppers",
-          "away": "Winterthur",
-          "date": "2026-05-12",
-          "time": "15:30",
-          "odds": {
-            "home": 2.15,
-            "draw": 3.55,
-            "away": 3
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.55
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
-              "odd": 1.47
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "França - Ligue 1",
-          "match": "Red Star x Rodez",
-          "home": "Red Star",
-          "away": "Rodez",
-          "date": "2026-05-12",
-          "time": "15:30",
-          "odds": {
-            "home": 2.4,
-            "draw": 3.3,
-            "away": 3
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.98
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
-              "odd": 1.72
-            }
-          ],
-          "notes": null
-        }
-      ]
+      "games": []
     },
     {
       "name": "BetBoom",
-      "games": [
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Celta de Vigo x Levante",
-          "home": "Celta de Vigo",
-          "away": "Levante",
-          "date": "2026-05-12",
-          "time": "14:00",
-          "odds": {
-            "home": 1.89,
-            "draw": 3.6,
-            "away": 4
-          },
-          "markets": [],
-          "notes": "+296 mercados"
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Real Betis x Elche",
-          "home": "Real Betis",
-          "away": "Elche",
-          "date": "2026-05-12",
-          "time": "15:00",
-          "odds": {
-            "home": 1.66,
-            "draw": 4,
-            "away": 4.8
-          },
-          "markets": [],
-          "notes": "+304 mercados"
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Osasuna x Atletico Madrid",
-          "home": "Osasuna",
-          "away": "Atletico Madrid",
-          "date": "2026-05-12",
-          "time": "16:30",
-          "odds": {
-            "home": 2.5,
-            "draw": 3.6,
-            "away": 2.6
-          },
-          "markets": [],
-          "notes": "+315 mercados"
-        },
-        {
-          "championship": "Brasil - Série B",
-          "match": "Londrina x São Bernardo",
-          "home": "Londrina",
-          "away": "São Bernardo",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 2.3,
-            "draw": 2.8,
-            "away": 3.6
-          },
-          "markets": [],
-          "notes": "+712 mercados"
-        },
-        {
-          "championship": "Argentina - Primera División",
-          "match": "Belgrano x Unión",
-          "home": "Belgrano",
-          "away": "Unión",
-          "date": "2026-05-12",
-          "time": "19:00",
-          "odds": {
-            "home": 2.29,
-            "draw": 2.9,
-            "away": 3.35
-          },
-          "markets": [],
-          "notes": "+204 mercados"
-        },
-        {
-          "championship": "Argentina - Primera División",
-          "match": "Argentinos Juniors x Huracán",
-          "home": "Argentinos Juniors",
-          "away": "Huracán",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.83,
-            "draw": 3.05,
-            "away": 5
-          },
-          "markets": [],
-          "notes": "+205 mercados"
-        },
-        {
-          "championship": "Colômbia - Primera A",
-          "match": "Atletico Nacional x Internacional de Bogota",
-          "home": "Atletico Nacional",
-          "away": "Internacional de Bogota",
-          "date": "2026-05-12",
-          "time": "20:20",
-          "odds": {
-            "home": 1.44,
-            "draw": 4.5,
-            "away": 6.6
-          },
-          "markets": [],
-          "notes": "+1221 mercados"
-        },
-        {
-          "championship": "Colômbia - Primera A",
-          "match": "Independiente Santa Fe x América de Cali",
-          "home": "Independiente Santa Fe",
-          "away": "América de Cali",
-          "date": "2026-05-12",
-          "time": "22:30",
-          "odds": {
-            "home": 2.14,
-            "draw": 3.25,
-            "away": 3.4
-          },
-          "markets": [],
-          "notes": "+1245 mercados"
-        },
-        {
-          "championship": "Colômbia - Copa",
-          "match": "Real Santander x Boca Juniors de Cali",
-          "home": "Real Santander",
-          "away": "Boca Juniors de Cali",
-          "date": "2026-05-12",
-          "time": "17:00",
-          "odds": {
-            "home": 2.67,
-            "draw": 3.21,
-            "away": 2.52
-          },
-          "markets": [],
-          "notes": "+230 mercados"
-        }
-      ]
+      "games": []
     },
     {
       "name": "Betano",
       "games": [
         {
-          "championship": "Brasil - Copa do Brasil",
-          "match": "Internacional x Athletic Club MG",
-          "home": "Internacional",
-          "away": "Athletic Club MG",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 1.37,
-            "draw": 5.2,
-            "away": 10
-          },
-          "markets": [],
-          "notes": "Ida: 2-1. Super Odds disponível."
-        },
-        {
-          "championship": "Brasil - Copa do Brasil",
-          "match": "Cruzeiro x Goiás",
-          "home": "Cruzeiro",
-          "away": "Goiás",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.44,
-            "draw": 4.5,
-            "away": 9.25
-          },
-          "markets": [],
-          "notes": "Ida: 2-2"
-        },
-        {
-          "championship": "Brasil - Copa do Brasil",
-          "match": "Fluminense x Operário PR",
-          "home": "Fluminense",
-          "away": "Operário PR",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.42,
-            "draw": 4.7,
-            "away": 9.25
-          },
-          "markets": [],
-          "notes": "Ida: 0-0. CA Turbinada disponível."
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Celta de Vigo x Levante",
-          "home": "Celta de Vigo",
-          "away": "Levante",
-          "date": "2026-05-12",
-          "time": "14:00",
-          "odds": {
-            "home": 1.93,
-            "draw": 3.8,
-            "away": 4.1
-          },
-          "markets": [],
-          "notes": "Super Odds disponível."
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Betis x Elche",
-          "home": "Betis",
-          "away": "Elche",
-          "date": "2026-05-12",
-          "time": "15:00",
-          "odds": {
-            "home": 1.67,
-            "draw": 4.2,
-            "away": 5.3
-          },
-          "markets": [],
-          "notes": "Super Odds disponível."
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Osasuna x Atlético de Madrid",
-          "home": "Osasuna",
-          "away": "Atlético de Madrid",
-          "date": "2026-05-12",
-          "time": "16:30",
-          "odds": {
-            "home": 2.55,
-            "draw": 3.6,
-            "away": 2.65
-          },
-          "markets": [],
-          "notes": "CA Turbinada disponível."
-        },
-        {
-          "championship": "Arábia Saudita - Pro League",
-          "match": "Al Nassr x Al Hilal",
-          "home": "Al Nassr",
-          "away": "Al Hilal",
-          "date": "2026-05-12",
-          "time": "15:00",
-          "odds": {
-            "home": 2.37,
-            "draw": 3.65,
-            "away": 2.85
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Arábia Saudita - Pro League",
-          "match": "Al Kholood x Al Akhdoud",
-          "home": "Al Kholood",
-          "away": "Al Akhdoud",
-          "date": "2026-05-12",
-          "time": "13:20",
-          "odds": {
-            "home": 1.53,
-            "draw": 4.3,
-            "away": 6.1
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Brasil - Série B",
-          "match": "Londrina x São Bernardo",
-          "home": "Londrina",
-          "away": "São Bernardo",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 2.32,
-            "draw": 2.85,
-            "away": 3.6
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Inglaterra - Championship",
-          "match": "Southampton x Middlesbrough",
-          "home": "Southampton",
-          "away": "Middlesbrough",
-          "date": "2026-05-12",
-          "time": "16:00",
-          "odds": {
-            "home": 2.47,
-            "draw": 3.4,
-            "away": 2.82
-          },
-          "markets": [],
-          "notes": "Ida: 0-0"
-        },
-        {
-          "championship": "Argentina - Liga Profesional",
-          "match": "Belgrano x Union de Santa Fe",
-          "home": "Belgrano",
-          "away": "Union de Santa Fe",
-          "date": "2026-05-12",
+          "championship": "Brasil - Copa Betano do Brasil",
+          "match": "Vasco da Gama x Paysandu",
+          "home": "Vasco da Gama",
+          "away": "Paysandu",
+          "date": "2026-05-13",
           "time": "19:00",
           "odds": {
-            "home": 2.42,
-            "draw": 3,
-            "away": 3.35
+            "home": 1.42,
+            "draw": 4.8,
+            "away": 9
           },
           "markets": [],
-          "notes": null
+          "notes": "Primeiro jogo: 2-0."
         },
         {
-          "championship": "Argentina - Liga Profesional",
-          "match": "Argentinos Juniors x Huracán",
-          "home": "Argentinos Juniors",
-          "away": "Huracán",
-          "date": "2026-05-12",
-          "time": "21:30",
+          "championship": "Brasil - Copa Betano do Brasil",
+          "match": "Juventude-RS x São Paulo",
+          "home": "Juventude-RS",
+          "away": "São Paulo",
+          "date": "2026-05-13",
+          "time": "19:00",
           "odds": {
-            "home": 1.95,
-            "draw": 3.2,
-            "away": 5.1
+            "home": 3.8,
+            "draw": 3.15,
+            "away": 2.12
           },
           "markets": [],
-          "notes": "Super Odds disponível."
+          "notes": "Primeiro jogo: 0-1."
         },
         {
-          "championship": "Colômbia - Primera A",
-          "match": "Atlético Nacional x Internacional de Bogota",
-          "home": "Atlético Nacional",
-          "away": "Internacional de Bogota",
-          "date": "2026-05-12",
-          "time": "20:20",
-          "odds": {
-            "home": 1.5,
-            "draw": 4.6,
-            "away": 7.3
-          },
-          "markets": [],
-          "notes": "Ida: 2-1. Super Odds disponível."
-        },
-        {
-          "championship": "Colômbia - Primera A",
-          "match": "Independiente Santa Fe x América de Cali",
-          "home": "Independiente Santa Fe",
-          "away": "América de Cali",
-          "date": "2026-05-12",
-          "time": "22:30",
-          "odds": {
-            "home": 2.18,
-            "draw": 3.2,
-            "away": 3.4
-          },
-          "markets": [],
-          "notes": "Ida: 1-1"
-        },
-        {
-          "championship": "África do Sul - Premiership",
-          "match": "TS Galaxy x Mamelodi Sundowns",
-          "home": "TS Galaxy",
-          "away": "Mamelodi Sundowns",
-          "date": "2026-05-12",
-          "time": "14:30",
-          "odds": {
-            "home": 9.5,
-            "draw": 4.45,
-            "away": 1.33
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Itália - Série B",
-          "match": "Catanzaro x Avellino",
-          "home": "Catanzaro",
-          "away": "Avellino",
-          "date": "2026-05-12",
+          "championship": "Inglaterra - Premier League",
+          "match": "Manchester City x Crystal Palace",
+          "home": "Manchester City",
+          "away": "Crystal Palace",
+          "date": "2026-05-13",
           "time": "16:00",
           "odds": {
-            "home": 1.95,
-            "draw": 3.3,
-            "away": 4.25
+            "home": 1.28,
+            "draw": 6.6,
+            "away": 11
           },
           "markets": [],
           "notes": null
         },
         {
-          "championship": "Suíça - Super Liga",
-          "match": "Luzern x Zurich",
-          "home": "Luzern",
-          "away": "Zurich",
-          "date": "2026-05-12",
-          "time": "15:30",
+          "championship": "Brasil - Copa Betano do Brasil",
+          "match": "Remo x Bahia",
+          "home": "Remo",
+          "away": "Bahia",
+          "date": "2026-05-13",
+          "time": "21:30",
           "odds": {
-            "home": 1.45,
-            "draw": 4.8,
-            "away": 5.8
+            "home": 3.5,
+            "draw": 3.55,
+            "away": 2.07
+          },
+          "markets": [],
+          "notes": "Primeiro jogo: 3-1."
+        },
+        {
+          "championship": "Brasil - Copa Betano do Brasil",
+          "match": "Coritiba x Santos",
+          "home": "Coritiba",
+          "away": "Santos",
+          "date": "2026-05-13",
+          "time": "19:30",
+          "odds": {
+            "home": 2.75,
+            "draw": 2.92,
+            "away": 2.9
+          },
+          "markets": [],
+          "notes": "Primeiro jogo: 0-0."
+        },
+        {
+          "championship": "Brasil - Copa Betano do Brasil",
+          "match": "Jacuipense x Palmeiras",
+          "home": "Jacuipense",
+          "away": "Palmeiras",
+          "date": "2026-05-13",
+          "time": "21:30",
+          "odds": {
+            "home": 12.5,
+            "draw": 6.3,
+            "away": 1.27
+          },
+          "markets": [],
+          "notes": "Primeiro jogo: 0-3."
+        },
+        {
+          "championship": "Brasil - Copa Betano do Brasil",
+          "match": "Mirassol x Bragantino",
+          "home": "Mirassol",
+          "away": "Bragantino",
+          "date": "2026-05-13",
+          "time": "20:30",
+          "odds": {
+            "home": 2.45,
+            "draw": 2.95,
+            "away": 3.3
+          },
+          "markets": [],
+          "notes": "Primeiro jogo: 1-1."
+        },
+        {
+          "championship": "Brasil - Copa Betano do Brasil",
+          "match": "Ceará x Atlético-MG",
+          "home": "Ceará",
+          "away": "Atlético-MG",
+          "date": "2026-05-13",
+          "time": "21:30",
+          "odds": {
+            "home": 3.45,
+            "draw": 2.92,
+            "away": 2.37
+          },
+          "markets": [],
+          "notes": "Primeiro jogo: 1-2."
+        },
+        {
+          "championship": "Espanha - LaLiga",
+          "match": "Deportivo Alavés x Barcelona",
+          "home": "Deportivo Alavés",
+          "away": "Barcelona",
+          "date": "2026-05-13",
+          "time": "16:30",
+          "odds": {
+            "home": 3.15,
+            "draw": 3.75,
+            "away": 2.15
           },
           "markets": [],
           "notes": null
         },
         {
-          "championship": "Suíça - Super Liga",
-          "match": "Servette x Lausanne-Sport",
-          "home": "Servette",
-          "away": "Lausanne-Sport",
-          "date": "2026-05-12",
-          "time": "15:30",
+          "championship": "Espanha - LaLiga",
+          "match": "Villarreal CF x Sevilha FC",
+          "home": "Villarreal CF",
+          "away": "Sevilha FC",
+          "date": "2026-05-13",
+          "time": null,
           "odds": {
-            "home": 1.9,
-            "draw": 3.7,
-            "away": 3.65
+            "home": 1.12,
+            "draw": 8.75,
+            "away": 18
+          },
+          "markets": [],
+          "notes": "Jogo ao vivo no print, placar visível: 2-0."
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Lens x Paris Saint Germain",
+          "home": "Lens",
+          "away": "Paris Saint Germain",
+          "date": "2026-05-13",
+          "time": "16:00",
+          "odds": {
+            "home": 2.95,
+            "draw": 3.95,
+            "away": 2.15
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Itália - Copa de Itália",
+          "match": "Lazio x Inter de Milão",
+          "home": "Lazio",
+          "away": "Inter de Milão",
+          "date": "2026-05-13",
+          "time": "16:00",
+          "odds": {
+            "home": 5.9,
+            "draw": 3.75,
+            "away": 1.7
           },
           "markets": [],
           "notes": null
@@ -2455,214 +918,169 @@
       "name": "bet365",
       "games": [
         {
-          "championship": "Copa do Brasil",
-          "match": "Internacional x Athletic Club MG",
-          "home": "Internacional",
-          "away": "Athletic Club MG",
-          "date": "2026-05-12",
-          "time": "19:30",
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Juventude x São Paulo",
+          "home": "Juventude",
+          "away": "São Paulo",
+          "date": "2026-05-13",
+          "time": "19:00",
           "odds": {
-            "home": 1.33,
-            "draw": 4.75,
-            "away": 9.5
+            "home": 3.75,
+            "draw": 3.1,
+            "away": 2.1
           },
           "markets": [],
-          "notes": "Ida: 2-1. Pagamento Antecipado."
+          "notes": "Resultado do jogo de ida: 0-1."
         },
         {
-          "championship": "Copa do Brasil",
-          "match": "Cruzeiro x Goiás",
-          "home": "Cruzeiro",
-          "away": "Goiás",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.4,
-            "draw": 4.5,
-            "away": 7.5
-          },
-          "markets": [],
-          "notes": "Ida: 2-2. Pagamento Antecipado."
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "Fluminense x Operário PR",
-          "home": "Fluminense",
-          "away": "Operário PR",
-          "date": "2026-05-12",
-          "time": "21:30",
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Vasco da Gama x Paysandu",
+          "home": "Vasco da Gama",
+          "away": "Paysandu",
+          "date": "2026-05-13",
+          "time": "19:00",
           "odds": {
             "home": 1.38,
             "draw": 4.75,
-            "away": 8.5
+            "away": 7.5
           },
           "markets": [],
-          "notes": "Ida: 0-0. Pagamento Antecipado."
+          "notes": "Resultado do jogo de ida: 2-0."
         },
         {
-          "championship": "Brasileirão Série B",
-          "match": "Londrina x São Bernardo",
-          "home": "Londrina",
-          "away": "São Bernardo",
-          "date": "2026-05-12",
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Coritiba x Santos",
+          "home": "Coritiba",
+          "away": "Santos",
+          "date": "2026-05-13",
           "time": "19:30",
           "odds": {
-            "home": 2.25,
+            "home": 2.7,
             "draw": 2.8,
-            "away": 3.7
+            "away": 2.9
           },
           "markets": [],
-          "notes": "Pagamento Antecipado."
+          "notes": "Resultado do jogo de ida: 0-0."
         },
         {
-          "championship": "Espanha - LaLiga",
-          "match": "Celta de Vigo x Levante",
-          "home": "Celta de Vigo",
-          "away": "Levante",
-          "date": "2026-05-12",
-          "time": "14:00",
-          "odds": {
-            "home": 1.9,
-            "draw": 3.7,
-            "away": 3.8
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Real Betis x Elche",
-          "home": "Real Betis",
-          "away": "Elche",
-          "date": "2026-05-12",
-          "time": "15:00",
-          "odds": {
-            "home": 1.65,
-            "draw": 4.1,
-            "away": 4.75
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Osasuna x Atlético de Madrid",
-          "home": "Osasuna",
-          "away": "Atlético de Madrid",
-          "date": "2026-05-12",
-          "time": "16:30",
-          "odds": {
-            "home": 2.55,
-            "draw": 3.5,
-            "away": 2.62
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "França - Ligue 1",
-          "match": "Red Star FC 93 x Rodez",
-          "home": "Red Star FC 93",
-          "away": "Rodez",
-          "date": "2026-05-12",
-          "time": "15:30",
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Mirassol x Bragantino",
+          "home": "Mirassol",
+          "away": "Bragantino",
+          "date": "2026-05-13",
+          "time": "20:30",
           "odds": {
             "home": 2.4,
-            "draw": 3.2,
-            "away": 3
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Argentina - Liga Profesional",
-          "match": "Belgrano x Unión Santa Fe",
-          "home": "Belgrano",
-          "away": "Unión Santa Fe",
-          "date": "2026-05-12",
-          "time": "19:00",
-          "odds": {
-            "home": 2.3,
-            "draw": 3,
-            "away": 3.4
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Argentina - Liga Profesional",
-          "match": "Argentinos Jrs x Huracán",
-          "home": "Argentinos Jrs",
-          "away": "Huracán",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.9,
             "draw": 3.1,
-            "away": 4.75
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Escócia - Premiership",
-          "match": "Aberdeen x St Mirren",
-          "home": "Aberdeen",
-          "away": "St Mirren",
-          "date": "2026-05-12",
-          "time": "15:45",
-          "odds": {
-            "home": 2.15,
-            "draw": 3.5,
             "away": 3.1
           },
           "markets": [],
-          "notes": null
+          "notes": "Resultado do jogo de ida: 1-1."
         },
         {
-          "championship": "Escócia - Premiership",
-          "match": "Dundee Utd x Livingston",
-          "home": "Dundee Utd",
-          "away": "Livingston",
-          "date": "2026-05-12",
-          "time": "15:45",
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Ceará x Atlético Mineiro",
+          "home": "Ceará",
+          "away": "Atlético Mineiro",
+          "date": "2026-05-13",
+          "time": "21:30",
           "odds": {
-            "home": 1.66,
-            "draw": 4.1,
-            "away": 4.33
+            "home": 3.4,
+            "draw": 3,
+            "away": 2.25
+          },
+          "markets": [],
+          "notes": "Resultado do jogo de ida: 1-2."
+        },
+        {
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Jacuipense x Palmeiras",
+          "home": "Jacuipense",
+          "away": "Palmeiras",
+          "date": "2026-05-13",
+          "time": "21:30",
+          "odds": {
+            "home": 11,
+            "draw": 6.25,
+            "away": 1.22
+          },
+          "markets": [],
+          "notes": "Resultado do jogo de ida: 0-3."
+        },
+        {
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Remo x Bahia",
+          "home": "Remo",
+          "away": "Bahia",
+          "date": "2026-05-13",
+          "time": "21:30",
+          "odds": {
+            "home": 3.4,
+            "draw": 3.5,
+            "away": 2.05
+          },
+          "markets": [],
+          "notes": "Resultado do jogo de ida: 3-1."
+        },
+        {
+          "championship": "Espanha - La Liga",
+          "match": "Villarreal x Sevilha",
+          "home": "Villarreal",
+          "away": "Sevilha",
+          "date": "2026-05-13",
+          "time": null,
+          "odds": {
+            "home": 1.11,
+            "draw": 8.5,
+            "away": 21
+          },
+          "markets": [],
+          "notes": "Jogo ao vivo no print, placar visível: 2-0."
+        },
+        {
+          "championship": "Espanha - La Liga",
+          "match": "Espanhol x Athletic Bilbao",
+          "home": "Espanhol",
+          "away": "Athletic Bilbao",
+          "date": "2026-05-13",
+          "time": null,
+          "odds": {
+            "home": 2.87,
+            "draw": 2.5,
+            "away": 3.2
+          },
+          "markets": [],
+          "notes": "Jogo ao vivo no print, placar visível: 0-0."
+        },
+        {
+          "championship": "Espanha - La Liga",
+          "match": "Alavés x Barcelona",
+          "home": "Alavés",
+          "away": "Barcelona",
+          "date": "2026-05-13",
+          "time": "16:30",
+          "odds": {
+            "home": 3.2,
+            "draw": 3.7,
+            "away": 2.1
           },
           "markets": [],
           "notes": null
         },
         {
-          "championship": "Escócia - Premiership",
-          "match": "Kilmarnock x Dundee",
-          "home": "Kilmarnock",
-          "away": "Dundee",
-          "date": "2026-05-12",
-          "time": "15:45",
+          "championship": "Espanha - La Liga",
+          "match": "Getafe x Maiorca",
+          "home": "Getafe",
+          "away": "Maiorca",
+          "date": "2026-05-13",
+          "time": "16:30",
           "odds": {
-            "home": 1.76,
-            "draw": 3.8,
-            "away": 4.1
+            "home": 2.3,
+            "draw": 3,
+            "away": 3.5
           },
           "markets": [],
           "notes": null
-        },
-        {
-          "championship": "Inglaterra - Championship",
-          "match": "Southampton x Middlesbrough",
-          "home": "Southampton",
-          "away": "Middlesbrough",
-          "date": "2026-05-12",
-          "time": "16:00",
-          "odds": {
-            "home": 2.35,
-            "draw": 3.4,
-            "away": 2.75
-          },
-          "markets": [],
-          "notes": "Ida: 0-0. Pagamento Antecipado."
         }
       ]
     },
@@ -2671,225 +1089,371 @@
       "games": [
         {
           "championship": "Copa do Brasil",
-          "match": "Internacional x Athletic Club MG",
-          "home": "Internacional",
-          "away": "Athletic Club MG",
-          "date": "2026-05-12",
-          "time": "19:30",
+          "match": "Juventude x São Paulo",
+          "home": "Juventude",
+          "away": "São Paulo",
+          "date": "2026-05-13",
+          "time": "19:00",
           "odds": {
-            "home": 1.29,
-            "draw": 5.03,
-            "away": 9.67
+            "home": 3.57,
+            "draw": 3.12,
+            "away": 2.1
           },
           "markets": [
             {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.76
+              "market": "Total",
+              "selection": "O (2)",
+              "odd": 1.82
             },
             {
-              "market": "Chance Dupla 1X",
+              "market": "Total",
+              "selection": "U (2)",
+              "odd": 1.92
+            },
+            {
+              "market": "Chance Dupla",
               "selection": "1X",
-              "odd": 1.03
+              "odd": 1.66
             },
             {
-              "market": "Chance Dupla X2",
+              "market": "Chance Dupla",
+              "selection": "12",
+              "odd": 1.31
+            },
+            {
+              "market": "Chance Dupla",
               "selection": "X2",
-              "odd": 3.25
+              "odd": 1.25
             }
           ],
           "notes": null
         },
         {
           "championship": "Copa do Brasil",
-          "match": "Cruzeiro x Goiás",
-          "home": "Cruzeiro",
-          "away": "Goiás",
-          "date": "2026-05-12",
-          "time": "21:30",
+          "match": "Vasco da Gama x Paysandu SC",
+          "home": "Vasco da Gama",
+          "away": "Paysandu SC",
+          "date": "2026-05-13",
+          "time": "19:00",
           "odds": {
-            "home": 1.37,
-            "draw": 4.33,
-            "away": 8.67
+            "home": 1.35,
+            "draw": 4.5,
+            "away": 8.61
           },
           "markets": [
             {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.93
+              "market": "Total",
+              "selection": "O (2.5)",
+              "odd": 1.9
             },
             {
-              "market": "Chance Dupla 1X",
+              "market": "Total",
+              "selection": "U (2.5)",
+              "odd": 1.84
+            },
+            {
+              "market": "Chance Dupla",
               "selection": "1X",
               "odd": 1.04
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "12",
+              "odd": 1.17
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "X2",
+              "odd": 2.91
             }
           ],
           "notes": null
         },
         {
           "championship": "Copa do Brasil",
-          "match": "Fluminense x Operário PR",
-          "home": "Fluminense",
-          "away": "Operário PR",
-          "date": "2026-05-12",
+          "match": "Coritiba x Santos",
+          "home": "Coritiba",
+          "away": "Santos",
+          "date": "2026-05-13",
+          "time": "19:30",
+          "odds": {
+            "home": 2.67,
+            "draw": 2.87,
+            "away": 2.82
+          },
+          "markets": [
+            {
+              "market": "Total",
+              "selection": "O (2)",
+              "odd": 1.74
+            },
+            {
+              "market": "Total",
+              "selection": "U (2)",
+              "odd": 2.02
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "1X",
+              "odd": 1.38
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "12",
+              "odd": 1.36
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "X2",
+              "odd": 1.42
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Copa do Brasil",
+          "match": "Mirassol x Bragantino",
+          "home": "Mirassol",
+          "away": "Bragantino",
+          "date": "2026-05-13",
+          "time": "20:30",
+          "odds": {
+            "home": 2.37,
+            "draw": 2.91,
+            "away": 3.21
+          },
+          "markets": [
+            {
+              "market": "Total",
+              "selection": "O (2)",
+              "odd": 1.7
+            },
+            {
+              "market": "Total",
+              "selection": "U (2)",
+              "odd": 2.08
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "1X",
+              "odd": 1.31
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "12",
+              "odd": 1.36
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "X2",
+              "odd": 1.53
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Copa do Brasil",
+          "match": "Ceará x Atlético Mineiro",
+          "home": "Ceará",
+          "away": "Atlético Mineiro",
+          "date": "2026-05-13",
           "time": "21:30",
           "odds": {
-            "home": 1.36,
-            "draw": 4.5,
-            "away": 8.3
+            "home": 3.36,
+            "draw": 2.87,
+            "away": 2.32
           },
           "markets": [
             {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.82
+              "market": "Total",
+              "selection": "O (2)",
+              "odd": 1.7
             },
             {
-              "market": "Chance Dupla 1X",
-              "selection": "1X",
-              "odd": 1.05
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Brasileirão Série B",
-          "match": "Londrina x São Bernardo",
-          "home": "Londrina",
-          "away": "São Bernardo",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 2.28,
-            "draw": 2.78,
-            "away": 3.58
-          },
-          "markets": [
-            {
-              "market": "Mais de 2",
-              "selection": "Mais de 2",
-              "odd": 1.68
+              "market": "Total",
+              "selection": "U (2)",
+              "odd": 2.08
             },
             {
-              "market": "Chance Dupla 1X",
+              "market": "Chance Dupla",
               "selection": "1X",
-              "odd": 1.24
+              "odd": 1.55
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "12",
+              "odd": 1.37
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "X2",
+              "odd": 1.28
             }
           ],
           "notes": null
         },
         {
-          "championship": "Espanha - LaLiga",
-          "match": "Celta Vigo x Levante",
-          "home": "Celta Vigo",
-          "away": "Levante",
-          "date": "2026-05-12",
-          "time": "14:00",
+          "championship": "Copa do Brasil",
+          "match": "Jacuipense x Palmeiras",
+          "home": "Jacuipense",
+          "away": "Palmeiras",
+          "date": "2026-05-13",
+          "time": "21:30",
           "odds": {
-            "home": 1.86,
-            "draw": 3.54,
-            "away": 3.87
+            "home": 11.65,
+            "draw": 6.02,
+            "away": 1.21
           },
           "markets": [
             {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.82
+              "market": "Total",
+              "selection": "O (3)",
+              "odd": 2
+            },
+            {
+              "market": "Total",
+              "selection": "U (3)",
+              "odd": 1.75
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "1X",
+              "odd": 3.82
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "12",
+              "odd": 1.1
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "X2",
+              "odd": 1.01
             }
           ],
           "notes": null
         },
         {
-          "championship": "Espanha - LaLiga",
-          "match": "Betis x Elche",
-          "home": "Betis",
-          "away": "Elche",
-          "date": "2026-05-12",
-          "time": "15:00",
+          "championship": "Copa do Brasil",
+          "match": "Remo x Bahia",
+          "home": "Remo",
+          "away": "Bahia",
+          "date": "2026-05-13",
+          "time": "21:30",
           "odds": {
-            "home": 1.6,
-            "draw": 4.03,
-            "away": 4.89
+            "home": 3.42,
+            "draw": 3.42,
+            "away": 2.03
           },
           "markets": [
             {
-              "market": "Mais de 3",
-              "selection": "Mais de 3",
-              "odd": 2.09
+              "market": "Total",
+              "selection": "O (2.5)",
+              "odd": 1.75
+            },
+            {
+              "market": "Total",
+              "selection": "U (2.5)",
+              "odd": 2
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "1X",
+              "odd": 1.7
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "12",
+              "odd": 1.27
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "X2",
+              "odd": 1.27
             }
           ],
           "notes": null
         },
         {
           "championship": "Espanha - LaLiga",
-          "match": "Osasuna x Atletico Madrid",
-          "home": "Osasuna",
-          "away": "Atletico Madrid",
-          "date": "2026-05-12",
+          "match": "Alaves x Barcelona",
+          "home": "Alaves",
+          "away": "Barcelona",
+          "date": "2026-05-13",
           "time": "16:30",
           "odds": {
-            "home": 2.48,
-            "draw": 3.49,
-            "away": 2.58
+            "home": 3.06,
+            "draw": 3.68,
+            "away": 2.09
           },
           "markets": [
             {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.76
+              "market": "Total",
+              "selection": "O (3)",
+              "odd": 2.02
+            },
+            {
+              "market": "Total",
+              "selection": "U (3)",
+              "odd": 1.86
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "1X",
+              "odd": 1.78
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "12",
+              "odd": 1.28
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "X2",
+              "odd": 1.38
             }
           ],
           "notes": null
         },
         {
-          "championship": "Inglaterra - Championship",
-          "match": "Southampton x Middlesbrough",
-          "home": "Southampton",
-          "away": "Middlesbrough",
-          "date": "2026-05-12",
-          "time": "16:00",
+          "championship": "Espanha - LaLiga",
+          "match": "Getafe x Mallorca",
+          "home": "Getafe",
+          "away": "Mallorca",
+          "date": "2026-05-13",
+          "time": "16:30",
           "odds": {
-            "home": 2.41,
-            "draw": 3.28,
-            "away": 2.8
+            "home": 2.25,
+            "draw": 2.91,
+            "away": 3.44
           },
           "markets": [
             {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.77
+              "market": "Total",
+              "selection": "O (2)",
+              "odd": 2.1
+            },
+            {
+              "market": "Total",
+              "selection": "U (2)",
+              "odd": 1.8
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "1X",
+              "odd": 1.3
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "12",
+              "odd": 1.46
+            },
+            {
+              "market": "Chance Dupla",
+              "selection": "X2",
+              "odd": 1.65
             }
           ],
-          "notes": null
-        },
-        {
-          "championship": "Catarinense Série B",
-          "match": "Nação x Tubarão",
-          "home": "Nação",
-          "away": "Tubarão",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 3.15,
-            "draw": 2.85,
-            "away": 2.14
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Copa International Premier League",
-          "match": "Real Madrid (youth) x Borussia Dortmund (youth)",
-          "home": "Real Madrid (youth)",
-          "away": "Borussia Dortmund (youth)",
-          "date": "2026-05-12",
-          "time": "15:00",
-          "odds": {
-            "home": 1.79,
-            "draw": 3.7,
-            "away": 3.8
-          },
-          "markets": [],
           "notes": null
         }
       ]
@@ -2898,354 +1462,291 @@
       "name": "Sportingbet",
       "games": [
         {
-          "championship": "Copa do Brasil",
-          "match": "Internacional x Athletic Club MG",
-          "home": "Internacional",
-          "away": "Athletic Club MG",
-          "date": "2026-05-12",
-          "time": "19:30",
+          "championship": "Espanha - LaLiga",
+          "match": "Alavés x Barcelona",
+          "home": "Alavés",
+          "away": "Barcelona",
+          "date": "2026-05-13",
+          "time": "16:30",
           "odds": {
-            "home": 1.34,
-            "draw": 5,
-            "away": 8.25
+            "home": 3,
+            "draw": 3.6,
+            "away": 2.15
           },
           "markets": [
             {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.75
+              "market": "Total de Gols",
+              "selection": "Mais de 2,5",
+              "odd": 1.6
             },
             {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
+              "market": "Total de Gols",
+              "selection": "Menos de 2,5",
               "odd": 2.2
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "Cruzeiro x Goiás",
-          "home": "Cruzeiro",
-          "away": "Goiás",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.39,
-            "draw": 4.6,
-            "away": 8
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.93
             },
             {
-              "market": "Ambas Marcam - Sim",
+              "market": "Ambas equipes Marcam",
               "selection": "Sim",
-              "odd": 2.35
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "Fluminense x Operário PR",
-          "home": "Fluminense",
-          "away": "Operário PR",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.38,
-            "draw": 4.8,
-            "away": 7.5
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.8
+              "odd": 1.53
             },
             {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
-              "odd": 2.15
+              "market": "Ambas equipes Marcam",
+              "selection": "Não",
+              "odd": 2.3
             }
           ],
           "notes": null
         },
         {
-          "championship": "Brasileirão Série B",
-          "match": "Londrina x São Bernardo",
-          "home": "Londrina",
-          "away": "São Bernardo",
-          "date": "2026-05-12",
-          "time": "19:30",
+          "championship": "Espanha - LaLiga",
+          "match": "Getafe x Mallorca",
+          "home": "Getafe",
+          "away": "Mallorca",
+          "date": "2026-05-13",
+          "time": "16:30",
           "odds": {
             "home": 2.3,
-            "draw": 2.95,
+            "draw": 3.1,
             "away": 3.6
           },
           "markets": [
             {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
+              "market": "Total de Gols",
+              "selection": "Mais de 1,5",
+              "odd": 1.55
+            },
+            {
+              "market": "Total de Gols",
+              "selection": "Menos de 1,5",
               "odd": 2.3
             },
             {
-              "market": "Ambas Marcam - Sim",
+              "market": "Ambas equipes Marcam",
               "selection": "Sim",
+              "odd": 2.25
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "Não",
+              "odd": 1.57
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Inglaterra - Premier League",
+          "match": "Manchester City x Crystal Palace",
+          "home": "Manchester City",
+          "away": "Crystal Palace",
+          "date": "2026-05-13",
+          "time": "16:00",
+          "odds": {
+            "home": 1.27,
+            "draw": 6.5,
+            "away": 7.5
+          },
+          "markets": [
+            {
+              "market": "Total de Gols",
+              "selection": "Mais de 3,5",
               "odd": 1.98
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Catarinense Série B",
-          "match": "Nação x Tubarão",
-          "home": "Nação",
-          "away": "Tubarão",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 3.25,
-            "draw": 3,
-            "away": 2.05
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Argentina - Liga Profesional",
-          "match": "Belgrano x Unión de Santa Fé",
-          "home": "Belgrano",
-          "away": "Unión de Santa Fé",
-          "date": "2026-05-12",
-          "time": "19:00",
-          "odds": {
-            "home": 2.35,
-            "draw": 3.1,
-            "away": 3.25
-          },
-          "markets": [
-            {
-              "market": "Mais de 1.5",
-              "selection": "Mais de 1.5",
-              "odd": 1.49
             },
             {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
-              "odd": 2.1
+              "market": "Total de Gols",
+              "selection": "Menos de 3,5",
+              "odd": 1.75
             }
           ],
           "notes": null
         },
         {
-          "championship": "Argentina - Liga Profesional",
-          "match": "Argentinos Juniors x Huracán",
-          "home": "Argentinos Juniors",
-          "away": "Huracán",
-          "date": "2026-05-12",
-          "time": "21:30",
+          "championship": "França - Ligue 1",
+          "match": "Lens x PSG",
+          "home": "Lens",
+          "away": "PSG",
+          "date": "2026-05-13",
+          "time": "16:00",
           "odds": {
-            "home": 1.9,
-            "draw": 3.2,
-            "away": 4.6
+            "home": 2.75,
+            "draw": 3.75,
+            "away": 2
           },
           "markets": [
             {
-              "market": "Mais de 1.5",
-              "selection": "Mais de 1.5",
-              "odd": 1.53
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
-              "odd": 2.3
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Colômbia - Primera A",
-          "match": "Atlético Nacional x Internacional de Bogota",
-          "home": "Atlético Nacional",
-          "away": "Internacional de Bogota",
-          "date": "2026-05-12",
-          "time": "20:20",
-          "odds": {
-            "home": 1.41,
-            "draw": 4.75,
-            "away": 6.5
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.7
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
-              "odd": 1.95
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Colômbia - Primera A",
-          "match": "Independiente Santa Fe x América de Cali",
-          "home": "Independiente Santa Fe",
-          "away": "América de Cali",
-          "date": "2026-05-12",
-          "time": "22:30",
-          "odds": {
-            "home": 2.1,
-            "draw": 3.4,
-            "away": 3.25
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
+              "market": "Total de Gols",
+              "selection": "Mais de 3,5",
               "odd": 2.15
             },
             {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
-              "odd": 1.93
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Escócia - Premiership",
-          "match": "Kilmarnock x Dundee",
-          "home": "Kilmarnock",
-          "away": "Dundee",
-          "date": "2026-05-12",
-          "time": "15:45",
-          "odds": {
-            "home": 1.8,
-            "draw": 3.9,
-            "away": 3.75
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.68
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
-              "odd": 1.66
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Escócia - Premiership",
-          "match": "Aberdeen x St. Mirren",
-          "home": "Aberdeen",
-          "away": "St. Mirren",
-          "date": "2026-05-12",
-          "time": "15:45",
-          "odds": {
-            "home": 2.15,
-            "draw": 3.5,
-            "away": 3
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.83
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
-              "odd": 1.7
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Escócia - Premiership",
-          "match": "Dundee United x Livingston",
-          "home": "Dundee United",
-          "away": "Livingston",
-          "date": "2026-05-12",
-          "time": "15:45",
-          "odds": {
-            "home": 1.68,
-            "draw": 4.2,
-            "away": 4.1
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.6
-            },
-            {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
+              "market": "Total de Gols",
+              "selection": "Menos de 3,5",
               "odd": 1.63
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Suíça - Super Liga",
-          "match": "Luzern x Zurich",
-          "home": "Luzern",
-          "away": "Zurich",
-          "date": "2026-05-12",
-          "time": "15:30",
-          "odds": {
-            "home": 1.44,
-            "draw": 5,
-            "away": 5.25
-          },
-          "markets": [
-            {
-              "market": "Mais de 3.5",
-              "selection": "Mais de 3.5",
-              "odd": 1.88
             },
             {
-              "market": "Ambas Marcam - Sim",
+              "market": "Ambas equipes Marcam",
               "selection": "Sim",
-              "odd": 1.49
+              "odd": 1.43
+            },
+            {
+              "market": "Ambas equipes Marcam",
+              "selection": "Não",
+              "odd": 2.6
             }
           ],
           "notes": null
         },
         {
-          "championship": "Suíça - Super Liga",
-          "match": "Servette x Lausanne Sport",
-          "home": "Servette",
-          "away": "Lausanne Sport",
-          "date": "2026-05-12",
-          "time": "15:30",
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Vasco x Paysandu",
+          "home": "Vasco",
+          "away": "Paysandu",
+          "date": "2026-05-13",
+          "time": "19:00",
           "odds": {
-            "home": 1.87,
-            "draw": 3.9,
-            "away": 3.4
+            "home": 1.37,
+            "draw": 5,
+            "away": 7.75
           },
           "markets": [
             {
-              "market": "Mais de 3.5",
-              "selection": "Mais de 3.5",
+              "market": "Total de Gols",
+              "selection": "Mais de 2,5",
+              "odd": 1.87
+            },
+            {
+              "market": "Total de Gols",
+              "selection": "Menos de 2,5",
+              "odd": 1.83
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Juventude x São Paulo",
+          "home": "Juventude",
+          "away": "São Paulo",
+          "date": "2026-05-13",
+          "time": "19:00",
+          "odds": {
+            "home": 3.75,
+            "draw": 3.25,
+            "away": 2.15
+          },
+          "markets": [
+            {
+              "market": "Total de Gols",
+              "selection": "Mais de 2,5",
+              "odd": 2.4
+            },
+            {
+              "market": "Total de Gols",
+              "selection": "Menos de 2,5",
+              "odd": 1.5
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Coritiba PR x Santos",
+          "home": "Coritiba PR",
+          "away": "Santos",
+          "date": "2026-05-13",
+          "time": "19:30",
+          "odds": {
+            "home": 2.65,
+            "draw": 3.1,
+            "away": 2.87
+          },
+          "markets": [
+            {
+              "market": "Total de Gols",
+              "selection": "Mais de 2,5",
               "odd": 2.3
             },
             {
-              "market": "Ambas Marcam - Sim",
-              "selection": "Sim",
-              "odd": 1.5
+              "market": "Total de Gols",
+              "selection": "Menos de 2,5",
+              "odd": 1.55
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Mirassol x RB Bragantino",
+          "home": "Mirassol",
+          "away": "RB Bragantino",
+          "date": "2026-05-13",
+          "time": "20:30",
+          "odds": {
+            "home": 2.37,
+            "draw": 3.1,
+            "away": 3.2
+          },
+          "markets": [
+            {
+              "market": "Total de Gols",
+              "selection": "Mais de 2,5",
+              "odd": 2.2
+            },
+            {
+              "market": "Total de Gols",
+              "selection": "Menos de 2,5",
+              "odd": 1.6
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Ceará x Atlético Mineiro",
+          "home": "Ceará",
+          "away": "Atlético Mineiro",
+          "date": "2026-05-13",
+          "time": "21:30",
+          "odds": {
+            "home": 3.2,
+            "draw": 3.1,
+            "away": 2.37
+          },
+          "markets": [
+            {
+              "market": "Total de Gols",
+              "selection": "Mais de 2,5",
+              "odd": 2.25
+            },
+            {
+              "market": "Total de Gols",
+              "selection": "Menos de 2,5",
+              "odd": 1.57
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Copa do Brasil",
+          "match": "Clube do Remo x Bahia",
+          "home": "Clube do Remo",
+          "away": "Bahia",
+          "date": "2026-05-13",
+          "time": "21:30",
+          "odds": {
+            "home": 3.3,
+            "draw": 3.3,
+            "away": 2.1
+          },
+          "markets": [
+            {
+              "market": "Total de Gols",
+              "selection": "Mais de 2,5",
+              "odd": 1.78
+            },
+            {
+              "market": "Total de Gols",
+              "selection": "Menos de 2,5",
+              "odd": 1.93
             }
           ],
           "notes": null
@@ -3254,725 +1755,15 @@
     },
     {
       "name": "KTO",
-      "games": [
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Celta Vigo x Levante",
-          "home": "Celta Vigo",
-          "away": "Levante",
-          "date": "2026-05-12",
-          "time": "14:00",
-          "odds": {
-            "home": 1.88,
-            "draw": 3.7,
-            "away": 3.9
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.81
-            }
-          ],
-          "notes": "+430 apostas"
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Real Betis x Elche",
-          "home": "Real Betis",
-          "away": "Elche",
-          "date": "2026-05-12",
-          "time": "15:00",
-          "odds": {
-            "home": 1.64,
-            "draw": 3.95,
-            "away": 5.2
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.65
-            }
-          ],
-          "notes": "+684 apostas"
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Osasuna x Atlético Madrid",
-          "home": "Osasuna",
-          "away": "Atlético Madrid",
-          "date": "2026-05-12",
-          "time": "16:30",
-          "odds": {
-            "home": 2.5,
-            "draw": 3.6,
-            "away": 2.65
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.74
-            }
-          ],
-          "notes": "+605 apostas"
-        },
-        {
-          "championship": "Argentina - Liga Profesional",
-          "match": "Belgrano x Unión de Santa Fe",
-          "home": "Belgrano",
-          "away": "Unión de Santa Fe",
-          "date": "2026-05-12",
-          "time": "19:00",
-          "odds": {
-            "home": 2.35,
-            "draw": 3.1,
-            "away": 3.25
-          },
-          "markets": [
-            {
-              "market": "Mais de 1.5",
-              "selection": "Mais de 1.5",
-              "odd": 1.5
-            }
-          ],
-          "notes": "+257 apostas"
-        },
-        {
-          "championship": "Argentina - Liga Profesional",
-          "match": "Argentinos Jrs x Huracán",
-          "home": "Argentinos Jrs",
-          "away": "Huracán",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.81,
-            "draw": 3.25,
-            "away": 5.1
-          },
-          "markets": [
-            {
-              "market": "Mais de 1.5",
-              "selection": "Mais de 1.5",
-              "odd": 1.53
-            }
-          ],
-          "notes": "+268 apostas"
-        },
-        {
-          "championship": "Arábia Saudita - Pro League",
-          "match": "Al Nassr x Al Hilal",
-          "home": "Al Nassr",
-          "away": "Al Hilal",
-          "date": "2026-05-12",
-          "time": "15:00",
-          "odds": {
-            "home": 2.33,
-            "draw": 3.4,
-            "away": 2.95
-          },
-          "markets": [
-            {
-              "market": "Mais de 3.5",
-              "selection": "Mais de 3.5",
-              "odd": 2.14
-            }
-          ],
-          "notes": "+380 apostas"
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "Internacional x Athletic Club MG",
-          "home": "Internacional",
-          "away": "Athletic Club MG",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 1.32,
-            "draw": 5.25,
-            "away": 9.5
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.8
-            }
-          ],
-          "notes": "+388 apostas"
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "Cruzeiro x Goiás",
-          "home": "Cruzeiro",
-          "away": "Goiás",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.41,
-            "draw": 4.1,
-            "away": 9
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 2.04
-            }
-          ],
-          "notes": "+415 apostas"
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "Fluminense x Operário PR",
-          "home": "Fluminense",
-          "away": "Operário PR",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.4,
-            "draw": 4.3,
-            "away": 9
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.94
-            }
-          ],
-          "notes": "+395 apostas"
-        },
-        {
-          "championship": "Brasileirão Série B",
-          "match": "Londrina x São Bernardo",
-          "home": "Londrina",
-          "away": "São Bernardo",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 2.33,
-            "draw": 2.9,
-            "away": 3.55
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 2.25
-            }
-          ],
-          "notes": "+304 apostas"
-        },
-        {
-          "championship": "Catarinense Série B",
-          "match": "Nação x Tubarão",
-          "home": "Nação",
-          "away": "Tubarão",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 3.25,
-            "draw": 2.95,
-            "away": 2.05
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Inglaterra - Championship",
-          "match": "Southampton x Middlesbrough",
-          "home": "Southampton",
-          "away": "Middlesbrough",
-          "date": "2026-05-12",
-          "time": "16:00",
-          "odds": {
-            "home": 2.28,
-            "draw": 3.4,
-            "away": 2.95
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.67
-            }
-          ],
-          "notes": "+184 apostas"
-        },
-        {
-          "championship": "Itália - Série B",
-          "match": "Modena x Juve Stabia",
-          "home": "Modena",
-          "away": "Juve Stabia",
-          "date": "2026-05-12",
-          "time": "13:45",
-          "odds": {
-            "home": 2.17,
-            "draw": 3.05,
-            "away": 3.4
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 2.18
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Itália - Série B",
-          "match": "Catanzaro x Avellino",
-          "home": "Catanzaro",
-          "away": "Avellino",
-          "date": "2026-05-12",
-          "time": "16:00",
-          "odds": {
-            "home": 2.02,
-            "draw": 3.15,
-            "away": 3.55
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 2.15
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "França - Ligue 2",
-          "match": "Red Star FC x Rodez",
-          "home": "Red Star FC",
-          "away": "Rodez",
-          "date": "2026-05-12",
-          "time": "15:30",
-          "odds": {
-            "home": 2.23,
-            "draw": 3.25,
-            "away": 3.05
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.95
-            }
-          ],
-          "notes": null
-        }
-      ]
+      "games": []
     },
     {
       "name": "Esportiva Bet",
-      "games": [
-        {
-          "championship": "Brasileirão Série B",
-          "match": "Londrina x São Bernardo",
-          "home": "Londrina",
-          "away": "São Bernardo",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 2.22,
-            "draw": 2.75,
-            "away": 3.5
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 2.3
-            },
-            {
-              "market": "Menos de 2.5",
-              "selection": "Menos de 2.5",
-              "odd": 1.57
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "Internacional x Athletic Club MG",
-          "home": "Internacional",
-          "away": "Athletic Club MG",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 1.32,
-            "draw": 5.45,
-            "away": 10.6
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.73
-            }
-          ],
-          "notes": "PA disponível"
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "Cruzeiro x Goiás",
-          "home": "Cruzeiro",
-          "away": "Goiás",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.43,
-            "draw": 4.45,
-            "away": 9
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.92
-            }
-          ],
-          "notes": "PA disponível"
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "Fluminense x Operário PR",
-          "home": "Fluminense",
-          "away": "Operário PR",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.38,
-            "draw": 4.95,
-            "away": 9.2
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.75
-            }
-          ],
-          "notes": "PA disponível"
-        },
-        {
-          "championship": "Catarinense Série B",
-          "match": "Nação x Tubarão",
-          "home": "Nação",
-          "away": "Tubarão",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 3.1,
-            "draw": 2.85,
-            "away": 2.14
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Inglaterra - Championship",
-          "match": "Southampton x Middlesbrough",
-          "home": "Southampton",
-          "away": "Middlesbrough",
-          "date": "2026-05-12",
-          "time": "16:00",
-          "odds": {
-            "home": 2.4,
-            "draw": 3.25,
-            "away": 2.66
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.69
-            }
-          ],
-          "notes": "Ida: 0-0"
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Celta de Vigo x Levante",
-          "home": "Celta de Vigo",
-          "away": "Levante",
-          "date": "2026-05-12",
-          "time": "14:00",
-          "odds": {
-            "home": 1.9,
-            "draw": 3.82,
-            "away": 4.05
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.76
-            }
-          ],
-          "notes": "PA disponível"
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Real Betis x Elche",
-          "home": "Real Betis",
-          "away": "Elche",
-          "date": "2026-05-12",
-          "time": "15:00",
-          "odds": {
-            "home": 1.66,
-            "draw": 4.2,
-            "away": 5.15
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.64
-            }
-          ],
-          "notes": "PA disponível"
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Osasuna x Atlético de Madrid",
-          "home": "Osasuna",
-          "away": "Atlético de Madrid",
-          "date": "2026-05-12",
-          "time": "16:30",
-          "odds": {
-            "home": 2.58,
-            "draw": 3.63,
-            "away": 2.69
-          },
-          "markets": [
-            {
-              "market": "Mais de 2.5",
-              "selection": "Mais de 2.5",
-              "odd": 1.71
-            }
-          ],
-          "notes": "PA disponível"
-        }
-      ]
+      "games": []
     },
     {
       "name": "Betnacional",
-      "games": [
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Celta de Vigo x Levante",
-          "home": "Celta de Vigo",
-          "away": "Levante",
-          "date": "2026-05-12",
-          "time": "14:00",
-          "odds": {
-            "home": 1.84,
-            "draw": 3.73,
-            "away": 4.02
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Real Betis x Elche",
-          "home": "Real Betis",
-          "away": "Elche",
-          "date": "2026-05-12",
-          "time": "15:00",
-          "odds": {
-            "home": 1.6,
-            "draw": 4.2,
-            "away": 5.04
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Osasuna x Atlético de Madrid",
-          "home": "Osasuna",
-          "away": "Atlético de Madrid",
-          "date": "2026-05-12",
-          "time": "16:30",
-          "odds": {
-            "home": 2.57,
-            "draw": 3.55,
-            "away": 2.57
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "Internacional x Athletic MG",
-          "home": "Internacional",
-          "away": "Athletic MG",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 1.33,
-            "draw": 5.11,
-            "away": 8.98
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "Cruzeiro x Goiás",
-          "home": "Cruzeiro",
-          "away": "Goiás",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.39,
-            "draw": 4.58,
-            "away": 8.18
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "Fluminense x Operário PR",
-          "home": "Fluminense",
-          "away": "Operário PR",
-          "date": "2026-05-12",
-          "time": "21:30",
-          "odds": {
-            "home": 1.39,
-            "draw": 4.67,
-            "away": 7.93
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Brasileirão Série B",
-          "match": "Londrina x São Bernardo",
-          "home": "Londrina",
-          "away": "São Bernardo",
-          "date": "2026-05-12",
-          "time": "19:30",
-          "odds": {
-            "home": 2.3,
-            "draw": 2.93,
-            "away": 3.51
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Arábia Saudita - Pro League",
-          "match": "Al Nassr x Al Hilal",
-          "home": "Al Nassr",
-          "away": "Al Hilal",
-          "date": "2026-05-12",
-          "time": "15:00",
-          "odds": {
-            "home": 2.23,
-            "draw": 3.51,
-            "away": 2.72
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "França - Ligue 1",
-          "match": "Red Star FC x Rodez",
-          "home": "Red Star FC",
-          "away": "Rodez",
-          "date": "2026-05-12",
-          "time": "15:30",
-          "odds": {
-            "home": 2.31,
-            "draw": 3.11,
-            "away": 2.9
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Colômbia - Primera A",
-          "match": "Atlético Nacional x Internacional de Bogota",
-          "home": "Atlético Nacional",
-          "away": "Internacional de Bogota",
-          "date": "2026-05-12",
-          "time": "20:20",
-          "odds": {
-            "home": 1.38,
-            "draw": 4.25,
-            "away": 6.27
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Colômbia - Primera A",
-          "match": "Independiente Santa Fe x América de Cali",
-          "home": "Independiente Santa Fe",
-          "away": "América de Cali",
-          "date": "2026-05-12",
-          "time": "22:30",
-          "odds": {
-            "home": 2.05,
-            "draw": 3.07,
-            "away": 3.26
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "África do Sul - Premiership",
-          "match": "TS Galaxy x Mamelodi Sundowns",
-          "home": "TS Galaxy",
-          "away": "Mamelodi Sundowns",
-          "date": "2026-05-12",
-          "time": "14:30",
-          "odds": {
-            "home": 8.43,
-            "draw": 4.54,
-            "away": 1.31
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Alemanha - Oberliga Hamburg",
-          "match": "Niendorfer TSV x SC V/W Billstedt 04",
-          "home": "Niendorfer TSV",
-          "away": "SC V/W Billstedt 04",
-          "date": "2026-05-12",
-          "time": "14:00",
-          "odds": {
-            "home": 1.77,
-            "draw": 3.34,
-            "away": 3.89
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Alemanha - Oberliga Rheinland-Pfalz/Saar",
-          "match": "TuS Koblenz x Kaiserslautern II",
-          "home": "TuS Koblenz",
-          "away": "Kaiserslautern II",
-          "date": "2026-05-12",
-          "time": "14:00",
-          "odds": {
-            "home": 3.13,
-            "draw": 3.33,
-            "away": 2.08
-          },
-          "markets": [],
-          "notes": null
-        }
-      ]
+      "games": []
     },
     {
       "name": "multibet",
