@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import initialData from "./data.json";
 
 const tabs = [
@@ -125,6 +125,15 @@ function getAwayTeam(game) {
 
 function BookmakersTab({ data, theme }) {
   const bookmakers = data.bookmakers || [];
+  const [openBookmakers, setOpenBookmakers] = useState({});
+
+  const toggleBookmaker = (key) => {
+    setOpenBookmakers((current) => ({
+      ...current,
+      [key]: !current[key],
+    }));
+  };
+
   return (
     <div>
       <SectionHeader
@@ -135,79 +144,129 @@ function BookmakersTab({ data, theme }) {
       />
       {bookmakers.length === 0 ? <EmptyState theme={theme} /> : null}
       <div className="grid gap-2 sm:gap-3">
-        {bookmakers.map((bookmaker, index) => (
-          <ShellCard key={`${bookmaker.name}-${index}`} theme={theme}>
-            <div className="p-2.5 sm:p-3">
-              <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
-                <div className="flex items-center gap-2">
-                  <div className={cx("flex h-8 w-8 shrink-0 items-center justify-center rounded-xl text-sm sm:h-9 sm:w-9", theme === "dark" ? "bg-emerald-400/10" : "bg-emerald-100")}>👑</div>
-                  <div>
-                    <h3 className="text-sm font-black sm:text-base">{bookmaker.name || bookmaker.casa || "Casa sem nome"}</h3>
-                    <p className={cx("text-xs", theme === "dark" ? "text-slate-400" : "text-slate-500")}>{(bookmaker.games || bookmaker.jogos || []).length} jogos</p>
-                  </div>
-                </div>
-              </div>
-              <div className="grid gap-0.5 sm:gap-1">
-                {(bookmaker.games || bookmaker.jogos || []).map((game, gameIndex) => (
-                  <div
-                    key={`${game.match}-${gameIndex}`}
-                    className={cx(
-                      "rounded-lg border px-2.5 py-1.5 sm:px-3 sm:py-2",
-                      theme === "dark"
-                        ? "border-white/10 bg-black/20"
-                        : "border-slate-200 bg-slate-50/80"
-                    )}
-                  >
-                    <div className="grid gap-1 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center lg:gap-3">
-                      <div className="min-w-0">
-                        <div className="flex flex-wrap items-center gap-x-1.5 gap-y-0.5">
-                          <p className="truncate text-[9px] font-bold uppercase tracking-[0.16em] text-slate-500 sm:text-[10px] lg:text-xs">
-                            {game.championship || game.campeonato || "Campeonato não informado"}
-                          </p>
-                          <span
-                            className={cx(
-                              "hidden h-1 w-1 rounded-full sm:inline-block",
-                              theme === "dark" ? "bg-slate-600" : "bg-slate-400"
-                            )}
-                          />
-                          <p
-                            className={cx(
-                              "text-[10px] font-semibold lg:text-xs",
-                              theme === "dark" ? "text-slate-400" : "text-slate-500"
-                            )}
-                          >
-                            {game.date || game.data || "Data não informada"} • {game.time || game.horario || "Horário não informado"}
-                          </p>
-                        </div>
+        {bookmakers.map((bookmaker, index) => {
+          const games = bookmaker.games || bookmaker.jogos || [];
+          const bookmakerName = bookmaker.name || bookmaker.casa || "Casa sem nome";
+          const bookmakerKey = `${bookmakerName}-${index}`;
+          const isOpen = Boolean(openBookmakers[bookmakerKey]);
 
-                        <h4 className="mt-0.5 text-sm font-black sm:text-base lg:text-lg">
-                          {game.match || game.jogo || `${game.home || "Mandante"} x ${game.away || "Visitante"}`}
-                        </h4>
-
-                        {(game.notes || game.observacoes) ? (
-                          <p
-                            className={cx(
-                              "mt-1 whitespace-normal break-words text-[10px] leading-4 sm:text-xs sm:leading-5 lg:max-w-4xl lg:text-sm",
-                              theme === "dark" ? "text-slate-400" : "text-slate-500"
-                            )}
-                          >
-                            <strong>Obs:</strong> {game.notes || game.observacoes}
-                          </p>
-                        ) : null}
-                      </div>
-
-                      <div className="grid w-full grid-cols-3 gap-2 lg:w-auto lg:grid-cols-[116px_116px_116px]">
-                        <OddsPill theme={theme} label={getHomeTeam(game)} value={game.odds?.home || game.odds?.mandante || game.oddMandante} />
-                        <OddsPill theme={theme} label="Empate" value={game.odds?.draw || game.odds?.empate || game.oddEmpate} />
-                        <OddsPill theme={theme} label={getAwayTeam(game)} value={game.odds?.away || game.odds?.visitante || game.oddVisitante} />
-                      </div>
+          return (
+            <ShellCard key={bookmakerKey} theme={theme}>
+              <div>
+                <button
+                  type="button"
+                  aria-expanded={isOpen}
+                  onClick={() => toggleBookmaker(bookmakerKey)}
+                  className={cx(
+                    "flex w-full flex-col gap-3 p-3 text-left transition active:scale-[0.995] sm:flex-row sm:items-center sm:justify-between sm:p-4",
+                    theme === "dark" ? "hover:bg-white/[0.04]" : "hover:bg-slate-50"
+                  )}
+                >
+                  <div className="flex min-w-0 items-center gap-3">
+                    <div className={cx("flex h-9 w-9 shrink-0 items-center justify-center rounded-xl text-xs font-black sm:h-10 sm:w-10", theme === "dark" ? "bg-emerald-400/10 text-emerald-300" : "bg-emerald-100 text-emerald-700")}>
+                      {isOpen ? "-" : "+"}
+                    </div>
+                    <div className="min-w-0">
+                      <h3 className="truncate text-sm font-black sm:text-base">{bookmakerName}</h3>
+                      <p className={cx("text-xs", theme === "dark" ? "text-slate-400" : "text-slate-500")}>{games.length} jogos</p>
                     </div>
                   </div>
-                ))}
+
+                  <div className="flex w-full flex-wrap items-center justify-between gap-2 sm:w-auto sm:justify-end">
+                    <span className={cx("rounded-full px-3 py-1 text-xs font-black", theme === "dark" ? "bg-black/25 text-slate-300" : "bg-white text-slate-600")}>
+                      {games.length} jogos
+                    </span>
+                    <span className={cx("rounded-full px-3 py-1 text-xs font-black", theme === "dark" ? "bg-emerald-400/10 text-emerald-300" : "bg-emerald-100 text-emerald-700")}>
+                      {isOpen ? "Lista aberta" : "Clique para exibir"}
+                    </span>
+                  </div>
+                </button>
+
+                {isOpen ? (
+                  <div className={cx("border-t p-2.5 sm:p-3", theme === "dark" ? "border-white/10" : "border-slate-200")}>
+                    {games.length === 0 ? (
+                      <div className={cx("rounded-lg border px-3 py-4 text-center text-sm", theme === "dark" ? "border-white/10 bg-black/20 text-slate-400" : "border-slate-200 bg-slate-50 text-slate-500")}>
+                        Nenhum jogo cadastrado nesta casa.
+                      </div>
+                    ) : (
+                      <div className="grid gap-0.5 sm:gap-1">
+                        {games.map((game, gameIndex) => (
+                          <div
+                            key={`${game.match}-${gameIndex}`}
+                            className={cx(
+                              "rounded-lg border px-2.5 py-1.5 sm:px-3 sm:py-2",
+                              theme === "dark"
+                                ? "border-white/10 bg-black/20"
+                                : "border-slate-200 bg-slate-50/80"
+                            )}
+                          >
+                            <div className="grid gap-1 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center lg:gap-3">
+                              <div className="min-w-0">
+                                <div className="flex flex-wrap items-center gap-x-1.5 gap-y-0.5">
+                                  <p className="truncate text-[9px] font-bold uppercase tracking-[0.16em] text-slate-500 sm:text-[10px] lg:text-xs">
+                                    {game.championship || game.campeonato || "Campeonato não informado"}
+                                  </p>
+                                  <span
+                                    className={cx(
+                                      "hidden h-1 w-1 rounded-full sm:inline-block",
+                                      theme === "dark" ? "bg-slate-600" : "bg-slate-400"
+                                    )}
+                                  />
+                                  <p
+                                    className={cx(
+                                      "text-[10px] font-semibold lg:text-xs",
+                                      theme === "dark" ? "text-slate-400" : "text-slate-500"
+                                    )}
+                                  >
+                                    {game.date || game.data || "Data não informada"} • {game.time || game.horario || "Horário não informado"}
+                                  </p>
+                                </div>
+
+                                <h4 className="mt-0.5 text-sm font-black sm:text-base lg:text-lg">
+                                  {game.match || game.jogo || `${game.home || "Mandante"} x ${game.away || "Visitante"}`}
+                                </h4>
+
+                                {(game.notes || game.observacoes) ? (
+                                  <p
+                                    className={cx(
+                                      "mt-1 whitespace-normal break-words text-[10px] leading-4 sm:text-xs sm:leading-5 lg:max-w-4xl lg:text-sm",
+                                      theme === "dark" ? "text-slate-400" : "text-slate-500"
+                                    )}
+                                  >
+                                    <strong>Obs:</strong> {game.notes || game.observacoes}
+                                  </p>
+                                ) : null}
+                              </div>
+
+                              <div className="grid w-full grid-cols-3 gap-2 lg:w-auto lg:grid-cols-[116px_116px_116px]">
+                                <OddsPill theme={theme} label={getHomeTeam(game)} value={game.odds?.home || game.odds?.mandante || game.oddMandante} />
+                                <OddsPill theme={theme} label="Empate" value={game.odds?.draw || game.odds?.empate || game.oddEmpate} />
+                                <OddsPill theme={theme} label={getAwayTeam(game)} value={game.odds?.away || game.odds?.visitante || game.oddVisitante} />
+                              </div>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+
+                    <button
+                      type="button"
+                      onClick={() => toggleBookmaker(bookmakerKey)}
+                      className={cx(
+                        "mt-2 flex w-full items-center justify-center rounded-xl border px-4 py-3 text-xs font-black uppercase tracking-[0.18em] transition active:scale-[0.99]",
+                        theme === "dark"
+                          ? "border-white/10 bg-black/25 text-emerald-300 hover:bg-white/[0.06]"
+                          : "border-slate-200 bg-white text-emerald-700 hover:bg-emerald-50"
+                      )}
+                    >
+                      Clique para recolher lista
+                    </button>
+                  </div>
+                ) : null}
               </div>
-            </div>
-          </ShellCard>
-        ))}
+            </ShellCard>
+          );
+        })}
       </div>
     </div>
   );
@@ -827,7 +886,7 @@ export default function PremiumBetAnalysisApp() {
       const parsed = JSON.parse(jsonInput);
       setRawData(parsed);
       setParseStatus({ type: "success", message: "JSON aplicado com sucesso. As abas foram atualizadas." });
-    } catch (error) {
+    } catch {
       setParseStatus({ type: "error", message: "JSON inválido. Verifique vírgulas, aspas e chaves antes de aplicar." });
     }
   };
