@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-14 14:13",
+  "updatedAt": "2026-05-14 14:25",
   "summary": {
     "totalBookmakers": 15,
     "totalGames": 64,
@@ -1888,136 +1888,95 @@
   ],
   "twoReais": [
     {
-      "title": "Plano $2 - Mandantes vs Visitantes na Copa",
+      "title": "Plano $2 - Noite de Favoritos com Decisões na Copa e La Liga",
       "matches": [
-        "Juventude x São Paulo",
-        "Ceará x Atlético Mineiro",
-        "Coritiba x Santos",
-        "Remo x Bahia",
-        "Man City x Crystal Palace",
-        "Lens x PSG",
-        "Alavés x Barcelona"
+        "Chapecoense x Botafogo",
+        "Atlético GO x Athletico Paranaense",
+        "Confiança x Grêmio",
+        "Corinthians x Barra SC",
+        "CRB x Fortaleza",
+        "Vitória x Flamengo",
+        "Valência x Rayo Vallecano",
+        "Girona x Real Sociedad",
+        "Real Madrid x Real Oviedo"
       ],
       "totalStake": "R$ 2,00",
       "risk": "Muito alto",
       "targetReturn": {
-        "minimum": "R$ 673,00",
-        "maximum": "R$ 986,00"
+        "minimum": "R$ 503,13",
+        "maximum": "R$ 2.292,16"
       },
-      "coverageStrategy": "As duas apostas cobrem cenários OPOSTOS nos mesmos jogos da Copa do Brasil. A Aposta 1 aposta que TODOS os mandantes da Copa vencem em casa (Juventude, Ceará, Coritiba, Remo) — o fator casa e a torcida decidem na volta. A Aposta 2 aposta que TODOS os visitantes de Série A vencem fora (São Paulo, Atlético-MG, Santos) — a qualidade técnica superior prevalece. Na Europa, a Aposta 1 aposta em empate no Man City (Crystal Palace se fecha), enquanto a Aposta 2 aposta que Crystal Palace vence + zebras europeias (Alavés, Lens). Assim, se a noite for dos mandantes brasileiros, a Aposta 1 caminha. Se for dos visitantes de elite, a Aposta 2 caminha.",
-      "reason": "Copa do Brasil na volta é o cenário perfeito para cercar: mandantes têm torcida e pressão, mas visitantes de Série A têm elenco superior contra times de Série B/C. Historicamente, ambos os cenários acontecem com frequência. Na Europa, Man City não vencer é o elo comum entre as duas apostas — empate ou derrota.",
-      "statisticalNote": "Juventude precisa reverter 0-1 jogando em casa no Alfredo Jaconi (Série B). São Paulo venceu a ida por 1-0 e é Série A. Ceará precisa reverter 1-2 no Castelão. Atlético-MG venceu 2-1 a ida e tem elenco superior. Coritiba e Santos empataram 0-0 na ida — jogo aberto na volta. Remo venceu 3-1 fora, em grande fase (3V/5J), Bahia com 5 jogos sem vencer. Man City é favorito pesado (1.33) mas Crystal Palace pode travar ou surpreender. Lens é 2º da Ligue 1 (67pts) e joga em casa contra o PSG (73pts).",
+      "coverageStrategy": "A Aposta 1 aposta no cenário em que os favoritos da Copa do Brasil vencem e avançam com autoridade, incluindo CRB (mandante com 3 vitórias seguidas) e Rayo Vallecano (invicto em 4 jogos contra o Valencia). A Aposta 2 cobre o cenário oposto na Copa do Brasil: os times com vantagem no agregado (Botafogo, Flamengo, Fortaleza) administram o resultado e os jogos terminam empatados, enquanto na La Liga os resultados se invertem (Valencia vence em casa e Real Sociedad vence fora). As duas apostas compartilham apenas os 3 resultados mais seguros (Real Madrid, Corinthians, Grêmio) e divergem em todos os demais jogos, maximizando a cobertura de cenários.",
+      "reason": "Rodada de Copa do Brasil com 6 jogos de volta (5ª fase) e 3 jogos da La Liga. A Copa do Brasil gera empates naturais quando times com vantagem administram placar, mas também pode ter vitórias claras dos favoritos. A La Liga tem jogos com motivações distintas (rebaixamento, meio de tabela, Madrid sem título). A combinação permite cobrir dois caminhos realistas da noite.",
+      "statisticalNote": "Copa do Brasil 5ª fase, jogos de volta. Botafogo venceu o 1º jogo por 1-0 e goleou a Chapecoense por 4-1 recentemente na Arena Condá. Grêmio venceu por 2-0 o 1º jogo contra a Confiança (lanterna da Série C, 6 jogos sem vencer). Corinthians venceu por 1-0 fora e é amplamente superior ao Barra SC (Série C). Flamengo venceu por 2-1 o 1º jogo e está invicto há 10 partidas. Fortaleza venceu por 2-1 o 1º jogo contra o CRB, mas CRB joga em casa com 3 vitórias consecutivas e perdeu o goleiro titular (Matheus Albino). Atlético GO x Athletico PR empataram em 0-0 no 1º jogo. Na La Liga, Real Madrid (2º, 77 pts) recebe o Real Oviedo (20º, 29 pts, já rebaixado). Girona (18º, 39 pts) luta contra rebaixamento. Rayo Vallecano está invicto nos últimos 4 jogos contra o Valencia.",
       "bets": [
         {
-          "match": "Múltipla - 5 jogos: Juventude x São Paulo / Ceará x Atlético Mineiro / Coritiba x Santos / Remo x Bahia / Man City x Crystal Palace",
+          "match": "Múltipla - 9 jogos (Copa do Brasil + La Liga)",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
-          "market": "Acumulador - Resultado Final (1X2)",
-          "selection": "Juventude vence @3.75 + Ceará vence @3.40 + Coritiba vence @2.70 + Remo vence @3.40 + Empate Man City x Crystal Palace @5.75",
-          "odd": 673.01,
-          "possibleReturn": "R$ 673,01",
-          "goal": "Cenário: noite dos mandantes da Copa. Todos os times de casa vencem na volta, empurrados pela torcida. Na Europa, Crystal Palace se fecha e segura o empate contra o Man City.",
-          "reason": "Juventude joga no Alfredo Jaconi precisando reverter 0-1, a torcida gaúcha empurra. Ceará joga no Castelão precisando reverter 1-2, pressão máxima. Coritiba decide em casa após 0-0 na ida. Remo com 3-1 de vantagem e em grande fase, a torcida do Mangueirão vai lotar. Crystal Palace historicamente trava jogos contra o City — empate @5.75 é plausível. Tudo conecta: noite de casa cheia decidindo."
+          "market": "Acumulador - Resultado Final (Full Time Result) x9",
+          "selection": "Botafogo vence (2.20) + Athletico PR vence (2.35) + Grêmio vence (1.70) + Corinthians vence (1.33) + CRB vence (2.62) + Flamengo vence (2.00) + Rayo Vallecano vence (3.70) + Girona vence (1.85) + Real Madrid vence (1.20)",
+          "odd": 503.13,
+          "possibleReturn": "R$ 503,13",
+          "goal": "Cobrir o cenário em que os favoritos decidem os jogos com vitórias. Na Copa do Brasil, Botafogo, Grêmio, Corinthians e Flamengo avançam vencendo. CRB reverte o placar em casa. Athletico PR vence o jogo decisivo. Na La Liga, Rayo surpreende o Valencia fora, Girona vence por desespero contra o rebaixamento e Real Madrid atropela o já rebaixado Oviedo.",
+          "reason": "Botafogo (Série A, 12º) é muito superior à Chapecoense (lanterna, 20º) e já venceu por 4-1 na Arena Condá recentemente. Grêmio tem vantagem de 2-0 e a Confiança está em crise total (demitiu técnico, 6 jogos sem vencer). Corinthians é amplamente favorito mesmo com rotação. Flamengo invicto há 10 jogos e com vantagem de 2-1. CRB embalado com 3 vitórias seguidas e jogando em casa no Rei Pelé diante de sua torcida. Athletico PR tem elenco superior e retorna com jogadores importantes de suspensão (Viveros, Esquivel, Benavidez). Rayo Vallecano invicto nos últimos 4 confrontos com Valencia e em grande fase (invicto há 6 jogos). Girona joga em casa lutando contra o rebaixamento — 3 das 3 últimas vitórias na liga foram em Montilivi. Real Madrid com odd de 1.20 contra time já rebaixado no Bernabéu."
         },
         {
-          "match": "Múltipla - 6 jogos: Juventude x São Paulo / Ceará x Atlético Mineiro / Coritiba x Santos / Man City x Crystal Palace / Lens x PSG / Alavés x Barcelona",
+          "match": "Múltipla - 9 jogos (Copa do Brasil + La Liga)",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
-          "market": "Acumulador - Resultado Final (1X2)",
-          "selection": "São Paulo vence @2.10 + Atlético Mineiro vence @2.25 + Santos vence @2.90 + Crystal Palace vence @7.50 + Lens vence @3.00 + Alavés vence @3.20",
-          "odd": 986.58,
-          "possibleReturn": "R$ 986,58",
-          "goal": "Cenário: noite dos visitantes de elite e das zebras. Times de Série A impõem qualidade fora de casa na Copa, enquanto underdogs europeus surpreendem os gigantes.",
-          "reason": "São Paulo é Série A contra Juventude da Série B, venceu 1-0 a ida e controla o jogo fora. Atlético-MG é Série A contra Ceará da Série B, venceu 2-1 a ida e tem elenco muito superior. Santos da Série A joga contra Coritiba após 0-0, pode decidir fora. Crystal Palace no contra-ataque pode surpreender o City. Lens é o 2º da Ligue 1 e forte em casa. Alavés pode complicar o Barcelona no Mendizorroza. Tudo conecta: qualidade e intensidade dos visitantes prevalece."
+          "market": "Acumulador - Resultado Final (Full Time Result) x9",
+          "selection": "Empate Chapecoense x Botafogo (3.30) + Empate Atlético GO x Athletico PR (3.10) + Grêmio vence (1.70) + Corinthians vence (1.33) + Empate CRB x Fortaleza (2.75) + Empate Vitória x Flamengo (3.50) + Valência vence (2.20) + Real Sociedad vence (3.90) + Real Madrid vence (1.20)",
+          "odd": 2292.16,
+          "possibleReturn": "R$ 2.292,16",
+          "goal": "Cobrir o cenário alternativo em que os jogos de volta da Copa do Brasil são mais travados. Times com vantagem no agregado (Botafogo 1-0, Fortaleza 2-1, Flamengo 2-1) administram o resultado e empatam, avançando sem forçar. O jogo Atlético GO x Athletico PR repete o 0-0 da ida. Na La Liga, Valencia vence em casa (ao invés de perder para o Rayo) e Real Sociedad surpreende o Girona fora.",
+          "reason": "Na Copa do Brasil, times com vantagem no agregado frequentemente jogam de forma pragmática nos jogos de volta, especialmente fora de casa. Botafogo com 1-0 de vantagem pode administrar em Chapecó. Flamengo com 2-1 pode poupar jogadores pensando em compromissos futuros (possível final internacional). Fortaleza (2-1 na ida) tem como prioridade a Série B segundo o próprio técnico. Atlético GO x Athletico PR empataram em 0-0 na ida e o jogo tem perfil para ser travado novamente. Grêmio e Corinthians são tão superiores que vencem mesmo neste cenário. Na La Liga, Valencia tem 7 vitórias em 17 jogos em casa e o Rayo pode poupar jogadores pensando na final da Conference League. Real Sociedad tem 4 vitórias e 5 empates nos últimos 10 confrontos contra o Girona e busca vaga europeia (8º, 44 pts)."
         }
       ]
     },
     {
-      "title": "Plano $2 - Noite Travada vs Noite de Gols",
+      "title": "Plano $2 - Zebras no Nordeste e Empates Estratégicos",
       "matches": [
-        "Man City x Crystal Palace",
-        "Coritiba x Santos",
-        "Remo x Bahia",
-        "Ceará x Atlético Mineiro",
-        "Juventude x São Paulo",
-        "Lens x PSG"
+        "Chapecoense x Botafogo",
+        "Atlético GO x Athletico Paranaense",
+        "Confiança x Grêmio",
+        "Corinthians x Barra SC",
+        "CRB x Fortaleza",
+        "Vitória x Flamengo",
+        "Girona x Real Sociedad",
+        "Real Madrid x Real Oviedo"
       ],
       "totalStake": "R$ 2,00",
       "risk": "Muito alto",
       "targetReturn": {
-        "minimum": "R$ 676,00",
-        "maximum": "R$ 917,00"
+        "minimum": "R$ 510,17",
+        "maximum": "R$ 778,54"
       },
-      "coverageStrategy": "As duas apostas cobrem cenários opostos de ESTILO DE JOGO na mesma noite. A Aposta 1 aposta em uma noite TRAVADA: Man City 0-0 (Crystal Palace fechado), empate na Copa (Coritiba x Santos) e mandantes controlando. A Aposta 2 aposta em uma noite de GOLS e reviravoltas: Crystal Palace vence o City com ambos marcando, mandantes atacam para reverter, visitante surpreende. Nos jogos que aparecem nas duas apostas, os resultados são opostos: Remo vence vs Bahia vence, Empate Ceará vs Ceará vence, Man City 0-0 vs Palace vence com BTTS.",
-      "reason": "A lógica é que uma noite de futebol costuma ter um padrão: ou os jogos travam e há poucos gols, ou os jogos abrem e há muitos gols e surpresas. Ao apostar nos dois padrões opostos, cercamos a tendência da noite. O mercado Resultado/Ambos Marcam do Man City oferece multiplicadores enormes (29.00 e 13.00) que ancoram as apostas.",
-      "statisticalNote": "Man City Empate + BTTS Não = cenário 0-0, paga 29.00. Crystal Palace vence + BTTS Sim = cenário tipo 2-1 Palace, paga 13.00. Remo em ótima fase (3V/5J) com 3-1 de vantagem. Bahia é Série A e pode vencer o jogo isolado mesmo eliminada no agregado. Coritiba x Santos empatou 0-0 na ida, empate na volta é plausível (noite travada) ou Coritiba decide (noite de gols). Ceará precisa reverter 1-2 — pode empatar (travado) ou vencer (gols). Juventude precisa reverter 0-1.",
+      "coverageStrategy": "A Aposta 1 aposta nas zebras dos mandantes na Copa do Brasil: Atlético GO e Chapecoense vencem em casa precisando reverter, enquanto CRB e Vitória empatam (administração dos visitantes). A Aposta 2 inverte: Botafogo e Flamengo vencem fora, mas Atlético GO empata com Athletico PR e Confiança arranca empate do Grêmio reserva, enquanto CRB reverte. As apostas divergem nos resultados dos jogos mais imprevisíveis, compartilhando apenas Corinthians e Real Madrid.",
+      "reason": "Plano focado na Copa do Brasil com 8 jogos. A Copa do Brasil gera zebras históricas em jogos de volta quando o mandante tem o apoio da torcida e precisa reverter o placar. Atlético GO está em sequência de 5 jogos invicto na Série B e joga em casa. Chapecoense, apesar de lanterna, já provou que pode complicar em casa. O Grêmio deve fazer rodízio pesado com a Série A como prioridade.",
+      "statisticalNote": "Atlético GO invicto há 5 jogos na Série B, com vitória fora de casa contra o Ceará. Chapecoense jogando na Arena Condá onde tem apoio da torcida. Grêmio provavelmente fará rodízio pesado — está na zona de rebaixamento da Série A (17º) e enfrenta o Bahia no fim de semana, priorizando o Brasileirão. Confiança com técnico interino após demissão. CRB com 3 vitórias consecutivas mas perdeu o goleiro titular Matheus Albino (luxação no ombro). Girona em 18º lugar, zona de rebaixamento, lutando pela sobrevivência na La Liga.",
       "bets": [
         {
-          "match": "Múltipla - 4 jogos: Man City x Crystal Palace / Coritiba x Santos / Remo x Bahia / Ceará x Atlético Mineiro",
+          "match": "Múltipla - 8 jogos (Copa do Brasil + La Liga)",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
-          "market": "Acumulador - Resultado/Ambos Marcam (Man City) + Resultado Final (Copa)",
-          "selection": "Man City: Empate + Ambos Não Marcam @29.00 + Empate Coritiba x Santos @2.80 + Remo vence @3.40 + Empate Ceará x Atlético MG @3.00",
-          "odd": 676.4,
-          "possibleReturn": "R$ 676,40",
-          "goal": "Cenário: NOITE TRAVADA. Jogos fechados, poucos gols, empates e controle. Crystal Palace fecha o Man City no 0-0. Coritiba e Santos se anulam novamente. Remo controla com vantagem de 3-1 da ida. Ceará e Atlético se neutralizam.",
-          "reason": "Quando Crystal Palace se fecha contra o City, o 0-0 é real — Palace é time reativo. Se o padrão da noite é de jogos travados, Coritiba x Santos repete o 0-0 da ida. Remo com 3-1 joga tranquilo, não precisa forçar, vence sem abrir o jogo. Ceará x Atlético se anulam porque Atlético já tem vantagem e administra, Ceará não consegue furar. Tudo conecta pelo mesmo fio: noite defensiva."
+          "market": "Acumulador - Resultado Final (Full Time Result) x8",
+          "selection": "Empate Chapecoense x Botafogo (3.30) + Atlético GO vence (3.20) + Grêmio vence (1.70) + Corinthians vence (1.33) + Empate CRB x Fortaleza (2.75) + Empate Vitória x Flamengo (3.50) + Real Madrid vence (1.20) + Girona vence (1.85)",
+          "odd": 510.17,
+          "possibleReturn": "R$ 510,17",
+          "goal": "Cobrir o cenário em que mandantes da Copa do Brasil complicam a vida dos visitantes favoritos. Atlético GO vence em casa no jogo decisivo (0-0 na ida). Botafogo e Flamengo empatam administrando vantagem. Fortaleza também empata fora. Na La Liga, Girona vence desesperado contra o rebaixamento.",
+          "reason": "Atlético GO está invicto há 5 jogos, jogando em casa no Antônio Accioly com o impulso da torcida. O 0-0 no jogo de ida mostra equilíbrio e quem vencer avança — o fator casa pode ser decisivo. O Athletico PR perdeu para o Vasco na última rodada do Brasileirão e chega sem ritmo ideal. O empate de Chapecoense x Botafogo faz sentido porque o Botafogo, com 1-0 de vantagem, pode jogar recuado para avançar. O Flamengo (2-1 na ida) pode poupar peças. CRB x Fortaleza é jogo equilibrado, empate é resultado natural. Girona (18º) tem 3 vitórias em casa nas últimas 5 na La Liga — lutando contra rebaixamento, Montilivi empurra. Real Sociedad perdeu 3 dos últimos 4 jogos fora."
         },
         {
-          "match": "Múltipla - 5 jogos: Man City x Crystal Palace / Coritiba x Santos / Remo x Bahia / Ceará x Atlético Mineiro / Juventude x São Paulo",
+          "match": "Múltipla - 8 jogos (Copa do Brasil + La Liga)",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
-          "market": "Acumulador - Resultado/Ambos Marcam (Man City) + Resultado Final (Copa)",
-          "selection": "Man City: Crystal Palace vence + Ambos Marcam @13.00 + Coritiba vence @2.70 + Bahia vence @2.05 + Ceará vence @3.40 + Juventude vence @3.75",
-          "odd": 917.43,
-          "possibleReturn": "R$ 917,43",
-          "goal": "Cenário: NOITE DE GOLS E REVIRAVOLTAS. Jogos abertos, times atacando, gols dos dois lados. Crystal Palace surpreende o City com gols. Na Copa, times que precisam atacar (Bahia, Ceará, Juventude) criam jogos abertos e vencem. Coritiba decide em casa.",
-          "reason": "Se a noite é de gols, Crystal Palace joga no contra-ataque e vence o City com BTTS (tipo 2-1). Bahia da Série A ataca desesperadamente para reverter 1-3 e pode vencer este jogo (2.05 reflete a qualidade do elenco). Ceará ataca no Castelão para reverter 1-2, o jogo abre. Juventude ataca no Alfredo Jaconi para reverter 0-1. Coritiba decide 0-0 em casa atacando. Tudo conecta: noite de ataque, gols e emoção."
-        }
-      ]
-    },
-    {
-      "title": "Plano $2 - Europa Espelho: Zebras vs Empates",
-      "matches": [
-        "Man City x Crystal Palace",
-        "Lens x PSG",
-        "Alavés x Barcelona",
-        "Remo x Bahia",
-        "Mirassol x Bragantino",
-        "São Paulo x Juventude",
-        "Ceará x Atlético Mineiro"
-      ],
-      "totalStake": "R$ 2,00",
-      "risk": "Muito alto",
-      "targetReturn": {
-        "minimum": "R$ 599,00",
-        "maximum": "R$ 667,00"
-      },
-      "coverageStrategy": "As duas apostas espelham os jogos europeus e da Copa em direções opostas. Na Europa: Aposta 1 aposta que os mandantes/underdogs VENCEM (Crystal Palace, Lens, Alavés). Aposta 2 aposta que os jogos europeus EMPATAM (City empata, Lens empata) e os favoritos da La Liga prevalecem (Barcelona vence). Na Copa: Aposta 1 aposta nos mandantes (Remo, Mirassol). Aposta 2 aposta nos visitantes (São Paulo, Atlético-MG, Bragantino). O espelhamento é simétrico: onde uma aposta vê vitória, a outra vê empate ou resultado oposto.",
-      "reason": "Meio de semana europeu é terra fértil para zebras (rodízio, cansaço) ou para empates (times calculando). Na Copa, mandantes e visitantes têm argumentos reais. Ao espelhar todas as direções, maximizamos a chance de pelo menos um cenário se concretizar.",
-      "statisticalNote": "Crystal Palace @7.50 contra Man City é a maior zebra da noite, mas não impossível. Lens 2º na Ligue 1 (67pts, 21V/32J) é forte em casa. Alavés em casa contra Barcelona pode surpreender se o Barça poupar. Remo grande fase + 3-1 vantagem. Mirassol em casa após 1-1. São Paulo Série A com 1-0 vantagem. Atlético-MG elenco superior, 2-1 vantagem. Bragantino Série A contra Mirassol.",
-      "bets": [
-        {
-          "match": "Múltipla - 5 jogos: Man City x Crystal Palace / Lens x PSG / Alavés x Barcelona / Remo x Bahia / Mirassol x Bragantino",
-          "bookmaker": "bet365",
-          "stake": "R$ 1,00",
-          "market": "Acumulador - Resultado Final (1X2)",
-          "selection": "Crystal Palace vence @7.50 + Lens vence @3.00 + Alavés vence @3.20 + Remo vence @3.40 + Mirassol vence @2.45",
-          "odd": 599.76,
-          "possibleReturn": "R$ 599,76",
-          "goal": "Cenário: NOITE DAS ZEBRAS EUROPEIAS + mandantes Copa confirmam. Crystal Palace, Lens e Alavés vencem em casa na Europa. Remo e Mirassol vencem em casa na Copa.",
-          "reason": "Crystal Palace pode surpreender em jogo de final de temporada. Lens é o 2º da Ligue 1, muito forte em casa (62 gols marcados na temporada). Alavés no Mendizorroza pode complicar o Barça. Remo com 3-1 e boa fase confirma no Mangueirão. Mirassol após 1-1 decide em casa. Todos mandantes: a torcida é o elo que une as seleções."
-        },
-        {
-          "match": "Múltipla - 6 jogos: Man City x Crystal Palace / Lens x PSG / Alavés x Barcelona / Juventude x São Paulo / Ceará x Atlético Mineiro / Mirassol x Bragantino",
-          "bookmaker": "bet365",
-          "stake": "R$ 1,00",
-          "market": "Acumulador - Resultado Final (1X2)",
-          "selection": "Empate Man City x Crystal Palace @5.75 + Empate Lens x PSG @3.90 + Barcelona vence @2.10 + São Paulo vence @2.10 + Atlético Mineiro vence @2.25 + Bragantino vence @3.00",
-          "odd": 667.54,
-          "possibleReturn": "R$ 667,54",
-          "goal": "Cenário: NOITE DOS EMPATES EUROPEUS + visitantes de qualidade na Copa. Na Europa, os grandes jogos empatam (City e Lens/PSG). Na Copa, visitantes de Série A impõem elenco superior.",
-          "reason": "Man City empata se Crystal Palace se fecha e City não converte (5.75 é plausível). Lens x PSG empata refletindo o equilíbrio do 2º x 1º da Ligue 1. Barcelona vence Alavés fora como esperado pela qualidade. São Paulo da Série A controla Juventude da Série B com 1-0 de vantagem. Atlético-MG com elenco superior vence Ceará com 2-1 de vantagem. Bragantino da Série A vence fora após 1-1 na ida. O elo: favoritos técnicos prevalece, jogos grandes empatam."
+          "market": "Acumulador - Resultado Final (Full Time Result) x8",
+          "selection": "Botafogo vence (2.20) + Empate Atlético GO x Athletico PR (3.10) + Empate Confiança x Grêmio (3.50) + Corinthians vence (1.33) + CRB vence (2.62) + Flamengo vence (2.00) + Real Madrid vence (1.20) + Real Sociedad vence (3.90)",
+          "odd": 778.54,
+          "possibleReturn": "R$ 778,54",
+          "goal": "Cobrir o cenário alternativo: Botafogo e Flamengo vencem fora com autoridade, Grêmio empata com time misto contra a Confiança (rodízio), Atlético GO x Athletico PR segue travado (empate como na ida), e CRB reverte em casa. Na La Liga, Real Sociedad surpreende o Girona fora.",
+          "reason": "Botafogo goleou a Chapecoense por 4-1 na Arena Condá recentemente — demonstrou que pode vencer fora contra esse adversário. O empate Confiança x Grêmio é realista porque o Grêmio deve escalar um time misto/reserva (está no Z4 da Série A, 17º lugar, e enfrenta o Bahia no fim de semana — a prioridade absoluta é o Brasileirão, não avançar goleando na Copa). Um 0-0 ou 1-1 é perfeitamente plausível. Atlético GO x Athletico PR empataram em 0-0 na ida, times de nível similar com o jogo podendo repetir o roteiro e ir para pênaltis. CRB com 3 vitórias seguidas e empurrado pela torcida no Rei Pelé pode reverter o 1-2 da ida — precisa vencer por 2+ ou por 1 gol para pênaltis. Flamengo invicto há 10 jogos e com elenco muito superior ao Vitória. Real Sociedad domina o histórico contra o Girona (4V, 5E nos últimos 10) e busca classificação europeia."
         }
       ]
     }
