@@ -1,152 +1,16 @@
 {
-  "updatedAt": "2026-05-14 14:25",
+  "updatedAt": "2026-05-15 14:40",
   "summary": {
     "totalBookmakers": 15,
-    "totalGames": 64,
+    "totalGames": 33,
     "surebetsFound": 1,
-    "bestOdd": 14,
+    "bestOdd": 14.5,
     "riskProfile": "Moderado"
   },
   "bookmakers": [
     {
       "name": "Superbet",
-      "games": [
-        {
-          "championship": "Brasil - Copa do Brasil",
-          "match": "Chapecoense x Botafogo RJ",
-          "home": "Chapecoense",
-          "away": "Botafogo RJ",
-          "date": "2026-05-14",
-          "time": "18:00",
-          "odds": {
-            "home": 3.4,
-            "draw": 3.15,
-            "away": 2.22
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Superbet."
-        },
-        {
-          "championship": "Brasil - Copa do Brasil",
-          "match": "Confiança SE x Grêmio RS",
-          "home": "Confiança SE",
-          "away": "Grêmio RS",
-          "date": "2026-05-14",
-          "time": "19:00",
-          "odds": {
-            "home": 5.1,
-            "draw": 3.5,
-            "away": 1.72
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Superbet."
-        },
-        {
-          "championship": "Brasil - Copa do Brasil",
-          "match": "Atlético GO x Athletico PR",
-          "home": "Atlético GO",
-          "away": "Athletico PR",
-          "date": "2026-05-14",
-          "time": "19:00",
-          "odds": {
-            "home": 3.2,
-            "draw": 2.95,
-            "away": 2.45
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Superbet."
-        },
-        {
-          "championship": "Brasil - Copa do Brasil",
-          "match": "Corinthians x Barra SC",
-          "home": "Corinthians",
-          "away": "Barra SC",
-          "date": "2026-05-14",
-          "time": "19:30",
-          "odds": {
-            "home": 1.28,
-            "draw": 5.35,
-            "away": 10
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Superbet."
-        },
-        {
-          "championship": "Brasil - Copa do Brasil",
-          "match": "CRB AL x Fortaleza",
-          "home": "CRB AL",
-          "away": "Fortaleza",
-          "date": "2026-05-14",
-          "time": "20:00",
-          "odds": {
-            "home": 2.62,
-            "draw": 2.82,
-            "away": 3.1
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Superbet."
-        },
-        {
-          "championship": "Brasil - Copa do Brasil",
-          "match": "Vitória BA x Flamengo",
-          "home": "Vitória BA",
-          "away": "Flamengo",
-          "date": "2026-05-14",
-          "time": "21:30",
-          "odds": {
-            "home": 4,
-            "draw": 3.55,
-            "away": 1.88
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Superbet."
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Valencia x Rayo Vallecano",
-          "home": "Valencia",
-          "away": "Rayo Vallecano",
-          "date": "2026-05-14",
-          "time": "14:00",
-          "odds": {
-            "home": 2.22,
-            "draw": 2.95,
-            "away": 3.8
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Superbet."
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Girona x Real Sociedad",
-          "home": "Girona",
-          "away": "Real Sociedad",
-          "date": "2026-05-14",
-          "time": "15:00",
-          "odds": {
-            "home": 1.87,
-            "draw": 3.75,
-            "away": 4
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Superbet."
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Real Madrid x Real Oviedo",
-          "home": "Real Madrid",
-          "away": "Real Oviedo",
-          "date": "2026-05-14",
-          "time": "16:30",
-          "odds": {
-            "home": 1.22,
-            "draw": 6.9,
-            "away": 11
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Superbet."
-        }
-      ]
+      "games": []
     },
     {
       "name": "Estrela Bet",
@@ -158,697 +22,11 @@
     },
     {
       "name": "BR4bet",
-      "games": [
-        {
-          "championship": "Copa do Brasil - Brasil",
-          "match": "Chapecoense x Botafogo",
-          "home": "Chapecoense",
-          "away": "Botafogo",
-          "date": "2026-05-14",
-          "time": "18:00",
-          "odds": {
-            "home": 3.2,
-            "draw": 3.1,
-            "away": 2.14
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 2.16
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 1.58
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 1.95
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 1.75
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da BR4bet."
-        },
-        {
-          "championship": "Copa do Brasil - Brasil",
-          "match": "Atlético GO x Athletico-PR",
-          "home": "Atlético GO",
-          "away": "Athletico-PR",
-          "date": "2026-05-14",
-          "time": "19:00",
-          "odds": {
-            "home": 2.66,
-            "draw": 3,
-            "away": 2.54
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 2.16
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 1.58
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 1.9
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 1.8
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da BR4bet."
-        },
-        {
-          "championship": "Copa do Brasil - Brasil",
-          "match": "Confiança x Grêmio",
-          "home": "Confiança",
-          "away": "Grêmio",
-          "date": "2026-05-14",
-          "time": "19:00",
-          "odds": {
-            "home": 5,
-            "draw": 3.4,
-            "away": 1.64
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 2.12
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 1.61
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 2.1
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 1.66
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da BR4bet."
-        },
-        {
-          "championship": "Copa do Brasil - Brasil",
-          "match": "Corinthians x Barra",
-          "home": "Corinthians",
-          "away": "Barra",
-          "date": "2026-05-14",
-          "time": "19:30",
-          "odds": {
-            "home": 1.28,
-            "draw": 4.75,
-            "away": 9
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 1.78
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 1.88
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 2.28
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 1.55
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da BR4bet."
-        },
-        {
-          "championship": "Copa do Brasil - Brasil",
-          "match": "CRB x Fortaleza",
-          "home": "CRB",
-          "away": "Fortaleza",
-          "date": "2026-05-14",
-          "time": "20:00",
-          "odds": {
-            "home": 2.45,
-            "draw": 2.71,
-            "away": 3.1
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 1.5",
-              "odd": 1.52
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 1.5",
-              "odd": 2.3
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 2.2
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 1.6
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da BR4bet."
-        },
-        {
-          "championship": "Copa do Brasil - Brasil",
-          "match": "Vitória BA x Flamengo",
-          "home": "Vitória BA",
-          "away": "Flamengo",
-          "date": "2026-05-14",
-          "time": "21:30",
-          "odds": {
-            "home": 3.66,
-            "draw": 3.33,
-            "away": 1.9
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 1.76
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 1.92
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 1.7
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 2.05
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da BR4bet."
-        },
-        {
-          "championship": "League One - Inglaterra",
-          "match": "Bradford City x Bolton Wanderers FC",
-          "home": "Bradford City",
-          "away": "Bolton Wanderers FC",
-          "date": "2026-05-14",
-          "time": "16:00",
-          "odds": {
-            "home": 2.6,
-            "draw": 3,
-            "away": 2.62
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 2
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 1.69
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 1.8
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 1.9
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da BR4bet."
-        },
-        {
-          "championship": "LaLiga - Espanha",
-          "match": "Valencia CF x Rayo Vallecano",
-          "home": "Valencia CF",
-          "away": "Rayo Vallecano",
-          "date": "2026-05-14",
-          "time": "14:00",
-          "odds": {
-            "home": 2.16,
-            "draw": 3,
-            "away": 3.66
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 2.25
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 1.6
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 1.94
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 1.8
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da BR4bet."
-        },
-        {
-          "championship": "LaLiga - Espanha",
-          "match": "Girona FC x Real Sociedad",
-          "home": "Girona FC",
-          "away": "Real Sociedad",
-          "date": "2026-05-14",
-          "time": "15:00",
-          "odds": {
-            "home": 1.9,
-            "draw": 3.8,
-            "away": 3.5
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 1.66
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 2.12
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 1.62
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 2.2
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da BR4bet."
-        },
-        {
-          "championship": "LaLiga - Espanha",
-          "match": "Real Madrid x Real Oviedo",
-          "home": "Real Madrid",
-          "away": "Real Oviedo",
-          "date": "2026-05-14",
-          "time": "16:30",
-          "odds": {
-            "home": 1.18,
-            "draw": 6.66,
-            "away": 12
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 3.5",
-              "odd": 2.05
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 3.5",
-              "odd": 1.71
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 2
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 1.75
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da BR4bet."
-        }
-      ]
+      "games": []
     },
     {
       "name": "Novibet",
-      "games": [
-        {
-          "championship": "Brasil - Copa do Brasil",
-          "match": "Chapecoense SC x Botafogo RJ",
-          "home": "Chapecoense SC",
-          "away": "Botafogo RJ",
-          "date": "2026-05-14",
-          "time": "18:00",
-          "odds": {
-            "home": 3.3,
-            "draw": 3.15,
-            "away": 2.2
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 2.2
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 1.68
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 1.9
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 1.86
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da Novibet."
-        },
-        {
-          "championship": "Brasil - Copa do Brasil",
-          "match": "Atlético Goianiense GO x Athletico Paranaense PR",
-          "home": "Atlético Goianiense GO",
-          "away": "Athletico Paranaense PR",
-          "date": "2026-05-14",
-          "time": "19:00",
-          "odds": {
-            "home": 3.1,
-            "draw": 3.1,
-            "away": 2.35
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 2.25
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 1.61
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 1.92
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 1.81
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da Novibet."
-        },
-        {
-          "championship": "Brasil - Copa do Brasil",
-          "match": "Confiança SE x Grêmio RS",
-          "home": "Confiança SE",
-          "away": "Grêmio RS",
-          "date": "2026-05-14",
-          "time": "19:00",
-          "odds": {
-            "home": 4.9,
-            "draw": 3.5,
-            "away": 1.75
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 2.2
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 1.65
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 2.07
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 1.7
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da Novibet."
-        },
-        {
-          "championship": "Brasil - Copa do Brasil",
-          "match": "Corinthians SP x Barra SC",
-          "home": "Corinthians SP",
-          "away": "Barra SC",
-          "date": "2026-05-14",
-          "time": "19:30",
-          "odds": {
-            "home": 1.35,
-            "draw": 4.7,
-            "away": 8.4
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 1.83
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 1.93
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 2.2
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 1.61
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da Novibet."
-        },
-        {
-          "championship": "Brasil - Copa do Brasil",
-          "match": "CRB AL x Fortaleza CE",
-          "home": "CRB AL",
-          "away": "Fortaleza CE",
-          "date": "2026-05-14",
-          "time": "20:00",
-          "odds": {
-            "home": 2.6,
-            "draw": 2.8,
-            "away": 3.05
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 1.5",
-              "odd": 1.52
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 1.5",
-              "odd": 2.5
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 2.05
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 1.71
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da Novibet."
-        },
-        {
-          "championship": "Brasil - Copa do Brasil",
-          "match": "Vitória BA x Flamengo RJ",
-          "home": "Vitória BA",
-          "away": "Flamengo RJ",
-          "date": "2026-05-14",
-          "time": "21:30",
-          "odds": {
-            "home": 3.7,
-            "draw": 3.5,
-            "away": 1.94
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 1.78
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 2.04
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 1.67
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 2.15
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da Novibet."
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Valencia x Rayo Vallecano",
-          "home": "Valencia",
-          "away": "Rayo Vallecano",
-          "date": "2026-05-14",
-          "time": "14:00",
-          "odds": {
-            "home": 2.25,
-            "draw": 3.1,
-            "away": 3.85
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 2.25
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 1.64
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 1.9
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 1.87
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da Novibet."
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Girona x Real Sociedad",
-          "home": "Girona",
-          "away": "Real Sociedad",
-          "date": "2026-05-14",
-          "time": "15:00",
-          "odds": {
-            "home": 1.84,
-            "draw": 3.7,
-            "away": 3.85
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 1.69
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 2.15
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 1.63
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 2.25
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da Novibet."
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Real Madrid x Real Oviedo",
-          "home": "Real Madrid",
-          "away": "Real Oviedo",
-          "date": "2026-05-14",
-          "time": "16:30",
-          "odds": {
-            "home": 1.23,
-            "draw": 6.2,
-            "away": 11
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 3.5",
-              "odd": 2
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 3.5",
-              "odd": 1.73
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 1.9
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 1.86
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da Novibet."
-        }
-      ]
+      "games": []
     },
     {
       "name": "BetMGM",
@@ -862,139 +40,276 @@
       "name": "Betano",
       "games": [
         {
-          "championship": "Brasil - Copa Betano do Brasil",
-          "match": "Vitória x Flamengo",
-          "home": "Vitória",
-          "away": "Flamengo",
-          "date": "2026-05-14",
-          "time": "21:30",
+          "championship": "Inglaterra - Premier League",
+          "match": "Aston Villa x Liverpool",
+          "home": "Aston Villa",
+          "away": "Liverpool",
+          "date": "2026-05-15",
+          "time": "16:00",
           "odds": {
-            "home": 3.95,
-            "draw": 3.7,
-            "away": 2
+            "home": 2.82,
+            "draw": 3.6,
+            "away": 2.35
           },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Betano."
+          "markets": [
+            {
+              "market": "Resultado Final",
+              "selection": "Liverpool",
+              "odd": 2.35
+            }
+          ],
+          "notes": null
         },
         {
-          "championship": "Brasil - Copa Betano do Brasil",
-          "match": "Corinthians x Barra SC",
-          "home": "Corinthians",
-          "away": "Barra SC",
-          "date": "2026-05-14",
-          "time": "19:30",
+          "championship": "Equador - Liga Pro Serie A",
+          "match": "LDU Quito x CD Tecnico Universitario",
+          "home": "LDU Quito",
+          "away": "CD Tecnico Universitario",
+          "date": "2026-05-15",
+          "time": "18:30",
           "odds": {
-            "home": 1.35,
-            "draw": 5.3,
-            "away": 10.25
+            "home": 1.6,
+            "draw": 4.4,
+            "away": 5.8
           },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Betano."
+          "markets": [
+            {
+              "market": "Resultado Final",
+              "selection": "LDU Quito",
+              "odd": 1.6
+            }
+          ],
+          "notes": null
         },
         {
-          "championship": "Brasil - Copa Betano do Brasil",
-          "match": "Chapecoense x Botafogo-RJ",
-          "home": "Chapecoense",
-          "away": "Botafogo-RJ",
-          "date": "2026-05-14",
-          "time": "18:00",
+          "championship": "Espanha - Segunda División",
+          "match": "CD Castellón x Cádiz CF",
+          "home": "CD Castellón",
+          "away": "Cádiz CF",
+          "date": "2026-05-15",
+          "time": "15:30",
           "odds": {
-            "home": 3.4,
-            "draw": 3.2,
-            "away": 2.25
+            "home": 1.27,
+            "draw": 6.6,
+            "away": 11.25
           },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Betano."
+          "markets": [
+            {
+              "market": "Resultado Final",
+              "selection": "CD Castellón",
+              "odd": 1.27
+            },
+            {
+              "market": "Resultado Final",
+              "selection": "CD Castellón",
+              "odd": 1.26
+            }
+          ],
+          "notes": "Há variação visível no print entre 1.27 e 1.26 para CD Castellón em seções diferentes da Betano"
         },
         {
-          "championship": "Brasil - Copa Betano do Brasil",
-          "match": "Confiança x Grêmio",
-          "home": "Confiança",
-          "away": "Grêmio",
-          "date": "2026-05-14",
-          "time": "19:00",
-          "odds": {
-            "home": 5.3,
-            "draw": 3.65,
-            "away": 1.78
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Betano."
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Real Madrid x Real Oviedo",
-          "home": "Real Madrid",
-          "away": "Real Oviedo",
-          "date": "2026-05-14",
-          "time": "16:30",
-          "odds": {
-            "home": 1.23,
-            "draw": 7,
-            "away": 14
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Betano."
-        },
-        {
-          "championship": "Brasil - Copa Betano do Brasil",
-          "match": "Atlético-GO x Athletico-PR",
-          "home": "Atlético-GO",
-          "away": "Athletico-PR",
-          "date": "2026-05-14",
-          "time": "19:00",
-          "odds": {
-            "home": 3.2,
-            "draw": 3.15,
-            "away": 2.4
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Betano."
-        },
-        {
-          "championship": "Brasil - Copa Betano do Brasil",
-          "match": "CRB x Fortaleza",
-          "home": "CRB",
-          "away": "Fortaleza",
-          "date": "2026-05-14",
-          "time": "20:00",
-          "odds": {
-            "home": 2.6,
-            "draw": 2.77,
-            "away": 3.1
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Betano."
-        },
-        {
-          "championship": "Espanha - LaLiga",
-          "match": "Girona FC x Real Sociedad",
-          "home": "Girona FC",
-          "away": "Real Sociedad",
-          "date": "2026-05-14",
+          "championship": "Arábia Saudita - Pro League",
+          "match": "Al-Taawoun FC x Al-Riyadh SC",
+          "home": "Al-Taawoun FC",
+          "away": "Al-Riyadh SC",
+          "date": "2026-05-15",
           "time": "15:00",
           "odds": {
-            "home": 1.91,
-            "draw": 3.7,
-            "away": 3.9
+            "home": 1.57,
+            "draw": 4.45,
+            "away": 5.4
           },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Betano."
+          "markets": [
+            {
+              "market": "Resultado Final",
+              "selection": "Al-Taawoun FC",
+              "odd": 1.57
+            }
+          ],
+          "notes": null
         },
         {
-          "championship": "Espanha - LaLiga",
-          "match": "Valencia x Rayo Vallecano",
-          "home": "Valencia",
-          "away": "Rayo Vallecano",
-          "date": "2026-05-14",
-          "time": "14:00",
+          "championship": "França - Ligue 1",
+          "match": "Saint-Étienne x Rodez AF",
+          "home": "Saint-Étienne",
+          "away": "Rodez AF",
+          "date": "2026-05-15",
+          "time": "15:30",
           "odds": {
-            "home": 2.25,
-            "draw": 3,
-            "away": 3.7
+            "home": 1.78,
+            "draw": 4.1,
+            "away": 4.6
+          },
+          "markets": [
+            {
+              "market": "Resultado Final",
+              "selection": "Saint-Étienne",
+              "odd": 1.78
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Alemanha - Bundesliga",
+          "match": "Bayer Leverkusen x Hamburgo",
+          "home": "Bayer Leverkusen",
+          "away": "Hamburgo",
+          "date": "2026-05-16",
+          "time": "10:30",
+          "odds": {
+            "home": 1.29,
+            "draw": 6.8,
+            "away": 9.75
+          },
+          "markets": [
+            {
+              "market": "Resultado Final",
+              "selection": "Bayer Leverkusen",
+              "odd": 1.28
+            }
+          ],
+          "notes": "Há variação visível no print entre 1.29 e 1.28 para Bayer Leverkusen em seções diferentes da Betano"
+        },
+        {
+          "championship": "Arábia Saudita - Pro League",
+          "match": "Damac FC x Al-Fayha FC",
+          "home": "Damac FC",
+          "away": "Al-Fayha FC",
+          "date": "2026-05-15",
+          "time": null,
+          "odds": {
+            "home": 1.27,
+            "draw": 4.4,
+            "away": 14.5
           },
           "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Betano."
+          "notes": "Jogo aparenta estar ao vivo no print, com placar 1-0 e tempo 54:28"
+        },
+        {
+          "championship": "Chile - Liga de Primera",
+          "match": "Coquimbo Unido x Audax Italiano",
+          "home": "Coquimbo Unido",
+          "away": "Audax Italiano",
+          "date": "2026-05-15",
+          "time": "21:00",
+          "odds": {
+            "home": 1.88,
+            "draw": 3.7,
+            "away": 4.45
+          },
+          "markets": [
+            {
+              "market": "Resultado Final",
+              "selection": "Coquimbo Unido",
+              "odd": 1.88
+            }
+          ],
+          "notes": null
+        },
+        {
+          "championship": "Não confirmado",
+          "match": "Bayern de Munique x 1. FC Köln",
+          "home": "Bayern de Munique",
+          "away": "1. FC Köln",
+          "date": "2026-05-16",
+          "time": "10:30",
+          "odds": {
+            "home": 1.16,
+            "draw": null,
+            "away": null
+          },
+          "markets": [
+            {
+              "market": "Resultado Final",
+              "selection": "Bayern de Munique",
+              "odd": 1.16
+            }
+          ],
+          "notes": "Jogo aparece somente na seção de múltiplas populares"
+        },
+        {
+          "championship": "Não confirmado",
+          "match": "Palestino x Deportes La Serena",
+          "home": "Palestino",
+          "away": "Deportes La Serena",
+          "date": "2026-05-15",
+          "time": "21:00",
+          "odds": {
+            "home": 2.02,
+            "draw": null,
+            "away": null
+          },
+          "markets": [
+            {
+              "market": "Resultado Final",
+              "selection": "Palestino",
+              "odd": 2.02
+            }
+          ],
+          "notes": "Jogo aparece somente na seção de múltiplas populares"
+        },
+        {
+          "championship": "Não confirmado",
+          "match": "Cordoba CF x Albacete Balompié",
+          "home": "Cordoba CF",
+          "away": "Albacete Balompié",
+          "date": "2026-05-15",
+          "time": "16:00",
+          "odds": {
+            "home": 1.57,
+            "draw": null,
+            "away": null
+          },
+          "markets": [
+            {
+              "market": "Resultado Final",
+              "selection": "Cordoba CF",
+              "odd": 1.57
+            }
+          ],
+          "notes": "Jogo aparece somente na seção de múltiplas populares"
+        },
+        {
+          "championship": "Não confirmado",
+          "match": "Werder Bremen x Borussia Dortmund",
+          "home": "Werder Bremen",
+          "away": "Borussia Dortmund",
+          "date": "2026-05-16",
+          "time": "10:30",
+          "odds": {
+            "home": null,
+            "draw": null,
+            "away": 2.05
+          },
+          "markets": [
+            {
+              "market": "Resultado Final",
+              "selection": "Borussia Dortmund",
+              "odd": 2.05
+            }
+          ],
+          "notes": "Jogo aparece somente na seção de múltiplas populares"
+        },
+        {
+          "championship": "Não confirmado",
+          "match": "FC Porto x CD Santa Clara",
+          "home": "FC Porto",
+          "away": "CD Santa Clara",
+          "date": "2026-05-16",
+          "time": "11:30",
+          "odds": {
+            "home": 1.37,
+            "draw": null,
+            "away": null
+          },
+          "markets": [
+            {
+              "market": "Resultado Final",
+              "selection": "FC Porto",
+              "odd": 1.37
+            }
+          ],
+          "notes": "Jogo aparece somente na seção de múltiplas populares"
         }
       ]
     },
@@ -1002,139 +317,214 @@
       "name": "bet365",
       "games": [
         {
-          "championship": "Copa do Brasil",
-          "match": "Chapecoense x Botafogo",
-          "home": "Chapecoense",
-          "away": "Botafogo",
-          "date": "2026-05-14",
-          "time": "18:00",
+          "championship": "Premier League - Inglaterra",
+          "match": "Aston Villa x Liverpool",
+          "home": "Aston Villa",
+          "away": "Liverpool",
+          "date": "2026-05-15",
+          "time": "16:00",
           "odds": {
-            "home": 3.3,
-            "draw": 3.3,
-            "away": 2.2
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da bet365."
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "Atlético GO x Athletico Paranaense",
-          "home": "Atlético GO",
-          "away": "Athletico Paranaense",
-          "date": "2026-05-14",
-          "time": "19:00",
-          "odds": {
-            "home": 3.2,
-            "draw": 3.1,
-            "away": 2.35
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da bet365."
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "Confiança x Grêmio",
-          "home": "Confiança",
-          "away": "Grêmio",
-          "date": "2026-05-14",
-          "time": "19:00",
-          "odds": {
-            "home": 5,
+            "home": 2.75,
             "draw": 3.5,
-            "away": 1.7
+            "away": 2.45
           },
           "markets": [],
-          "notes": "Odds extraídas da imagem enviada da bet365."
+          "notes": null
         },
         {
-          "championship": "Copa do Brasil",
-          "match": "Corinthians x Barra SC",
-          "home": "Corinthians",
-          "away": "Barra SC",
-          "date": "2026-05-14",
-          "time": "19:30",
-          "odds": {
-            "home": 1.33,
-            "draw": 5.25,
-            "away": 8.5
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da bet365."
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "CRB x Fortaleza",
-          "home": "CRB",
-          "away": "Fortaleza",
-          "date": "2026-05-14",
-          "time": "20:00",
-          "odds": {
-            "home": 2.62,
-            "draw": 2.75,
-            "away": 3.1
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da bet365."
-        },
-        {
-          "championship": "Copa do Brasil",
-          "match": "Vitória x Flamengo",
-          "home": "Vitória",
-          "away": "Flamengo",
-          "date": "2026-05-14",
-          "time": "21:30",
-          "odds": {
-            "home": 3.75,
-            "draw": 3.5,
-            "away": 2
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da bet365."
-        },
-        {
-          "championship": "Espanha - La Liga",
-          "match": "Valência x Rayo Vallecano",
-          "home": "Valência",
-          "away": "Rayo Vallecano",
-          "date": "2026-05-14",
-          "time": "14:00",
-          "odds": {
-            "home": 2.2,
-            "draw": 3.1,
-            "away": 3.7
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da bet365."
-        },
-        {
-          "championship": "Espanha - La Liga",
-          "match": "Girona x Real Sociedad",
-          "home": "Girona",
-          "away": "Real Sociedad",
-          "date": "2026-05-14",
-          "time": "15:00",
-          "odds": {
-            "home": 1.85,
-            "draw": 3.9,
-            "away": 3.9
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da bet365."
-        },
-        {
-          "championship": "Espanha - La Liga",
-          "match": "Real Madrid x Real Oviedo",
-          "home": "Real Madrid",
-          "away": "Real Oviedo",
-          "date": "2026-05-14",
-          "time": "16:30",
+          "championship": "Não confirmado",
+          "match": "Caykur Rizespor x Besiktas",
+          "home": "Caykur Rizespor",
+          "away": "Besiktas",
+          "date": "2026-05-15",
+          "time": null,
           "odds": {
             "home": 1.2,
             "draw": 7,
-            "away": 12
+            "away": 13
           },
           "markets": [],
-          "notes": "Odds extraídas da imagem enviada da bet365."
+          "notes": "Jogo aparenta estar ao vivo no print, com placar 2-0 e tempo 35:00"
+        },
+        {
+          "championship": "Não confirmado",
+          "match": "FC Cajamarca x Sporting Cristal",
+          "home": "FC Cajamarca",
+          "away": "Sporting Cristal",
+          "date": "2026-05-15",
+          "time": "17:00",
+          "odds": {
+            "home": 2.45,
+            "draw": 3.4,
+            "away": 2.7
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Não confirmado",
+          "match": "Rubio Ñú x Nacional Asunción",
+          "home": "Rubio Ñú",
+          "away": "Nacional Asunción",
+          "date": "2026-05-15",
+          "time": "17:00",
+          "odds": {
+            "home": 3.2,
+            "draw": 3,
+            "away": 2.15
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Não confirmado",
+          "match": "Sportivo Trinidense x Cerro Porteño",
+          "home": "Sportivo Trinidense",
+          "away": "Cerro Porteño",
+          "date": "2026-05-15",
+          "time": "17:00",
+          "odds": {
+            "home": 3.1,
+            "draw": 3,
+            "away": 2.2
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Não confirmado",
+          "match": "LDU Quito x Tecnico Universitario",
+          "home": "LDU Quito",
+          "away": "Tecnico Universitario",
+          "date": "2026-05-15",
+          "time": "18:30",
+          "odds": {
+            "home": 1.53,
+            "draw": 4.1,
+            "away": 5.25
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Não confirmado",
+          "match": "Patriotas FC x Millonarios",
+          "home": "Patriotas FC",
+          "away": "Millonarios",
+          "date": "2026-05-15",
+          "time": "20:00",
+          "odds": {
+            "home": 4.75,
+            "draw": 3.3,
+            "away": 1.75
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Não confirmado",
+          "match": "Montevideo City Torque x Nacional de Football",
+          "home": "Montevideo City Torque",
+          "away": "Nacional de Football",
+          "date": "2026-05-15",
+          "time": "20:00",
+          "odds": {
+            "home": 3.4,
+            "draw": 3.2,
+            "away": 2.1
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Não confirmado",
+          "match": "Deportivo La Guaira x UCV",
+          "home": "Deportivo La Guaira",
+          "away": "UCV",
+          "date": "2026-05-15",
+          "time": "20:30",
+          "odds": {
+            "home": 1.85,
+            "draw": 3.1,
+            "away": 3.9
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Não confirmado",
+          "match": "Coquimbo Unido x Audax Italiano",
+          "home": "Coquimbo Unido",
+          "away": "Audax Italiano",
+          "date": "2026-05-15",
+          "time": "21:00",
+          "odds": {
+            "home": 1.76,
+            "draw": 3.6,
+            "away": 4.1
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Não confirmado",
+          "match": "Palestino x La Serena",
+          "home": "Palestino",
+          "away": "La Serena",
+          "date": "2026-05-15",
+          "time": "21:00",
+          "odds": {
+            "home": 1.91,
+            "draw": 3.4,
+            "away": 3.6
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Não confirmado",
+          "match": "Libertad FC x Deportivo Cuenca",
+          "home": "Libertad FC",
+          "away": "Deportivo Cuenca",
+          "date": "2026-05-15",
+          "time": "21:00",
+          "odds": {
+            "home": 2.25,
+            "draw": 3.3,
+            "away": 2.85
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Não confirmado",
+          "match": "Real Tomayapo x Club Aurora",
+          "home": "Real Tomayapo",
+          "away": "Club Aurora",
+          "date": "2026-05-15",
+          "time": "21:00",
+          "odds": {
+            "home": 2.4,
+            "draw": 3.4,
+            "away": 2.45
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Não confirmado",
+          "match": "Universitario de Deportes x Atletico Grau",
+          "home": "Universitario de Deportes",
+          "away": "Atletico Grau",
+          "date": "2026-05-15",
+          "time": "22:00",
+          "odds": {
+            "home": 1.4,
+            "draw": 4.33,
+            "away": 8
+          },
+          "markets": [],
+          "notes": null
         }
       ]
     },
@@ -1154,304 +544,160 @@
       "name": "Esportiva Bet",
       "games": [
         {
-          "championship": "Copa do Brasil - Brasil",
-          "match": "Chapecoense x Botafogo",
-          "home": "Chapecoense",
-          "away": "Botafogo",
-          "date": "2026-05-14",
-          "time": "18:00",
+          "championship": "Brasileirão A1 Feminino - Brasil",
+          "match": "Flamengo (F) x Fluminense FC RJ",
+          "home": "Flamengo (F)",
+          "away": "Fluminense FC RJ",
+          "date": "2026-05-15",
+          "time": "21:00",
           "odds": {
-            "home": 3.73,
-            "draw": 3.31,
-            "away": 2.15
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 2.2
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 1.62
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 1.94
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 1.8
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da Esportiva Bet."
-        },
-        {
-          "championship": "Copa do Brasil - Brasil",
-          "match": "Atlético-GO x Athletico-PR",
-          "home": "Atlético-GO",
-          "away": "Athletico-PR",
-          "date": "2026-05-14",
-          "time": "19:00",
-          "odds": {
-            "home": 2.84,
+            "home": 1.83,
             "draw": 3.2,
-            "away": 2.7
+            "away": 4
           },
           "markets": [
             {
               "market": "Total de gols",
               "selection": "Mais de 2.5",
-              "odd": 2.25
+              "odd": 1.9
             },
             {
               "market": "Total de gols",
               "selection": "Menos de 2.5",
-              "odd": 1.6
+              "odd": 1.77
             },
             {
-              "market": "Ambas equipes marcam",
+              "market": "Ambas marcam",
               "selection": "Sim",
-              "odd": 1.92
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 1.81
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da Esportiva Bet."
-        },
-        {
-          "championship": "Copa do Brasil - Brasil",
-          "match": "Confiança x Grêmio",
-          "home": "Confiança",
-          "away": "Grêmio",
-          "date": "2026-05-14",
-          "time": "19:00",
-          "odds": {
-            "home": 5.35,
-            "draw": 3.7,
-            "away": 1.73
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 2.2
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 1.62
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 2.12
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 1.66
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da Esportiva Bet."
-        },
-        {
-          "championship": "Copa do Brasil - Brasil",
-          "match": "Corinthians x Barra",
-          "home": "Corinthians",
-          "away": "Barra",
-          "date": "2026-05-14",
-          "time": "19:30",
-          "odds": {
-            "home": 1.34,
-            "draw": 5.25,
-            "away": 10.2
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 1.81
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 1.92
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 2.3
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 1.57
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da Esportiva Bet."
-        },
-        {
-          "championship": "Copa do Brasil - Brasil",
-          "match": "CRB x Fortaleza",
-          "home": "CRB",
-          "away": "Fortaleza",
-          "date": "2026-05-14",
-          "time": "20:00",
-          "odds": {
-            "home": 2.63,
-            "draw": 2.88,
-            "away": 3.25
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 1.5",
-              "odd": 1.54
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 1.5",
-              "odd": 2.36
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 2.16
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 1.64
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da Esportiva Bet."
-        },
-        {
-          "championship": "Copa do Brasil - Brasil",
-          "match": "Vitória x Flamengo",
-          "home": "Vitória",
-          "away": "Flamengo",
-          "date": "2026-05-14",
-          "time": "21:30",
-          "odds": {
-            "home": 3.91,
-            "draw": 3.61,
-            "away": 1.99
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 1.78
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 1.96
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 1.69
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
-              "odd": 2.08
-            }
-          ],
-          "notes": "Odds extraídas da imagem enviada da Esportiva Bet."
-        },
-        {
-          "championship": "LaLiga - Espanha",
-          "match": "Valencia CF x Rayo Vallecano",
-          "home": "Valencia CF",
-          "away": "Rayo Vallecano",
-          "date": "2026-05-14",
-          "time": "14:00",
-          "odds": {
-            "home": 2.23,
-            "draw": 3.08,
-            "away": 3.82
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 2.25
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 1.6
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Sim",
-              "odd": 1.94
-            },
-            {
-              "market": "Ambas equipes marcam",
-              "selection": "Não",
               "odd": 1.8
+            },
+            {
+              "market": "Ambas marcam",
+              "selection": "Não",
+              "odd": 1.9
             }
           ],
-          "notes": "Odds extraídas da imagem enviada da Esportiva Bet."
+          "notes": null
         },
         {
-          "championship": "LaLiga - Espanha",
-          "match": "Girona FC x Real Sociedad",
-          "home": "Girona FC",
-          "away": "Real Sociedad",
-          "date": "2026-05-14",
-          "time": "15:00",
+          "championship": "Premier League - Inglaterra",
+          "match": "Aston Villa FC x Liverpool",
+          "home": "Aston Villa FC",
+          "away": "Liverpool",
+          "date": "2026-05-15",
+          "time": "16:00",
           "odds": {
-            "home": 1.97,
-            "draw": 3.92,
-            "away": 3.68
+            "home": 2.93,
+            "draw": 3.57,
+            "away": 2.39
           },
           "markets": [
             {
               "market": "Total de gols",
               "selection": "Mais de 2.5",
-              "odd": 1.66
+              "odd": 1.76
             },
             {
               "market": "Total de gols",
               "selection": "Menos de 2.5",
-              "odd": 2.12
+              "odd": 2
             },
             {
-              "market": "Ambas equipes marcam",
+              "market": "Ambas marcam",
               "selection": "Sim",
-              "odd": 1.62
+              "odd": 1.64
             },
             {
-              "market": "Ambas equipes marcam",
+              "market": "Ambas marcam",
               "selection": "Não",
-              "odd": 2.2
+              "odd": 2.16
             }
           ],
-          "notes": "Odds extraídas da imagem enviada da Esportiva Bet."
+          "notes": null
         },
         {
-          "championship": "LaLiga - Espanha",
-          "match": "Real Madrid x Real Oviedo",
-          "home": "Real Madrid",
-          "away": "Real Oviedo",
-          "date": "2026-05-14",
-          "time": "16:30",
+          "championship": "League Two - Inglaterra",
+          "match": "Salford City FC x Grimsby Town",
+          "home": "Salford City FC",
+          "away": "Grimsby Town",
+          "date": "2026-05-15",
+          "time": "15:15",
           "odds": {
-            "home": 1.22,
-            "draw": 7.1,
-            "away": 13.5
+            "home": 2.14,
+            "draw": 3.2,
+            "away": 3.1
+          },
+          "markets": [
+            {
+              "market": "Total de gols",
+              "selection": "Mais de 2.5",
+              "odd": 1.95
+            },
+            {
+              "market": "Total de gols",
+              "selection": "Menos de 2.5",
+              "odd": 1.73
+            },
+            {
+              "market": "Ambas marcam",
+              "selection": "Sim",
+              "odd": 1.75
+            },
+            {
+              "market": "Ambas marcam",
+              "selection": "Não",
+              "odd": 1.95
+            }
+          ],
+          "notes": "Primeiro jogo: 2-1"
+        },
+        {
+          "championship": "League Two - Inglaterra",
+          "match": "Notts County x Chesterfield FC",
+          "home": "Notts County",
+          "away": "Chesterfield FC",
+          "date": "2026-05-15",
+          "time": "16:00",
+          "odds": {
+            "home": 2.25,
+            "draw": 3,
+            "away": 3.1
+          },
+          "markets": [
+            {
+              "market": "Total de gols",
+              "selection": "Mais de 2.5",
+              "odd": 2.05
+            },
+            {
+              "market": "Total de gols",
+              "selection": "Menos de 2.5",
+              "odd": 1.66
+            },
+            {
+              "market": "Ambas marcam",
+              "selection": "Sim",
+              "odd": 1.8
+            },
+            {
+              "market": "Ambas marcam",
+              "selection": "Não",
+              "odd": 1.9
+            }
+          ],
+          "notes": "Primeiro jogo: 1-0"
+        },
+        {
+          "championship": "LaLiga 2 - Espanha",
+          "match": "Castellon x Cadiz CF",
+          "home": "Castellon",
+          "away": "Cadiz CF",
+          "date": "2026-05-15",
+          "time": "15:30",
+          "odds": {
+            "home": 1.23,
+            "draw": 5.66,
+            "away": 9
           },
           "markets": [
             {
@@ -1462,162 +708,62 @@
             {
               "market": "Total de gols",
               "selection": "Menos de 3.5",
-              "odd": 1.71
+              "odd": 1.66
             },
             {
-              "market": "Ambas equipes marcam",
+              "market": "Ambas marcam",
               "selection": "Sim",
-              "odd": 2
+              "odd": 1.83
             },
             {
-              "market": "Ambas equipes marcam",
+              "market": "Ambas marcam",
               "selection": "Não",
-              "odd": 1.75
+              "odd": 1.83
             }
           ],
-          "notes": "Odds extraídas da imagem enviada da Esportiva Bet."
+          "notes": null
+        },
+        {
+          "championship": "LaLiga 2 - Espanha",
+          "match": "Cordoba x Albacete Balompie",
+          "home": "Cordoba",
+          "away": "Albacete Balompie",
+          "date": "2026-05-15",
+          "time": "16:00",
+          "odds": {
+            "home": 1.54,
+            "draw": 3.8,
+            "away": 5.33
+          },
+          "markets": [
+            {
+              "market": "Total de gols",
+              "selection": "Mais de 2.5",
+              "odd": 1.57
+            },
+            {
+              "market": "Total de gols",
+              "selection": "Menos de 2.5",
+              "odd": 2.2
+            },
+            {
+              "market": "Ambas marcam",
+              "selection": "Sim",
+              "odd": 1.66
+            },
+            {
+              "market": "Ambas marcam",
+              "selection": "Não",
+              "odd": 2.1
+            }
+          ],
+          "notes": null
         }
       ]
     },
     {
       "name": "Betnacional",
-      "games": [
-        {
-          "championship": "LaLiga - Espanha",
-          "match": "Valencia x Rayo Vallecano",
-          "home": "Valencia",
-          "away": "Rayo Vallecano",
-          "date": "2026-05-14",
-          "time": "14:00",
-          "odds": {
-            "home": 2.2,
-            "draw": 3.07,
-            "away": 3.58
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Betnacional."
-        },
-        {
-          "championship": "LaLiga - Espanha",
-          "match": "Girona x Real Sociedad",
-          "home": "Girona",
-          "away": "Real Sociedad",
-          "date": "2026-05-14",
-          "time": "15:00",
-          "odds": {
-            "home": 1.88,
-            "draw": 3.75,
-            "away": 3.82
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Betnacional."
-        },
-        {
-          "championship": "LaLiga - Espanha",
-          "match": "Real Madrid x Real Oviedo",
-          "home": "Real Madrid",
-          "away": "Real Oviedo",
-          "date": "2026-05-14",
-          "time": "16:30",
-          "odds": {
-            "home": 1.22,
-            "draw": 6.67,
-            "away": 11.48
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Betnacional."
-        },
-        {
-          "championship": "Copa do Brasil - Brasil",
-          "match": "Chapecoense x Botafogo",
-          "home": "Chapecoense",
-          "away": "Botafogo",
-          "date": "2026-05-14",
-          "time": "18:00",
-          "odds": {
-            "home": 3.43,
-            "draw": 3.25,
-            "away": 2.17
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Betnacional."
-        },
-        {
-          "championship": "Copa do Brasil - Brasil",
-          "match": "Confiança x Grêmio",
-          "home": "Confiança",
-          "away": "Grêmio",
-          "date": "2026-05-14",
-          "time": "19:00",
-          "odds": {
-            "home": 5.06,
-            "draw": 3.66,
-            "away": 1.7
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Betnacional."
-        },
-        {
-          "championship": "Copa do Brasil - Brasil",
-          "match": "Atlético GO x Athletico PR",
-          "home": "Atlético GO",
-          "away": "Athletico PR",
-          "date": "2026-05-14",
-          "time": "19:00",
-          "odds": {
-            "home": 3.05,
-            "draw": 3.13,
-            "away": 2.42
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Betnacional."
-        },
-        {
-          "championship": "Copa do Brasil - Brasil",
-          "match": "Corinthians x Barra SC",
-          "home": "Corinthians",
-          "away": "Barra SC",
-          "date": "2026-05-14",
-          "time": "19:30",
-          "odds": {
-            "home": 1.32,
-            "draw": 5.14,
-            "away": 9.36
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Betnacional."
-        },
-        {
-          "championship": "Copa do Brasil - Brasil",
-          "match": "CRB x Fortaleza",
-          "home": "CRB",
-          "away": "Fortaleza",
-          "date": "2026-05-14",
-          "time": "20:00",
-          "odds": {
-            "home": 2.55,
-            "draw": 2.89,
-            "away": 3.1
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Betnacional."
-        },
-        {
-          "championship": "Copa do Brasil - Brasil",
-          "match": "Vitória x Flamengo",
-          "home": "Vitória",
-          "away": "Flamengo",
-          "date": "2026-05-14",
-          "time": "21:30",
-          "odds": {
-            "home": 3.78,
-            "draw": 3.58,
-            "away": 1.94
-          },
-          "markets": [],
-          "notes": "Odds extraídas da imagem enviada da Betnacional."
-        }
-      ]
+      "games": []
     },
     {
       "name": "multibet",
