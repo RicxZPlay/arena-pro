@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-15 14:40",
+  "updatedAt": "2026-05-15 14:50",
   "summary": {
     "totalBookmakers": 15,
     "totalGames": 33,
-    "surebetsFound": 1,
+    "surebetsFound": 0,
     "bestOdd": 14.5,
     "riskProfile": "Moderado"
   },
@@ -770,207 +770,203 @@
       "games": []
     }
   ],
-  "surebets": [
-    {
-      "match": "Atlético GO x Athletico PR",
-      "market": "Resultado Final (1X2)",
-      "profitPercent": 0.46,
-      "confidence": "Baixa",
-      "explanation": "Possível surebet identificada no jogo Atlético GO x Athletico PR, mercado 1X2. Utilizando as melhores odds disponíveis entre as casas: Vitória do Atlético GO a 3.20 na Superbet (também disponível na Betano e bet365), Empate a 3.20 na Esportiva Bet, e Vitória do Athletico PR a 2.70 na Esportiva Bet. A soma das probabilidades implícitas é 1/3.20 + 1/3.20 + 1/2.70 = 0.3125 + 0.3125 + 0.3704 = 0.9954, o que indica uma margem teórica de lucro de aproximadamente 0.46%. Com banca de R$ 500,00, o retorno garantido seria de aproximadamente R$ 502,30 independente do resultado. ATENÇÃO: A margem é extremamente pequena (R$ 2,30 de lucro) e qualquer variação mínima de odds pode eliminar a oportunidade. É necessário confirmar as odds em tempo real antes de qualquer entrada. A operação exige apostas em casas diferentes (Superbet e Esportiva Bet), o que adiciona complexidade operacional.",
-      "stakes": [
-        {
-          "outcome": "Vitória do Atlético GO",
-          "bookmaker": "Superbet",
-          "odd": 3.2,
-          "stake": "R$ 157,00"
-        },
-        {
-          "outcome": "Empate",
-          "bookmaker": "Esportiva Bet",
-          "odd": 3.2,
-          "stake": "R$ 157,00"
-        },
-        {
-          "outcome": "Vitória do Athletico PR",
-          "bookmaker": "Esportiva Bet",
-          "odd": 2.7,
-          "stake": "R$ 186,00"
-        }
-      ]
-    }
-  ],
+  "surebets": [],
   "tips": [
     {
-      "match": "Girona x Real Sociedad",
-      "championship": "LaLiga - Espanha",
-      "market": "Ambas equipes marcam - Sim",
-      "bookmaker": "BR4bet",
-      "odd": 1.62,
-      "reason": "Girona está na zona de rebaixamento (18º, 39 pontos) e precisa desesperadamente vencer, o que garante postura ofensiva. A Real Sociedad tem apenas 3 clean sheets em toda a temporada — o pior registro da LaLiga. Girona não teve clean sheet nos últimos 5 jogos. 4 dos últimos 5 jogos do Girona tiveram gols de ambas as equipes. A Real Sociedad está sem Oskarsson (suspenso), mas ainda tem Oyarzabal, Sucic e Barrenetxea. O contexto de desespero do Girona combinado com a fragilidade defensiva de ambos torna BTTS altamente provável.",
+      "match": "Aston Villa x Liverpool",
+      "championship": "Inglaterra - Premier League",
+      "market": "Ambas marcam - Sim",
+      "bookmaker": "Esportiva Bet",
+      "odd": 1.64,
+      "reason": "Ambas as equipes têm alta tendência de BTTS na temporada: Villa com 56% e Liverpool com 67%. Nos últimos 5 jogos do Villa em casa, 4 tiveram gols de ambos os lados. Liverpool marcou 2+ gols em cada uma das últimas 8 visitas ao Villa Park na liga. Com ambos os times precisando da vitória (empatados em 59 pontos na 4ª e 5ª posição), o jogo tende a ser aberto e com chances para os dois lados.",
       "risk": "Baixo",
-      "probability": "65%",
-      "entry": "Entrada direta no mercado Ambas Marcam Sim. Odd de 1.62 na BR4bet ou 1.63 na Novibet.",
+      "probability": "66%",
+      "entry": "Entrada direta no mercado Ambas Marcam - Sim. Stake de 2-3% da banca.",
       "protection": null,
       "stats": {
-        "recentForm": "Girona: 2 pontos nos últimos 5 jogos (D-L-L-L-D), marcou 5 e sofreu 8. Real Sociedad: 3 pontos nos últimos 5 (D-L-D-L-D), marcou 8 e sofreu 10.",
-        "homeAwayPerformance": "Girona em casa: 22 pontos em 17 jogos, 4ª pior campanha como mandante da LaLiga. Real Sociedad fora: 12ª classificada, perdeu 3 dos últimos 4 jogos fora.",
-        "goalsTrend": "Girona: 37 gols marcados e 52 sofridos. Real Sociedad: 54 marcados e 55 sofridos. Ambas as equipes com defesas vulneráveis.",
-        "bothTeamsScoreTrend": "4 dos últimos 5 jogos do Girona tiveram BTTS. Real Sociedad tem apenas 3 clean sheets na temporada inteira.",
-        "offensiveDefensiveStats": "Girona tem a 3ª melhor média de dribles bem-sucedidos por jogo (9.4) na LaLiga. Real Sociedad tem a pior marca de clean sheets da liga (3).",
-        "headToHead": "Girona nunca venceu a Real Sociedad em casa na LaLiga, mas venceu o jogo de ida desta temporada por 2-1. Real Sociedad venceu 2 das últimas 3 visitas a Montilivi.",
-        "absences": "Girona: Van de Beek, Portu e Vanat fora. Bryan Gil retorna de suspensão. Real Sociedad: Oskarsson suspenso, Odriozola e Karrikaburu fora, Zubeldia e Guedes dúvidas.",
-        "teamMoment": "Girona em crise, lutando contra o rebaixamento. Real Sociedad sem motivação forte — Europa League garantida pela Copa del Rey.",
-        "motivation": "Girona: partida de vida ou morte, restam 3 jogos. Real Sociedad: sem grandes objetivos na liga, já classificada para Europa League.",
-        "oddsValue": "Odd de 1.62 implica probabilidade de 61.7%. Estimativa real de 65% indica leve valor positivo."
+        "recentForm": "Villa: D-W-L-L-D nos últimos 5 jogos da PL (5 pts). Liverpool: L-W-W-L-D (10 pts), mas 5 derrotas nas últimas 6 partidas fora (todas competições).",
+        "homeAwayPerformance": "Villa em casa: 11V-2E-5D (1.6 gols marcados, 1.11 sofridos por jogo). Liverpool fora: 7V-3E-8D (1.5 gols marcados, 1.61 sofridos por jogo).",
+        "goalsTrend": "Villa: média de 1.4 gols marcados e 1.28 sofridos por jogo. Liverpool: média de 1.7 marcados e 1.33 sofridos. Combinado: ~2.68 a 3.0 gols por jogo.",
+        "bothTeamsScoreTrend": "BTTS em 56% dos jogos do Villa e 67% do Liverpool na temporada. 4 dos últimos 5 jogos do Villa em casa tiveram BTTS.",
+        "offensiveDefensiveStats": "Villa: 50 gols marcados, 46 sofridos em 36 jogos. Liverpool: 60 marcados, 48 sofridos em 36 jogos. Ambos cedem gols com regularidade fora e em casa.",
+        "headToHead": "Nov 2025: Liverpool 2-0 Villa. Fev 2025: Villa 2-2 Liverpool. Nov 2024: Liverpool 2-0 Villa. Mai 2024: Villa 3-3 Liverpool. Liverpool marcou 2+ gols nas últimas 8 visitas ao Villa Park.",
+        "absences": "Villa: 3 jogadores lesionados; Emery pode poupar titulares (Rogers, Watkins) por conta da final da Europa League dia 20/05. Liverpool: Alisson (dúvida, coxa), Mamardashvili (joelho, improvável), Bajcetic (longo prazo). Salah pode jogar.",
+        "teamMoment": "Villa irregular, sem vitória em 3 jogos. Liverpool oscilante fora de casa mas melhor nas últimas 5 rodadas que o Villa.",
+        "motivation": "Ambos com 59 pontos, brigando por vaga na Champions League (4º e 5º). Penúltima rodada da temporada. Villa tem a final da Europa League como rede de segurança.",
+        "oddsValue": "BTTS Sim a 1.64 com probabilidade estimada de 66% representa valor justo. Probabilidade implícita da odd: 61%. Há margem positiva de ~5%."
       }
     },
     {
-      "match": "Real Madrid x Real Oviedo",
-      "championship": "LaLiga - Espanha",
-      "market": "Total de gols - Mais de 3.5",
+      "match": "Aston Villa x Liverpool",
+      "championship": "Inglaterra - Premier League",
+      "market": "Mais de 2.5 gols",
       "bookmaker": "Esportiva Bet",
-      "odd": 2.05,
-      "reason": "Real Madrid joga em casa no Bernabéu contra o último colocado, já rebaixado. O Real Madrid tem média de 22 finalizações e 8.67 no alvo por jogo em casa. Oviedo tem a pior defesa fora (2.33 gols sofridos por jogo nos últimos 3 fora) e o pior ataque da liga (26 gols em 35 jogos). Oviedo chega desfalcado de 3 jogadores-chave (Javi López e Kwasi Sibo suspensos, Bailly com fratura no nariz). Real Madrid venceu o jogo de ida por 3-0. Mesmo sem Rodrygo e com Mbappé como dúvida, Vinícius Jr. tem 4 gols e 1 assistência nos últimos 5 jogos. O Madrid quer se redimir após derrota no Clássico para o Barcelona (0-2).",
-      "risk": "Médio",
-      "probability": "55%",
-      "entry": "Entrada direta em Mais de 3.5 gols. Esportiva Bet a 2.05 ou BR4bet a 2.05.",
-      "protection": "Considerar entrada alternativa em Mais de 2.5 gols (odd menor mas mais segura) como proteção parcial.",
-      "stats": {
-        "recentForm": "Real Madrid: L-D-W-D-W-L nos últimos 6, com destaque para vitória sobre Espanyol (2-0) e derrota no Clássico (0-2). Real Oviedo: W-W-D-L-L-D, confirmou rebaixamento na última rodada.",
-        "homeAwayPerformance": "Real Madrid em casa: 14V-1E-2D, 83% de aproveitamento nos últimos 30 jogos em casa. Oviedo fora: apenas 2 vitórias em 17 jogos, 12 derrotas nos últimos 20 fora.",
-        "goalsTrend": "Real Madrid: 70 gols marcados (2º melhor ataque), média de 2 gols/jogo. Oviedo: 26 marcados (pior ataque), 54 sofridos, média de 0.74 gols/jogo.",
-        "bothTeamsScoreTrend": "Oviedo marca pouco fora de casa, mas Real Madrid costuma abrir o jogo e sofrer em transições quando já está com vantagem confortável.",
-        "offensiveDefensiveStats": "Real Madrid: 2º melhor ataque e defesa da LaLiga. Vinícius Jr. com 4 gols nos últimos 5 jogos. Mbappé é artilheiro da LaLiga com 24 gols. Oviedo: Viñas é o artilheiro com apenas 9 gols em 31 jogos.",
-        "headToHead": "Real Madrid 3-0 no jogo de ida. Oviedo não vence o Real Madrid desde 1998/99. Média de 2.3 gols do Real Madrid nos últimos 10 confrontos.",
-        "absences": "Real Madrid: Rodrygo, Militão e Mendy fora por lesão. Mbappé e Carvajal em dúvida. Ceballos e Güler fora. Oviedo: Javi López e Kwasi Sibo suspensos, Bailly (nariz quebrado), Dendoncker e Jaime Vázquez fora.",
-        "teamMoment": "Real Madrid quer se redimir após perder o título para o Barcelona. Oviedo já rebaixado, sem motivação competitiva.",
-        "motivation": "Real Madrid: garantir 2º lugar e encerrar temporada com dignidade após perder título e ser eliminado da UCL pelo Bayern. Oviedo: apenas cumprir tabela.",
-        "oddsValue": "Odd de 2.05 implica probabilidade de 48.8%. Estimativa real de ~55% indica bom valor considerando o contexto."
-      }
-    },
-    {
-      "match": "Vitória BA x Flamengo",
-      "championship": "Brasil - Copa do Brasil",
-      "market": "Ambas equipes marcam - Sim",
-      "bookmaker": "BR4bet",
-      "odd": 1.7,
-      "reason": "O Vitória tem aproveitamento de 76% nos jogos em casa no Barradão na Série A e precisa atacar para reverter a desvantagem de 2-1 no agregado. O Flamengo, apesar do elenco forte, está sem Pulgar, Paquetá e Arrascaeta — seus três principais meias criativos. O Vitória já marcou na ida (gol de Erick) e joga com o apoio massivo da torcida no Barradão. O Flamengo, mesmo desfalcado, tem qualidade ofensiva com Bruno Henrique, Luiz Araújo e Carrascal para marcar. O cenário de jogo aberto (Vitória precisa atacar) favorece gols de ambos os lados.",
+      "odd": 1.76,
+      "reason": "A combinação de médias de gols das duas equipes (2.68 para o Villa, 3.0 para o Liverpool por jogo) sustenta fortemente o Over 2.5. Dos últimos 7 jogos do Villa, 5 tiveram 3+ gols. Liverpool marcou 2+ em todas as últimas 8 visitas ao Villa Park. O contexto decisivo da partida (ambos com 59 pontos na penúltima rodada) deve gerar um jogo aberto com transições perigosas.",
       "risk": "Médio",
       "probability": "60%",
-      "entry": "Entrada direta em Ambas Marcam Sim a 1.70 na BR4bet ou 1.67 na Novibet.",
-      "protection": null,
+      "entry": "Entrada direta no Mais de 2.5 gols. Stake de 2% da banca.",
+      "protection": "Pode combinar com BTTS Sim para reforçar a leitura de jogo aberto, mas como entradas separadas.",
       "stats": {
-        "recentForm": "Vitória: Empatou fora com Fluminense no Brasileirão. Invicto nos últimos 6 jogos no Barradão. Flamengo: Sequência de 10 jogos invicto (8V-2E) sob Leonardo Jardim.",
-        "homeAwayPerformance": "Vitória em casa: 76% de aproveitamento no Barradão na Série A. Flamengo: Time forte fora, mas desfalcado de peças-chave.",
-        "goalsTrend": "No jogo de ida, o confronto terminou 2-1 com gols de Evertton, Pedro (Flamengo) e Erick (Vitória). H2H recente inclui um 8-0 do Flamengo em agosto de 2025.",
-        "bothTeamsScoreTrend": "Vitória marcou em 4 dos últimos 5 H2H contra o Flamengo. Flamengo marcou em todos os 5 últimos confrontos.",
-        "offensiveDefensiveStats": "Vitória é forte em casa com ataque diversificado (Erick, Matheuzinho, Renê/Renato Kayzer). Flamengo sem Paquetá, Pulgar e Arrascaeta perde criatividade mas mantém volume.",
-        "headToHead": "Últimos 5: Flamengo 2-1 Vitória, Flamengo 2-1 Vitória, Vitória 0-8 Flamengo, Flamengo 2-1 Vitória, Vitória 2-2 Flamengo. Flamengo domina mas Vitória costuma marcar.",
-        "absences": "Vitória: Camutanga, Ricceli e Pedro Henrique lesionados. Cacá retorna. Flamengo: Pulgar, Paquetá e Arrascaeta lesionados. Evertton Araújo e Jorginho disponíveis (suspensos apenas no Brasileirão).",
-        "teamMoment": "Vitória forte em casa e motivado. Flamengo em grande fase mas com desfalques importantes no meio de campo.",
-        "motivation": "Vitória precisa reverter 2-1 e avançar na Copa do Brasil — o prêmio financeiro é crucial. Flamengo quer avançar mas precisa administrar elenco.",
-        "oddsValue": "Odd de 1.70 implica probabilidade de 58.8%. Estimativa real de ~60% indica valor marginalmente positivo."
+        "recentForm": "Villa: D-W-L-L-D nos últimos 5 da PL. Liverpool: L-W-W-L-D. Ambos com oscilações mas produzindo gols.",
+        "homeAwayPerformance": "Villa em casa marca 1.6 e sofre 1.11 por jogo. Liverpool fora marca 1.5 e sofre 1.61. Soma: ~2.7 a 3.1 gols esperados.",
+        "goalsTrend": "5 dos últimos 7 jogos do Villa tiveram 3+ gols. Liverpool produziu média de 3.0 gols por jogo na temporada.",
+        "bothTeamsScoreTrend": "BTTS em 56% (Villa) e 67% (Liverpool), o que reforça a tendência de múltiplos gols.",
+        "offensiveDefensiveStats": "Villa: 50 GF / 46 GA. Liverpool: 60 GF / 48 GA. Nenhuma das duas defesas é sólida o suficiente para segurar o adversário consistentemente.",
+        "headToHead": "Últimos 5 H2H: 2-0, 2-2, 2-0, 3-3, 3-0. Média de 3.4 gols por confronto recente.",
+        "absences": "Villa pode poupar jogadores para final da Europa League. Liverpool sem Alisson (dúvida).",
+        "teamMoment": "Ambos precisam de resultado e devem atacar. Villa com possível olho na final europeia, mas derrota pode custar a Champions.",
+        "motivation": "Decisiva para ambos. Perder pode significar ficar fora da Champions League.",
+        "oddsValue": "Over 2.5 a 1.76 implica probabilidade de 56.8%. Estimativa real: ~60%. Margem de valor de ~3%."
       }
     },
     {
-      "match": "Valencia x Rayo Vallecano",
-      "championship": "LaLiga - Espanha",
-      "market": "Empate",
-      "bookmaker": "bet365",
-      "odd": 3.1,
-      "reason": "O histórico recente entre as equipes é fortemente inclinado ao empate: 5 dos últimos 7 jogos do Rayo como visitante no Mestalla terminaram empatados, e 5 dos últimos 9 confrontos diretos terminaram 1-1. Ambas as equipes são de baixo volume de gols (Valencia 38 gols em 35 jogos, Rayo 36). O Rayo está invicto nos últimos 4 confrontos com o Valencia e tem uma sequência de 6 jogos invicto. Valencia venceu o Athletic Bilbao por 1-0 na rodada passada, mas em casa tem resultados inconsistentes. Ambas disputam vaga na Conference League e podem priorizar não perder.",
-      "risk": "Alto",
-      "probability": "33%",
-      "entry": "Entrada com stake reduzida, compatível com aposta de risco alto. Odd de 3.10 na bet365 ou 3.10 na Novibet.",
-      "protection": "Considerar entrada em Menos de 2.5 gols (BR4bet 1.60 ou Esportiva 1.60) como aposta complementar mais segura no mesmo jogo.",
+      "match": "LDU Quito x CD Tecnico Universitario",
+      "championship": "Equador - Liga Pro Serie A",
+      "market": "Resultado Final - LDU Quito",
+      "bookmaker": "Betano",
+      "odd": 1.6,
+      "reason": "LDU venceu os últimos 5 confrontos diretos contra o Tecnico Universitario (incluindo 3-1 e 3-2 recentes). LDU vem de vitória convincente por 3-1 fora contra o Mushuc Runa e 1-0 em casa contra o Guayaquil City. Tecnico perdeu 3 jogos consecutivos antes de vencer o Delfin. Jogando em casa em Quito, com altitude a seu favor, LDU é favorita clara.",
+      "risk": "Baixo",
+      "probability": "60%",
+      "entry": "Entrada direta na vitória do LDU Quito. Stake de 2-3% da banca.",
+      "protection": "Pode usar Dupla Chance LDU/Empate para proteger, embora com odd inferior.",
       "stats": {
-        "recentForm": "Valencia: L-D-W-L-W (7 pontos nos últimos 5). Rayo: L-W-D-W-D (8 pontos nos últimos 5), sequência de 6 jogos invicto.",
-        "homeAwayPerformance": "Valencia em casa: 12ª melhor campanha da LaLiga. Rayo fora: apenas 4 vitórias em 17 jogos fora (14ª classificação), mas venceu os últimos 2 fora em todas as competições.",
-        "goalsTrend": "Valencia: 38 marcados e 50 sofridos, entre os 5 mais baixos da liga em gols marcados. Rayo: 36 marcados e 42 sofridos, também entre os 5 mais baixos.",
-        "bothTeamsScoreTrend": "Os últimos 6 H2H produziram menos de 2.5 gols. Ambas têm boa capacidade defensiva relativa (Valencia 9 clean sheets, Rayo 11).",
-        "offensiveDefensiveStats": "Ambas as equipes são defensivamente organizadas e com ataque limitado. Valencia com Umar Sadiq como referência ofensiva. Rayo sem Isi Palazón (suspenso, 3ª de 7 partidas de suspensão).",
-        "headToHead": "Valencia não vence o Rayo há 7 anos. Rayo invicto nos últimos 4 confrontos. 5 de 9 últimos jogos terminaram 1-1. Jogo de ida desta temporada: 1-1.",
-        "absences": "Valencia: Diego López dúvida, Copete e Thierry Correia fora. Rayo: Isi Palazón suspenso (3/7), Diego Méndez e Luiz Felipe fora por lesão.",
-        "teamMoment": "Valencia lutando entre rebaixamento e vaga europeia (5 pontos da zona, 3 do 7º lugar). Rayo Vallecano na final da Conference League e focado em terminar bem a liga.",
-        "motivation": "Ambas lutam pela Conference League (3 pontos do 7º lugar cada). Rayo também tem a final da Conference League em breve.",
-        "oddsValue": "Odd de 3.10 implica probabilidade de 32.3%. Estimativa real de ~33% com base no H2H indica valor justo, com leve viés positivo pelo padrão histórico."
+        "recentForm": "LDU: V 3-1 (Mushuc Runa), V 1-0 (Guayaquil City), D 0-1 (Emelec fora), D 0-1 (Mirassol, Libertadores). Tecnico: V 4-0 (Delfin), D 1-2 (Dep. Cuenca), D 0-1 (Guayaquil City), D 0-1 (Emelec).",
+        "homeAwayPerformance": "LDU em casa é forte, com o fator altitude de Quito pesando. Tecnico é frágil fora, com poucas vitórias como visitante.",
+        "goalsTrend": "Últimos confrontos diretos: 3-1, 3-2 — média de 4.5 gols. LDU tende a criar volume ofensivo em casa.",
+        "bothTeamsScoreTrend": "Nos últimos H2H, ambos marcaram em 2 dos 5 jogos. Tendência moderada.",
+        "offensiveDefensiveStats": "LDU: 20 pts em 13 jogos. Deyverson com 4 gols lidera o ataque. Tecnico: 14 pts, Anaya com 3 gols.",
+        "headToHead": "LDU venceu os 5 últimos confrontos: domínio total.",
+        "absences": "Não confirmado",
+        "teamMoment": "LDU precisa pontuar para buscar zona de playoff do 1º turno. Tecnico luta para não cair na parte de baixo.",
+        "motivation": "LDU motivada em casa. Tecnico deslocado e em má fase fora.",
+        "oddsValue": "Odd de 1.60 implica 62.5% de probabilidade. Estimativa real: ~60%. Valor marginal, mas a consistência do H2H compensa."
+      }
+    },
+    {
+      "match": "Coquimbo Unido x Audax Italiano",
+      "championship": "Chile - Liga de Primera",
+      "market": "Resultado Final - Coquimbo Unido",
+      "bookmaker": "Betano",
+      "odd": 1.88,
+      "reason": "Coquimbo venceu os últimos 2 confrontos diretos (1-0 e 2-1). Em casa, é competitivo e vem de vitórias recentes (2-1 na Copa Libertadores e 2-1 contra La Calera). Audax está em má fase, com derrota e empates recentes, e ocupa a 13ª posição. A odd de 1.88 na Betano oferece valor considerando o retrospecto e o fator casa.",
+      "risk": "Médio",
+      "probability": "52%",
+      "entry": "Entrada direta na vitória do Coquimbo. Stake de 1.5-2% da banca.",
+      "protection": "Dupla Chance Coquimbo/Empate caso queira reduzir risco.",
+      "stats": {
+        "recentForm": "Coquimbo: V 2-1 (Universitario, Libertadores), V 2-1 (La Calera), E 1-1 (Nublense), D 0-3 (Tolima fora). Audax: D 1-2 (Vasco, Sudamericana), E 2-2 (Limache), D 2-3 (Huachipato).",
+        "homeAwayPerformance": "Coquimbo forte em casa com vitórias recentes. Audax frágil como visitante.",
+        "goalsTrend": "Ambos marcaram e sofreram ~15 gols cada na temporada. Jogos tendem a ter 2-3 gols.",
+        "bothTeamsScoreTrend": "Moderada. Últimos H2H: 1-0 e 2-1, então nem sempre ambos marcam.",
+        "offensiveDefensiveStats": "Coquimbo: gols distribuídos (Johansen, Camargo, Vadala com 2 cada). Audax: Chiaverano e Troyansky com 3 cada.",
+        "headToHead": "Coquimbo venceu os 2 últimos H2H: 1-0 (fora, ago 2025) e 2-1 (casa, mar 2025).",
+        "absences": "Não confirmado",
+        "teamMoment": "Coquimbo equilibrando liga e Libertadores, mas motivado em casa. Audax em queda livre.",
+        "motivation": "Coquimbo quer consolidar posição no meio-superior. Audax precisa urgente de pontos para fugir da zona baixa.",
+        "oddsValue": "Odd de 1.88 implica 53.2% de probabilidade. Estimativa real: ~52%. Valor praticamente justo, mas o H2H e a vantagem caseira sustentam a entrada."
+      }
+    },
+    {
+      "match": "Cordoba CF x Albacete Balompié",
+      "championship": "Espanha - Segunda División",
+      "market": "Resultado Final - Cordoba CF",
+      "bookmaker": "Esportiva Bet",
+      "odd": 1.54,
+      "reason": "Cordoba vem de vitória importante fora de casa contra o Castellón (2-1) e venceu o último H2H por 3-1 como visitante. Em casa, busca manter chances remotas de playoff (60 pts, 8º tem 63). Albacete está com 53 pts, no meio da tabela e sem grande motivação. A odd de 1.54 na Esportiva Bet reflete o favoritismo, com valor moderado.",
+      "risk": "Médio",
+      "probability": "58%",
+      "entry": "Entrada direta na vitória do Cordoba. Stake de 2% da banca.",
+      "protection": null,
+      "stats": {
+        "recentForm": "Cordoba: V 2-1 (Castellón fora, destaque). Albacete: fase irregular sem informações detalhadas além do H2H.",
+        "homeAwayPerformance": "Cordoba: 60 pts em 39 jogos (17V-9E-13D). Bom rendimento em casa. Albacete: 53 pts (14V-11E-14D), rendimento mediano fora.",
+        "goalsTrend": "Últimos H2H: 3-1 e 1-1. Cordoba em casa tende a criar oportunidades.",
+        "bothTeamsScoreTrend": "H2H recente sugere que ambos podem marcar (3-1, 1-1).",
+        "offensiveDefensiveStats": "Ambos com GD de -1 na temporada. Defesas permeáveis dos dois lados.",
+        "headToHead": "Cordoba 3-1 fora (out 2025), 1-1 antes. Cordoba domina o confronto recente.",
+        "absences": "Não confirmado",
+        "teamMoment": "Cordoba vem embalado por vitória fora. Albacete sem pressão de rebaixamento imediata, mas sem motivação de topo.",
+        "motivation": "Cordoba precisa vencer para manter chances de playoff. Albacete joga sem grande pressão.",
+        "oddsValue": "Odd de 1.54 implica 64.9%. Estimativa real: ~58%. Valor ligeiramente negativo, mas a consistência em casa e H2H justificam entrada moderada."
       }
     }
   ],
   "bestGames": [
     {
-      "match": "Atlético GO x Athletico PR",
-      "championship": "Brasil - Copa do Brasil",
-      "dateTime": "2026-05-14 19:00",
-      "analysis": "Confronto completamente aberto com agregado de 0-0 após o primeiro jogo. É a partida mais equilibrada e imprevisível do dia na Copa do Brasil. O Atlético GO (Série B) joga em casa no Antônio Accioly e vem reagindo bem, com vitória recente sobre o Ceará. O Athletico PR (5º na Série A) é favorito no papel, mas perdeu para o Vasco por 1-0 na última rodada e tem desfalques (Terán, Luiz Gustavo lesionados, Bruninho saiu para negociação com o Shakhtar). Por outro lado, Benvidez, Esquivel, Viveros e o técnico Odair Hellmann retornam de suspensão. A diferença de divisão existe, mas o fator casa e a pressão eliminatória equilibram. As odds refletem equilíbrio: as casas divergem significativamente, com a BR4bet oferecendo 2.66/3.00/2.54 e a Esportiva Bet oferecendo 2.84/3.20/2.70.",
-      "scenario": "Jogo disputado e tenso, com ambas as equipes buscando o gol. Atlético GO deve pressionar nos primeiros minutos usando o fator casa. Athletico PR tende a ser mais reativo e buscar contra-ataques. Possibilidade de jogo com poucos gols e decisão nos detalhes.",
-      "probableScore": "1 x 1",
-      "bestMarket": "Empate no tempo regulamentar",
+      "match": "Aston Villa x Liverpool",
+      "championship": "Inglaterra - Premier League",
+      "dateTime": "2026-05-15 16:00",
+      "analysis": "Confronto direto entre 4º e 5º colocados, ambos com 59 pontos, na penúltima rodada da Premier League. Uma derrota pode custar a classificação para a Champions League. Villa irregular (sem vencer em 3 jogos) mas forte em casa (11V-2E-5D). Liverpool oscilante fora (5 derrotas nas últimas 6 fora), mas com qualidade individual superior. Liverpool marcou 2+ gols em todas as últimas 8 visitas ao Villa Park. Villa pode poupar jogadores para a final da Europa League (20/05), o que adiciona incerteza tática.",
+      "scenario": "Jogo aberto com transições rápidas. Liverpool deve pressionar desde o início e o Villa apostar em contra-ataques. Espera-se gols de ambos os lados com pelo menos 3 gols no total. Liverpool com leve vantagem pela necessidade e qualidade do elenco, mas o Villa em casa não é presa fácil.",
+      "probableScore": "1 x 2",
+      "bestMarket": "Ambas marcam - Sim",
       "bestBookmaker": "Esportiva Bet",
-      "bestOdd": 3.2,
-      "confidence": "Média",
-      "selectionReason": "Agregado 0-0, confronto equilibrado com odds divergentes entre casas, criando oportunidades de valor. A possível surebet identificada neste jogo reforça o equilíbrio percebido pelo mercado.",
-      "statisticalClarity": "Baixa",
-      "unpredictabilityLevel": "Alta",
-      "valueAnalysis": "As odds variam significativamente entre casas (Home de 2.66 a 3.20, Away de 2.35 a 2.70), indicando incerteza do mercado. A odd do empate na Esportiva Bet (3.20) oferece bom valor para um jogo tão equilibrado.",
+      "bestOdd": 1.64,
+      "confidence": "Alta",
+      "selectionReason": "Jogo com altíssima relevância (Champions League em jogo), grande volume de dados disponíveis, padrões claros de BTTS e Over 2.5, e odds com valor identificável. É o jogo com maior clareza analítica do dia.",
+      "statisticalClarity": "Alta",
+      "unpredictabilityLevel": "Média",
+      "valueAnalysis": "BTTS Sim a 1.64 tem probabilidade implícita de 61%, enquanto a estimativa real baseada em tendências é de ~66%. Over 2.5 a 1.76 (prob. implícita 57%) contra estimativa de ~60%. Ambos os mercados oferecem valor positivo moderado.",
       "predictionBasis": {
-        "recentForm": "Atlético GO vem de vitória sobre o Ceará na Série B. Athletico PR perdeu 1-0 para o Vasco fora de casa.",
-        "homeAwayPerformance": "Atlético GO é forte no Antônio Accioly. Athletico PR tem desempenho irregular como visitante.",
-        "goalsTrend": "O primeiro jogo terminou 0-0 com poucas chances claras. Ambas as equipes tendem a jogos de poucos gols em mata-mata.",
-        "defensiveOffensiveBalance": "Atlético GO: 5.5 finalizações por jogo na Copa do Brasil. Athletico PR: 4.0. Ambos priorizaram organização defensiva no 1º jogo.",
-        "headToHead": "Primeiro jogo terminou 0-0 com ambas as equipes se neutralizando.",
-        "absences": "Atlético GO: Guilherme Marques dúvida (entorse no tornozelo). Igor Henrique e Ariel pendurados. Athletico PR: Terán, Luiz Gustavo e Julimar lesionados. Bruninho fora (negociação com Shakhtar).",
-        "motivation": "Atlético GO: Clube da Série B que vê na Copa do Brasil uma chance de receita e visibilidade enormes. Athletico PR: Busca 11º acesso consecutivo às oitavas de final — recorde histórico do clube."
+        "recentForm": "Villa: D-W-L-L-D (5 pts em 5 jogos). Liverpool: L-W-W-L-D (10 pts), mas péssimo fora de casa.",
+        "homeAwayPerformance": "Villa em casa: 5º melhor mandante (35 pts). Liverpool fora: 8º visitante (24 pts, mais derrotas que vitórias).",
+        "goalsTrend": "Média combinada de 2.68-3.0 gols por jogo. 5 dos últimos 7 do Villa com 3+ gols. Liverpool marca 2+ em visitas ao Villa Park.",
+        "defensiveOffensiveBalance": "Ambos produtivos no ataque (Villa 50 GF, Liverpool 60 GF) e permeáveis na defesa (Villa 46 GA, Liverpool 48 GA).",
+        "headToHead": "Últimos 5 H2H: 2-0, 2-2, 2-0, 3-3, 3-0. Média de 3.4 gols por jogo.",
+        "absences": "Villa: pode poupar titulares para Europa League. Liverpool: Alisson dúvida, Mamardashvili improvável.",
+        "motivation": "Máxima para ambos. Empate em pontos na briga por vaga na Champions. Villa tem rede de segurança (final da Europa League)."
       }
     },
     {
-      "match": "Vitória BA x Flamengo",
-      "championship": "Brasil - Copa do Brasil",
-      "dateTime": "2026-05-14 21:30",
-      "analysis": "Principal jogo do dia. Flamengo lidera o agregado por 2-1 mas enfrenta o Vitória no Barradão, onde o time baiano tem 76% de aproveitamento na Série A e está invicto nos últimos 6 jogos em casa. O Flamengo está sem seus três principais meias criativos: Pulgar, Paquetá e Arrascaeta, todos lesionados. A sequência de 10 jogos invictos de Leonardo Jardim será testada. O Vitória precisa vencer por 2-0 ou mais para avançar direto, ou 1-0 para levar para prorrogação. O H2H recente é dominado pelo Flamengo, incluindo um histórico 8-0 em agosto de 2025, mas o Vitória costuma marcar nos confrontos (marcou em 4 dos últimos 5).",
-      "scenario": "Vitória deve impor pressão alta desde o início, apoiado pela torcida. Flamengo, desfalcado no meio, pode sofrer nos primeiros minutos mas tem qualidade para marcar em contra-ataques com Luiz Araújo e Bruno Henrique. Cenário mais provável é Vitória marcando primeiro mas Flamengo empatando.",
-      "probableScore": "1 x 1",
-      "bestMarket": "Ambas equipes marcam - Sim",
-      "bestBookmaker": "BR4bet",
-      "bestOdd": 1.7,
+      "match": "Saint-Étienne x Rodez AF",
+      "championship": "França - Playoff de Promoção Ligue 2/Ligue 1",
+      "dateTime": "2026-05-15 15:30",
+      "analysis": "Semifinal do playoff de promoção à Ligue 1. Saint-Étienne terminou em 3º na Ligue 2 e busca retornar à elite após queda. Rodez, clube de 97 anos que nunca disputou a Ligue 1, chega embalado por sequência de 21 jogos sem derrota na liga (11V, 9E, mais 1V no início do playoff). ASSE goleou o Amiens por 5-0 na última rodada, mas antes teve 3 derrotas consecutivas em abril. Rodez venceu o confronto mais recente por 2-1 (02/05), mas ASSE goleou por 4-0 no turno (ago 2025). BTTS ocorreu em 8 dos últimos 9 jogos do Rodez.",
+      "scenario": "Jogo tenso de playoff com ASSE pressionando em casa. Rodez organizado defensivamente mas vaza gols com regularidade (BTTS em 8/9). ASSE tem vantagem de mandante e elenco superior, mas Rodez tem a invencibilidade como trunfo psicológico. Espera-se jogo equilibrado com gols.",
+      "probableScore": "2 x 1",
+      "bestMarket": "Resultado Final - Saint-Étienne",
+      "bestBookmaker": "Betano",
+      "bestOdd": 1.78,
       "confidence": "Média",
-      "selectionReason": "Contexto tático ideal para BTTS: Vitória PRECISA atacar para reverter, o que abre espaços para o Flamengo. Combinação de desespero do mandante + qualidade ofensiva do visitante mesmo desfalcado.",
+      "selectionReason": "Playoff de promoção com contexto histórico forte. ASSE 10x campeão francês jogando em casa com pressão máxima. Rodez invicto em 21, mas com defesa permeável (BTTS 8/9). Jogo com alto potencial de gols e drama.",
       "statisticalClarity": "Média",
       "unpredictabilityLevel": "Média",
-      "valueAnalysis": "Odd de 1.70 para BTTS em um jogo onde o mandante precisa atacar e o visitante tem qualidade ofensiva mesmo desfalcado é valor justo a levemente positivo.",
+      "valueAnalysis": "ASSE a 1.78 implica 56.2% de probabilidade. Com fator casa e qualidade do elenco, estimativa real fica em ~55%. Valor praticamente justo, mas contexto de playoff favorece o mandante.",
       "predictionBasis": {
-        "recentForm": "Vitória empatou com Fluminense fora no Brasileirão. Invicto em 6 jogos no Barradão. Flamengo invicto há 10 jogos (8V-2E) sob Leonardo Jardim.",
-        "homeAwayPerformance": "Vitória: 76% de aproveitamento em casa na Série A. Flamengo: forte fora mas com desfalques críticos no meio de campo.",
-        "goalsTrend": "Jogo de ida: 2-1 para o Flamengo. 4 dos 5 últimos confrontos tiveram gols do Vitória.",
-        "defensiveOffensiveBalance": "Vitória tem ataque diversificado em casa. Flamengo sem Pulgar, Paquetá e Arrascaeta perde qualidade criativa mas mantém volume com Carrascal, Luiz Araújo e Bruno Henrique.",
-        "headToHead": "Flamengo domina o H2H com ampla vantagem, incluindo 8-0 em agosto 2025. Porém Vitória marcou na maioria dos confrontos recentes.",
-        "absences": "Vitória: Camutanga, Ricceli e Pedro Henrique lesionados. Cacá retorna. Flamengo: Pulgar, Paquetá e Arrascaeta lesionados.",
-        "motivation": "Vitória: Barradão lotado, receita da Copa do Brasil é fundamental. Precisa reverter 2-1. Flamengo: Quer avançar mas precisa gerenciar elenco para outros compromissos."
+        "recentForm": "ASSE: V 5-0 (Amiens) mas 3 derrotas consecutivas antes. Rodez: invicto em 21 jogos da liga (11V, 9E + 1V playoff).",
+        "homeAwayPerformance": "ASSE forte em casa com a torcida pressionando. Rodez manteve apenas 3 clean sheets fora na temporada.",
+        "goalsTrend": "BTTS em 8 dos 9 últimos jogos do Rodez. ASSE goleou por 5-0 e 4-0 em jogos recentes — explosivo quando encaixa.",
+        "defensiveOffensiveBalance": "ASSE tem Irvin Cardona como principal artilheiro. Defesa de ambos é vulnerável. Equilíbrio tende ao ataque.",
+        "headToHead": "Mai 2026: Rodez 2-1 ASSE. Ago 2025: ASSE 4-0 Rodez. ASSE domina no histórico geral (3V em 5 jogos).",
+        "absences": "Não confirmado",
+        "motivation": "Máxima. ASSE quer voltar à Ligue 1 após rebaixamento. Rodez busca a promoção inédita em quase 100 anos de história."
       }
     },
     {
-      "match": "Girona x Real Sociedad",
-      "championship": "LaLiga - Espanha",
-      "dateTime": "2026-05-14 15:00",
-      "analysis": "Girona está na zona de rebaixamento (18º, 39 pontos) em uma situação desesperadora com apenas 3 jogos restantes. São 4 equipes empatadas com 39 pontos entre as posições 16-19 — cada ponto é crucial. O Girona não vence há 5 jogos (2 pontos) e perdeu 2 consecutivos em casa. A Real Sociedad (8º, 44 pontos) está sem pressão — já garantiu Europa League pela Copa del Rey e eliminada da Champions. Chega sem Oskarsson (suspenso, artilheiro) e com Zubeldia dúvida. Apesar disso, a Real Sociedad tem qualidade com Oyarzabal, Sucic e Barrenetxea. O dado mais impressionante: a Real Sociedad tem apenas 3 clean sheets em 35 jogos — o pior da LaLiga.",
-      "scenario": "Girona deve jogar com intensidade máxima pela sobrevivência. Real Sociedad, sem Oskarsson, pode ser menos incisiva mas ainda tem qualidade para marcar. Jogo com gols esperados de ambos os lados.",
+      "match": "CD Castellón x Cádiz CF",
+      "championship": "Espanha - Segunda División",
+      "dateTime": "2026-05-15 15:30",
+      "analysis": "Castellón (6º, 65 pts) recebe o Cádiz (18º, 39 pts) em jogo de interesses opostos: Castellón precisa vencer para garantir vaga nos playoffs de promoção (5º e 6º classificam); Cádiz está a apenas 3 pontos da zona de rebaixamento e sem vencer há 5 jogos (3D-2E). Castellón em casa marca média de 1.7 gols/jogo com 61% de posse. Cádiz marca apenas 0.9 gols/jogo. Odds extremamente baixas para o Castellón (1.23-1.27), dificultando valor no mercado 1x2. Mercado de gols pode ser mais interessante.",
+      "scenario": "Castellón deve dominar a partida com posse de bola e pressão constante. Cádiz jogará retrancado e tentará explorar contra-ataques isolados. O cenário favorece gols do Castellón, mas o Cádiz pode marcar em momento de desatenção dado o desespero. BTTS é possível.",
       "probableScore": "2 x 1",
-      "bestMarket": "Ambas equipes marcam - Sim",
-      "bestBookmaker": "BR4bet",
-      "bestOdd": 1.62,
-      "confidence": "Alta",
-      "selectionReason": "Combinação perfeita de fatores para BTTS: equipe desesperada em casa (Girona) + equipe com a pior marca de clean sheets da liga (Real Sociedad, 3 em 35 jogos). Alta clareza estatística.",
+      "bestMarket": "Ambas marcam - Sim",
+      "bestBookmaker": "Esportiva Bet",
+      "bestOdd": 1.83,
+      "confidence": "Média",
+      "selectionReason": "Jogo com contexto claro: favorito forte em casa vs equipe desesperada. A odd do 1x2 não oferece valor, mas o mercado de BTTS (1.83) é interessante dado que Cádiz, mesmo frágil, está lutando pela sobrevivência e tende a se lançar ao ataque.",
       "statisticalClarity": "Alta",
       "unpredictabilityLevel": "Baixa",
-      "valueAnalysis": "Odd de 1.62 para BTTS é justa considerando que a probabilidade estimada é de 65%. Ambas as equipes marcaram em 4 dos 5 últimos jogos do Girona e a Real Sociedad concedeu gol em 32 de 35 jogos.",
+      "valueAnalysis": "Castellón a 1.23-1.27 não tem valor. BTTS Sim a 1.83 (prob. implícita 54.6%) é mais atrativo considerando que Cádiz, mesmo ruim, é time de Série A rebaixado com elenco de qualidade e jogará por tudo.",
       "predictionBasis": {
-        "recentForm": "Girona: 2 pontos nos últimos 5 jogos (forma desastrosa). Real Sociedad: 3 pontos nos últimos 5, mas salvou empate contra Betis nos acréscimos (2-2).",
-        "homeAwayPerformance": "Girona em casa: 4ª pior da LaLiga (22 pontos em 17 jogos). Real Sociedad fora: 12ª classificada, perdeu 3 de 4 últimos fora. Porém venceu 2 de 3 últimas visitas a Montilivi.",
-        "goalsTrend": "Girona: 37 marcados / 52 sofridos. Real Sociedad: 54 marcados / 55 sofridos. Ambas defesas porosas.",
-        "defensiveOffensiveBalance": "Girona tem a 3ª melhor média de dribles da LaLiga (9.4/jogo) mas sofre muito. Real Sociedad produz ofensivamente mas é a equipe com menos clean sheets da liga.",
-        "headToHead": "Girona nunca venceu a Real Sociedad em casa na LaLiga. Porém ganhou o jogo de ida desta temporada por 2-1.",
-        "absences": "Girona: Van de Beek, Portu, Vanat fora. Bryan Gil retorna. Real Sociedad: Oskarsson suspenso, Odriozola e Karrikaburu fora.",
-        "motivation": "Girona: luta pela sobrevivência na primeira divisão. Real Sociedad: sem pressão competitiva significativa na liga."
+        "recentForm": "Castellón: E 1-1 (Ceuta), D 1-2 (Cordoba em casa), V 3-2 (Malaga fora), V 3-1 (Burgos), E 2-2 (Mirandes). Cádiz: 5 jogos sem vencer (3D-2E).",
+        "homeAwayPerformance": "Castellón em casa: 1.7 gols/jogo, 61% posse. Cádiz fora: 0.9 gols/jogo, muito vulnerável.",
+        "goalsTrend": "Castellón produz gols com regularidade. Últimos jogos com 2-3 gols de média.",
+        "defensiveOffensiveBalance": "Castellón: GD +17, ataque liderado por Cala (13 gols, 7 assistências). Cádiz: GD -20, ataque anêmico.",
+        "headToHead": "Cádiz venceu 2-0 em casa (dez 2025). Empate 0-0 no turno (fev 2025). H2H equilibrado.",
+        "absences": "Não confirmado",
+        "motivation": "Castellón: garantir vaga no playoff de promoção. Cádiz: fugir do rebaixamento — apenas 3 pts acima da zona."
       }
     }
   ],
@@ -978,51 +974,61 @@
     {
       "title": "Sortezinha do Dia",
       "matches": [
-        "Corinthians x Barra SC",
-        "Real Madrid x Real Oviedo",
-        "Vitória BA x Flamengo"
+        "Aston Villa x Liverpool",
+        "LDU Quito x CD Tecnico Universitario",
+        "Saint-Étienne x Rodez AF",
+        "Coquimbo Unido x Audax Italiano"
       ],
       "stake": "R$ 5,00",
-      "possibleReturn": "R$ 55,25",
-      "totalOdd": 11.05,
+      "possibleReturn": "R$ 65,53",
+      "totalOdd": 13.11,
       "bookmaker": null,
       "risk": "Alto",
-      "reason": "Combinação de três seleções com fundamento: Corinthians vencendo em casa um time da Série C (lidera agregado por 1-0), Real Madrid fazendo mais de 3.5 gols contra o último colocado já rebaixado, e ambas marcando em Vitória x Flamengo num jogo onde o mandante PRECISA atacar. Cada seleção tem base estatística sólida individualmente, e juntas atingem a meta de retorno mínimo de 1000%.",
-      "statisticalNote": "Corinthians tem qualidade vastamente superior ao Barra SC mesmo com rotação. Real Madrid em casa tem média de 22 finalizações contra o pior ataque da LaLiga. Vitória marcou em 4 dos 5 últimos confrontos com o Flamengo e precisa atacar para reverter desvantagem.",
+      "reason": "Combinação de 4 favoritos com odds moderadas que, juntos, atingem retorno superior a 1000%. Todos jogam em casa e têm dados estatísticos ou de H2H que sustentam o favoritismo. Liverpool precisa vencer para garantir Champions, LDU domina o Tecnico no H2H (5 vitórias consecutivas), Saint-Étienne joga playoff de promoção em casa com torcida a favor, e Coquimbo venceu os 2 últimos H2H contra o Audax.",
+      "statisticalNote": "Cada seleção individual tem probabilidade estimada entre 50-60%. A probabilidade combinada de acertar as 4 é de aproximadamente 9-13%, o que significa que a cada ~8-11 tentativas, uma deve acertar estatisticamente. É ousado mas dentro da realidade.",
       "combinations": [
-        "Corinthians x Barra SC - Resultado Final - Corinthians - 1.28 (Superbet)",
-        "Real Madrid x Real Oviedo - Total de gols Mais de 3.5 - Mais de 3.5 - 2.05 (Esportiva Bet)",
-        "Vitória BA x Flamengo - Ambas Marcam - Sim - 1.70 (BR4bet)"
+        "Aston Villa x Liverpool - Resultado Final - Liverpool - 2.45 (bet365)",
+        "LDU Quito x Tecnico Universitario - Resultado Final - LDU Quito - 1.60 (Betano)",
+        "Saint-Étienne x Rodez AF - Resultado Final - Saint-Étienne - 1.78 (Betano)",
+        "Coquimbo Unido x Audax Italiano - Resultado Final - Coquimbo Unido - 1.88 (Betano)"
       ],
       "marketsUsed": [
         {
-          "match": "Corinthians x Barra SC",
+          "match": "Aston Villa x Liverpool",
           "market": "Resultado Final",
-          "selection": "Vitória do Corinthians",
-          "odd": 1.28,
-          "bookmaker": "Superbet",
-          "reason": "Corinthians é amplamente favorito jogando em casa na Neo Química Arena, liderando o agregado por 1-0 contra time da Série C. Mesmo com rotação de Fernando Diniz, a diferença técnica é enorme."
+          "selection": "Liverpool",
+          "odd": 2.45,
+          "bookmaker": "bet365",
+          "reason": "Melhor odd para Liverpool entre as casas. Liverpool tem qualidade superior e precisa vencer para garantir Champions."
         },
         {
-          "match": "Real Madrid x Real Oviedo",
-          "market": "Total de gols - Mais de 3.5",
-          "selection": "Mais de 3.5 gols",
-          "odd": 2.05,
-          "bookmaker": "Esportiva Bet",
-          "reason": "Real Madrid em casa contra último colocado já rebaixado, desfalcado de 3 jogadores. Madrid venceu ida por 3-0 e quer se redimir após perder título para Barcelona. Vinícius Jr em grande fase."
+          "match": "LDU Quito x CD Tecnico Universitario",
+          "market": "Resultado Final",
+          "selection": "LDU Quito",
+          "odd": 1.6,
+          "bookmaker": "Betano",
+          "reason": "LDU invicta em 5 H2H contra Tecnico, jogando em casa com altitude a favor."
         },
         {
-          "match": "Vitória BA x Flamengo",
-          "market": "Ambas equipes marcam",
-          "selection": "Sim",
-          "odd": 1.7,
-          "bookmaker": "BR4bet",
-          "reason": "Vitória 76% aproveitamento em casa e PRECISA atacar (atrás 2-1 no agregado). Flamengo marca mesmo desfalcado. Vitória marcou em 4 dos 5 últimos H2H."
+          "match": "Saint-Étienne x Rodez AF",
+          "market": "Resultado Final",
+          "selection": "Saint-Étienne",
+          "odd": 1.78,
+          "bookmaker": "Betano",
+          "reason": "Playoff de promoção em casa. ASSE 10x campeão francês com pressão e torcida. Rodez tem defesa permeável (BTTS 8/9)."
+        },
+        {
+          "match": "Coquimbo Unido x Audax Italiano",
+          "market": "Resultado Final",
+          "selection": "Coquimbo Unido",
+          "odd": 1.88,
+          "bookmaker": "Betano",
+          "reason": "Coquimbo venceu os 2 últimos H2H, joga em casa e Audax está em má fase."
         }
       ],
       "returnTarget": {
-        "minimumReturnPercent": "1005%",
-        "minimumReturnValue": "R$ 55,25",
+        "minimumReturnPercent": "1210%",
+        "minimumReturnValue": "R$ 65,53",
         "stake": "R$ 5,00"
       }
     }
@@ -1030,7 +1036,9 @@
   "warnings": [
     "Odds podem mudar rapidamente. Confirme sempre antes de apostar.",
     "Não há lucro garantido. Use gestão de banca e aposte com responsabilidade.",
-    "Se algum dado não foi confirmado, ele deve aparecer como null ou como Não confirmado."
+    "Se algum dado não foi confirmado, ele deve aparecer como null ou como Não confirmado.",
+    "Jogos ao vivo (Damac FC x Al-Fayha e Caykur Rizespor x Besiktas) foram excluídos da análise por terem odds dinâmicas.",
+    "Jogos do dia 16/05 (Bayer Leverkusen x Hamburgo, Bayern x Köln, etc.) não foram incluídos pois a análise foca no dia 15/05."
   ],
   "twoReais": [
     {
