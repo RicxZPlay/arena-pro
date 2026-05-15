@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-15 14:50",
+  "updatedAt": "2026-05-15 15:02",
   "summary": {
     "totalBookmakers": 15,
     "totalGames": 33,
@@ -1042,95 +1042,96 @@
   ],
   "twoReais": [
     {
-      "title": "Plano $2 - Noite de Favoritos com Decisões na Copa e La Liga",
+      "title": "Plano $2 - Favoritos firmes + empates equilibrados vs Empates nos grandes + âncoras seguras",
       "matches": [
-        "Chapecoense x Botafogo",
-        "Atlético GO x Athletico Paranaense",
-        "Confiança x Grêmio",
-        "Corinthians x Barra SC",
-        "CRB x Fortaleza",
-        "Vitória x Flamengo",
-        "Valência x Rayo Vallecano",
-        "Girona x Real Sociedad",
-        "Real Madrid x Real Oviedo"
+        "Aston Villa x Liverpool",
+        "Universitario de Deportes x Atletico Grau",
+        "LDU Quito x Tecnico Universitario",
+        "Patriotas FC x Millonarios",
+        "Montevideo City Torque x Nacional de Football",
+        "Deportivo La Guaira x UCV",
+        "Palestino x La Serena",
+        "Real Tomayapo x Club Aurora",
+        "Libertad FC x Deportivo Cuenca"
       ],
       "totalStake": "R$ 2,00",
       "risk": "Muito alto",
       "targetReturn": {
-        "minimum": "R$ 503,13",
-        "maximum": "R$ 2.292,16"
+        "minimum": "R$ 499,00",
+        "maximum": "R$ 691,13"
       },
-      "coverageStrategy": "A Aposta 1 aposta no cenário em que os favoritos da Copa do Brasil vencem e avançam com autoridade, incluindo CRB (mandante com 3 vitórias seguidas) e Rayo Vallecano (invicto em 4 jogos contra o Valencia). A Aposta 2 cobre o cenário oposto na Copa do Brasil: os times com vantagem no agregado (Botafogo, Flamengo, Fortaleza) administram o resultado e os jogos terminam empatados, enquanto na La Liga os resultados se invertem (Valencia vence em casa e Real Sociedad vence fora). As duas apostas compartilham apenas os 3 resultados mais seguros (Real Madrid, Corinthians, Grêmio) e divergem em todos os demais jogos, maximizando a cobertura de cenários.",
-      "reason": "Rodada de Copa do Brasil com 6 jogos de volta (5ª fase) e 3 jogos da La Liga. A Copa do Brasil gera empates naturais quando times com vantagem administram placar, mas também pode ter vitórias claras dos favoritos. A La Liga tem jogos com motivações distintas (rebaixamento, meio de tabela, Madrid sem título). A combinação permite cobrir dois caminhos realistas da noite.",
-      "statisticalNote": "Copa do Brasil 5ª fase, jogos de volta. Botafogo venceu o 1º jogo por 1-0 e goleou a Chapecoense por 4-1 recentemente na Arena Condá. Grêmio venceu por 2-0 o 1º jogo contra a Confiança (lanterna da Série C, 6 jogos sem vencer). Corinthians venceu por 1-0 fora e é amplamente superior ao Barra SC (Série C). Flamengo venceu por 2-1 o 1º jogo e está invicto há 10 partidas. Fortaleza venceu por 2-1 o 1º jogo contra o CRB, mas CRB joga em casa com 3 vitórias consecutivas e perdeu o goleiro titular (Matheus Albino). Atlético GO x Athletico PR empataram em 0-0 no 1º jogo. Na La Liga, Real Madrid (2º, 77 pts) recebe o Real Oviedo (20º, 29 pts, já rebaixado). Girona (18º, 39 pts) luta contra rebaixamento. Rayo Vallecano está invicto nos últimos 4 jogos contra o Valencia.",
+      "coverageStrategy": "A Aposta 1 aposta em favoritos e semifavoritos vencendo (Liverpool, Universitario, LDU, Millonarios, Nacional) e empates em jogos equilibrados (La Guaira x UCV, Palestino x La Serena, Real Tomayapo x Club Aurora). A Aposta 2 cobre o cenário oposto nos jogos grandes: empates em Villa x Liverpool, Patriotas x Millonarios, Torque x Nacional e Libertad x Dep. Cuenca, mantendo as duas âncoras mais seguras (LDU e Universitario) e Palestino vencendo em casa. Se os jogos grandes empatam, a Aposta 2 cobre. Se os favoritos vencem, a Aposta 1 cobre. Ambas compartilham LDU e Universitario como base sólida.",
+      "reason": "Liverpool e Aston Villa estão empatados com 59 pontos na 4ª e 5ª posição da Premier League (36 jogos), tornando o confronto direto imprevisível — tanto vitória do Liverpool quanto empate são cenários realistas. Universitario (7-4-3, 25 pts, favoritíssimo em casa contra Grau com 2-4-8 e 10 pts) e LDU Quito (6-2-5 jogando em casa contra Tecnico U com 4-2-7) são as âncoras mais seguras do dia. Nacional domina o histórico contra Torque (3-2, 5-2, 2-1 nos últimos confrontos), mas é início do Torneo Intermedio e empate é possível. Os jogos sul-americanos menores (La Guaira x UCV, Palestino x La Serena, Real Tomayapo x Club Aurora) têm odds equilibradíssimas, tornando o empate um cenário estatisticamente justo.",
+      "statisticalNote": "Aston Villa e Liverpool: ambos com 59 pts, 17V-8E-11D na temporada 2025/26. Último confronto: Liverpool 2-0 Villa (Anfield, MW10). Universitario: 7V-4E-3D, 25 pts, líder do Apertura peruano; Grau tem apenas 2V em 14 jogos. LDU em casa no Rodrigo Paz Delgado, artilheiro Deyverson com 4 gols em 12 jogos. Nacional venceu os últimos 3 confrontos contra Torque (3-2, 5-2, 2-1). Millonarios goleou Patriotas por 3-0 no último confronto (set/2024). Real Tomayapo x Club Aurora tem odds praticamente idênticas (2.40 x 2.45), indicando equilíbrio total.",
       "bets": [
         {
-          "match": "Múltipla - 9 jogos (Copa do Brasil + La Liga)",
+          "match": "Acumulador de 8 jogos",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
-          "market": "Acumulador - Resultado Final (Full Time Result) x9",
-          "selection": "Botafogo vence (2.20) + Athletico PR vence (2.35) + Grêmio vence (1.70) + Corinthians vence (1.33) + CRB vence (2.62) + Flamengo vence (2.00) + Rayo Vallecano vence (3.70) + Girona vence (1.85) + Real Madrid vence (1.20)",
-          "odd": 503.13,
-          "possibleReturn": "R$ 503,13",
-          "goal": "Cobrir o cenário em que os favoritos decidem os jogos com vitórias. Na Copa do Brasil, Botafogo, Grêmio, Corinthians e Flamengo avançam vencendo. CRB reverte o placar em casa. Athletico PR vence o jogo decisivo. Na La Liga, Rayo surpreende o Valencia fora, Girona vence por desespero contra o rebaixamento e Real Madrid atropela o já rebaixado Oviedo.",
-          "reason": "Botafogo (Série A, 12º) é muito superior à Chapecoense (lanterna, 20º) e já venceu por 4-1 na Arena Condá recentemente. Grêmio tem vantagem de 2-0 e a Confiança está em crise total (demitiu técnico, 6 jogos sem vencer). Corinthians é amplamente favorito mesmo com rotação. Flamengo invicto há 10 jogos e com vantagem de 2-1. CRB embalado com 3 vitórias seguidas e jogando em casa no Rei Pelé diante de sua torcida. Athletico PR tem elenco superior e retorna com jogadores importantes de suspensão (Viveros, Esquivel, Benavidez). Rayo Vallecano invicto nos últimos 4 confrontos com Valencia e em grande fase (invicto há 6 jogos). Girona joga em casa lutando contra o rebaixamento — 3 das 3 últimas vitórias na liga foram em Montilivi. Real Madrid com odd de 1.20 contra time já rebaixado no Bernabéu."
+          "market": "Acumulador - Resultado Final (Full Time Result)",
+          "selection": "Liverpool vence @2.45 + Universitario vence @1.40 + LDU Quito vence @1.53 + Millonarios vence @1.75 + Nacional vence @2.10 + Empate Dep. La Guaira x UCV @3.10 + Empate Palestino x La Serena @3.40 + Empate Real Tomayapo x Club Aurora @3.40",
+          "odd": 691.13,
+          "possibleReturn": "R$ 691,13",
+          "goal": "Cobrir o cenário em que os favoritos de maior porte (Liverpool, Universitario, LDU, Millonarios, Nacional) vencem e os jogos menores equilibrados terminam empatados",
+          "reason": "Liverpool é ligeiramente favorito fora (2.45) e briga por top 4. Universitario (1.40) e LDU (1.53) são favoritos pesados em casa contra adversários em má fase. Millonarios (1.75) é muito superior ao Patriotas na Copa Colombia. Nacional domina o H2H contra Torque. Os 3 empates são em jogos com odds quase simétricas entre mandante e visitante, onde o empate é um resultado estatisticamente justo."
         },
         {
-          "match": "Múltipla - 9 jogos (Copa do Brasil + La Liga)",
+          "match": "Acumulador de 7 jogos",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
-          "market": "Acumulador - Resultado Final (Full Time Result) x9",
-          "selection": "Empate Chapecoense x Botafogo (3.30) + Empate Atlético GO x Athletico PR (3.10) + Grêmio vence (1.70) + Corinthians vence (1.33) + Empate CRB x Fortaleza (2.75) + Empate Vitória x Flamengo (3.50) + Valência vence (2.20) + Real Sociedad vence (3.90) + Real Madrid vence (1.20)",
-          "odd": 2292.16,
-          "possibleReturn": "R$ 2.292,16",
-          "goal": "Cobrir o cenário alternativo em que os jogos de volta da Copa do Brasil são mais travados. Times com vantagem no agregado (Botafogo 1-0, Fortaleza 2-1, Flamengo 2-1) administram o resultado e empatam, avançando sem forçar. O jogo Atlético GO x Athletico PR repete o 0-0 da ida. Na La Liga, Valencia vence em casa (ao invés de perder para o Rayo) e Real Sociedad surpreende o Girona fora.",
-          "reason": "Na Copa do Brasil, times com vantagem no agregado frequentemente jogam de forma pragmática nos jogos de volta, especialmente fora de casa. Botafogo com 1-0 de vantagem pode administrar em Chapecó. Flamengo com 2-1 pode poupar jogadores pensando em compromissos futuros (possível final internacional). Fortaleza (2-1 na ida) tem como prioridade a Série B segundo o próprio técnico. Atlético GO x Athletico PR empataram em 0-0 na ida e o jogo tem perfil para ser travado novamente. Grêmio e Corinthians são tão superiores que vencem mesmo neste cenário. Na La Liga, Valencia tem 7 vitórias em 17 jogos em casa e o Rayo pode poupar jogadores pensando na final da Conference League. Real Sociedad tem 4 vitórias e 5 empates nos últimos 10 confrontos contra o Girona e busca vaga europeia (8º, 44 pts)."
+          "market": "Acumulador - Resultado Final (Full Time Result)",
+          "selection": "Empate Aston Villa x Liverpool @3.50 + Empate Patriotas x Millonarios @3.30 + Empate MC Torque x Nacional @3.20 + Empate Libertad FC x Dep. Cuenca @3.30 + LDU Quito vence @1.53 + Universitario vence @1.40 + Palestino vence @1.91",
+          "odd": 499,
+          "possibleReturn": "R$ 499,00",
+          "goal": "Cobrir o cenário alternativo em que os jogos grandes empatam (Villa-Liverpool, Patriotas-Millonarios, Torque-Nacional, Libertad-Cuenca) enquanto os favoritos mais seguros e o mandante Palestino vencem",
+          "reason": "Villa x Liverpool é confronto direto por vaga no top 4, ambos com 59 pts — empate é cenário muito plausível num jogo cauteloso. Patriotas joga em casa pela Copa e Millonarios pode poupar jogadores. Torque x Nacional é abertura do Torneo Intermedio (ambos com 0 pts), jogo exploratório. Libertad x Dep. Cuenca tem odds equilibradas (2.25 x 2.85). LDU e Universitario continuam como âncoras seguras. Palestino em casa (1.91) contra La Serena é favorito moderado."
         }
       ]
     },
     {
-      "title": "Plano $2 - Zebras no Nordeste e Empates Estratégicos",
+      "title": "Plano $2 - Villa surpreende em casa + favoritos regionais vs Liverpool confirma + visitantes fortes dominam",
       "matches": [
-        "Chapecoense x Botafogo",
-        "Atlético GO x Athletico Paranaense",
-        "Confiança x Grêmio",
-        "Corinthians x Barra SC",
-        "CRB x Fortaleza",
-        "Vitória x Flamengo",
-        "Girona x Real Sociedad",
-        "Real Madrid x Real Oviedo"
+        "Aston Villa x Liverpool",
+        "Universitario de Deportes x Atletico Grau",
+        "LDU Quito x Tecnico Universitario",
+        "Coquimbo Unido x Audax Italiano",
+        "Rubio Ñú x Nacional Asunción",
+        "FC Cajamarca x Sporting Cristal",
+        "Sportivo Trinidense x Cerro Porteño",
+        "Deportivo La Guaira x UCV",
+        "Real Tomayapo x Club Aurora"
       ],
       "totalStake": "R$ 2,00",
       "risk": "Muito alto",
       "targetReturn": {
-        "minimum": "R$ 510,17",
-        "maximum": "R$ 778,54"
+        "minimum": "R$ 585,95",
+        "maximum": "R$ 626,02"
       },
-      "coverageStrategy": "A Aposta 1 aposta nas zebras dos mandantes na Copa do Brasil: Atlético GO e Chapecoense vencem em casa precisando reverter, enquanto CRB e Vitória empatam (administração dos visitantes). A Aposta 2 inverte: Botafogo e Flamengo vencem fora, mas Atlético GO empata com Athletico PR e Confiança arranca empate do Grêmio reserva, enquanto CRB reverte. As apostas divergem nos resultados dos jogos mais imprevisíveis, compartilhando apenas Corinthians e Real Madrid.",
-      "reason": "Plano focado na Copa do Brasil com 8 jogos. A Copa do Brasil gera zebras históricas em jogos de volta quando o mandante tem o apoio da torcida e precisa reverter o placar. Atlético GO está em sequência de 5 jogos invicto na Série B e joga em casa. Chapecoense, apesar de lanterna, já provou que pode complicar em casa. O Grêmio deve fazer rodízio pesado com a Série A como prioridade.",
-      "statisticalNote": "Atlético GO invicto há 5 jogos na Série B, com vitória fora de casa contra o Ceará. Chapecoense jogando na Arena Condá onde tem apoio da torcida. Grêmio provavelmente fará rodízio pesado — está na zona de rebaixamento da Série A (17º) e enfrenta o Bahia no fim de semana, priorizando o Brasileirão. Confiança com técnico interino após demissão. CRB com 3 vitórias consecutivas mas perdeu o goleiro titular Matheus Albino (luxação no ombro). Girona em 18º lugar, zona de rebaixamento, lutando pela sobrevivência na La Liga.",
+      "coverageStrategy": "A Aposta 1 aposta na surpresa do Aston Villa em casa contra Liverpool, com Coquimbo e La Guaira vencendo como mandantes, Rubio Ñú surpreendendo em casa, e empates nos jogos paraguaios e peruano equilibrados. A Aposta 2 cobre o cenário oposto: Liverpool vence fora, os visitantes fortes (Sporting Cristal, Cerro Porteño, Nacional Asunción) vencem, e os jogos menores empatam. Os mesmos jogos são cobertos com resultados opostos — se Villa ganha, Aposta 1 avança; se Liverpool ganha, Aposta 2 avança. O mesmo se aplica a Coquimbo (vitória vs empate), Cajamarca-Cristal (empate vs Cristal), Trinidense-Cerro (empate vs Cerro), Rubio Ñú-Nacional (Rubio vs Nacional).",
+      "reason": "Este plano explora a dualidade dos jogos: cada partida tem dois cenários plausíveis cobertos em apostas diferentes. Villa Park pode ser decisivo — o Aston Villa em casa lutando por Champions League pode surpreender (2.75). Alternativamente, Liverpool com mais qualidade individual pode confirmar (2.45). Os jogos do Paraguai (Rubio Ñú x Nacional, Trinidense x Cerro) e do Peru (Cajamarca x Cristal) são equilibrados o suficiente para que tanto vitória de um lado quanto empate sejam realistas.",
+      "statisticalNote": "Aston Villa em casa na temporada tem campanha competitiva, especialmente contra rivais diretos por vaga europeia. Coquimbo Unido (1.76) é favorito em casa contra Audax Italiano. Dep. La Guaira (1.85) joga em casa na Venezuela. Na Liga Paraguaia, Cerro Porteño (2.20) e Nacional Asunción (2.15) são favoritos moderados como visitantes, mas mandantes no Paraguai costumam ser competitivos (Rubio Ñú 3.20, Trinidense 3.10). FC Cajamarca x Sporting Cristal (2.45 x 2.70) é muito equilibrado. Real Tomayapo x Club Aurora (2.40 x 2.45) praticamente um coin-flip.",
       "bets": [
         {
-          "match": "Múltipla - 8 jogos (Copa do Brasil + La Liga)",
+          "match": "Acumulador de 8 jogos",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
-          "market": "Acumulador - Resultado Final (Full Time Result) x8",
-          "selection": "Empate Chapecoense x Botafogo (3.30) + Atlético GO vence (3.20) + Grêmio vence (1.70) + Corinthians vence (1.33) + Empate CRB x Fortaleza (2.75) + Empate Vitória x Flamengo (3.50) + Real Madrid vence (1.20) + Girona vence (1.85)",
-          "odd": 510.17,
-          "possibleReturn": "R$ 510,17",
-          "goal": "Cobrir o cenário em que mandantes da Copa do Brasil complicam a vida dos visitantes favoritos. Atlético GO vence em casa no jogo decisivo (0-0 na ida). Botafogo e Flamengo empatam administrando vantagem. Fortaleza também empata fora. Na La Liga, Girona vence desesperado contra o rebaixamento.",
-          "reason": "Atlético GO está invicto há 5 jogos, jogando em casa no Antônio Accioly com o impulso da torcida. O 0-0 no jogo de ida mostra equilíbrio e quem vencer avança — o fator casa pode ser decisivo. O Athletico PR perdeu para o Vasco na última rodada do Brasileirão e chega sem ritmo ideal. O empate de Chapecoense x Botafogo faz sentido porque o Botafogo, com 1-0 de vantagem, pode jogar recuado para avançar. O Flamengo (2-1 na ida) pode poupar peças. CRB x Fortaleza é jogo equilibrado, empate é resultado natural. Girona (18º) tem 3 vitórias em casa nas últimas 5 na La Liga — lutando contra rebaixamento, Montilivi empurra. Real Sociedad perdeu 3 dos últimos 4 jogos fora."
+          "market": "Acumulador - Resultado Final (Full Time Result)",
+          "selection": "Aston Villa vence @2.75 + Universitario vence @1.40 + LDU Quito vence @1.53 + Coquimbo Unido vence @1.76 + Rubio Ñú vence @3.20 + Empate FC Cajamarca x Sporting Cristal @3.40 + Empate Sportivo Trinidense x Cerro Porteño @3.00 + Dep. La Guaira vence @1.85",
+          "odd": 626.02,
+          "possibleReturn": "R$ 626,02",
+          "goal": "Cobrir o cenário em que o mandante Aston Villa surpreende, mandantes fortes regionais vencem (Coquimbo, La Guaira, Rubio Ñú) e os jogos equilibrados do Paraguai e Peru empatam",
+          "reason": "Aston Villa jogando em casa, precisando de pontos para Champions League, contra um Liverpool que pode oscilar fora. Universitario e LDU são âncoras. Coquimbo (1.76) e La Guaira (1.85) são favoritos em casa. Rubio Ñú (3.20) é o mandante que pode surpreender num campeonato paraguaio imprevisível. Empates em Cajamarca x Cristal e Trinidense x Cerro são cenários justos em jogos equilibrados."
         },
         {
-          "match": "Múltipla - 8 jogos (Copa do Brasil + La Liga)",
+          "match": "Acumulador de 7 jogos",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
-          "market": "Acumulador - Resultado Final (Full Time Result) x8",
-          "selection": "Botafogo vence (2.20) + Empate Atlético GO x Athletico PR (3.10) + Empate Confiança x Grêmio (3.50) + Corinthians vence (1.33) + CRB vence (2.62) + Flamengo vence (2.00) + Real Madrid vence (1.20) + Real Sociedad vence (3.90)",
-          "odd": 778.54,
-          "possibleReturn": "R$ 778,54",
-          "goal": "Cobrir o cenário alternativo: Botafogo e Flamengo vencem fora com autoridade, Grêmio empata com time misto contra a Confiança (rodízio), Atlético GO x Athletico PR segue travado (empate como na ida), e CRB reverte em casa. Na La Liga, Real Sociedad surpreende o Girona fora.",
-          "reason": "Botafogo goleou a Chapecoense por 4-1 na Arena Condá recentemente — demonstrou que pode vencer fora contra esse adversário. O empate Confiança x Grêmio é realista porque o Grêmio deve escalar um time misto/reserva (está no Z4 da Série A, 17º lugar, e enfrenta o Bahia no fim de semana — a prioridade absoluta é o Brasileirão, não avançar goleando na Copa). Um 0-0 ou 1-1 é perfeitamente plausível. Atlético GO x Athletico PR empataram em 0-0 na ida, times de nível similar com o jogo podendo repetir o roteiro e ir para pênaltis. CRB com 3 vitórias seguidas e empurrado pela torcida no Rei Pelé pode reverter o 1-2 da ida — precisa vencer por 2+ ou por 1 gol para pênaltis. Flamengo invicto há 10 jogos e com elenco muito superior ao Vitória. Real Sociedad domina o histórico contra o Girona (4V, 5E nos últimos 10) e busca classificação europeia."
+          "market": "Acumulador - Resultado Final (Full Time Result)",
+          "selection": "Liverpool vence @2.45 + LDU Quito vence @1.53 + Cerro Porteño vence @2.20 + Sporting Cristal vence @2.70 + Nacional Asunción vence @2.15 + Empate Coquimbo Unido x Audax Italiano @3.60 + Empate Real Tomayapo x Club Aurora @3.40",
+          "odd": 585.95,
+          "possibleReturn": "R$ 585,95",
+          "goal": "Cobrir o cenário oposto: Liverpool confirma fora de casa, os grandes visitantes sul-americanos (Cerro, Cristal, Nacional Asunción) vencem e os jogos menores equilibrados empatam",
+          "reason": "Liverpool é o favorito nas casas de apostas (2.45) e tem elenco para vencer fora. Cerro Porteño (2.20), Sporting Cristal (2.70) e Nacional Asunción (2.15) são clubes historicamente maiores que seus adversários e favoritados como visitantes. Empate em Coquimbo x Audax (3.60) cobre o cenário onde Coquimbo não consegue vencer em casa. Empate em Tomayapo x Aurora (3.40) é estatisticamente justo pelas odds quase idênticas."
         }
       ]
     }
