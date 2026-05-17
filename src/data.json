@@ -1,24 +1,762 @@
 {
-  "updatedAt": "2026-05-15 15:02",
+  "updatedAt": "2026-05-17 14:43",
   "summary": {
     "totalBookmakers": 15,
-    "totalGames": 33,
+    "totalGames": 107,
     "surebetsFound": 0,
-    "bestOdd": 14.5,
+    "bestOdd": 9.6,
     "riskProfile": "Moderado"
   },
   "bookmakers": [
     {
       "name": "Superbet",
-      "games": []
+      "games": [
+        {
+          "championship": "Brasil - Brasileiro - Série A",
+          "match": "Bahia x Grêmio RS",
+          "home": "Bahia",
+          "away": "Grêmio RS",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 1.7,
+            "draw": 4,
+            "away": 5
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Brasileiro - Série A",
+          "match": "Botafogo RJ x Corinthians",
+          "home": "Botafogo RJ",
+          "away": "Corinthians",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.4,
+            "draw": 3.2,
+            "away": 3.25
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Brasileiro - Série A",
+          "match": "Chapecoense x Remo",
+          "home": "Chapecoense",
+          "away": "Remo",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "odds": {
+            "home": 2.57,
+            "draw": 3.15,
+            "away": 3
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Brasileiro - Série A",
+          "match": "RB Bragantino x Vitória BA",
+          "home": "RB Bragantino",
+          "away": "Vitória BA",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "odds": {
+            "home": 1.67,
+            "draw": 3.8,
+            "away": 5.65
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Brasileiro - Série A",
+          "match": "Athletico PR x Flamengo",
+          "home": "Athletico PR",
+          "away": "Flamengo",
+          "date": "2026-05-17",
+          "time": "19:30",
+          "odds": {
+            "home": 3.4,
+            "draw": 3.3,
+            "away": 2.25
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Brasileiro - Série B",
+          "match": "Athletic Club MG x Juventude",
+          "home": "Athletic Club MG",
+          "away": "Juventude",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.67,
+            "draw": 2.82,
+            "away": 3
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Brasileiro - Série B",
+          "match": "Vila Nova GO x Avaí",
+          "home": "Vila Nova GO",
+          "away": "Avaí",
+          "date": "2026-05-17",
+          "time": "18:00",
+          "odds": {
+            "home": 2.17,
+            "draw": 3.15,
+            "away": 3.55
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Brasileiro - Série B",
+          "match": "Ceará x Fortaleza",
+          "home": "Ceará",
+          "away": "Fortaleza",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "odds": {
+            "home": 2.47,
+            "draw": 2.82,
+            "away": 3.35
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Brasileiro - Série B",
+          "match": "Criciúma x Atlético GO",
+          "home": "Criciúma",
+          "away": "Atlético GO",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "odds": {
+            "home": 1.92,
+            "draw": 3.05,
+            "away": 4.75
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Brasileiro - Série B",
+          "match": "Sport Recife x CRB AL",
+          "home": "Sport Recife",
+          "away": "CRB AL",
+          "date": "2026-05-17",
+          "time": "20:30",
+          "odds": {
+            "home": 2.12,
+            "draw": 3.15,
+            "away": 3.65
+          },
+          "markets": [],
+          "notes": null
+        }
+      ]
     },
     {
       "name": "Estrela Bet",
-      "games": []
+      "games": [
+        {
+          "championship": "Brasileirão A - Brasil",
+          "match": "Bahia x Grêmio",
+          "home": "Bahia",
+          "away": "Grêmio",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 1.72,
+            "draw": 3.98,
+            "away": 4.95
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasileirão A - Brasil",
+          "match": "Botafogo x Corinthians",
+          "home": "Botafogo",
+          "away": "Corinthians",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.36,
+            "draw": 3.28,
+            "away": 3.26
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasileirão A - Brasil",
+          "match": "Chapecoense x Remo",
+          "home": "Chapecoense",
+          "away": "Remo",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "odds": {
+            "home": 2.54,
+            "draw": 3.19,
+            "away": 3.05
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasileirão A - Brasil",
+          "match": "RB Bragantino x Vitória",
+          "home": "RB Bragantino",
+          "away": "Vitória",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "odds": {
+            "home": 1.66,
+            "draw": 3.87,
+            "away": 5.75
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasileirão A - Brasil",
+          "match": "Athletico PR x Flamengo",
+          "home": "Athletico PR",
+          "away": "Flamengo",
+          "date": "2026-05-17",
+          "time": "19:30",
+          "odds": {
+            "home": 3.41,
+            "draw": 3.32,
+            "away": 2.27
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasileirão B - Brasil",
+          "match": "Athletic Club MG x Juventude",
+          "home": "Athletic Club MG",
+          "away": "Juventude",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.65,
+            "draw": 3.03,
+            "away": 2.96
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasileirão B - Brasil",
+          "match": "Vila Nova x Avaí",
+          "home": "Vila Nova",
+          "away": "Avaí",
+          "date": "2026-05-17",
+          "time": "18:00",
+          "odds": {
+            "home": 2.14,
+            "draw": 3.26,
+            "away": 3.69
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasileirão B - Brasil",
+          "match": "Ceará x Fortaleza",
+          "home": "Ceará",
+          "away": "Fortaleza",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "odds": {
+            "home": 2.5,
+            "draw": 2.91,
+            "away": 3.32
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasileirão B - Brasil",
+          "match": "Criciúma x Atlético GO",
+          "home": "Criciúma",
+          "away": "Atlético GO",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "odds": {
+            "home": 1.9,
+            "draw": 3.18,
+            "away": 4.9
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasileirão B - Brasil",
+          "match": "Sport x CRB",
+          "home": "Sport",
+          "away": "CRB",
+          "date": "2026-05-17",
+          "time": "20:30",
+          "odds": {
+            "home": 2.1,
+            "draw": 3.26,
+            "away": 3.82
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "LaLiga - Espanha",
+          "match": "Barcelona x Bétis",
+          "home": "Barcelona",
+          "away": "Bétis",
+          "date": "2026-05-17",
+          "time": "16:15",
+          "odds": {
+            "home": 1.34,
+            "draw": 6,
+            "away": 8.2
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Ligue 1 - França",
+          "match": "Brest x Angers",
+          "home": "Brest",
+          "away": "Angers",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 1.82,
+            "draw": 3.83,
+            "away": 4.35
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Ligue 1 - França",
+          "match": "FC Lorient x Le Havre",
+          "home": "FC Lorient",
+          "away": "Le Havre",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.64,
+            "draw": 3.54,
+            "away": 2.64
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Ligue 1 - França",
+          "match": "LOSC Lille x Auxerre",
+          "home": "LOSC Lille",
+          "away": "Auxerre",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 1.44,
+            "draw": 4.75,
+            "away": 7.4
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Ligue 1 - França",
+          "match": "Lyon x Lens",
+          "home": "Lyon",
+          "away": "Lens",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 1.7,
+            "draw": 4.3,
+            "away": 4.55
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Ligue 1 - França",
+          "match": "Marselha x Rennes",
+          "home": "Marselha",
+          "away": "Rennes",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.01,
+            "draw": 4.05,
+            "away": 3.38
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Ligue 1 - França",
+          "match": "Nantes x Toulouse",
+          "home": "Nantes",
+          "away": "Toulouse",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.64,
+            "draw": 3.58,
+            "away": 2.62
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Ligue 1 - França",
+          "match": "Nice x FC Metz",
+          "home": "Nice",
+          "away": "FC Metz",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 1.33,
+            "draw": 5.45,
+            "away": 9.6
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Ligue 1 - França",
+          "match": "Paris FC x Paris St-Germain",
+          "home": "Paris FC",
+          "away": "Paris St-Germain",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 5,
+            "draw": 4.65,
+            "away": 1.6
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Ligue 1 - França",
+          "match": "Strasbourg x Monaco",
+          "home": "Strasbourg",
+          "away": "Monaco",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 3.04,
+            "draw": 4.1,
+            "away": 2.14
+          },
+          "markets": [],
+          "notes": null
+        }
+      ]
     },
     {
       "name": "Pixbet",
-      "games": []
+      "games": [
+        {
+          "championship": "Brasileirão Série A",
+          "match": "Botafogo RJ x Corinthians",
+          "home": "Botafogo RJ",
+          "away": "Corinthians",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.33,
+            "draw": 3.11,
+            "away": 2.98
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasileirão Série A",
+          "match": "FC Bahia x Grêmio",
+          "home": "FC Bahia",
+          "away": "Grêmio",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 1.64,
+            "draw": 3.82,
+            "away": 4.68
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasileirão Série A",
+          "match": "Bragantino x Vitória",
+          "home": "Bragantino",
+          "away": "Vitória",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "odds": {
+            "home": 1.6,
+            "draw": 3.66,
+            "away": 5.3
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasileirão Série A",
+          "match": "Chapecoense x Clube Do Remo",
+          "home": "Chapecoense",
+          "away": "Clube Do Remo",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "odds": {
+            "home": 2.43,
+            "draw": 3.08,
+            "away": 2.85
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasileirão Série A",
+          "match": "Athletico Paranaense x Flamengo",
+          "home": "Athletico Paranaense",
+          "away": "Flamengo",
+          "date": "2026-05-17",
+          "time": "19:30",
+          "odds": {
+            "home": 3.2,
+            "draw": 3.19,
+            "away": 2.17
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasileirão Série B",
+          "match": "Athletic Club MG x EC Juventude",
+          "home": "Athletic Club MG",
+          "away": "EC Juventude",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.52,
+            "draw": 2.77,
+            "away": 2.84
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasileirão Série B",
+          "match": "Vila Nova x Avaí",
+          "home": "Vila Nova",
+          "away": "Avaí",
+          "date": "2026-05-17",
+          "time": "18:00",
+          "odds": {
+            "home": 2.11,
+            "draw": 3.01,
+            "away": 3.29
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasileirão Série B",
+          "match": "Ceará CE x Fortaleza",
+          "home": "Ceará CE",
+          "away": "Fortaleza",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "odds": {
+            "home": 2.37,
+            "draw": 2.74,
+            "away": 3.09
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasileirão Série B",
+          "match": "Criciúma x Atlético GO",
+          "home": "Criciúma",
+          "away": "Atlético GO",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "odds": {
+            "home": 1.83,
+            "draw": 3,
+            "away": 4.36
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasileirão Série B",
+          "match": "Sport Recife x CRB",
+          "home": "Sport Recife",
+          "away": "CRB",
+          "date": "2026-05-17",
+          "time": "20:30",
+          "odds": {
+            "home": 2.06,
+            "draw": 3.07,
+            "away": 3.35
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Marselha x Stade Rennes",
+          "home": "Marselha",
+          "away": "Stade Rennes",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 1.97,
+            "draw": 3.72,
+            "away": 2.98
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Paris FC x Paris St-Germain",
+          "home": "Paris FC",
+          "away": "Paris St-Germain",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 4.29,
+            "draw": 4.25,
+            "away": 1.56
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Lille x Auxerre",
+          "home": "Lille",
+          "away": "Auxerre",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 1.35,
+            "draw": 4.43,
+            "away": 6.7
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Estrasburgo x Monaco",
+          "home": "Estrasburgo",
+          "away": "Monaco",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.85,
+            "draw": 3.77,
+            "away": 2.02
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Nantes x Toulouse",
+          "home": "Nantes",
+          "away": "Toulouse",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.49,
+            "draw": 3.27,
+            "away": 2.48
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Nice x Metz",
+          "home": "Nice",
+          "away": "Metz",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 1.28,
+            "draw": 5.1,
+            "away": 7.6
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Lorient x Le Havre",
+          "home": "Lorient",
+          "away": "Le Havre",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.51,
+            "draw": 3.24,
+            "away": 2.48
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Lyon x Lens",
+          "home": "Lyon",
+          "away": "Lens",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 1.62,
+            "draw": 3.95,
+            "away": 4.17
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Brest x Angers",
+          "home": "Brest",
+          "away": "Angers",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 1.79,
+            "draw": 3.47,
+            "away": 3.81
+          },
+          "markets": [],
+          "notes": null
+        }
+      ]
     },
     {
       "name": "BR4bet",
@@ -26,7 +764,293 @@
     },
     {
       "name": "Novibet",
-      "games": []
+      "games": [
+        {
+          "championship": "Brasil - Brasileirão - Série A",
+          "match": "Bahia BA x Grêmio RS",
+          "home": "Bahia BA",
+          "away": "Grêmio RS",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 1.74,
+            "draw": 4.1,
+            "away": 4.95
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Brasileirão - Série A",
+          "match": "Botafogo RJ x Corinthians SP",
+          "home": "Botafogo RJ",
+          "away": "Corinthians SP",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.45,
+            "draw": 3.3,
+            "away": 3.25
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Brasileirão - Série A",
+          "match": "Bragantino SP x Vitória BA",
+          "home": "Bragantino SP",
+          "away": "Vitória BA",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "odds": {
+            "home": 1.69,
+            "draw": 3.9,
+            "away": 5.6
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Brasileirão - Série A",
+          "match": "Chapecoense SC x Remo PA",
+          "home": "Chapecoense SC",
+          "away": "Remo PA",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "odds": {
+            "home": 2.6,
+            "draw": 3.2,
+            "away": 3.1
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Brasileirão - Série A",
+          "match": "Athletico Paranaense PR x Flamengo RJ",
+          "home": "Athletico Paranaense PR",
+          "away": "Flamengo RJ",
+          "date": "2026-05-17",
+          "time": "19:30",
+          "odds": {
+            "home": 3.5,
+            "draw": 3.4,
+            "away": 2.25
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Brasileirão - Série B",
+          "match": "Athletic Club MG x Juventude RS",
+          "home": "Athletic Club MG",
+          "away": "Juventude RS",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.65,
+            "draw": 2.9,
+            "away": 3
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Brasileirão - Série B",
+          "match": "Vila Nova GO x Avaí SC",
+          "home": "Vila Nova GO",
+          "away": "Avaí SC",
+          "date": "2026-05-17",
+          "time": "18:00",
+          "odds": {
+            "home": 2.15,
+            "draw": 3.2,
+            "away": 3.5
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Brasileirão - Série B",
+          "match": "Ceará CE x Fortaleza CE",
+          "home": "Ceará CE",
+          "away": "Fortaleza CE",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "odds": {
+            "home": 2.45,
+            "draw": 2.9,
+            "away": 3.25
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Brasileirão - Série B",
+          "match": "Criciúma SC x Atlético Goianiense GO",
+          "home": "Criciúma SC",
+          "away": "Atlético Goianiense GO",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "odds": {
+            "home": 1.89,
+            "draw": 3.15,
+            "away": 4.7
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Brasileirão - Série B",
+          "match": "Sport Recife PE x CRB AL",
+          "home": "Sport Recife PE",
+          "away": "CRB AL",
+          "date": "2026-05-17",
+          "time": "20:30",
+          "odds": {
+            "home": 2.1,
+            "draw": 3.2,
+            "away": 3.7
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Brest x Angers",
+          "home": "Brest",
+          "away": "Angers",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 1.84,
+            "draw": 3.7,
+            "away": 4
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Lille OSC x Auxerre",
+          "home": "Lille OSC",
+          "away": "Auxerre",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 1.42,
+            "draw": 4.6,
+            "away": 7.5
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Lorient x Le Havre",
+          "home": "Lorient",
+          "away": "Le Havre",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.65,
+            "draw": 3.45,
+            "away": 2.55
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Nantes x Toulouse",
+          "home": "Nantes",
+          "away": "Toulouse",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.6,
+            "draw": 3.5,
+            "away": 2.6
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Nice x Metz",
+          "home": "Nice",
+          "away": "Metz",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 1.31,
+            "draw": 5.25,
+            "away": 9
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Olympique de Marselha x Rennes",
+          "home": "Olympique de Marselha",
+          "away": "Rennes",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.09,
+            "draw": 3.9,
+            "away": 3.15
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Olympique Lyonnais x Lens",
+          "home": "Olympique Lyonnais",
+          "away": "Lens",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 1.66,
+            "draw": 4.15,
+            "away": 4.6
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Paris FC x PSG",
+          "home": "Paris FC",
+          "away": "PSG",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 4.5,
+            "draw": 4.4,
+            "away": 1.63
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Strasbourg x AS Monaco",
+          "home": "Strasbourg",
+          "away": "AS Monaco",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 3.05,
+            "draw": 4.1,
+            "away": 2.09
+          },
+          "markets": [],
+          "notes": null
+        }
+      ]
     },
     {
       "name": "BetMGM",
@@ -40,276 +1064,79 @@
       "name": "Betano",
       "games": [
         {
-          "championship": "Inglaterra - Premier League",
-          "match": "Aston Villa x Liverpool",
-          "home": "Aston Villa",
-          "away": "Liverpool",
-          "date": "2026-05-15",
+          "championship": "Brasil - Brasileirão - Série A",
+          "match": "Bahia x Grêmio",
+          "home": "Bahia",
+          "away": "Grêmio",
+          "date": "2026-05-17",
           "time": "16:00",
           "odds": {
-            "home": 2.82,
-            "draw": 3.6,
-            "away": 2.35
-          },
-          "markets": [
-            {
-              "market": "Resultado Final",
-              "selection": "Liverpool",
-              "odd": 2.35
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Equador - Liga Pro Serie A",
-          "match": "LDU Quito x CD Tecnico Universitario",
-          "home": "LDU Quito",
-          "away": "CD Tecnico Universitario",
-          "date": "2026-05-15",
-          "time": "18:30",
-          "odds": {
-            "home": 1.6,
-            "draw": 4.4,
-            "away": 5.8
-          },
-          "markets": [
-            {
-              "market": "Resultado Final",
-              "selection": "LDU Quito",
-              "odd": 1.6
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Espanha - Segunda División",
-          "match": "CD Castellón x Cádiz CF",
-          "home": "CD Castellón",
-          "away": "Cádiz CF",
-          "date": "2026-05-15",
-          "time": "15:30",
-          "odds": {
-            "home": 1.27,
-            "draw": 6.6,
-            "away": 11.25
-          },
-          "markets": [
-            {
-              "market": "Resultado Final",
-              "selection": "CD Castellón",
-              "odd": 1.27
-            },
-            {
-              "market": "Resultado Final",
-              "selection": "CD Castellón",
-              "odd": 1.26
-            }
-          ],
-          "notes": "Há variação visível no print entre 1.27 e 1.26 para CD Castellón em seções diferentes da Betano"
-        },
-        {
-          "championship": "Arábia Saudita - Pro League",
-          "match": "Al-Taawoun FC x Al-Riyadh SC",
-          "home": "Al-Taawoun FC",
-          "away": "Al-Riyadh SC",
-          "date": "2026-05-15",
-          "time": "15:00",
-          "odds": {
-            "home": 1.57,
-            "draw": 4.45,
-            "away": 5.4
-          },
-          "markets": [
-            {
-              "market": "Resultado Final",
-              "selection": "Al-Taawoun FC",
-              "odd": 1.57
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "França - Ligue 1",
-          "match": "Saint-Étienne x Rodez AF",
-          "home": "Saint-Étienne",
-          "away": "Rodez AF",
-          "date": "2026-05-15",
-          "time": "15:30",
-          "odds": {
-            "home": 1.78,
-            "draw": 4.1,
-            "away": 4.6
-          },
-          "markets": [
-            {
-              "market": "Resultado Final",
-              "selection": "Saint-Étienne",
-              "odd": 1.78
-            }
-          ],
-          "notes": null
-        },
-        {
-          "championship": "Alemanha - Bundesliga",
-          "match": "Bayer Leverkusen x Hamburgo",
-          "home": "Bayer Leverkusen",
-          "away": "Hamburgo",
-          "date": "2026-05-16",
-          "time": "10:30",
-          "odds": {
-            "home": 1.29,
-            "draw": 6.8,
-            "away": 9.75
-          },
-          "markets": [
-            {
-              "market": "Resultado Final",
-              "selection": "Bayer Leverkusen",
-              "odd": 1.28
-            }
-          ],
-          "notes": "Há variação visível no print entre 1.29 e 1.28 para Bayer Leverkusen em seções diferentes da Betano"
-        },
-        {
-          "championship": "Arábia Saudita - Pro League",
-          "match": "Damac FC x Al-Fayha FC",
-          "home": "Damac FC",
-          "away": "Al-Fayha FC",
-          "date": "2026-05-15",
-          "time": null,
-          "odds": {
-            "home": 1.27,
-            "draw": 4.4,
-            "away": 14.5
+            "home": 1.72,
+            "draw": 4.15,
+            "away": 4.85
           },
           "markets": [],
-          "notes": "Jogo aparenta estar ao vivo no print, com placar 1-0 e tempo 54:28"
-        },
-        {
-          "championship": "Chile - Liga de Primera",
-          "match": "Coquimbo Unido x Audax Italiano",
-          "home": "Coquimbo Unido",
-          "away": "Audax Italiano",
-          "date": "2026-05-15",
-          "time": "21:00",
-          "odds": {
-            "home": 1.88,
-            "draw": 3.7,
-            "away": 4.45
-          },
-          "markets": [
-            {
-              "market": "Resultado Final",
-              "selection": "Coquimbo Unido",
-              "odd": 1.88
-            }
-          ],
           "notes": null
         },
         {
-          "championship": "Não confirmado",
-          "match": "Bayern de Munique x 1. FC Köln",
-          "home": "Bayern de Munique",
-          "away": "1. FC Köln",
-          "date": "2026-05-16",
-          "time": "10:30",
-          "odds": {
-            "home": 1.16,
-            "draw": null,
-            "away": null
-          },
-          "markets": [
-            {
-              "market": "Resultado Final",
-              "selection": "Bayern de Munique",
-              "odd": 1.16
-            }
-          ],
-          "notes": "Jogo aparece somente na seção de múltiplas populares"
-        },
-        {
-          "championship": "Não confirmado",
-          "match": "Palestino x Deportes La Serena",
-          "home": "Palestino",
-          "away": "Deportes La Serena",
-          "date": "2026-05-15",
-          "time": "21:00",
-          "odds": {
-            "home": 2.02,
-            "draw": null,
-            "away": null
-          },
-          "markets": [
-            {
-              "market": "Resultado Final",
-              "selection": "Palestino",
-              "odd": 2.02
-            }
-          ],
-          "notes": "Jogo aparece somente na seção de múltiplas populares"
-        },
-        {
-          "championship": "Não confirmado",
-          "match": "Cordoba CF x Albacete Balompié",
-          "home": "Cordoba CF",
-          "away": "Albacete Balompié",
-          "date": "2026-05-15",
+          "championship": "Brasil - Brasileirão - Série A",
+          "match": "Botafogo-RJ x Corinthians",
+          "home": "Botafogo-RJ",
+          "away": "Corinthians",
+          "date": "2026-05-17",
           "time": "16:00",
           "odds": {
-            "home": 1.57,
-            "draw": null,
-            "away": null
+            "home": 2.37,
+            "draw": 3.25,
+            "away": 3.15
           },
-          "markets": [
-            {
-              "market": "Resultado Final",
-              "selection": "Cordoba CF",
-              "odd": 1.57
-            }
-          ],
-          "notes": "Jogo aparece somente na seção de múltiplas populares"
+          "markets": [],
+          "notes": null
         },
         {
-          "championship": "Não confirmado",
-          "match": "Werder Bremen x Borussia Dortmund",
-          "home": "Werder Bremen",
-          "away": "Borussia Dortmund",
-          "date": "2026-05-16",
-          "time": "10:30",
+          "championship": "Brasil - Brasileirão - Série A",
+          "match": "Chapecoense x Remo",
+          "home": "Chapecoense",
+          "away": "Remo",
+          "date": "2026-05-17",
+          "time": "18:30",
           "odds": {
-            "home": null,
-            "draw": null,
-            "away": 2.05
+            "home": 2.5,
+            "draw": 3.15,
+            "away": 3.05
           },
-          "markets": [
-            {
-              "market": "Resultado Final",
-              "selection": "Borussia Dortmund",
-              "odd": 2.05
-            }
-          ],
-          "notes": "Jogo aparece somente na seção de múltiplas populares"
+          "markets": [],
+          "notes": null
         },
         {
-          "championship": "Não confirmado",
-          "match": "FC Porto x CD Santa Clara",
-          "home": "FC Porto",
-          "away": "CD Santa Clara",
-          "date": "2026-05-16",
-          "time": "11:30",
+          "championship": "Brasil - Brasileirão - Série A",
+          "match": "Bragantino x Vitória",
+          "home": "Bragantino",
+          "away": "Vitória",
+          "date": "2026-05-17",
+          "time": "18:30",
           "odds": {
-            "home": 1.37,
-            "draw": null,
-            "away": null
+            "home": 1.67,
+            "draw": 3.85,
+            "away": 5.9
           },
-          "markets": [
-            {
-              "market": "Resultado Final",
-              "selection": "FC Porto",
-              "odd": 1.37
-            }
-          ],
-          "notes": "Jogo aparece somente na seção de múltiplas populares"
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil - Brasileirão - Série A",
+          "match": "Athletico-PR x Flamengo",
+          "home": "Athletico-PR",
+          "away": "Flamengo",
+          "date": "2026-05-17",
+          "time": "19:30",
+          "odds": {
+            "home": 3.4,
+            "draw": 3.4,
+            "away": 2.27
+          },
+          "markets": [],
+          "notes": null
         }
       ]
     },
@@ -317,211 +1144,256 @@
       "name": "bet365",
       "games": [
         {
-          "championship": "Premier League - Inglaterra",
-          "match": "Aston Villa x Liverpool",
-          "home": "Aston Villa",
-          "away": "Liverpool",
-          "date": "2026-05-15",
+          "championship": "Série A",
+          "match": "Bahia x Grêmio",
+          "home": "Bahia",
+          "away": "Grêmio",
+          "date": "2026-05-17",
           "time": "16:00",
           "odds": {
-            "home": 2.75,
-            "draw": 3.5,
-            "away": 2.45
+            "home": 1.66,
+            "draw": 4,
+            "away": 5
           },
           "markets": [],
           "notes": null
         },
         {
-          "championship": "Não confirmado",
-          "match": "Caykur Rizespor x Besiktas",
-          "home": "Caykur Rizespor",
-          "away": "Besiktas",
-          "date": "2026-05-15",
-          "time": null,
+          "championship": "Série A",
+          "match": "Botafogo x Corinthians",
+          "home": "Botafogo",
+          "away": "Corinthians",
+          "date": "2026-05-17",
+          "time": "16:00",
           "odds": {
-            "home": 1.2,
-            "draw": 7,
-            "away": 13
-          },
-          "markets": [],
-          "notes": "Jogo aparenta estar ao vivo no print, com placar 2-0 e tempo 35:00"
-        },
-        {
-          "championship": "Não confirmado",
-          "match": "FC Cajamarca x Sporting Cristal",
-          "home": "FC Cajamarca",
-          "away": "Sporting Cristal",
-          "date": "2026-05-15",
-          "time": "17:00",
-          "odds": {
-            "home": 2.45,
-            "draw": 3.4,
-            "away": 2.7
+            "home": 2.4,
+            "draw": 3.1,
+            "away": 3.1
           },
           "markets": [],
           "notes": null
         },
         {
-          "championship": "Não confirmado",
-          "match": "Rubio Ñú x Nacional Asunción",
-          "home": "Rubio Ñú",
-          "away": "Nacional Asunción",
-          "date": "2026-05-15",
-          "time": "17:00",
+          "championship": "Série A",
+          "match": "Bragantino x Vitória",
+          "home": "Bragantino",
+          "away": "Vitória",
+          "date": "2026-05-17",
+          "time": "18:30",
           "odds": {
-            "home": 3.2,
-            "draw": 3,
-            "away": 2.15
+            "home": 1.61,
+            "draw": 3.9,
+            "away": 5.5
           },
           "markets": [],
           "notes": null
         },
         {
-          "championship": "Não confirmado",
-          "match": "Sportivo Trinidense x Cerro Porteño",
-          "home": "Sportivo Trinidense",
-          "away": "Cerro Porteño",
-          "date": "2026-05-15",
-          "time": "17:00",
+          "championship": "Série A",
+          "match": "Chapecoense x Remo",
+          "home": "Chapecoense",
+          "away": "Remo",
+          "date": "2026-05-17",
+          "time": "18:30",
           "odds": {
-            "home": 3.1,
-            "draw": 3,
+            "home": 2.5,
+            "draw": 3.2,
+            "away": 2.9
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Série A",
+          "match": "Athletico Paranaense x Flamengo",
+          "home": "Athletico Paranaense",
+          "away": "Flamengo",
+          "date": "2026-05-17",
+          "time": "19:30",
+          "odds": {
+            "home": 3.3,
+            "draw": 3.3,
             "away": 2.2
           },
           "markets": [],
           "notes": null
         },
         {
-          "championship": "Não confirmado",
-          "match": "LDU Quito x Tecnico Universitario",
-          "home": "LDU Quito",
-          "away": "Tecnico Universitario",
-          "date": "2026-05-15",
+          "championship": "Série B",
+          "match": "Athletic Club MG x Juventude",
+          "home": "Athletic Club MG",
+          "away": "Juventude",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.6,
+            "draw": 3,
+            "away": 2.87
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Série B",
+          "match": "Vila Nova x Avaí",
+          "home": "Vila Nova",
+          "away": "Avaí",
+          "date": "2026-05-17",
+          "time": "18:00",
+          "odds": {
+            "home": 2.15,
+            "draw": 3.2,
+            "away": 3.4
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Série B",
+          "match": "Ceará x Fortaleza",
+          "home": "Ceará",
+          "away": "Fortaleza",
+          "date": "2026-05-17",
           "time": "18:30",
           "odds": {
-            "home": 1.53,
-            "draw": 4.1,
-            "away": 5.25
+            "home": 2.4,
+            "draw": 2.9,
+            "away": 3.25
           },
           "markets": [],
           "notes": null
         },
         {
-          "championship": "Não confirmado",
-          "match": "Patriotas FC x Millonarios",
-          "home": "Patriotas FC",
-          "away": "Millonarios",
-          "date": "2026-05-15",
-          "time": "20:00",
-          "odds": {
-            "home": 4.75,
-            "draw": 3.3,
-            "away": 1.75
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Não confirmado",
-          "match": "Montevideo City Torque x Nacional de Football",
-          "home": "Montevideo City Torque",
-          "away": "Nacional de Football",
-          "date": "2026-05-15",
-          "time": "20:00",
-          "odds": {
-            "home": 3.4,
-            "draw": 3.2,
-            "away": 2.1
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Não confirmado",
-          "match": "Deportivo La Guaira x UCV",
-          "home": "Deportivo La Guaira",
-          "away": "UCV",
-          "date": "2026-05-15",
-          "time": "20:30",
+          "championship": "Série B",
+          "match": "Criciúma x Atlético GO",
+          "home": "Criciúma",
+          "away": "Atlético GO",
+          "date": "2026-05-17",
+          "time": "18:30",
           "odds": {
             "home": 1.85,
-            "draw": 3.1,
-            "away": 3.9
+            "draw": 3.2,
+            "away": 4.75
           },
           "markets": [],
           "notes": null
         },
         {
-          "championship": "Não confirmado",
-          "match": "Coquimbo Unido x Audax Italiano",
-          "home": "Coquimbo Unido",
-          "away": "Audax Italiano",
-          "date": "2026-05-15",
-          "time": "21:00",
+          "championship": "Espanha - La Liga",
+          "match": "Sevilha x Real Madrid",
+          "home": "Sevilha",
+          "away": "Real Madrid",
+          "date": "2026-05-17",
+          "time": null,
           "odds": {
-            "home": 1.76,
-            "draw": 3.6,
-            "away": 4.1
+            "home": 8,
+            "draw": 4.5,
+            "away": 1.4
           },
           "markets": [],
-          "notes": null
+          "notes": "Jogo ao vivo no print; horário oficial não confirmado"
         },
         {
-          "championship": "Não confirmado",
-          "match": "Palestino x La Serena",
-          "home": "Palestino",
-          "away": "La Serena",
-          "date": "2026-05-15",
-          "time": "21:00",
-          "odds": {
-            "home": 1.91,
-            "draw": 3.4,
-            "away": 3.6
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Não confirmado",
-          "match": "Libertad FC x Deportivo Cuenca",
-          "home": "Libertad FC",
-          "away": "Deportivo Cuenca",
-          "date": "2026-05-15",
-          "time": "21:00",
-          "odds": {
-            "home": 2.25,
-            "draw": 3.3,
-            "away": 2.85
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Não confirmado",
-          "match": "Real Tomayapo x Club Aurora",
-          "home": "Real Tomayapo",
-          "away": "Club Aurora",
-          "date": "2026-05-15",
-          "time": "21:00",
-          "odds": {
-            "home": 2.4,
-            "draw": 3.4,
-            "away": 2.45
-          },
-          "markets": [],
-          "notes": null
-        },
-        {
-          "championship": "Não confirmado",
-          "match": "Universitario de Deportes x Atletico Grau",
-          "home": "Universitario de Deportes",
-          "away": "Atletico Grau",
-          "date": "2026-05-15",
-          "time": "22:00",
+          "championship": "Espanha - La Liga",
+          "match": "Atlético de Madrid x Girona",
+          "home": "Atlético de Madrid",
+          "away": "Girona",
+          "date": "2026-05-17",
+          "time": null,
           "odds": {
             "home": 1.4,
-            "draw": 4.33,
-            "away": 8
+            "draw": 4.5,
+            "away": 7.5
+          },
+          "markets": [],
+          "notes": "Jogo ao vivo no print; horário oficial não confirmado"
+        },
+        {
+          "championship": "Espanha - La Liga",
+          "match": "Rayo Vallecano x Villarreal",
+          "home": "Rayo Vallecano",
+          "away": "Villarreal",
+          "date": "2026-05-17",
+          "time": null,
+          "odds": {
+            "home": 2.1,
+            "draw": 3.1,
+            "away": 3.75
+          },
+          "markets": [],
+          "notes": "Jogo ao vivo no print; horário oficial não confirmado"
+        },
+        {
+          "championship": "Espanha - La Liga",
+          "match": "Barcelona x Real Betis",
+          "home": "Barcelona",
+          "away": "Real Betis",
+          "date": "2026-05-17",
+          "time": "16:15",
+          "odds": {
+            "home": 1.33,
+            "draw": 6,
+            "away": 7
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Paris FC x PSG",
+          "home": "Paris FC",
+          "away": "PSG",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 4.5,
+            "draw": 4.5,
+            "away": 1.61
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Lyon x Lens",
+          "home": "Lyon",
+          "away": "Lens",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 1.66,
+            "draw": 4.1,
+            "away": 4.5
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Lille x Auxerre",
+          "home": "Lille",
+          "away": "Auxerre",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 1.4,
+            "draw": 4.5,
+            "away": 8.5
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "França - Ligue 1",
+          "match": "Marselha x Rennes",
+          "home": "Marselha",
+          "away": "Rennes",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.05,
+            "draw": 4,
+            "away": 3.2
           },
           "markets": [],
           "notes": null
@@ -530,7 +1402,173 @@
     },
     {
       "name": "Bet Dá Sorte",
-      "games": []
+      "games": [
+        {
+          "championship": "Brasil. Série A",
+          "match": "Bahia x Grêmio",
+          "home": "Bahia",
+          "away": "Grêmio",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 1.63,
+            "draw": 3.82,
+            "away": 4.94
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil. Série A",
+          "match": "Botafogo RJ x Corinthians",
+          "home": "Botafogo RJ",
+          "away": "Corinthians",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.33,
+            "draw": 3.09,
+            "away": 3.09
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil. Série A",
+          "match": "Bragantino x Vitoria",
+          "home": "Bragantino",
+          "away": "Vitoria",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "odds": {
+            "home": 1.57,
+            "draw": 3.82,
+            "away": 5.54
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil. Série A",
+          "match": "Chapecoense x Remo",
+          "home": "Chapecoense",
+          "away": "Remo",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "odds": {
+            "home": 2.34,
+            "draw": 3.18,
+            "away": 2.98
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil. Série A",
+          "match": "Athletico PR x Flamengo",
+          "home": "Athletico PR",
+          "away": "Flamengo",
+          "date": "2026-05-17",
+          "time": "19:30",
+          "odds": {
+            "home": 3.27,
+            "draw": 3.27,
+            "away": 2.15
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil. Série B",
+          "match": "Athletic Club MG x Juventude",
+          "home": "Athletic Club MG",
+          "away": "Juventude",
+          "date": "2026-05-17",
+          "time": "16:00",
+          "odds": {
+            "home": 2.56,
+            "draw": 2.95,
+            "away": 2.87
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil. Série B",
+          "match": "Vila Nova FC x Avaí",
+          "home": "Vila Nova FC",
+          "away": "Avaí",
+          "date": "2026-05-17",
+          "time": "18:00",
+          "odds": {
+            "home": 2.18,
+            "draw": 3.18,
+            "away": 3.28
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil. Série B",
+          "match": "Ceará x Fortaleza EC",
+          "home": "Ceará",
+          "away": "Fortaleza EC",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "odds": {
+            "home": 2.42,
+            "draw": 2.82,
+            "away": 3.23
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil. Série B",
+          "match": "Criciúma x Atlético GO",
+          "home": "Criciúma",
+          "away": "Atlético GO",
+          "date": "2026-05-17",
+          "time": "18:30",
+          "odds": {
+            "home": 1.89,
+            "draw": 3.03,
+            "away": 4.58
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasil. Série B",
+          "match": "Sport Recife x Clube Regatas Brasil",
+          "home": "Sport Recife",
+          "away": "Clube Regatas Brasil",
+          "date": "2026-05-17",
+          "time": "20:30",
+          "odds": {
+            "home": 2.1,
+            "draw": 3.18,
+            "away": 3.48
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Espanha - La Liga",
+          "match": "Barcelona x Betis",
+          "home": "Barcelona",
+          "away": "Betis",
+          "date": "2026-05-17",
+          "time": "16:15",
+          "odds": {
+            "home": 1.29,
+            "draw": 5.68,
+            "away": 7.99
+          },
+          "markets": [],
+          "notes": null
+        }
+      ]
     },
     {
       "name": "Sportingbet",
@@ -544,219 +1582,93 @@
       "name": "Esportiva Bet",
       "games": [
         {
-          "championship": "Brasileirão A1 Feminino - Brasil",
-          "match": "Flamengo (F) x Fluminense FC RJ",
-          "home": "Flamengo (F)",
-          "away": "Fluminense FC RJ",
-          "date": "2026-05-15",
-          "time": "21:00",
+          "championship": "Brasileirão A - Brasil",
+          "match": "Bahia x Grêmio",
+          "home": "Bahia",
+          "away": "Grêmio",
+          "date": "2026-05-17",
+          "time": "16:00",
           "odds": {
-            "home": 1.83,
-            "draw": 3.2,
-            "away": 4
+            "home": 1.76,
+            "draw": 3.91,
+            "away": 4.85
           },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 1.9
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 1.77
-            },
-            {
-              "market": "Ambas marcam",
-              "selection": "Sim",
-              "odd": 1.8
-            },
-            {
-              "market": "Ambas marcam",
-              "selection": "Não",
-              "odd": 1.9
-            }
-          ],
+          "markets": [],
           "notes": null
         },
         {
-          "championship": "Premier League - Inglaterra",
-          "match": "Aston Villa FC x Liverpool",
-          "home": "Aston Villa FC",
-          "away": "Liverpool",
-          "date": "2026-05-15",
+          "championship": "Brasileirão A - Brasil",
+          "match": "Botafogo x Corinthians",
+          "home": "Botafogo",
+          "away": "Corinthians",
+          "date": "2026-05-17",
           "time": "16:00",
           "odds": {
-            "home": 2.93,
-            "draw": 3.57,
-            "away": 2.39
+            "home": 2.36,
+            "draw": 3.28,
+            "away": 3.26
           },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 1.76
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 2
-            },
-            {
-              "market": "Ambas marcam",
-              "selection": "Sim",
-              "odd": 1.64
-            },
-            {
-              "market": "Ambas marcam",
-              "selection": "Não",
-              "odd": 2.16
-            }
-          ],
+          "markets": [],
           "notes": null
         },
         {
-          "championship": "League Two - Inglaterra",
-          "match": "Salford City FC x Grimsby Town",
-          "home": "Salford City FC",
-          "away": "Grimsby Town",
-          "date": "2026-05-15",
-          "time": "15:15",
+          "championship": "Brasileirão A - Brasil",
+          "match": "Bragantino x Vitória",
+          "home": "Bragantino",
+          "away": "Vitória",
+          "date": "2026-05-17",
+          "time": "18:30",
           "odds": {
-            "home": 2.14,
-            "draw": 3.2,
-            "away": 3.1
+            "home": 1.66,
+            "draw": 3.87,
+            "away": 5.75
           },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 1.95
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 1.73
-            },
-            {
-              "market": "Ambas marcam",
-              "selection": "Sim",
-              "odd": 1.75
-            },
-            {
-              "market": "Ambas marcam",
-              "selection": "Não",
-              "odd": 1.95
-            }
-          ],
-          "notes": "Primeiro jogo: 2-1"
-        },
-        {
-          "championship": "League Two - Inglaterra",
-          "match": "Notts County x Chesterfield FC",
-          "home": "Notts County",
-          "away": "Chesterfield FC",
-          "date": "2026-05-15",
-          "time": "16:00",
-          "odds": {
-            "home": 2.25,
-            "draw": 3,
-            "away": 3.1
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 2.05
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 1.66
-            },
-            {
-              "market": "Ambas marcam",
-              "selection": "Sim",
-              "odd": 1.8
-            },
-            {
-              "market": "Ambas marcam",
-              "selection": "Não",
-              "odd": 1.9
-            }
-          ],
-          "notes": "Primeiro jogo: 1-0"
-        },
-        {
-          "championship": "LaLiga 2 - Espanha",
-          "match": "Castellon x Cadiz CF",
-          "home": "Castellon",
-          "away": "Cadiz CF",
-          "date": "2026-05-15",
-          "time": "15:30",
-          "odds": {
-            "home": 1.23,
-            "draw": 5.66,
-            "away": 9
-          },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 3.5",
-              "odd": 2.05
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 3.5",
-              "odd": 1.66
-            },
-            {
-              "market": "Ambas marcam",
-              "selection": "Sim",
-              "odd": 1.83
-            },
-            {
-              "market": "Ambas marcam",
-              "selection": "Não",
-              "odd": 1.83
-            }
-          ],
+          "markets": [],
           "notes": null
         },
         {
-          "championship": "LaLiga 2 - Espanha",
-          "match": "Cordoba x Albacete Balompie",
-          "home": "Cordoba",
-          "away": "Albacete Balompie",
-          "date": "2026-05-15",
-          "time": "16:00",
+          "championship": "Brasileirão A - Brasil",
+          "match": "Chapecoense x Remo",
+          "home": "Chapecoense",
+          "away": "Remo",
+          "date": "2026-05-17",
+          "time": "18:30",
           "odds": {
-            "home": 1.54,
-            "draw": 3.8,
-            "away": 5.33
+            "home": 2.54,
+            "draw": 3.19,
+            "away": 3.05
           },
-          "markets": [
-            {
-              "market": "Total de gols",
-              "selection": "Mais de 2.5",
-              "odd": 1.57
-            },
-            {
-              "market": "Total de gols",
-              "selection": "Menos de 2.5",
-              "odd": 2.2
-            },
-            {
-              "market": "Ambas marcam",
-              "selection": "Sim",
-              "odd": 1.66
-            },
-            {
-              "market": "Ambas marcam",
-              "selection": "Não",
-              "odd": 2.1
-            }
-          ],
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "Brasileirão A - Brasil",
+          "match": "Athletico-PR x Flamengo",
+          "home": "Athletico-PR",
+          "away": "Flamengo",
+          "date": "2026-05-17",
+          "time": "19:30",
+          "odds": {
+            "home": 3.46,
+            "draw": 3.36,
+            "away": 2.23
+          },
+          "markets": [],
+          "notes": null
+        },
+        {
+          "championship": "LaLiga - Espanha",
+          "match": "Barcelona x Real Betis",
+          "home": "Barcelona",
+          "away": "Real Betis",
+          "date": "2026-05-17",
+          "time": "16:15",
+          "odds": {
+            "home": 1.34,
+            "draw": 6,
+            "away": 8.2
+          },
+          "markets": [],
           "notes": null
         }
       ]
