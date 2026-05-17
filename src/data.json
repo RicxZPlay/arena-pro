@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-17 15:04",
+  "updatedAt": "2026-05-17 15:14",
   "summary": {
     "totalBookmakers": 15,
     "totalGames": 107,
@@ -1946,52 +1946,92 @@
   ],
   "twoReais": [
     {
-      "title": "Plano $2 - Favoritos com cobertura de empates",
+      "title": "Plano $2 - Favoritos em Crise",
       "matches": [
         "Sevilha x Real Madrid",
-        "Atlético de Madrid x Girona",
-        "Barcelona x Real Betis",
-        "Paris FC x PSG",
-        "Lyon x Lens",
-        "Lille x Auxerre",
+        "Athletico Paranaense x Flamengo",
+        "Botafogo x Corinthians",
+        "Ceará x Fortaleza",
+        "Chapecoense x Remo",
         "Marselha x Rennes",
         "Bragantino x Vitória",
-        "Bahia x Grêmio",
-        "Criciúma x Atlético GO",
-        "Athletico Paranaense x Flamengo",
-        "Botafogo x Corinthians"
+        "Lyon x Lens"
       ],
       "totalStake": "R$ 2,00",
       "risk": "Muito alto",
       "targetReturn": {
-        "minimum": "R$ 500,00",
-        "maximum": "R$ 5.000,00"
+        "minimum": "R$ 495,65",
+        "maximum": "R$ 1.025,29"
       },
-      "coverageStrategy": "A Aposta 1 segue o cenário mais provável dentro das odds disponíveis: favoritos europeus, mandantes fortes no Brasil e Flamengo como visitante de valor. A Aposta 2 mantém a base de favoritos mais fortes, mas troca três jogos de maior equilíbrio por empate: Marselha x Rennes, Athletico Paranaense x Flamengo e Botafogo x Corinthians. Assim, uma aposta tenta capturar a rodada mais lógica e a outra cobre uma rodada mais travada nos confrontos de maior imprevisibilidade.",
-      "reason": "O arquivo da bet365 trouxe apenas odds de Resultado Final, sem mercados alternativos preenchidos. Por isso, o plano usa somente múltiplas de Resultado Final com odds reais fornecidas. A construção é agressiva, mas evita depender de zebras puras como base principal.",
-      "statisticalNote": "Foram considerados os contextos públicos mais recentes: PSG já campeão, mas ainda favorito no dérbi; Lyon e Lille com motivação de Champions League; Atlético de Madrid com incentivo de pódio; Barcelona e Real Madrid favoritos técnicos; Flamengo com campanha forte, mas jogo difícil fora; Botafogo x Corinthians e Marselha x Rennes tratados como jogos de maior volatilidade. Fontes públicas consultadas incluíram GE, Sports Mole, Sportsgambler, AS, Goal, SportyTrader e previews publicados em 17/05/2026.",
+      "coverageStrategy": "A Aposta 1 trabalha com empates e surpresas moderadas: Real Madrid empata fora com elenco destroçado, Athletico vence em casa um Flamengo sem meia dúzia de titulares, Botafogo empata com Corinthians num duelo ataque vs defesa, Ceará vence derby com Fortaleza sem técnico, Remo vence Chapecoense lanterna, e Rennes vence fora lutando pela Champions. A Aposta 2 vai mais fundo no upset do Madrid (Sevilha vence), cobre o empate no Athletico x Flamengo e no Ceará x Fortaleza (cenários que a Aposta 1 não cobre), adiciona empate no Bragantino x Vitória (Braga poupando para Sul-Americana), e ancora com Lyon vencendo em casa precisando da vitória pela UCL. Se o Madrid não vencer (cenário muito plausível dado os 7+ desfalques), pelo menos uma das apostas cobre esse resultado.",
+      "reason": "Esta rodada tem uma concentração rara de favoritos desfalcados: Real Madrid sem Rodrygo, Militão, Mendy, Ceballos, Güler, Lunin e com dúvida sobre Mbappé; Flamengo sem Arrascaeta, Pulgar, Plata, Jorginho, Evertton Araújo, De la Cruz e Luiz Araújo; Fortaleza sem o técnico Carpini (suspenso), Britez, Pierre e Ryan. Quando tantos favoritos jogam debilitados na mesma rodada, a probabilidade de múltiplas surpresas aumenta significativamente.",
+      "statisticalNote": "Real Madrid tem 7+ desfalques confirmados incluindo Rodrygo, Militão e Mendy, além de crise de bastidores com Mbappé. Sevilha tem 46 vitórias em 97 jogos no Pizjuán contra o Madrid. Flamengo tem 7 desfalques e De la Cruz nem viaja por causa do gramado sintético da Baixada. Athletico jogou CdB nos pênaltis e está em casa. Ceará defende tabu de 14 jogos sem perder para o Fortaleza no Clássico-Rei, e Fortaleza joga sem técnico e sem 3 titulares suspensos. Chapecoense é lanterna com pior defesa da Série A e perdeu Bolasie (suspenso). Remo vem de 3 vitórias em 4 jogos. Rennes luta por vaga na Champions na última rodada da Ligue 1. Lyon precisa vencer para garantir UCL automática, Lens já perdeu o título e não tem motivação.",
       "bets": [
         {
-          "match": "Múltipla bet365 - 12 jogos",
+          "match": "Sevilha x Real Madrid + Athletico Paranaense x Flamengo + Botafogo x Corinthians + Ceará x Fortaleza + Chapecoense x Remo + Marselha x Rennes",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
-          "market": "Resultado Final - múltipla",
-          "selection": "Real Madrid vence + Atlético de Madrid vence + Barcelona vence + PSG vence + Lyon vence + Lille vence + Marselha vence + Bragantino vence + Bahia vence + Criciúma vence + Flamengo vence + Botafogo vence",
-          "odd": 521.99,
-          "possibleReturn": "R$ 521,99",
-          "goal": "Cobrir o cenário principal, com favoritos confirmando força e três jogos brasileiros de valor entrando pelo lado mais provável.",
-          "reason": "A lógica é apoiar favoritos de maior força técnica e motivação, usando Flamengo e Botafogo como seleções de valor mais arriscadas. É uma aposta de altíssimo risco porque exige 12 acertos, mas fica dentro da meta mínima de retorno."
+          "market": "Acumulador - Resultado Final (Full Time Result)",
+          "selection": "Sevilha x Real Madrid: Empate @4.50 | Athletico PR x Flamengo: Athletico PR @3.30 | Botafogo x Corinthians: Empate @3.10 | Ceará x Fortaleza: Ceará @2.40 | Chapecoense x Remo: Remo @2.90 | Marselha x Rennes: Rennes @3.20",
+          "odd": 1025.29,
+          "possibleReturn": "R$ 1.025,29",
+          "goal": "Cobrir o cenário em que os favoritos desfalcados tropeçam com empates e derrotas moderadas. Madrid empata, Flamengo perde, Corinthians segura empate, Ceará vence derby, Remo vence lanterna, Rennes vence pela UCL.",
+          "reason": "Real Madrid com 7+ desfalques torna o empate muito viável em Sevilha. Flamengo sem Arrascaeta, De la Cruz, Jorginho, Plata e mais 3 titulares joga na Baixada com gramado sintético — Athletico tem chance real. Botafogo tem a pior defesa da Série A e Corinthians a 3ª melhor, equilíbrio que favorece empate. Ceará em casa com tabu de 14 jogos contra Fortaleza que joga sem técnico e sem 3 titulares. Remo vem de 3 vitórias em 4 jogos contra Chapecoense lanterna sem Bolasie. Rennes precisa da vitória pela UCL na última rodada."
         },
         {
-          "match": "Múltipla bet365 - 12 jogos",
+          "match": "Sevilha x Real Madrid + Athletico Paranaense x Flamengo + Bragantino x Vitória + Ceará x Fortaleza + Lyon x Lens",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
-          "market": "Resultado Final - múltipla",
-          "selection": "Real Madrid vence + Atlético de Madrid vence + Barcelona vence + PSG vence + Lyon vence + Lille vence + Marselha x Rennes empate + Bragantino vence + Bahia vence + Criciúma vence + Athletico Paranaense x Flamengo empate + Botafogo x Corinthians empate",
-          "odd": 1973.38,
-          "possibleReturn": "R$ 1.973,38",
-          "goal": "Cobrir uma rodada mais truncada nos jogos equilibrados, especialmente nos confrontos com maior chance de empate.",
-          "reason": "Mantém os favoritos mais claros e troca três seleções mais voláteis por empates. Marselha x Rennes, Athletico x Flamengo e Botafogo x Corinthians têm contexto competitivo suficiente para jogo travado, então essa segunda linha complementa a primeira sem usar zebras aleatórias."
+          "market": "Acumulador - Resultado Final (Full Time Result)",
+          "selection": "Sevilha x Real Madrid: Sevilha @8.00 | Athletico PR x Flamengo: Empate @3.30 | Bragantino x Vitória: Empate @3.90 | Ceará x Fortaleza: Empate @2.90 | Lyon x Lens: Lyon @1.66",
+          "odd": 495.65,
+          "possibleReturn": "R$ 495,65",
+          "goal": "Cobrir o cenário alternativo: Madrid perde de fato em Sevilha (upset completo), Athletico x Flamengo termina empatado (jogo truncado), Bragantino empata com Vitória (poupando para Sul-Americana), derby Ceará x Fortaleza termina sem vencedor, e Lyon vence em casa precisando da vitória pela Champions.",
+          "reason": "Se o Madrid realmente não rende com tantos desfalques e crise interna com Mbappé, Sevilha pode vencer no Pizjuán onde tem 46 vitórias históricas. O empate no Athletico x Flamengo complementa a Aposta 1 (que tinha Athletico vencendo). Bragantino joga quinta pela Sul-Americana contra River Plate e pode poupar titulares, abrindo espaço para o Vitória que vem invicto há 5 jogos e eliminou o Flamengo na CdB. Empate no derby cearense complementa a Aposta 1 que tinha Ceará vencendo. Lyon em casa é âncora segura: precisa desesperadamente da vitória pela UCL contra Lens que já perdeu o título."
+        }
+      ]
+    },
+    {
+      "title": "Plano $2 - Derbies e Última Rodada",
+      "matches": [
+        "Ceará x Fortaleza",
+        "Bahia x Grêmio",
+        "Athletico Paranaense x Flamengo",
+        "Sevilha x Real Madrid",
+        "Lille x Auxerre",
+        "Rayo Vallecano x Villarreal"
+      ],
+      "totalStake": "R$ 2,00",
+      "risk": "Muito alto",
+      "targetReturn": {
+        "minimum": "R$ 559,09",
+        "maximum": "R$ 1.329,08"
+      },
+      "coverageStrategy": "A Aposta 1 aposta nos mandantes em jogos com contexto favorável (Ceará no derby, Bahia em casa, Athletico contra Flamengo desfalcado, Rayo motivado em casa) e usa empates nos jogos europeus de alta pressão (Sevilha x Madrid e Lille x Auxerre onde ambos precisam do resultado). A Aposta 2 inverte para empates nos jogos brasileiros (derbies e jogos equilibrados tendem a empatar) e vai mais agressivo na Europa (Sevilha vencendo Madrid, Lille vencendo em casa pela UCL). As duas apostas cobrem cenários complementares: se os mandantes brasileiros vencem, a Aposta 1 paga; se os jogos brasileiros empatam e a Europa tem resultados mais definidos, a Aposta 2 paga.",
+      "reason": "Combina a imprevisibilidade dos derbies brasileiros (Ceará x Fortaleza, Bahia x Grêmio em crise) com a pressão da última rodada da Ligue 1 (Lille pela UCL, Auxerre contra rebaixamento). Derbies e últimas rodadas decisivas são os cenários com maior taxa de resultados inesperados no futebol.",
+      "statisticalNote": "Ceará defende tabu de 14 jogos sem perder para o Fortaleza. Fortaleza joga sem técnico Carpini (suspenso 2 jogos), sem Britez, Pierre e Ryan (todos suspensos). Bahia está em jejum de 6 jogos sem vencer (pior sequência de 2026), torcida protestou pedindo saída de Rogério Ceni, mas Grêmio é 17º com Villasanti (ligamento cruzado), Balbuena e Pavón (suspenso) fora. Flamengo tem 7 desfalques críticos para a Baixada. Lille x Auxerre define tanto vaga automática na Champions (Lille precisa vencer) quanto rebaixamento (Auxerre no 16º). Rayo Vallecano joga em casa sem Isi Palazón (suspenso 4º de 7 jogos) contra Villarreal que já garantiu UCL e pode poupar. Sevilha x Real Madrid: Madrid sem Rodrygo, Militão, Mendy, Ceballos, Güler, Lunin + dúvida Mbappé.",
+      "bets": [
+        {
+          "match": "Ceará x Fortaleza + Bahia x Grêmio + Athletico Paranaense x Flamengo + Sevilha x Real Madrid + Lille x Auxerre + Rayo Vallecano x Villarreal",
+          "bookmaker": "bet365",
+          "stake": "R$ 1,00",
+          "market": "Acumulador - Resultado Final (Full Time Result)",
+          "selection": "Ceará x Fortaleza: Ceará @2.40 | Bahia x Grêmio: Bahia @1.66 | Athletico PR x Flamengo: Athletico PR @3.30 | Sevilha x Real Madrid: Empate @4.50 | Lille x Auxerre: Empate @4.50 | Rayo Vallecano x Villarreal: Rayo @2.10",
+          "odd": 559.09,
+          "possibleReturn": "R$ 559,09",
+          "goal": "Cobrir o cenário dos mandantes vencendo em jogos com contexto favorável, combinado com empates nos jogos europeus de alta pressão onde ambas as equipes precisam do resultado.",
+          "reason": "Ceará em casa com tabu de 14 jogos contra Fortaleza desfalcado (sem técnico + 3 suspensos) é a perna mais provável. Bahia em casa contra Grêmio na zona de rebaixamento e muito desfalcado (Villasanti, Balbuena, Pavón fora). Athletico contra Flamengo sem 7 titulares no gramado sintético da Baixada. Sevilha x Madrid e Lille x Auxerre são jogos de pressão extrema onde empate é cenário realista: Madrid desfalcado empata, Lille ansioso pela UCL contra Auxerre desesperado pela permanência gera tensão que favorece empate. Rayo em casa no Vallecas contra Villarreal que já garantiu UCL."
+        },
+        {
+          "match": "Ceará x Fortaleza + Bahia x Grêmio + Athletico Paranaense x Flamengo + Sevilha x Real Madrid + Lille x Auxerre + Rayo Vallecano x Villarreal",
+          "bookmaker": "bet365",
+          "stake": "R$ 1,00",
+          "market": "Acumulador - Resultado Final (Full Time Result)",
+          "selection": "Ceará x Fortaleza: Empate @2.90 | Bahia x Grêmio: Empate @4.00 | Athletico PR x Flamengo: Empate @3.30 | Sevilha x Real Madrid: Sevilha @8.00 | Lille x Auxerre: Lille @1.40 | Rayo Vallecano x Villarreal: Empate @3.10",
+          "odd": 1329.08,
+          "possibleReturn": "R$ 1.329,08",
+          "goal": "Cobrir o cenário alternativo: derbies brasileiros terminam empatados (padrão comum em clássicos tensos), Sevilha derrota Madrid desfalcado, Lille vence em casa pela UCL, e Rayo x Villarreal empata.",
+          "reason": "Derbies como Ceará x Fortaleza e Bahia x Grêmio frequentemente empatam quando ambos os times estão em momentos irregulares. Bahia em jejum de 6 jogos pode não ter confiança para vencer, mas Grêmio é fraco demais para ganhar fora — empate é cenário natural. Athletico x Flamengo empatando complementa a Aposta 1 (que tinha Athletico vencendo). Sevilha vencendo Madrid é o grande upset: 7+ desfalques, crise com Mbappé, gramado do Pizjuán. Lille vencendo Auxerre em casa pela Champions é a perna mais segura — motivação máxima, qualidade superior. Rayo x Villarreal empatando: Rayo sem Palazón, Villarreal sem pressão."
         }
       ]
     }
