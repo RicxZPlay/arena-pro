@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-17 14:57",
+  "updatedAt": "2026-05-17 15:04",
   "summary": {
     "totalBookmakers": 15,
     "totalGames": 107,
@@ -1946,96 +1946,52 @@
   ],
   "twoReais": [
     {
-      "title": "Plano $2 - Favoritos firmes + empates equilibrados vs Empates nos grandes + âncoras seguras",
+      "title": "Plano $2 - Favoritos com cobertura de empates",
       "matches": [
-        "Aston Villa x Liverpool",
-        "Universitario de Deportes x Atletico Grau",
-        "LDU Quito x Tecnico Universitario",
-        "Patriotas FC x Millonarios",
-        "Montevideo City Torque x Nacional de Football",
-        "Deportivo La Guaira x UCV",
-        "Palestino x La Serena",
-        "Real Tomayapo x Club Aurora",
-        "Libertad FC x Deportivo Cuenca"
+        "Sevilha x Real Madrid",
+        "Atlético de Madrid x Girona",
+        "Barcelona x Real Betis",
+        "Paris FC x PSG",
+        "Lyon x Lens",
+        "Lille x Auxerre",
+        "Marselha x Rennes",
+        "Bragantino x Vitória",
+        "Bahia x Grêmio",
+        "Criciúma x Atlético GO",
+        "Athletico Paranaense x Flamengo",
+        "Botafogo x Corinthians"
       ],
       "totalStake": "R$ 2,00",
       "risk": "Muito alto",
       "targetReturn": {
-        "minimum": "R$ 499,00",
-        "maximum": "R$ 691,13"
+        "minimum": "R$ 500,00",
+        "maximum": "R$ 5.000,00"
       },
-      "coverageStrategy": "A Aposta 1 aposta em favoritos e semifavoritos vencendo (Liverpool, Universitario, LDU, Millonarios, Nacional) e empates em jogos equilibrados (La Guaira x UCV, Palestino x La Serena, Real Tomayapo x Club Aurora). A Aposta 2 cobre o cenário oposto nos jogos grandes: empates em Villa x Liverpool, Patriotas x Millonarios, Torque x Nacional e Libertad x Dep. Cuenca, mantendo as duas âncoras mais seguras (LDU e Universitario) e Palestino vencendo em casa. Se os jogos grandes empatam, a Aposta 2 cobre. Se os favoritos vencem, a Aposta 1 cobre. Ambas compartilham LDU e Universitario como base sólida.",
-      "reason": "Liverpool e Aston Villa estão empatados com 59 pontos na 4ª e 5ª posição da Premier League (36 jogos), tornando o confronto direto imprevisível — tanto vitória do Liverpool quanto empate são cenários realistas. Universitario (7-4-3, 25 pts, favoritíssimo em casa contra Grau com 2-4-8 e 10 pts) e LDU Quito (6-2-5 jogando em casa contra Tecnico U com 4-2-7) são as âncoras mais seguras do dia. Nacional domina o histórico contra Torque (3-2, 5-2, 2-1 nos últimos confrontos), mas é início do Torneo Intermedio e empate é possível. Os jogos sul-americanos menores (La Guaira x UCV, Palestino x La Serena, Real Tomayapo x Club Aurora) têm odds equilibradíssimas, tornando o empate um cenário estatisticamente justo.",
-      "statisticalNote": "Aston Villa e Liverpool: ambos com 59 pts, 17V-8E-11D na temporada 2025/26. Último confronto: Liverpool 2-0 Villa (Anfield, MW10). Universitario: 7V-4E-3D, 25 pts, líder do Apertura peruano; Grau tem apenas 2V em 14 jogos. LDU em casa no Rodrigo Paz Delgado, artilheiro Deyverson com 4 gols em 12 jogos. Nacional venceu os últimos 3 confrontos contra Torque (3-2, 5-2, 2-1). Millonarios goleou Patriotas por 3-0 no último confronto (set/2024). Real Tomayapo x Club Aurora tem odds praticamente idênticas (2.40 x 2.45), indicando equilíbrio total.",
+      "coverageStrategy": "A Aposta 1 segue o cenário mais provável dentro das odds disponíveis: favoritos europeus, mandantes fortes no Brasil e Flamengo como visitante de valor. A Aposta 2 mantém a base de favoritos mais fortes, mas troca três jogos de maior equilíbrio por empate: Marselha x Rennes, Athletico Paranaense x Flamengo e Botafogo x Corinthians. Assim, uma aposta tenta capturar a rodada mais lógica e a outra cobre uma rodada mais travada nos confrontos de maior imprevisibilidade.",
+      "reason": "O arquivo da bet365 trouxe apenas odds de Resultado Final, sem mercados alternativos preenchidos. Por isso, o plano usa somente múltiplas de Resultado Final com odds reais fornecidas. A construção é agressiva, mas evita depender de zebras puras como base principal.",
+      "statisticalNote": "Foram considerados os contextos públicos mais recentes: PSG já campeão, mas ainda favorito no dérbi; Lyon e Lille com motivação de Champions League; Atlético de Madrid com incentivo de pódio; Barcelona e Real Madrid favoritos técnicos; Flamengo com campanha forte, mas jogo difícil fora; Botafogo x Corinthians e Marselha x Rennes tratados como jogos de maior volatilidade. Fontes públicas consultadas incluíram GE, Sports Mole, Sportsgambler, AS, Goal, SportyTrader e previews publicados em 17/05/2026.",
       "bets": [
         {
-          "match": "Acumulador de 8 jogos",
+          "match": "Múltipla bet365 - 12 jogos",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
-          "market": "Acumulador - Resultado Final (Full Time Result)",
-          "selection": "Liverpool vence @2.45 + Universitario vence @1.40 + LDU Quito vence @1.53 + Millonarios vence @1.75 + Nacional vence @2.10 + Empate Dep. La Guaira x UCV @3.10 + Empate Palestino x La Serena @3.40 + Empate Real Tomayapo x Club Aurora @3.40",
-          "odd": 691.13,
-          "possibleReturn": "R$ 691,13",
-          "goal": "Cobrir o cenário em que os favoritos de maior porte (Liverpool, Universitario, LDU, Millonarios, Nacional) vencem e os jogos menores equilibrados terminam empatados",
-          "reason": "Liverpool é ligeiramente favorito fora (2.45) e briga por top 4. Universitario (1.40) e LDU (1.53) são favoritos pesados em casa contra adversários em má fase. Millonarios (1.75) é muito superior ao Patriotas na Copa Colombia. Nacional domina o H2H contra Torque. Os 3 empates são em jogos com odds quase simétricas entre mandante e visitante, onde o empate é um resultado estatisticamente justo."
+          "market": "Resultado Final - múltipla",
+          "selection": "Real Madrid vence + Atlético de Madrid vence + Barcelona vence + PSG vence + Lyon vence + Lille vence + Marselha vence + Bragantino vence + Bahia vence + Criciúma vence + Flamengo vence + Botafogo vence",
+          "odd": 521.99,
+          "possibleReturn": "R$ 521,99",
+          "goal": "Cobrir o cenário principal, com favoritos confirmando força e três jogos brasileiros de valor entrando pelo lado mais provável.",
+          "reason": "A lógica é apoiar favoritos de maior força técnica e motivação, usando Flamengo e Botafogo como seleções de valor mais arriscadas. É uma aposta de altíssimo risco porque exige 12 acertos, mas fica dentro da meta mínima de retorno."
         },
         {
-          "match": "Acumulador de 7 jogos",
+          "match": "Múltipla bet365 - 12 jogos",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
-          "market": "Acumulador - Resultado Final (Full Time Result)",
-          "selection": "Empate Aston Villa x Liverpool @3.50 + Empate Patriotas x Millonarios @3.30 + Empate MC Torque x Nacional @3.20 + Empate Libertad FC x Dep. Cuenca @3.30 + LDU Quito vence @1.53 + Universitario vence @1.40 + Palestino vence @1.91",
-          "odd": 499,
-          "possibleReturn": "R$ 499,00",
-          "goal": "Cobrir o cenário alternativo em que os jogos grandes empatam (Villa-Liverpool, Patriotas-Millonarios, Torque-Nacional, Libertad-Cuenca) enquanto os favoritos mais seguros e o mandante Palestino vencem",
-          "reason": "Villa x Liverpool é confronto direto por vaga no top 4, ambos com 59 pts — empate é cenário muito plausível num jogo cauteloso. Patriotas joga em casa pela Copa e Millonarios pode poupar jogadores. Torque x Nacional é abertura do Torneo Intermedio (ambos com 0 pts), jogo exploratório. Libertad x Dep. Cuenca tem odds equilibradas (2.25 x 2.85). LDU e Universitario continuam como âncoras seguras. Palestino em casa (1.91) contra La Serena é favorito moderado."
-        }
-      ]
-    },
-    {
-      "title": "Plano $2 - Villa surpreende em casa + favoritos regionais vs Liverpool confirma + visitantes fortes dominam",
-      "matches": [
-        "Aston Villa x Liverpool",
-        "Universitario de Deportes x Atletico Grau",
-        "LDU Quito x Tecnico Universitario",
-        "Coquimbo Unido x Audax Italiano",
-        "Rubio Ñú x Nacional Asunción",
-        "FC Cajamarca x Sporting Cristal",
-        "Sportivo Trinidense x Cerro Porteño",
-        "Deportivo La Guaira x UCV",
-        "Real Tomayapo x Club Aurora"
-      ],
-      "totalStake": "R$ 2,00",
-      "risk": "Muito alto",
-      "targetReturn": {
-        "minimum": "R$ 585,95",
-        "maximum": "R$ 626,02"
-      },
-      "coverageStrategy": "A Aposta 1 aposta na surpresa do Aston Villa em casa contra Liverpool, com Coquimbo e La Guaira vencendo como mandantes, Rubio Ñú surpreendendo em casa, e empates nos jogos paraguaios e peruano equilibrados. A Aposta 2 cobre o cenário oposto: Liverpool vence fora, os visitantes fortes (Sporting Cristal, Cerro Porteño, Nacional Asunción) vencem, e os jogos menores empatam. Os mesmos jogos são cobertos com resultados opostos — se Villa ganha, Aposta 1 avança; se Liverpool ganha, Aposta 2 avança. O mesmo se aplica a Coquimbo (vitória vs empate), Cajamarca-Cristal (empate vs Cristal), Trinidense-Cerro (empate vs Cerro), Rubio Ñú-Nacional (Rubio vs Nacional).",
-      "reason": "Este plano explora a dualidade dos jogos: cada partida tem dois cenários plausíveis cobertos em apostas diferentes. Villa Park pode ser decisivo — o Aston Villa em casa lutando por Champions League pode surpreender (2.75). Alternativamente, Liverpool com mais qualidade individual pode confirmar (2.45). Os jogos do Paraguai (Rubio Ñú x Nacional, Trinidense x Cerro) e do Peru (Cajamarca x Cristal) são equilibrados o suficiente para que tanto vitória de um lado quanto empate sejam realistas.",
-      "statisticalNote": "Aston Villa em casa na temporada tem campanha competitiva, especialmente contra rivais diretos por vaga europeia. Coquimbo Unido (1.76) é favorito em casa contra Audax Italiano. Dep. La Guaira (1.85) joga em casa na Venezuela. Na Liga Paraguaia, Cerro Porteño (2.20) e Nacional Asunción (2.15) são favoritos moderados como visitantes, mas mandantes no Paraguai costumam ser competitivos (Rubio Ñú 3.20, Trinidense 3.10). FC Cajamarca x Sporting Cristal (2.45 x 2.70) é muito equilibrado. Real Tomayapo x Club Aurora (2.40 x 2.45) praticamente um coin-flip.",
-      "bets": [
-        {
-          "match": "Acumulador de 8 jogos",
-          "bookmaker": "bet365",
-          "stake": "R$ 1,00",
-          "market": "Acumulador - Resultado Final (Full Time Result)",
-          "selection": "Aston Villa vence @2.75 + Universitario vence @1.40 + LDU Quito vence @1.53 + Coquimbo Unido vence @1.76 + Rubio Ñú vence @3.20 + Empate FC Cajamarca x Sporting Cristal @3.40 + Empate Sportivo Trinidense x Cerro Porteño @3.00 + Dep. La Guaira vence @1.85",
-          "odd": 626.02,
-          "possibleReturn": "R$ 626,02",
-          "goal": "Cobrir o cenário em que o mandante Aston Villa surpreende, mandantes fortes regionais vencem (Coquimbo, La Guaira, Rubio Ñú) e os jogos equilibrados do Paraguai e Peru empatam",
-          "reason": "Aston Villa jogando em casa, precisando de pontos para Champions League, contra um Liverpool que pode oscilar fora. Universitario e LDU são âncoras. Coquimbo (1.76) e La Guaira (1.85) são favoritos em casa. Rubio Ñú (3.20) é o mandante que pode surpreender num campeonato paraguaio imprevisível. Empates em Cajamarca x Cristal e Trinidense x Cerro são cenários justos em jogos equilibrados."
-        },
-        {
-          "match": "Acumulador de 7 jogos",
-          "bookmaker": "bet365",
-          "stake": "R$ 1,00",
-          "market": "Acumulador - Resultado Final (Full Time Result)",
-          "selection": "Liverpool vence @2.45 + LDU Quito vence @1.53 + Cerro Porteño vence @2.20 + Sporting Cristal vence @2.70 + Nacional Asunción vence @2.15 + Empate Coquimbo Unido x Audax Italiano @3.60 + Empate Real Tomayapo x Club Aurora @3.40",
-          "odd": 585.95,
-          "possibleReturn": "R$ 585,95",
-          "goal": "Cobrir o cenário oposto: Liverpool confirma fora de casa, os grandes visitantes sul-americanos (Cerro, Cristal, Nacional Asunción) vencem e os jogos menores equilibrados empatam",
-          "reason": "Liverpool é o favorito nas casas de apostas (2.45) e tem elenco para vencer fora. Cerro Porteño (2.20), Sporting Cristal (2.70) e Nacional Asunción (2.15) são clubes historicamente maiores que seus adversários e favoritados como visitantes. Empate em Coquimbo x Audax (3.60) cobre o cenário onde Coquimbo não consegue vencer em casa. Empate em Tomayapo x Aurora (3.40) é estatisticamente justo pelas odds quase idênticas."
+          "market": "Resultado Final - múltipla",
+          "selection": "Real Madrid vence + Atlético de Madrid vence + Barcelona vence + PSG vence + Lyon vence + Lille vence + Marselha x Rennes empate + Bragantino vence + Bahia vence + Criciúma vence + Athletico Paranaense x Flamengo empate + Botafogo x Corinthians empate",
+          "odd": 1973.38,
+          "possibleReturn": "R$ 1.973,38",
+          "goal": "Cobrir uma rodada mais truncada nos jogos equilibrados, especialmente nos confrontos com maior chance de empate.",
+          "reason": "Mantém os favoritos mais claros e troca três seleções mais voláteis por empates. Marselha x Rennes, Athletico x Flamengo e Botafogo x Corinthians têm contexto competitivo suficiente para jogo travado, então essa segunda linha complementa a primeira sem usar zebras aleatórias."
         }
       ]
     }
