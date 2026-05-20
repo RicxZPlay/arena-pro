@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-20 14:56",
+  "updatedAt": "2026-05-20 15:17",
   "summary": {
     "totalBookmakers": 15,
     "totalGames": 47,
@@ -1061,92 +1061,105 @@
   ],
   "twoReais": [
     {
-      "title": "Plano $2 - Favoritos em Crise",
+      "title": "Plano $2 - Final Europeia e Favoritos Continentais",
       "matches": [
-        "Sevilha x Real Madrid",
-        "Athletico Paranaense x Flamengo",
-        "Botafogo x Corinthians",
-        "Ceará x Fortaleza",
-        "Chapecoense x Remo",
-        "Marselha x Rennes",
-        "Bragantino x Vitória",
-        "Lyon x Lens"
+        "Independiente Petrolero x Botafogo",
+        "Palmeiras x Cerro Porteño",
+        "Grêmio x Palestino",
+        "Flamengo x Estudiantes",
+        "Vitória x ABC",
+        "SC Freiburg x Aston Villa",
+        "Nacional de Football x Universitario de Deportes",
+        "Junior x Sporting Cristal",
+        "Fortaleza x Sport Recife",
+        "Santos x San Lorenzo",
+        "LDU Quito x Lanús",
+        "Columbus Crew x New York City",
+        "River Plate x Bragantino",
+        "Club Olimpia x Vasco da Gama"
       ],
       "totalStake": "R$ 2,00",
       "risk": "Muito alto",
       "targetReturn": {
-        "minimum": "R$ 495,65",
-        "maximum": "R$ 1.025,29"
+        "minimum": "R$ 665,00",
+        "maximum": "R$ 896,00"
       },
-      "coverageStrategy": "A Aposta 1 trabalha com empates e surpresas moderadas: Real Madrid empata fora com elenco destroçado, Athletico vence em casa um Flamengo sem meia dúzia de titulares, Botafogo empata com Corinthians num duelo ataque vs defesa, Ceará vence derby com Fortaleza sem técnico, Remo vence Chapecoense lanterna, e Rennes vence fora lutando pela Champions. A Aposta 2 vai mais fundo no upset do Madrid (Sevilha vence), cobre o empate no Athletico x Flamengo e no Ceará x Fortaleza (cenários que a Aposta 1 não cobre), adiciona empate no Bragantino x Vitória (Braga poupando para Sul-Americana), e ancora com Lyon vencendo em casa precisando da vitória pela UCL. Se o Madrid não vencer (cenário muito plausível dado os 7+ desfalques), pelo menos uma das apostas cobre esse resultado.",
-      "reason": "Esta rodada tem uma concentração rara de favoritos desfalcados: Real Madrid sem Rodrygo, Militão, Mendy, Ceballos, Güler, Lunin e com dúvida sobre Mbappé; Flamengo sem Arrascaeta, Pulgar, Plata, Jorginho, Evertton Araújo, De la Cruz e Luiz Araújo; Fortaleza sem o técnico Carpini (suspenso), Britez, Pierre e Ryan. Quando tantos favoritos jogam debilitados na mesma rodada, a probabilidade de múltiplas surpresas aumenta significativamente.",
-      "statisticalNote": "Real Madrid tem 7+ desfalques confirmados incluindo Rodrygo, Militão e Mendy, além de crise de bastidores com Mbappé. Sevilha tem 46 vitórias em 97 jogos no Pizjuán contra o Madrid. Flamengo tem 7 desfalques e De la Cruz nem viaja por causa do gramado sintético da Baixada. Athletico jogou CdB nos pênaltis e está em casa. Ceará defende tabu de 14 jogos sem perder para o Fortaleza no Clássico-Rei, e Fortaleza joga sem técnico e sem 3 titulares suspensos. Chapecoense é lanterna com pior defesa da Série A e perdeu Bolasie (suspenso). Remo vem de 3 vitórias em 4 jogos. Rennes luta por vaga na Champions na última rodada da Ligue 1. Lyon precisa vencer para garantir UCL automática, Lens já perdeu o título e não tem motivação.",
+      "coverageStrategy": "A Aposta 1 aposta no cenário em que Aston Villa vence a final da Europa League e todos os grandes favoritos sul-americanos confirmam em casa, com empate no equilibrado River Plate x Bragantino. A Aposta 2 cobre o cenário alternativo em que a final europeia termina empatada no tempo regulamentar (comum em finais) e o Vasco, com vantagem de 3x0 do primeiro jogo, joga pelo empate no Paraguai. Assim, se Villa vencer → Aposta 1 viva. Se a final empatar → Aposta 2 viva. As duas compartilham o núcleo de favoritos fortes (Botafogo, Palmeiras, Grêmio, Flamengo, Vitória, Nacional, Fortaleza, Santos).",
+      "reason": "Rodada com muitos favoritos claros jogando em casa em competições continentais (Libertadores e Sulamericana), combinados com a final da Europa League. O volume de jogos permite montar acumuladores longos com odds individuais baixas que, multiplicadas, atingem retornos expressivos. Os dois bilhetes divergem nos jogos de maior incerteza (final europeia e segundo jogo do Olimpia-Vasco).",
+      "statisticalNote": "Botafogo joga em campo neutro (Petrolero perdeu mando por questões de segurança na Bolívia), eliminando a altitude. Palmeiras é líder do grupo na Libertadores e empatou 1-1 fora. Grêmio lidera o grupo na Sulamericana; Palestino está na lanterna com 0 gols marcados em 4 jogos. Flamengo invicto nos últimos 3 confrontos contra Estudiantes. Aston Villa marcou 28 gols na UEL (artilharia do torneio) e Emery busca seu 5º título da competição; porém, finais costumam ser fechadas. Vasco venceu o primeiro jogo por 3x0 e tende a administrar. River Plate x Bragantino tem odds muito equilibradas (2.70/3.00/2.87), indicando jogo aberto com empate provável.",
       "bets": [
         {
-          "match": "Sevilha x Real Madrid + Athletico Paranaense x Flamengo + Botafogo x Corinthians + Ceará x Fortaleza + Chapecoense x Remo + Marselha x Rennes",
+          "match": "Acumulador 13 jogos",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
           "market": "Acumulador - Resultado Final (Full Time Result)",
-          "selection": "Sevilha x Real Madrid: Empate @4.50 | Athletico PR x Flamengo: Athletico PR @3.30 | Botafogo x Corinthians: Empate @3.10 | Ceará x Fortaleza: Ceará @2.40 | Chapecoense x Remo: Remo @2.90 | Marselha x Rennes: Rennes @3.20",
-          "odd": 1025.29,
-          "possibleReturn": "R$ 1.025,29",
-          "goal": "Cobrir o cenário em que os favoritos desfalcados tropeçam com empates e derrotas moderadas. Madrid empata, Flamengo perde, Corinthians segura empate, Ceará vence derby, Remo vence lanterna, Rennes vence pela UCL.",
-          "reason": "Real Madrid com 7+ desfalques torna o empate muito viável em Sevilha. Flamengo sem Arrascaeta, De la Cruz, Jorginho, Plata e mais 3 titulares joga na Baixada com gramado sintético — Athletico tem chance real. Botafogo tem a pior defesa da Série A e Corinthians a 3ª melhor, equilíbrio que favorece empate. Ceará em casa com tabu de 14 jogos contra Fortaleza que joga sem técnico e sem 3 titulares. Remo vem de 3 vitórias em 4 jogos contra Chapecoense lanterna sem Bolasie. Rennes precisa da vitória pela UCL na última rodada."
+          "selection": "Botafogo vence (1.18) + Palmeiras vence (1.30) + Grêmio vence (1.45) + Flamengo vence (1.48) + Vitória vence (1.48) + Aston Villa vence (1.61) + Nacional vence (1.65) + Junior vence (1.75) + Fortaleza vence (1.83) + Santos vence (1.85) + LDU Quito vence (1.90) + Columbus Crew vence (2.05) + River Plate x Bragantino Empate (3.00)",
+          "odd": 896.02,
+          "possibleReturn": "R$ 896,02",
+          "goal": "Cobrir o cenário mais provável da rodada: todos os favoritos fortes vencem em casa, Villa confirma o favoritismo na final, e o equilibrado River Plate x Bragantino termina empatado",
+          "reason": "Cada seleção tem lógica individual: Botafogo é favorito absoluto em campo neutro (odd 1.18); Palmeiras, Grêmio, Flamengo, Vitória são mandantes fortes em copas continentais; Villa é favorita na final com Emery especialista no torneio; Junior e Fortaleza jogam em casa com histórico favorável; LDU tem a altitude de Quito; Columbus é mandante na US Open Cup; o empate em River Plate x Bragantino reflete odds praticamente iguais (2.70/3.00/2.87) em jogo sem favorito claro"
         },
         {
-          "match": "Sevilha x Real Madrid + Athletico Paranaense x Flamengo + Bragantino x Vitória + Ceará x Fortaleza + Lyon x Lens",
+          "match": "Acumulador 11 jogos",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
           "market": "Acumulador - Resultado Final (Full Time Result)",
-          "selection": "Sevilha x Real Madrid: Sevilha @8.00 | Athletico PR x Flamengo: Empate @3.30 | Bragantino x Vitória: Empate @3.90 | Ceará x Fortaleza: Empate @2.90 | Lyon x Lens: Lyon @1.66",
-          "odd": 495.65,
-          "possibleReturn": "R$ 495,65",
-          "goal": "Cobrir o cenário alternativo: Madrid perde de fato em Sevilha (upset completo), Athletico x Flamengo termina empatado (jogo truncado), Bragantino empata com Vitória (poupando para Sul-Americana), derby Ceará x Fortaleza termina sem vencedor, e Lyon vence em casa precisando da vitória pela Champions.",
-          "reason": "Se o Madrid realmente não rende com tantos desfalques e crise interna com Mbappé, Sevilha pode vencer no Pizjuán onde tem 46 vitórias históricas. O empate no Athletico x Flamengo complementa a Aposta 1 (que tinha Athletico vencendo). Bragantino joga quinta pela Sul-Americana contra River Plate e pode poupar titulares, abrindo espaço para o Vitória que vem invicto há 5 jogos e eliminou o Flamengo na CdB. Empate no derby cearense complementa a Aposta 1 que tinha Ceará vencendo. Lyon em casa é âncora segura: precisa desesperadamente da vitória pela UCL contra Lens que já perdeu o título."
+          "selection": "Botafogo vence (1.18) + Palmeiras vence (1.30) + Grêmio vence (1.45) + Flamengo vence (1.48) + Vitória vence (1.48) + SC Freiburg x Aston Villa Empate (3.90) + Nacional vence (1.65) + Fortaleza vence (1.83) + Santos vence (1.85) + LDU Quito vence (1.90) + Club Olimpia x Vasco Empate (3.30)",
+          "odd": 665.51,
+          "possibleReturn": "R$ 665,51",
+          "goal": "Cobrir o cenário alternativo em que a final europeia termina empatada no tempo regulamentar e o Vasco administra o resultado no Paraguai",
+          "reason": "Finais europeias frequentemente vão para a prorrogação — nas últimas 10 finais da Europa League, 4 estavam empatadas aos 90 minutos. O empate a 3.90 tem valor. O Vasco, com 3x0 de vantagem, não precisa arriscar em Assunção — um empate é o resultado mais lógico para o visitante que já classificou. Remove Junior, Columbus e o empate do River Plate (presentes na Aposta 1), reduzindo o número de pernas e aumentando a probabilidade individual"
         }
       ]
     },
     {
-      "title": "Plano $2 - Derbies e Última Rodada",
+      "title": "Plano $2 - Empates Estratégicos na América do Sul",
       "matches": [
-        "Ceará x Fortaleza",
-        "Bahia x Grêmio",
-        "Athletico Paranaense x Flamengo",
-        "Sevilha x Real Madrid",
-        "Lille x Auxerre",
-        "Rayo Vallecano x Villarreal"
+        "Independiente Petrolero x Botafogo",
+        "Palmeiras x Cerro Porteño",
+        "Grêmio x Palestino",
+        "Flamengo x Estudiantes",
+        "Vitória x ABC",
+        "SC Freiburg x Aston Villa",
+        "Nacional de Football x Universitario de Deportes",
+        "Fortaleza x Sport Recife",
+        "Santos x San Lorenzo",
+        "LDU Quito x Lanús",
+        "Cusco FC x Independiente Medellín",
+        "Junior x Sporting Cristal",
+        "Boston River x O'Higgins"
       ],
       "totalStake": "R$ 2,00",
       "risk": "Muito alto",
       "targetReturn": {
-        "minimum": "R$ 559,09",
-        "maximum": "R$ 1.329,08"
+        "minimum": "R$ 480,00",
+        "maximum": "R$ 490,00"
       },
-      "coverageStrategy": "A Aposta 1 aposta nos mandantes em jogos com contexto favorável (Ceará no derby, Bahia em casa, Athletico contra Flamengo desfalcado, Rayo motivado em casa) e usa empates nos jogos europeus de alta pressão (Sevilha x Madrid e Lille x Auxerre onde ambos precisam do resultado). A Aposta 2 inverte para empates nos jogos brasileiros (derbies e jogos equilibrados tendem a empatar) e vai mais agressivo na Europa (Sevilha vencendo Madrid, Lille vencendo em casa pela UCL). As duas apostas cobrem cenários complementares: se os mandantes brasileiros vencem, a Aposta 1 paga; se os jogos brasileiros empatam e a Europa tem resultados mais definidos, a Aposta 2 paga.",
-      "reason": "Combina a imprevisibilidade dos derbies brasileiros (Ceará x Fortaleza, Bahia x Grêmio em crise) com a pressão da última rodada da Ligue 1 (Lille pela UCL, Auxerre contra rebaixamento). Derbies e últimas rodadas decisivas são os cenários com maior taxa de resultados inesperados no futebol.",
-      "statisticalNote": "Ceará defende tabu de 14 jogos sem perder para o Fortaleza. Fortaleza joga sem técnico Carpini (suspenso 2 jogos), sem Britez, Pierre e Ryan (todos suspensos). Bahia está em jejum de 6 jogos sem vencer (pior sequência de 2026), torcida protestou pedindo saída de Rogério Ceni, mas Grêmio é 17º com Villasanti (ligamento cruzado), Balbuena e Pavón (suspenso) fora. Flamengo tem 7 desfalques críticos para a Baixada. Lille x Auxerre define tanto vaga automática na Champions (Lille precisa vencer) quanto rebaixamento (Auxerre no 16º). Rayo Vallecano joga em casa sem Isi Palazón (suspenso 4º de 7 jogos) contra Villarreal que já garantiu UCL e pode poupar. Sevilha x Real Madrid: Madrid sem Rodrygo, Militão, Mendy, Ceballos, Güler, Lunin + dúvida Mbappé.",
+      "coverageStrategy": "A Aposta 1 aposta que Santos empata em casa contra San Lorenzo (como aconteceu no primeiro jogo, 1-1) e que Cusco FC x Independiente Medellín também empata (jogo equilibrado com odds próximas). A Aposta 2 aposta que Santos vence em casa, mas coloca empate no Boston River x O'Higgins e adiciona Junior como favorito vencedor. Assim, se Santos empatar → Aposta 1 viva. Se Santos vencer → Aposta 2 viva. Os dois bilhetes divergem nos jogos mais incertos e usam empates em partidas diferentes para cercar cenários distintos.",
+      "reason": "Plano focado nos jogos sul-americanos com empates estratégicos em partidas equilibradas. Cusco x Medellín tem odds muito próximas (2.25/3.20/3.40), indicando jogo sem favorito claro. Santos empatou 1-1 no primeiro jogo contra San Lorenzo e, apesar de jogar em casa, vem inconsistente (perdeu 3-0 para o Coritiba na última partida). Boston River x O'Higgins também é equilibrado, com O'Higgins favorito fora mas podendo sofrer em campo adversário.",
+      "statisticalNote": "Santos empatou 1-1 com San Lorenzo em Buenos Aires no primeiro jogo e perdeu 3-0 em casa para o Coritiba no último jogo do Brasileirão — fase instável apesar do mando. Cusco FC x Independiente Medellín tem as odds mais equilibradas da rodada (2.25/3.20/3.40), sem favorito definido. Boston River recebe O'Higgins que é favorito fora (1.90) mas jogos no Uruguai costumam ser fechados. San Lorenzo vem de 4 jogos sem vitória. O núcleo de favoritos (Botafogo, Palmeiras, Grêmio, Flamengo, Vitória, Villa, Nacional, Fortaleza, LDU) se mantém em ambas as apostas como base confiável.",
       "bets": [
         {
-          "match": "Ceará x Fortaleza + Bahia x Grêmio + Athletico Paranaense x Flamengo + Sevilha x Real Madrid + Lille x Auxerre + Rayo Vallecano x Villarreal",
+          "match": "Acumulador 11 jogos",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
           "market": "Acumulador - Resultado Final (Full Time Result)",
-          "selection": "Ceará x Fortaleza: Ceará @2.40 | Bahia x Grêmio: Bahia @1.66 | Athletico PR x Flamengo: Athletico PR @3.30 | Sevilha x Real Madrid: Empate @4.50 | Lille x Auxerre: Empate @4.50 | Rayo Vallecano x Villarreal: Rayo @2.10",
-          "odd": 559.09,
-          "possibleReturn": "R$ 559,09",
-          "goal": "Cobrir o cenário dos mandantes vencendo em jogos com contexto favorável, combinado com empates nos jogos europeus de alta pressão onde ambas as equipes precisam do resultado.",
-          "reason": "Ceará em casa com tabu de 14 jogos contra Fortaleza desfalcado (sem técnico + 3 suspensos) é a perna mais provável. Bahia em casa contra Grêmio na zona de rebaixamento e muito desfalcado (Villasanti, Balbuena, Pavón fora). Athletico contra Flamengo sem 7 titulares no gramado sintético da Baixada. Sevilha x Madrid e Lille x Auxerre são jogos de pressão extrema onde empate é cenário realista: Madrid desfalcado empata, Lille ansioso pela UCL contra Auxerre desesperado pela permanência gera tensão que favorece empate. Rayo em casa no Vallecas contra Villarreal que já garantiu UCL."
+          "selection": "Botafogo vence (1.18) + Palmeiras vence (1.30) + Grêmio vence (1.45) + Flamengo vence (1.48) + Vitória vence (1.48) + Aston Villa vence (1.61) + Nacional vence (1.65) + Fortaleza vence (1.83) + LDU Quito vence (1.90) + Santos x San Lorenzo Empate (3.40) + Cusco FC x Ind. Medellín Empate (3.20)",
+          "odd": 489.62,
+          "possibleReturn": "R$ 489,62",
+          "goal": "Cobrir o cenário em que Santos não consegue vencer em casa (fase irregular) e o equilibrado Cusco x Medellín termina empatado",
+          "reason": "Santos perdeu 3-0 em casa na última rodada do Brasileirão e empatou 1-1 no primeiro confronto com San Lorenzo — um novo empate é cenário realista. Cusco x Medellín é o jogo mais equilibrado da rodada pelas odds. Os 8 favoritos restantes são mandantes fortes com odds abaixo de 1.90, formando uma base sólida"
         },
         {
-          "match": "Ceará x Fortaleza + Bahia x Grêmio + Athletico Paranaense x Flamengo + Sevilha x Real Madrid + Lille x Auxerre + Rayo Vallecano x Villarreal",
+          "match": "Acumulador 12 jogos",
           "bookmaker": "bet365",
           "stake": "R$ 1,00",
           "market": "Acumulador - Resultado Final (Full Time Result)",
-          "selection": "Ceará x Fortaleza: Empate @2.90 | Bahia x Grêmio: Empate @4.00 | Athletico PR x Flamengo: Empate @3.30 | Sevilha x Real Madrid: Sevilha @8.00 | Lille x Auxerre: Lille @1.40 | Rayo Vallecano x Villarreal: Empate @3.10",
-          "odd": 1329.08,
-          "possibleReturn": "R$ 1.329,08",
-          "goal": "Cobrir o cenário alternativo: derbies brasileiros terminam empatados (padrão comum em clássicos tensos), Sevilha derrota Madrid desfalcado, Lille vence em casa pela UCL, e Rayo x Villarreal empata.",
-          "reason": "Derbies como Ceará x Fortaleza e Bahia x Grêmio frequentemente empatam quando ambos os times estão em momentos irregulares. Bahia em jejum de 6 jogos pode não ter confiança para vencer, mas Grêmio é fraco demais para ganhar fora — empate é cenário natural. Athletico x Flamengo empatando complementa a Aposta 1 (que tinha Athletico vencendo). Sevilha vencendo Madrid é o grande upset: 7+ desfalques, crise com Mbappé, gramado do Pizjuán. Lille vencendo Auxerre em casa pela Champions é a perna mais segura — motivação máxima, qualidade superior. Rayo x Villarreal empatando: Rayo sem Palazón, Villarreal sem pressão."
+          "selection": "Botafogo vence (1.18) + Palmeiras vence (1.30) + Grêmio vence (1.45) + Flamengo vence (1.48) + Vitória vence (1.48) + Aston Villa vence (1.61) + Nacional vence (1.65) + Fortaleza vence (1.83) + Santos vence (1.85) + Junior vence (1.75) + LDU Quito vence (1.90) + Boston River x O'Higgins Empate (3.30)",
+          "odd": 480.79,
+          "possibleReturn": "R$ 480,79",
+          "goal": "Cobrir o cenário em que Santos vence em casa (mando de campo prevalece) mas o empate aparece em Boston River x O'Higgins",
+          "reason": "Se Santos confirmar o favoritismo em casa, esta aposta fica viva. Adiciona Junior como favorito em casa na Libertadores (1.75) e troca os empates para Boston River x O'Higgins — jogo no Uruguai onde O'Higgins é favorito fora mas pode sofrer para vencer, resultando em empate. Mantém o mesmo núcleo confiável de favoritos"
         }
       ]
     }
